@@ -9,7 +9,7 @@ using Toybox.Time;
 using Toybox.Communications;
 
 // This is the primary entry point of the application.
-class AboutTimeWatch extends Application.AppBase
+class AboutTime extends Application.AppBase
 {
     var temperature = null;
 
@@ -31,8 +31,4 @@ class AboutTimeWatch extends Application.AppBase
         }
     }
 
-    // This method runs when a goal is triggered and the goal view is started.
-    function getGoalView(goal) {
-        return [new AboutTimeGoalView(goal)];
-    }
 }
