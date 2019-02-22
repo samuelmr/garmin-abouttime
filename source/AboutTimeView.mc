@@ -5,16 +5,12 @@
 //
 
 using Toybox.Graphics;
-using Toybox.Lang;
-using Toybox.Math;
 using Toybox.System;
-using Toybox.Time;
-using Toybox.Time.Gregorian;
 using Toybox.WatchUi;
-using Toybox.Application;
+// using Toybox.Application;
 
-// var partialUpdatesAllowed = false;
 var locale = {};
+var halfPast = true;
 
 // This implements an AboutTime watch face
 // Original design by Austen Harbour
@@ -22,30 +18,53 @@ class AboutTimeView extends WatchUi.WatchFace
 {
     var font;
     var isAwake;
-    var screenShape;
-    var dndIcon;
-    var offscreenBuffer;
-    var dateBuffer;
 
     // Initialize variables for this view
     function initialize() {
         WatchFace.initialize();
-        screenShape = System.getDeviceSettings().screenShape;
     }
 
     // Configure the layout of the watchface for this device
     function onLayout(dc) {
 
-        // If this device supports the Do Not Disturb feature,
-        // load the associated Icon into memory.
-        if (System.getDeviceSettings() has :doNotDisturb) {
-            dndIcon = WatchUi.loadResource(Rez.Drawables.DoNotDisturbIcon);
-        } else {
-            dndIcon = null;
+        // locale = WatchUi.loadResource(Rez.JsonData.stringsJSON);
+        locale = {
+            "little" => [
+                WatchUi.loadResource(Rez.Strings.little1),
+                WatchUi.loadResource(Rez.Strings.little2)
+            ],
+            "almost" => [
+                WatchUi.loadResource(Rez.Strings.almost1),
+                WatchUi.loadResource(Rez.Strings.almost2)
+            ],
+            "quarter" => WatchUi.loadResource(Rez.Strings.quarter),
+            "ten" => WatchUi.loadResource(Rez.Strings.ten),
+            "twenty" => WatchUi.loadResource(Rez.Strings.twenty),
+            "to" => WatchUi.loadResource(Rez.Strings.to),
+            "past" => WatchUi.loadResource(Rez.Strings.past),
+            "half" => WatchUi.loadResource(Rez.Strings.half),
+            "hours" => [
+                "",
+                WatchUi.loadResource(Rez.Strings.hours1),
+                WatchUi.loadResource(Rez.Strings.hours2),
+                WatchUi.loadResource(Rez.Strings.hours3),
+                WatchUi.loadResource(Rez.Strings.hours4),
+                WatchUi.loadResource(Rez.Strings.hours5),
+                WatchUi.loadResource(Rez.Strings.hours6),
+                WatchUi.loadResource(Rez.Strings.hours7),
+                WatchUi.loadResource(Rez.Strings.hours8),
+                WatchUi.loadResource(Rez.Strings.hours9),
+                WatchUi.loadResource(Rez.Strings.hours10),
+                WatchUi.loadResource(Rez.Strings.hours11)
+            ],
+            "noon" => WatchUi.loadResource(Rez.Strings.noon),
+            "midnight" => WatchUi.loadResource(Rez.Strings.midnight),
+            "halfpast" => WatchUi.loadResource(Rez.Strings.halfpast)
+        };
+
+        if (locale["halfpast"].equals("false")) {
+            halfPast = false;
         }
-
-        locale = WatchUi.loadResource(Rez.JsonData.stringsJSON);
-
     }
 
     // Handle the update event
@@ -57,19 +76,13 @@ class AboutTimeView extends WatchUi.WatchFace
         var minuteHandAngle;
         var hourHandAngle;
         var secondHand;
-        var targetDc = dc;
 
-        width = targetDc.getWidth();
-        height = targetDc.getHeight();
+        width = dc.getWidth();
+        height = dc.getHeight();
 
         // Fill the entire background with Black.
-        targetDc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
-        targetDc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
-
-        // Draw the do-not-disturb icon if we support it and the setting is enabled
-        if (null != dndIcon && System.getDeviceSettings().doNotDisturb) {
-            targetDc.drawBitmap( width * 0.75, height / 2 - 15, dndIcon);
-        }
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
+        dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 
         // Output the offscreen buffers to the main display if required.
         drawTimeStrings(dc);
@@ -77,13 +90,8 @@ class AboutTimeView extends WatchUi.WatchFace
         // Draw the battery percentage directly to the main screen.
         var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + "%";
 
-        // Also draw the background process data if it is available.
-        var backgroundData = Application.getApp().temperature;
-        if(backgroundData != null) {
-            dataString += " - " + backgroundData;
-        }
-
-        drawString(dc, width/2, 3*height/4, Graphics.FONT_TINY, Graphics.COLOR_WHITE, dataString);
+        var lineHeight = Graphics.getFontHeight(Graphics.FONT_LARGE);
+        drawString(dc, width/2, height-lineHeight, Graphics.FONT_TINY, Graphics.COLOR_WHITE, dataString);
 
     }
 
@@ -97,104 +105,96 @@ class AboutTimeView extends WatchUi.WatchFace
         var width = dc.getWidth();
         var height = dc.getHeight();
 
-        //If we have an offscreen buffer that has been written to
-        //draw it to the screen.
-        if( null != offscreenBuffer ) {
-            dc.drawBitmap(0, 0, offscreenBuffer);
-        }
-
         var clockTime = System.getClockTime();
 
-        var fuzzy_hours = clockTime.hour;
-        var fuzzy_minutes = ((clockTime.min + 2) / 5) * 5;
+        var fuzzyHours = clockTime.hour;
+        var fuzzyMinutes = ((clockTime.min + 2) / 5) * 5;
 
-        if (fuzzy_minutes > 55) {
-          fuzzy_minutes = 0;
-          fuzzy_hours += 1;
-          if (fuzzy_hours > 23) {
-            fuzzy_hours = 0;
+        if (fuzzyMinutes > 55) {
+          fuzzyMinutes = 0;
+          fuzzyHours += 1;
+          if (fuzzyHours > 23) {
+            fuzzyHours = 0;
           }
         }
 
         var top = "";
         var middle = "";
         var bottom = "";
-        var top_font = Graphics.FONT_MEDIUM;
-        var middle_font = Graphics.FONT_SMALL;
-        var bottom_font = Graphics.FONT_LARGE;
+        var topFont = Graphics.FONT_MEDIUM;
+        var middleFont = Graphics.FONT_SMALL;
+        var bottomFont = Graphics.FONT_LARGE;
 
-        var fuzzy_index = 0;
-        if (fuzzy_hours % 2) {
-          fuzzy_index = 1;
+        var fuzzyIndex = 0;
+        if (fuzzyHours % 2) {
+          fuzzyIndex = 1;
         }
 
-        if (fuzzy_minutes != 0 && (fuzzy_minutes >= 10 || fuzzy_minutes == 5 || fuzzy_hours == 0 || fuzzy_hours == 12)) {
-          if (fuzzy_minutes == 55) {
-            middle_font = Graphics.FONT_MEDIUM;
-            middle += locale["almost"][fuzzy_index];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 50) {
+        if (fuzzyMinutes != 0 && (fuzzyMinutes >= 10 || fuzzyMinutes == 5 || fuzzyHours == 0 || fuzzyHours == 12)) {
+          if (fuzzyMinutes == 55) {
+            middleFont = Graphics.FONT_MEDIUM;
+            middle += locale["almost"][fuzzyIndex];
+            fuzzyHours = (fuzzyHours + 1) % 24;
+          } else if (fuzzyMinutes == 50) {
             top += locale["ten"];
             middle += locale["to"];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 45) {
+            fuzzyHours = (fuzzyHours + 1) % 24;
+          } else if (fuzzyMinutes == 45) {
             top += locale["quarter"];
             middle += locale["to"];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 40) {
+            fuzzyHours = (fuzzyHours + 1) % 24;
+          } else if (fuzzyMinutes == 40) {
             top += locale["twenty"];
             middle += locale["to"];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 35) {
-            top_font = Graphics.FONT_SMALL;
-            middle_font = Graphics.FONT_MEDIUM;
-            top += locale["little"][fuzzy_index];
+            fuzzyHours = (fuzzyHours + 1) % 24;
+          } else if (fuzzyMinutes == 35) {
+            topFont = Graphics.FONT_SMALL;
+            middleFont = Graphics.FONT_MEDIUM;
+            top += locale["little"][fuzzyIndex];
             middle += locale["past"] + " " + locale["half"];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 30) {
+            fuzzyHours = (fuzzyHours + (halfPast ? 0 : 1)) % 24;
+          } else if (fuzzyMinutes == 30) {
             middle += locale["half"];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 25) {
-            top_font = Graphics.FONT_SMALL;
-            middle_font = Graphics.FONT_MEDIUM;
-            top += locale["almost"][fuzzy_index];
+            fuzzyHours = (fuzzyHours + (halfPast ? 0 : 1)) % 24;
+          } else if (fuzzyMinutes == 25) {
+            topFont = Graphics.FONT_SMALL;
+            middleFont = Graphics.FONT_MEDIUM;
+            top += locale["almost"][fuzzyIndex];
             middle += locale["half"];
-            fuzzy_hours = (fuzzy_hours + 1) % 24;
-          } else if (fuzzy_minutes == 20) {
+            fuzzyHours = (fuzzyHours + (halfPast ? 0 : 1)) % 24;
+          } else if (fuzzyMinutes == 20) {
             top += locale["twenty"];
             middle += locale["past"];
-          } else if (fuzzy_minutes == 15) {
+          } else if (fuzzyMinutes == 15) {
             top += locale["quarter"];
             middle += locale["past"];
-          } else if (fuzzy_minutes == 10) {
+          } else if (fuzzyMinutes == 10) {
             top += locale["ten"];
             middle += locale["past"];
-          } else if (fuzzy_minutes == 5) {
-            top += locale["little"][fuzzy_index];
+          } else if (fuzzyMinutes == 5) {
+            top += locale["little"][fuzzyIndex];
             middle += locale["past"];
           }
         }
-        if (fuzzy_hours == 0) {
+        if (fuzzyHours == 0) {
           bottom += locale["midnight"];
-        } else if (fuzzy_hours == 12) {
+        } else if (fuzzyHours == 12) {
           bottom += locale["noon"];
-          bottom_font = Graphics.FONT_MEDIUM;
+          bottomFont = Graphics.FONT_MEDIUM;
         } else {
-          if ((fuzzy_hours % 12 == 7) || (fuzzy_hours % 12 == 8)) {
-            bottom_font = Graphics.FONT_MEDIUM;
-          }
-          bottom += locale["hours"][fuzzy_hours % 12];
+          bottom += locale["hours"][fuzzyHours % 12];
         }
 
-        // var info = Gregorian.info(Time.now(), Time.FORMAT_LONG);
-        // var dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.month, info.day]);
-
-        var lineHeight = Graphics.getFontHeight(middle_font);
+        var topHeight = Graphics.getFontHeight(bottomFont);
+        var middleHeight = Graphics.getFontHeight(bottomFont);
+        var bottomHeight = Graphics.getFontHeight(bottomFont);
         var color = Graphics.COLOR_WHITE;
+        var x = width / 2;
+        var y = 2 * height / 5;
 
-        drawString( dc, width / 2, height/2 - 3*lineHeight/2, top_font, color, top);
-        drawString( dc, width / 2, height/2 - lineHeight/2, middle_font, color, middle);
-        drawString( dc, width / 2, height/2 + lineHeight/2, bottom_font, color, bottom);
+        drawString( dc, x, y - middleHeight/2 - topHeight, topFont, color, top);
+        drawString( dc, x, y - middleHeight/2, middleFont, color, middle);
+        drawString( dc, x, y + middleHeight/2, bottomFont, color, bottom);
 
     }
 
