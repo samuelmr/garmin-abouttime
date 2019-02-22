@@ -1,3 +1,27 @@
 <resources>
-    <string id="AppName">AboutTime</string>
+  <string id="AppName">AboutTime</string>
+  <string id="little1">little</string>
+  <string id="little2">a bit</string>
+  <string id="almost1">almost</string>
+  <string id="almost2">nearly</string>
+  <string id="quarter">quarter</string>
+  <string id="ten">ten</string>
+  <string id="twenty">twenty</string>
+  <string id="to">to</string>
+  <string id="past">past</string>
+  <string id="half">half</string>
+  <string id="halfpast">true</string>
+  <string id="hours1">one</string>
+  <string id="hours2">two</string>
+  <string id="hours3">three</string>
+  <string id="hours4">four</string>
+  <string id="hours5">five</string>
+  <string id="hours6">six</string>
+  <string id="hours7">seven</string>
+  <string id="hours8">eight</string>
+  <string id="hours9">nine</string>
+  <string id="hours10">ten</string>
+  <string id="hours11">eleven</string>
+  <string id="noon">noon</string>
+  <string id="midnight">midnight</string>
 </resources>
