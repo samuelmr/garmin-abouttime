@@ -26,8 +26,6 @@ class AboutTimeView extends WatchUi.WatchFace
     var dndIcon;
     var offscreenBuffer;
     var dateBuffer;
-    var curClip;
-    var screenCenterPoint;
 
     // Initialize variables for this view
     function initialize() {
@@ -37,9 +35,6 @@ class AboutTimeView extends WatchUi.WatchFace
 
     // Configure the layout of the watchface for this device
     function onLayout(dc) {
-
-        // Load the custom font we use for drawing the 3, 6, 9, and 12 on the watchface.
-        font = WatchUi.loadResource(Rez.Fonts.id_font_black_diamond);
 
         // If this device supports the Do Not Disturb feature,
         // load the associated Icon into memory.
@@ -51,37 +46,6 @@ class AboutTimeView extends WatchUi.WatchFace
 
         locale = WatchUi.loadResource(Rez.JsonData.stringsJSON);
 
-        // If this device supports BufferedBitmap, allocate the buffers we use for drawing
-        if(Toybox.Graphics has :BufferedBitmap) {
-            // Allocate a full screen size buffer with a palette of only 4 colors to draw
-            // the background image of the watchface.  This is used to facilitate blanking
-            // the second hand during partial updates of the display
-            offscreenBuffer = new Graphics.BufferedBitmap({
-                :width=>dc.getWidth(),
-                :height=>dc.getHeight(),
-                :palette=> [
-                    Graphics.COLOR_DK_GRAY,
-                    Graphics.COLOR_LT_GRAY,
-                    Graphics.COLOR_BLACK,
-                    Graphics.COLOR_WHITE
-                ]
-            });
-
-            // Allocate a buffer tall enough to draw the date into the full width of the
-            // screen. This buffer is also used for blanking the second hand. This full
-            // color buffer is needed because anti-aliased fonts cannot be drawn into
-            // a buffer with a reduced color palette
-            dateBuffer = new Graphics.BufferedBitmap({
-                :width=>dc.getWidth(),
-                :height=>Graphics.getFontHeight(Graphics.FONT_MEDIUM)
-            });
-        } else {
-            offscreenBuffer = null;
-        }
-
-        curClip = null;
-
-        screenCenterPoint = [dc.getWidth()/2, dc.getHeight()/2];
     }
 
     // Handle the update event
@@ -93,17 +57,7 @@ class AboutTimeView extends WatchUi.WatchFace
         var minuteHandAngle;
         var hourHandAngle;
         var secondHand;
-        var targetDc = null;
-
-        if(null != offscreenBuffer) {
-            dc.clearClip();
-            curClip = null;
-            // If we have an offscreen buffer that we are using to draw the background,
-            // set the draw context of that buffer as our target.
-            targetDc = offscreenBuffer.getDc();
-        } else {
-            targetDc = dc;
-        }
+        var targetDc = dc;
 
         width = targetDc.getWidth();
         height = targetDc.getHeight();
