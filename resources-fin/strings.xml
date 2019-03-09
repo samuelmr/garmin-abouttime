@@ -1,13 +1,11 @@
 <resources>
   <string id="AppName">Suunnillee</string>
-  <string id="little1">vähän</string>
-  <string id="little2">pikkusen</string>
-  <string id="almost1">melkeen</string>
-  <string id="almost2">kohta</string>
-  <string id="quarter">varttii</string>
-  <string id="ten">kymppii</string>
+  <string id="little">vähän|snadisti|pikkusen</string>
+  <string id="almost">melkeen|kohta</string>
+  <string id="quarter">varttii|viistoist</string>
+  <string id="ten">kymppii|kymment</string>
   <string id="twenty">kakskyt</string>
-  <string id="to">vaille</string>
+  <string id="to">vaille|vajaa</string>
   <string id="past">yli</string>
   <string id="half">puol</string>
   <string id="halfpast">false</string>
