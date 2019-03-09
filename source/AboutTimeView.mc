@@ -54,28 +54,26 @@ class AboutTimeView extends WatchUi.WatchFace
     if (locale[:halfpast].equals("false")) {
       halfPast = false;
     }
-    var localeKeys = locale.keys();
-    var i;
-    for (i=0; i<localeKeys.size(); i++) {
-      var key = localeKeys[i];
-      var str = locale[key].toString();
-      if (str.find("|")) {
-        var tmp = [];
-        while (str.find("|")) {
-          var splitIndex = str.find("|");
-          tmp.add(str.substring(0, splitIndex));
-          str = str.substring(splitIndex+1, str.length());
-        }
-        tmp.add(str);
-        locale[key] = tmp;
-        localeArrays.add({:name => key, :size => tmp.size()});
+
+    var keys = locale.keys();
+    for (var i=0; i<keys.size(); i++) {
+      var key = keys[i];
+      locale[key] = strToArray(locale[key]);
+      if (key != :hours && locale[key] instanceof Toybox.Lang.Array) {
+        localeArrays.add({:name => key, :size => locale[key].size()});
       }
-
-      smallFont = WatchUi.loadResource(Rez.Fonts.id_font_small);
-      mediumFont = WatchUi.loadResource(Rez.Fonts.id_font_medium);
-      largeFont = WatchUi.loadResource(Rez.Fonts.id_font_large);
-
     }
+    for (var i=0; i<locale[:hours].size(); i++) {
+      locale[:hours][i] = strToArray(locale[:hours][i]);
+      if (locale[:hours][i] instanceof Toybox.Lang.Array) {
+        localeArrays.add({:name => i, :size => locale[:hours][i].size()});
+      }
+    }
+
+    smallFont = WatchUi.loadResource(Rez.Fonts.id_font_small);
+    mediumFont = WatchUi.loadResource(Rez.Fonts.id_font_medium);
+    largeFont = WatchUi.loadResource(Rez.Fonts.id_font_large);
+
   }
 
   // Handle the update event
@@ -137,7 +135,12 @@ class AboutTimeView extends WatchUi.WatchFace
       var it = localeArrays[i];
       var r = Math.rand() % it[:size];
       var key = it[:name];
-      currentLocale[key] = locale[key][r];
+      if (key instanceof Toybox.Lang.Number) {
+        currentLocale[:hours][key] = locale[:hours][key][r];
+      }
+      else {
+        currentLocale[key] = locale[key][r];
+      }
     }
 
     switch (fuzzyMinutes) {
@@ -200,7 +203,6 @@ class AboutTimeView extends WatchUi.WatchFace
       bottom += currentLocale[:midnight];
     } else if (fuzzyHours == 12) {
       bottom += currentLocale[:noon];
-      // bottomFont = mediumFont;
     } else {
       bottom += currentLocale[:hours][fuzzyHours % 12];
     }
@@ -208,10 +210,6 @@ class AboutTimeView extends WatchUi.WatchFace
     var topHeight = Graphics.getFontHeight(topFont)/1.5;
     var middleHeight = Graphics.getFontHeight(middleFont)/1.5;
     var bottomHeight = Graphics.getFontHeight(bottomFont)/1.5;
-
-    // System.println("Top font size " + topHeight);
-    // System.println("Middle font size " + middleHeight);
-    // System.println("Bottom font size " + bottomHeight);
 
     var color = Graphics.COLOR_WHITE;
     var x = width / 2;
@@ -225,12 +223,41 @@ class AboutTimeView extends WatchUi.WatchFace
 
   }
 
+  function strToArray(str) {
+    if (str instanceof Toybox.Lang.String != true) {
+      return str;
+    }
+    if (str.find("|")) {
+      var arr = [];
+      while (str.find("|")) {
+        var splitIndex = str.find("|");
+        arr.add(str.substring(0, splitIndex));
+        str = str.substring(splitIndex+1, str.length());
+      }
+      arr.add(str);
+      return arr;
+    }
+    return str;
+  }
+
   function cloneDictionary(source) {
     var target = {};
     var keys = source.keys();
-    var i;
-    for (i=0; i<keys.size(); i++) {
-      target[keys[i]] = source[keys[i]];
+    for (var i=0; i<keys.size(); i++) {
+      if (source[keys[i]] instanceof Toybox.Lang.Array) {
+        target[keys[i]] = cloneArray(source[keys[i]]);
+      }
+      else {
+        target[keys[i]] = source[keys[i]];
+      }
+    }
+    return target;
+  }
+
+  function cloneArray(source) {
+    var target = [];
+    for (var i=0; i<source.size(); i++) {
+      target.add(source[i]);
     }
     return target;
   }
