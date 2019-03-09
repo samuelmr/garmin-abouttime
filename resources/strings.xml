@@ -1,9 +1,7 @@
 <resources>
-  <string id="AppName">AboutTime</string>
-  <string id="little1">little</string>
-  <string id="little2">a bit</string>
-  <string id="almost1">almost</string>
-  <string id="almost2">nearly</string>
+  <string id="AppName">About</string>
+  <string id="little">little|a bit</string>
+  <string id="almost">almost|nearly</string>
   <string id="quarter">quarter</string>
   <string id="ten">ten</string>
   <string id="twenty">twenty</string>
