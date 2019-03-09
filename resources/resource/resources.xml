@@ -1,0 +1,7 @@
+<resources>
+    <fonts>
+      <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter="AEMOSUVabcdefghijklmnopqrstuvwxyz äåíöøü" />
+      <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter="AEMOSUVabcdefghijklmnopqrstuvwxyz äåíöøü" />
+      <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter="AEMOSUVabcdefghijklmnopqrstuvwxyz äåíöøü" />
+    </fonts>
+</resources>
