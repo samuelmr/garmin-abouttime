@@ -1,0 +1,25 @@
+<resources>
+  <string id="AppName">Environ</string>
+  <string id="little">un peu</string>
+  <string id="almost">presque</string>
+  <string id="quarter">varttii</string>
+  <string id="ten">dix</string>
+  <string id="twenty">vingt</string>
+  <string id="to">avant</string>
+  <string id="past">plus de</string>
+  <string id="half">demie</string>
+  <string id="halfpast">true</string>
+  <string id="hours1">un</string>
+  <string id="hours2">deux</string>
+  <string id="hours3">trois</string>
+  <string id="hours4">quatre</string>
+  <string id="hours5">cinq</string>
+  <string id="hours6">six</string>
+  <string id="hours7">sept</string>
+  <string id="hours8">huit</string>
+  <string id="hours9">neuf</string>
+  <string id="hours10">dix</string>
+  <string id="hours11">onze</string>
+  <string id="noon">douze</string>
+  <string id="midnight">minuit</string>
+</resources>

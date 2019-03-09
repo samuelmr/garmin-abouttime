@@ -1,0 +1,25 @@
+<resources>
+  <string id="AppName">Omtrent</string>
+  <string id="little">litt</string>
+  <string id="almost">nesten</string>
+  <string id="quarter">femtten</string>
+  <string id="ten">ti</string>
+  <string id="twenty">tjue</string>
+  <string id="to">før|til</string>
+  <string id="past">over</string>
+  <string id="half">halv</string>
+  <string id="halfpast">false</string>
+  <string id="hours1">ett</string>
+  <string id="hours2">to</string>
+  <string id="hours3">tre</string>
+  <string id="hours4">fire</string>
+  <string id="hours5">fem</string>
+  <string id="hours6">seks</string>
+  <string id="hours7">syv|sju</string>
+  <string id="hours8">åtte</string>
+  <string id="hours9">ni</string>
+  <string id="hours10">ti</string>
+  <string id="hours11">elleve</string>
+  <string id="noon">tolv</string>
+  <string id="midnight">midnatt</string>
+</resources>

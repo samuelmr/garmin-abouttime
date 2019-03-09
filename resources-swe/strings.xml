@@ -1,0 +1,25 @@
+<resources>
+  <string id="AppName">Ungefär</string>
+  <string id="little">lite</string>
+  <string id="almost">nästan</string>
+  <string id="quarter">femton</string>
+  <string id="ten">tio</string>
+  <string id="twenty">tjugo</string>
+  <string id="to">före</string>
+  <string id="past">över</string>
+  <string id="half">halv</string>
+  <string id="halfpast">false</string>
+  <string id="hours1">ett</string>
+  <string id="hours2">två</string>
+  <string id="hours3">tre</string>
+  <string id="hours4">fyra</string>
+  <string id="hours5">fem</string>
+  <string id="hours6">sex</string>
+  <string id="hours7">sju</string>
+  <string id="hours8">åtta</string>
+  <string id="hours9">nio</string>
+  <string id="hours10">tio</string>
+  <string id="hours11">elva</string>
+  <string id="noon">tolv</string>
+  <string id="midnight">midnatt</string>
+</resources>

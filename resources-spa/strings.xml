@@ -1,0 +1,25 @@
+<resources>
+  <string id="AppName">Aproximadamente</string>
+  <string id="little">poco</string>
+  <string id="almost">casi|pronto a</string>
+  <string id="quarter">trimestre</string>
+  <string id="ten">diez</string>
+  <string id="twenty">de veinte</string>
+  <string id="to">hasta</string>
+  <string id="past">pasadas</string>
+  <string id="half">medio</string>
+  <string id="halfpast">true</string>
+  <string id="hours1">la una</string>
+  <string id="hours2">las dos</string>
+  <string id="hours3">las tres</string>
+  <string id="hours4">las cuatro</string>
+  <string id="hours5">las cinco</string>
+  <string id="hours6">las seis</string>
+  <string id="hours7">siete</string>
+  <string id="hours8">ocho</string>
+  <string id="hours9">nueve</string>
+  <string id="hours10">diez</string>
+  <string id="hours11">once</string>
+  <string id="noon">el mediodía</string>
+  <string id="midnight">medianoche</string>
+</resources>

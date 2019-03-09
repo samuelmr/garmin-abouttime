@@ -1,0 +1,25 @@
+<resources>
+  <string id="AppName">Ungefähr</string>
+  <string id="little">etwas</string>
+  <string id="almost">fast</string>
+  <string id="quarter">Viertel|fünfzehn</string>
+  <string id="ten">zehn</string>
+  <string id="twenty">zwanzig</string>
+  <string id="to">for</string>
+  <string id="past">nach</string>
+  <string id="half">halb</string>
+  <string id="halfpast">false</string>
+  <string id="hours1">eins</string>
+  <string id="hours2">zwei</string>
+  <string id="hours3">drei</string>
+  <string id="hours4">vier</string>
+  <string id="hours5">fünf</string>
+  <string id="hours6">sechs</string>
+  <string id="hours7">sieben</string>
+  <string id="hours8">acht</string>
+  <string id="hours9">neun</string>
+  <string id="hours10">zehn</string>
+  <string id="hours11">elf</string>
+  <string id="noon">zwölf</string>
+  <string id="midnight">Mitternacht</string>
+</resources>
