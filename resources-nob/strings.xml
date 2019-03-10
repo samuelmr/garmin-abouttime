@@ -1,11 +1,11 @@
 <resources>
   <string id="AppName">Omtrent</string>
   <string id="little">litt</string>
-  <string id="almost">nesten</string>
-  <string id="quarter">femtten</string>
+  <string id="almost">snart</string>
+  <string id="quarter">kvart</string>
   <string id="ten">ti</string>
   <string id="twenty">tjue</string>
-  <string id="to">før|til</string>
+  <string id="to">på</string>
   <string id="past">over</string>
   <string id="half">halv</string>
   <string id="halfpast">false</string>
