@@ -11,16 +11,13 @@ var smallFont;
 var mediumFont;
 var largeFont;
 
-class AboutTimeView extends WatchUi.WatchFace
-{
+class AboutTimeView extends WatchUi.WatchFace {
 
-   // Initialize variables for this view
   function initialize() {
     WatchFace.initialize();
     Math.srand(System.getTimer());
   }
 
-  // Configure the layout of the watchface for this device
   function onLayout(dc) {
 
     locale = {
@@ -76,7 +73,6 @@ class AboutTimeView extends WatchUi.WatchFace
 
   }
 
-  // Handle the update event
   function onUpdate(dc) {
     var width = dc.getWidth();
     var height = dc.getHeight();
