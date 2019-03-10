@@ -82,7 +82,7 @@ class AboutTimeView extends WatchUi.WatchFace
     var height = dc.getHeight();
 
     updateCount += 1;
-    System.println("updating " + updateCount);
+    // System.println("updating " + updateCount);
 
     dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
     dc.fillRectangle(0, 0, width, height);
