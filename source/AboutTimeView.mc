@@ -251,9 +251,9 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function cloneArray(source) {
-    var target = [];
+    var target = new [source.size()];
     for (var i=0; i<source.size(); i++) {
-      target.add(source[i]);
+      target[i] = source[i];
     }
     return target;
   }
