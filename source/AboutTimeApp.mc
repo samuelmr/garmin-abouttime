@@ -2,8 +2,7 @@ using Toybox.Application;
 using Toybox.Time;
 using Toybox.Communications;
 
-class AboutTime extends Application.AppBase
-{
+class AboutTime extends Application.AppBase {
     function initialize() {
         AppBase.initialize();
     }
