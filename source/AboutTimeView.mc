@@ -19,7 +19,66 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function onLayout(dc) {
+    readLocale();
 
+    smallFont = WatchUi.loadResource(Rez.Fonts.id_font_small);
+    mediumFont = WatchUi.loadResource(Rez.Fonts.id_font_medium);
+    largeFont = WatchUi.loadResource(Rez.Fonts.id_font_large);
+
+  }
+
+  function onUpdate(dc) {
+    var width = dc.getWidth();
+    var height = dc.getHeight();
+
+    // updateCount += 1;
+    // System.println("updating " + updateCount);
+
+    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
+    dc.fillRectangle(0, 0, width, height);
+
+    var heightUsed = drawTimeStrings(dc, System.getClockTime());
+    var lineHeight = Graphics.getFontHeight(Graphics.FONT_XTINY);
+
+    if (height - lineHeight > heightUsed) {
+      var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + " %";
+      drawString(dc, width/2, height-lineHeight, Graphics.FONT_XTINY, Graphics.COLOR_WHITE, dataString);
+    }
+
+  }
+
+  function drawString( dc, x, y, font, color, string ) {
+    dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+    dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+  }
+
+  function drawTimeStrings(dc, time) {
+
+    var width = dc.getWidth();
+    var height = dc.getHeight();
+
+    var r = 0;
+
+    var currentLocale = localize();
+    var strings = prepareStrings(time, currentLocale);
+
+    var topHeight = Graphics.getFontHeight(strings[:topFont])/1.5;
+    var middleHeight = Graphics.getFontHeight(strings[:middleFont])/1.5;
+    var bottomHeight = Graphics.getFontHeight(strings[:bottomFont])/1.5;
+
+    var color = Graphics.COLOR_WHITE;
+    var x = width / 2;
+    var y = height * 2 / 5;
+
+    drawString(dc, x, y - middleHeight/2 - topHeight/2, strings[:topFont], color, strings[:top]);
+    drawString(dc, x, y, strings[:middleFont], color, strings[:middle]);
+    drawString(dc, x, y + middleHeight/2 + bottomHeight/2, strings[:bottomFont], color, strings[:bottom]);
+
+    return y + middleHeight/2 + bottomHeight/2 + bottomHeight;
+
+  }
+
+  function readLocale() {
     locale = {
       :little => WatchUi.loadResource(Rez.Strings.little),
       :almost => WatchUi.loadResource(Rez.Strings.almost),
@@ -66,47 +125,29 @@ class AboutTimeView extends WatchUi.WatchFace {
         localeArrays.add({:name => i, :size => locale[:hours][i].size()});
       }
     }
-
-    smallFont = WatchUi.loadResource(Rez.Fonts.id_font_small);
-    mediumFont = WatchUi.loadResource(Rez.Fonts.id_font_medium);
-    largeFont = WatchUi.loadResource(Rez.Fonts.id_font_large);
-
   }
 
-  function onUpdate(dc) {
-    var width = dc.getWidth();
-    var height = dc.getHeight();
+  function localize() {
+    var currentLocale = cloneDictionary(locale);
 
-    updateCount += 1;
-    // System.println("updating " + updateCount);
-
-    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
-    dc.fillRectangle(0, 0, width, height);
-
-    var heightUsed = drawTimeStrings(dc);
-    var lineHeight = Graphics.getFontHeight(Graphics.FONT_XTINY);
-
-    if (height - lineHeight > heightUsed) {
-      var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + " %";
-      drawString(dc, width/2, height-lineHeight, Graphics.FONT_XTINY, Graphics.COLOR_WHITE, dataString);
+    var i;
+    for (i=0; i<localeArrays.size(); i++) {
+      var it = localeArrays[i];
+      var r = Math.rand() % it[:size];
+      var key = it[:name];
+      if (key instanceof Toybox.Lang.Number) {
+        currentLocale[:hours][key] = locale[:hours][key][r];
+      }
+      else {
+        currentLocale[key] = locale[key][r];
+      }
     }
-
+    return currentLocale;
   }
 
-  function drawString( dc, x, y, font, color, string ) {
-    dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-  }
-
-  function drawTimeStrings(dc) {
-
-    var width = dc.getWidth();
-    var height = dc.getHeight();
-
-    var clockTime = System.getClockTime();
-
-    var fuzzyHours = clockTime.hour;
-    var fuzzyMinutes = ((clockTime.min + 2) / 5) * 5;
+  function prepareStrings(time, currentLocale) {
+    var fuzzyHours = time.hour;
+    var fuzzyMinutes = ((time.min + 2) / 5) * 5;
 
     if (fuzzyMinutes > 55) {
       fuzzyMinutes = 0;
@@ -122,22 +163,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     var topFont = mediumFont;
     var middleFont = smallFont;
     var bottomFont = largeFont;
-    var r = 0;
-
-    var currentLocale = cloneDictionary(locale);
-
-    var i;
-    for (i=0; i<localeArrays.size(); i++) {
-      var it = localeArrays[i];
-      var r = Math.rand() % it[:size];
-      var key = it[:name];
-      if (key instanceof Toybox.Lang.Number) {
-        currentLocale[:hours][key] = locale[:hours][key][r];
-      }
-      else {
-        currentLocale[key] = locale[key][r];
-      }
-    }
 
     switch (fuzzyMinutes) {
       case 55:
@@ -202,21 +227,14 @@ class AboutTimeView extends WatchUi.WatchFace {
     } else {
       bottom += currentLocale[:hours][fuzzyHours % 12];
     }
-
-    var topHeight = Graphics.getFontHeight(topFont)/1.5;
-    var middleHeight = Graphics.getFontHeight(middleFont)/1.5;
-    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.5;
-
-    var color = Graphics.COLOR_WHITE;
-    var x = width / 2;
-    var y = height * 2 / 5;
-
-    drawString(dc, x, y - middleHeight/2 - topHeight/2, topFont, color, top);
-    drawString(dc, x, y, middleFont, color, middle);
-    drawString(dc, x, y + middleHeight/2 + bottomHeight/2, bottomFont, color, bottom);
-
-    return y + middleHeight/2 + bottomHeight/2 + bottomHeight;
-
+    return {
+      :bottom => bottom,
+      :bottomFont => bottomFont,
+      :middle => middle,
+      :middleFont => middleFont,
+      :top => top,
+      :topFont => topFont
+    };
   }
 
   function strToArray(str) {
