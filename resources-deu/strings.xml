@@ -1,11 +1,11 @@
 <resources>
   <string id="AppName">Ungefähr</string>
-  <string id="little">etwas</string>
+  <string id="little">kurz</string>
   <string id="almost">fast</string>
   <string id="quarter">Viertel|fünfzehn</string>
   <string id="ten">zehn</string>
   <string id="twenty">zwanzig</string>
-  <string id="to">for</string>
+  <string id="to">vor</string>
   <string id="past">nach</string>
   <string id="half">halb</string>
   <string id="halfpast">false</string>
