@@ -10,3 +10,5 @@ A watch face for Garmin Connect IQ devices
 - 2019-03-09  New languages, larger and prettier font (1.1)
 - 2019-03-09  Localization fixes (1.1.1)
 - 2019-03-10  Minor enhancements to Norwegian translation (1.1.2)
+- 2019-03-17  Minor enhancements to German translation (1.1.3)
+- 2019-03-21  Removed string variability for now (1.1.4)
