@@ -1,7 +1,7 @@
 <resources>
   <string id="AppName">Aproximadamente</string>
   <string id="little">poco</string>
-  <string id="almost">casi|pronto a</string>
+  <string id="almost">casi</string>
   <string id="quarter">trimestre</string>
   <string id="ten">diez</string>
   <string id="twenty">de veinte</string>
