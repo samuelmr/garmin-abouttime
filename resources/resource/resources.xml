@@ -1,7 +1,7 @@
 <resources>
     <fonts>
-      <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter="AEMOSUVabcdefghijklmnopqrstuvwxyz äåíöøü" />
-      <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter="AEMOSUVabcdefghijklmnopqrstuvwxyz äåíöøü" />
-      <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter="AEMOSUVabcdefghijklmnopqrstuvwxyz äåíöøü" />
+      <font id="id_font_small" filename="fonts/andika24new.fnt" antialias="true" filter="AEMOSUabcdefghijklmnopqrstuvwxyz äåíöüавгдеиклмнопрстуцчшья" />
+      <font id="id_font_medium" filename="fonts/andika32new.fnt" antialias="true" filter="AEMOSUabcdefghijklmnopqrstuvwxyz äåíöüавгдеиклмнопрстуцчшья" />
+      <font id="id_font_large" filename="fonts/andika48new.fnt" antialias="true" filter="AEMOSUabcdefghijklmnopqrstuvwxyz äåíöüавгдеиклмнопрстуцчшья" />
     </fonts>
 </resources>
