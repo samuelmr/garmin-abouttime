@@ -1,7 +1,7 @@
 <resources>
   <string id="AppName">About</string>
-  <string id="little">little|a bit</string>
-  <string id="almost">almost|nearly</string>
+  <string id="little">little</string>
+  <string id="almost">almost</string>
   <string id="quarter">quarter</string>
   <string id="ten">ten</string>
   <string id="twenty">twenty</string>
