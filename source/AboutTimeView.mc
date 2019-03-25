@@ -227,6 +227,18 @@ class AboutTimeView extends WatchUi.WatchFace {
     } else {
       bottom += currentLocale[:hours][fuzzyHours % 12];
     }
+    if (top.length() > 13) {
+      topFont = smallFont;
+    }
+    if (middle.length() > 13) {
+      middleFont = smallFont;
+    }
+    if (bottom.length() > 13) {
+      bottomFont = smallFont;
+    }
+    if ((bottom.length() > 9) and (bottomFont == largeFont)) {
+      bottomFont = mediumFont;
+    }
     return {
       :bottom => bottom,
       :bottomFont => bottomFont,
