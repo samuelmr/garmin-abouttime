@@ -1,0 +1,25 @@
+<resources>
+  <string id="AppName">вокруг</string>
+  <string id="little">немного</string>
+  <string id="almost">почти</string>
+  <string id="quarter">четверть</string>
+  <string id="ten">десять</string>
+  <string id="twenty">двадцать</string>
+  <string id="to">в</string>
+  <string id="past">прошлое</string>
+  <string id="half">половина</string>
+  <string id="halfpast">false</string>
+  <string id="hours1">один</string>
+  <string id="hours2">два</string>
+  <string id="hours3">три</string>
+  <string id="hours4">печь</string>
+  <string id="hours5">пять</string>
+  <string id="hours6">шесть</string>
+  <string id="hours7">семь</string>
+  <string id="hours8">восемь</string>
+  <string id="hours9">девять</string>
+  <string id="hours10">десять</string>
+  <string id="hours11">одиннадцать</string>
+  <string id="noon">полдень</string>
+  <string id="midnight">полночь</string>
+</resources>
