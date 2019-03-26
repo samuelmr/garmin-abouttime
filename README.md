@@ -15,4 +15,4 @@ A watch face for Garmin Connect IQ devices
 - 2019-03-26  Removed string variability from all languages (1.1.5)
 
 ## Translate it to your languages
-See [https://docs.google.com/spreadsheets/d/1do69JMCDC96IovqAPbLKRZgPCvNDG_ZZbd3pL6XsQOQ/edit?usp=sharing](this Google spreadsheet)
+See [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1do69JMCDC96IovqAPbLKRZgPCvNDG_ZZbd3pL6XsQOQ/edit?usp=sharing)
