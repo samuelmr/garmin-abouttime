@@ -1,4 +1,5 @@
 <resources>
+  <string id="halfpast">false</string>
   <string id="AppName">Ungefär</string>
   <string id="little">lite</string>
   <string id="almost">nästan</string>
@@ -8,7 +9,6 @@
   <string id="to">före</string>
   <string id="past">över</string>
   <string id="half">halv</string>
-  <string id="halfpast">false</string>
   <string id="hours1">ett</string>
   <string id="hours2">två</string>
   <string id="hours3">tre</string>

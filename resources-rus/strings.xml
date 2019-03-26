@@ -1,4 +1,5 @@
 <resources>
+  <string id="halfpast">false</string>
   <string id="AppName">вокруг</string>
   <string id="little">немного</string>
   <string id="almost">почти</string>
@@ -8,7 +9,6 @@
   <string id="to">в</string>
   <string id="past">прошлое</string>
   <string id="half">половина</string>
-  <string id="halfpast">false</string>
   <string id="hours1">один</string>
   <string id="hours2">два</string>
   <string id="hours3">три</string>

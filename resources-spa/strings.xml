@@ -1,4 +1,5 @@
 <resources>
+  <string id="halfpast">true</string>
   <string id="AppName">Aproximadamente</string>
   <string id="little">poco</string>
   <string id="almost">casi</string>
@@ -8,7 +9,6 @@
   <string id="to">hasta</string>
   <string id="past">pasadas</string>
   <string id="half">medio</string>
-  <string id="halfpast">true</string>
   <string id="hours1">la una</string>
   <string id="hours2">las dos</string>
   <string id="hours3">las tres</string>

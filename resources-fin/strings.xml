@@ -1,4 +1,5 @@
 <resources>
+  <string id="halfpast">false</string>
   <string id="AppName">Suunnillee</string>
   <string id="little">vähän</string>
   <string id="almost">melkeen</string>
@@ -8,7 +9,6 @@
   <string id="to">vaille</string>
   <string id="past">yli</string>
   <string id="half">puol</string>
-  <string id="halfpast">false</string>
   <string id="hours1">yks</string>
   <string id="hours2">kaks</string>
   <string id="hours3">kolme</string>

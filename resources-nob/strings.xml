@@ -1,4 +1,5 @@
 <resources>
+  <string id="halfpast">false</string>
   <string id="AppName">Omtrent</string>
   <string id="little">litt</string>
   <string id="almost">snart</string>
@@ -8,7 +9,6 @@
   <string id="to">på</string>
   <string id="past">over</string>
   <string id="half">halv</string>
-  <string id="halfpast">false</string>
   <string id="hours1">ett</string>
   <string id="hours2">to</string>
   <string id="hours3">tre</string>

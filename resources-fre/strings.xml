@@ -1,4 +1,5 @@
 <resources>
+  <string id="halfpast">true</string>
   <string id="AppName">Environ</string>
   <string id="little">un peu</string>
   <string id="almost">presque</string>
@@ -8,7 +9,6 @@
   <string id="to">avant</string>
   <string id="past">plus de</string>
   <string id="half">demie</string>
-  <string id="halfpast">true</string>
   <string id="hours1">un</string>
   <string id="hours2">deux</string>
   <string id="hours3">trois</string>
