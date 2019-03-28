@@ -1,0 +1,25 @@
+<resources>
+  <string id="halfpast">false</string>
+  <string id="AppName">Cirka</string>
+  <string id="little">lidt</string>
+  <string id="almost">næsten</string>
+  <string id="quarter">kvarter</string>
+  <string id="ten">ti</string>
+  <string id="twenty">tyve</string>
+  <string id="to">i</string>
+  <string id="past">over</string>
+  <string id="half">halv</string>
+  <string id="hours1">et</string>
+  <string id="hours2">to</string>
+  <string id="hours3">tre</string>
+  <string id="hours4">fire</string>
+  <string id="hours5">fem</string>
+  <string id="hours6">seks</string>
+  <string id="hours7">syv</string>
+  <string id="hours8">otte</string>
+  <string id="hours9">ni</string>
+  <string id="hours10">ti</string>
+  <string id="hours11">elve</string>
+  <string id="noon">middag</string>
+  <string id="midnight">midnatt</string>
+</resources>

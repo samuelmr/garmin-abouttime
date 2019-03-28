@@ -14,6 +14,7 @@ A watch face for Garmin Connect IQ devices
 - 2019-03-17  Minor enhancements to German translation (1.1.3)
 - 2019-03-21  Removed string variability for now (1.1.4)
 - 2019-03-26  Removed string variability from all languages (1.1.5)
+- 2019-03-27  Added Danish translation (1.1.6)
 
 ## Translate it to your languages
 See [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1do69JMCDC96IovqAPbLKRZgPCvNDG_ZZbd3pL6XsQOQ/edit?usp=sharing)
