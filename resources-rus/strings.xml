@@ -6,13 +6,13 @@
   <string id="quarter">четверть</string>
   <string id="ten">десять</string>
   <string id="twenty">двадцать</string>
-  <string id="to">в</string>
-  <string id="past">прошлое</string>
+  <string id="to">до</string>
+  <string id="past">просле</string>
   <string id="half">половина</string>
-  <string id="hours1">один</string>
+  <string id="hours1">час</string>
   <string id="hours2">два</string>
   <string id="hours3">три</string>
-  <string id="hours4">печь</string>
+  <string id="hours4">четыре</string>
   <string id="hours5">пять</string>
   <string id="hours6">шесть</string>
   <string id="hours7">семь</string>
