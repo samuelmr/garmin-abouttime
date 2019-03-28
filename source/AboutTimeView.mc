@@ -62,9 +62,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     var currentLocale = localize();
     var strings = prepareStrings(time, currentLocale);
 
-    var topHeight = Graphics.getFontHeight(strings[:topFont])/1.5;
-    var middleHeight = Graphics.getFontHeight(strings[:middleFont])/1.5;
-    var bottomHeight = Graphics.getFontHeight(strings[:bottomFont])/1.5;
+    var topHeight = Graphics.getFontHeight(strings[:topFont])/1.4;
+    var middleHeight = Graphics.getFontHeight(strings[:middleFont])/1.4;
+    var bottomHeight = Graphics.getFontHeight(strings[:bottomFont])/1.4;
 
     var color = Graphics.COLOR_WHITE;
     var x = width / 2;
