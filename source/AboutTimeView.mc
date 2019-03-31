@@ -25,6 +25,13 @@ class AboutTimeView extends WatchUi.WatchFace {
     mediumFont = WatchUi.loadResource(Rez.Fonts.id_font_medium);
     largeFont = WatchUi.loadResource(Rez.Fonts.id_font_large);
 
+    // ugly hack: use system fonts for traditional Chinese
+    if (locale[:hours][1].find("一") != null) {
+      smallFont = Graphics.FONT_TINY;
+      mediumFont = Graphics.FONT_MEDIUM;
+      largeFont = Graphics.FONT_SYSTEM_LARGE;
+    }
+
   }
 
   function onUpdate(dc) {
@@ -62,9 +69,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     var currentLocale = localize();
     var strings = prepareStrings(time, currentLocale);
 
-    var topHeight = Graphics.getFontHeight(strings[:topFont])/1.4;
-    var middleHeight = Graphics.getFontHeight(strings[:middleFont])/1.4;
-    var bottomHeight = Graphics.getFontHeight(strings[:bottomFont])/1.4;
+    var topHeight = Graphics.getFontHeight(strings[:topFont])/1.2;
+    var middleHeight = Graphics.getFontHeight(strings[:middleFont])/1.2;
+    var bottomHeight = Graphics.getFontHeight(strings[:bottomFont])/1.2;
 
     var color = Graphics.COLOR_WHITE;
     var x = width / 2;
@@ -80,36 +87,35 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   function readLocale() {
     locale = {
-      :little => WatchUi.loadResource(Rez.Strings.little),
-      :almost => WatchUi.loadResource(Rez.Strings.almost),
-      :quarter => WatchUi.loadResource(Rez.Strings.quarter),
-      :ten => WatchUi.loadResource(Rez.Strings.ten),
-      :twenty => WatchUi.loadResource(Rez.Strings.twenty),
-      :to => WatchUi.loadResource(Rez.Strings.to),
-      :past => WatchUi.loadResource(Rez.Strings.past),
-      :half => WatchUi.loadResource(Rez.Strings.half),
+      "min0" => WatchUi.loadResource(Rez.Strings.min0),
+      "min5" => WatchUi.loadResource(Rez.Strings.min5),
+      "min10" => WatchUi.loadResource(Rez.Strings.min10),
+      "min15" => WatchUi.loadResource(Rez.Strings.min15),
+      "min20" => WatchUi.loadResource(Rez.Strings.min20),
+      "min25" => WatchUi.loadResource(Rez.Strings.min25),
+      "min30" => WatchUi.loadResource(Rez.Strings.min30),
+      "min35" => WatchUi.loadResource(Rez.Strings.min35),
+      "min40" => WatchUi.loadResource(Rez.Strings.min40),
+      "min45" => WatchUi.loadResource(Rez.Strings.min45),
+      "min50" => WatchUi.loadResource(Rez.Strings.min50),
+      "min55" => WatchUi.loadResource(Rez.Strings.min55),
       :hours => [
         "",
-        WatchUi.loadResource(Rez.Strings.hours1),
-        WatchUi.loadResource(Rez.Strings.hours2),
-        WatchUi.loadResource(Rez.Strings.hours3),
-        WatchUi.loadResource(Rez.Strings.hours4),
-        WatchUi.loadResource(Rez.Strings.hours5),
-        WatchUi.loadResource(Rez.Strings.hours6),
-        WatchUi.loadResource(Rez.Strings.hours7),
-        WatchUi.loadResource(Rez.Strings.hours8),
-        WatchUi.loadResource(Rez.Strings.hours9),
-        WatchUi.loadResource(Rez.Strings.hours10),
-        WatchUi.loadResource(Rez.Strings.hours11)
+        WatchUi.loadResource(Rez.Strings.hour1),
+        WatchUi.loadResource(Rez.Strings.hour2),
+        WatchUi.loadResource(Rez.Strings.hour3),
+        WatchUi.loadResource(Rez.Strings.hour4),
+        WatchUi.loadResource(Rez.Strings.hour5),
+        WatchUi.loadResource(Rez.Strings.hour6),
+        WatchUi.loadResource(Rez.Strings.hour7),
+        WatchUi.loadResource(Rez.Strings.hour8),
+        WatchUi.loadResource(Rez.Strings.hour9),
+        WatchUi.loadResource(Rez.Strings.hour10),
+        WatchUi.loadResource(Rez.Strings.hour11)
       ],
       :noon => WatchUi.loadResource(Rez.Strings.noon),
       :midnight => WatchUi.loadResource(Rez.Strings.midnight),
-      :halfpast => WatchUi.loadResource(Rez.Strings.halfpast)
     };
-
-    if (locale[:halfpast].equals("false")) {
-      halfPast = false;
-    }
 
     var keys = locale.keys();
     for (var i=0; i<keys.size(); i++) {
@@ -146,17 +152,6 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function prepareStrings(time, currentLocale) {
-    var fuzzyHours = time.hour;
-    var fuzzyMinutes = ((time.min + 2) / 5) * 5;
-
-    if (fuzzyMinutes > 55) {
-      fuzzyMinutes = 0;
-      fuzzyHours += 1;
-      if (fuzzyHours > 23) {
-        fuzzyHours = 0;
-      }
-    }
-
     var top = "";
     var middle = "";
     var bottom = "";
@@ -164,69 +159,69 @@ class AboutTimeView extends WatchUi.WatchFace {
     var middleFont = smallFont;
     var bottomFont = largeFont;
 
-    switch (fuzzyMinutes) {
-      case 55:
-        middleFont = mediumFont;
-        middle += currentLocale[:almost];
-        fuzzyHours = (fuzzyHours + 1) % 24;
-        break;
-      case 50:
-        top += currentLocale[:ten];
-        middle += currentLocale[:to];
-        fuzzyHours = (fuzzyHours + 1) % 24;
-        break;
-      case 45:
-        top += currentLocale[:quarter];
-        middle += currentLocale[:to];
-        fuzzyHours = (fuzzyHours + 1) % 24;
-        break;
-      case 40:
-        top += currentLocale[:twenty];
-        middle += currentLocale[:to];
-        fuzzyHours = (fuzzyHours + 1) % 24;
-        break;
-      case 35:
-        topFont = smallFont;
-        middleFont = mediumFont;
-        top += currentLocale[:little];
-        middle += currentLocale[:past] + " " + currentLocale[:half];
-        fuzzyHours = (fuzzyHours + (halfPast ? 0 : 1)) % 24;
-        break;
-      case 30:
-        middle += currentLocale[:half];
-        fuzzyHours = (fuzzyHours + (halfPast ? 0 : 1)) % 24;
-        break;
-      case 25:
-        topFont = smallFont;
-        middleFont = mediumFont;
-        top += currentLocale[:almost];
-        middle += currentLocale[:half];
-        fuzzyHours = (fuzzyHours + (halfPast ? 0 : 1)) % 24;
-        break;
-      case 20:
-        top += currentLocale[:twenty];
-        middle += currentLocale[:past];
-        break;
-      case 15:
-        top += currentLocale[:quarter];
-        middle += currentLocale[:past];
-        break;
-      case 10:
-        top += currentLocale[:ten];
-        middle += currentLocale[:past];
-        break;
-      case 5:
-        top += currentLocale[:little];
-        middle += currentLocale[:past];
-      break;
+    var fuzzyHour = time.hour;
+    var fuzzyMinutes = ((time.min + 2) / 5) * 5;
+
+    if (fuzzyMinutes > 55) {
+      fuzzyMinutes = 0;
+      fuzzyHour += 1;
+      if (fuzzyHour > 23) {
+        fuzzyHour = 0;
+      }
     }
-    if (fuzzyHours == 0) {
-      bottom += currentLocale[:midnight];
-    } else if (fuzzyHours == 12) {
-      bottom += currentLocale[:noon];
+    var nextHour = fuzzyHour + 1;
+
+    if (fuzzyHour == 0) {
+      fuzzyHour = currentLocale[:midnight];
+    } else if (fuzzyHour == 12) {
+      fuzzyHour = currentLocale[:noon];
     } else {
-      bottom += currentLocale[:hours][fuzzyHours % 12];
+      fuzzyHour = currentLocale[:hours][fuzzyHour % 12];
     }
+
+    if (nextHour == 24) {
+      nextHour = currentLocale[:midnight];
+    } else if (nextHour == 12) {
+      nextHour = currentLocale[:noon];
+    } else {
+      nextHour = currentLocale[:hours][nextHour % 12];
+    }
+
+    var lineString = locale["min" + fuzzyMinutes];
+    var lines = new [3];
+    var firstIndex = lineString.find("	");
+    if (firstIndex == null) {
+      lines[0] = "";
+      lines[1] = lineString;
+      lines[2] = "";
+    }
+    else {
+      lines[0] = "";
+      lines[1] = lineString.substring(0, firstIndex);
+      lines[2] = lineString.substring(firstIndex + 1, lineString.length());
+      var secondIndex = lines[2].find("	");
+      if (secondIndex != null) {
+        lines[0] = lines[1];
+        lines[1] = lines[2].substring(0, secondIndex);
+        lines[2] = lines[2].substring(secondIndex + 1, lines[2].length());
+      }
+    }
+
+    if (lines[0].find("$") != null) {
+      topFont = largeFont;
+      bottomFont = mediumFont;
+    }
+    if (lines[1].find("$") != null) {
+      middleFont = largeFont;
+      bottomFont = mediumFont;
+    }
+
+    var params = [fuzzyHour, nextHour];
+
+    top = Lang.format(lines[0], params);
+    middle = Lang.format(lines[1], params);
+    bottom = Lang.format(lines[2], params);
+
     if (top.length() > 13) {
       topFont = smallFont;
     }
