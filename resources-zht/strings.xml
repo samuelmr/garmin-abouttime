@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">大約是</string>
+  <string id="min0">		$1$</string>
+  <string id="min5">$1$	剛過了	不久</string>
+  <string id="min10">$1$	過了	十分</string>
+  <string id="min15">v$1$	過了	十五分</string>
+  <string id="min20">$1$	過了	二十分</string>
+  <string id="min25">快要	$1$	三十分了</string>
+  <string id="min30">	$1$	三十分</string>
+  <string id="min35">$1$	三十分	剛過了 不久</string>
+  <string id="min40">再二十分	就	$2$了</string>
+  <string id="min45">再十五分	就	$2$了</string>
+  <string id="min50">再十分	就	$2$了</string>
+  <string id="min55">	快要	$2$了</string>
+  <string id="noon">十二點</string>
+  <string id="hour1">一點</string>
+  <string id="hour2">二點</string>
+  <string id="hour3">三點</string>
+  <string id="hour4">四點</string>
+  <string id="hour5">五點</string>
+  <string id="hour6">六點</string>
+  <string id="hour7">七點</string>
+  <string id="hour8">八點</string>
+  <string id="hour9">九點</string>
+  <string id="hour10">十點</string>
+  <string id="hour11">十一點</string>
+  <string id="midnight">十二點</string>
+</resources>
