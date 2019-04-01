@@ -3,7 +3,7 @@
   <string id="min0">		$1$</string>
   <string id="min5">$1$	剛過了	不久</string>
   <string id="min10">$1$	過了	十分</string>
-  <string id="min15">v$1$	過了	十五分</string>
+  <string id="min15">$1$	過了	十五分</string>
   <string id="min20">$1$	過了	二十分</string>
   <string id="min25">快要	$1$	三十分了</string>
   <string id="min30">	$1$	三十分</string>
