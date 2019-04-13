@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">poco	dopo	$1$</string>
+  <string id="min10">dieci	dopo	$1$</string>
+  <string id="min15">un quarto	dopo	$1$</string>
+  <string id="min20">venti	dopo	$1$</string>
+  <string id="min25">quasi	mezza	$2$</string>
+  <string id="min30">mezza	$2$	</string>
+  <string id="min35">poco dopo	mezza	$2$</string>
+  <string id="min40">venti	alle	$2$</string>
+  <string id="min45">un quarto	alle	$2$</string>
+  <string id="min50">dieci	alle	$2$</string>
+  <string id="min55">quasi	$2$	</string>
+  <string id="noon">mezzogiorno</string>
+  <string id="hour1">l'una</string>
+  <string id="hour2">le due</string>
+  <string id="hour3">le tre</string>
+  <string id="hour4">le quattro</string>
+  <string id="hour5">le cinque</string>
+  <string id="hour6">le sei</string>
+  <string id="hour7">le sette</string>
+  <string id="hour8">le otto</string>
+  <string id="hour9">le nove</string>
+  <string id="hour10">le dieci</string>
+  <string id="hour11">le undici</string>
+  <string id="midnight">mezzanotte</string>
+</resources>
