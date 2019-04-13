@@ -1,7 +1,7 @@
 <resources>
     <fonts>
-      <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter=" '-ACEMOQSUabcdefghijklmnopqrstuvwxyzàáäåæéêíö÷üабвгдезиклмнопрстуцчшыья一七三不久九了二五八六再分剛十四大就快是約要過" />
-      <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter=" '-ACEMOQSUabcdefghijklmnopqrstuvwxyzàáäåæéêíö÷üабвгдезиклмнопрстуцчшыья一七三不久九了二五八六再分剛十四大就快是約要過" />
-      <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter=" '-ACEMOQSUabcdefghijklmnopqrstuvwxyzàáäåæéêíö÷üабвгдезиклмнопрстуцчшыья一七三不久九了二五八六再分剛十四大就快是約要過" />
+      <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter=" '-ACEMOQSUabcdefghijklmnopqrstuvwxyzàáäåæéêíö÷üабвгдезиклмнопрстуцчшыья一七三不久九了二五八六再分剛十四大就快是約要過點" />
+      <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter=" '-ACEMOQSUabcdefghijklmnopqrstuvwxyzàáäåæéêíö÷üабвгдезиклмнопрстуцчшыья一七三不久九了二五八六再分剛十四大就快是約要過點" />
+      <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter=" '-ACEMOQSUabcdefghijklmnopqrstuvwxyzàáäåæéêíö÷üабвгдезиклмнопрстуцчшыья一七三不久九了二五八六再分剛十四大就快是約要過點" />
     </fonts>
 </resources>
