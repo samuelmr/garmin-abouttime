@@ -75,7 +75,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var color = Graphics.COLOR_WHITE;
     var x = width / 2;
-    var y = height * 2 / 5;
+    var y = height / 2 - Graphics.getFontHeight(Graphics.FONT_XTINY) / 2;
 
     drawString(dc, x, y - middleHeight/2 - topHeight/2, strings[:topFont], color, strings[:top]);
     drawString(dc, x, y, strings[:middleFont], color, strings[:middle]);
@@ -231,7 +231,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     if (bottom.length() > 13) {
       bottomFont = smallFont;
     }
-    if ((bottom.length() > 9) and (bottomFont == largeFont)) {
+    if ((middle.length() >= 9) and (middleFont == largeFont)) {
+      middleFont = mediumFont;
+    }
+    if ((bottom.length() >= 9) and (bottomFont == largeFont)) {
       bottomFont = mediumFont;
     }
     return {
