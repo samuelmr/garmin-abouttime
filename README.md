@@ -1,7 +1,8 @@
 # About Time
 A watch face for Garmin Connect IQ devices
 
-![little past half six](store/AboutTime.png?raw=true "Preview")
+![Store image](store/AboutTime.png?raw=true "Preview")
+![Watch face animation](store/anim.gif?raw=true "Animation")
 
 ## Get it
 [Download from Connect IQ Store](https://apps.garmin.com/en-US/apps/0379befa-5c10-4af3-918e-ce1bed1203d4)
