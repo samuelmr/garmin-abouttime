@@ -1,4 +1,5 @@
 <img src="store/anim.gif?raw=true" align="right" alt="Animation" />
+
 # About Time
 A watch face for Garmin Connect IQ devices
 
