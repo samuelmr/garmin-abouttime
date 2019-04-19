@@ -5,14 +5,14 @@
   <string id="min10">ten	past	$1$</string>
   <string id="min15">quarter	past	$1$</string>
   <string id="min20">twenty	past	$1$</string>
-  <string id="min25">almost	half	$1$</string>
-  <string id="min30">	half	$1$</string>
-  <string id="min35">a bit past	half	$1$</string>
+  <string id="min25">almost	$1$	thirty</string>
+  <string id="min30">half	past	$1$</string>
+  <string id="min35">a bit past	$1$	thirty</string>
   <string id="min40">twenty	to	$2$</string>
   <string id="min45">quarter	to	$2$</string>
   <string id="min50">ten	to	$2$</string>
-  <string id="min55">	almost	$2$</string>
-  <string id="noon">noon</string>
+  <string id="min55">almost	$2$	o'clock</string>
+  <string id="noon">twelve</string>
   <string id="hour1">one</string>
   <string id="hour2">two</string>
   <string id="hour3">three</string>
@@ -24,5 +24,5 @@
   <string id="hour9">nine</string>
   <string id="hour10">ten</string>
   <string id="hour11">eleven</string>
-  <string id="midnight">midnight</string>
+  <string id="midnight">twelve</string>
 </resources>
