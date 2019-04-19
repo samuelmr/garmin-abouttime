@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Cirka</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">lidt	over	$1$</string>
   <string id="min10">ti	over	$1$</string>
   <string id="min15">kvarter	over	$1$</string>

@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">вокруг</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">немного	больше÷	$1$</string>
   <string id="min10">десять	минут	$1$</string>
   <string id="min15">пятнадцать	минут	$1$</string>

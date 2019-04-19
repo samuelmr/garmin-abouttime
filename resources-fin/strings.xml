@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Suunnillee</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">vähän	yli	$1$</string>
   <string id="min10">kymment	yli	$1$</string>
   <string id="min15">varttii	yli	$1$</string>

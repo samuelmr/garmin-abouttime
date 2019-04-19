@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">About</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	o'clock</string>
   <string id="min5">little	past	$1$</string>
   <string id="min10">ten	past	$1$</string>
   <string id="min15">quarter	past	$1$</string>

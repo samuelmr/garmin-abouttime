@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Ongeveer</string>
-  <string id="min0">	$1$	</string>
+  <string id="min0">	$1$	uur</string>
   <string id="min5">iets	over	$1$</string>
   <string id="min10">tien	over	$1$</string>
   <string id="min15">kwart	over	$1$</string>
@@ -8,7 +8,7 @@
   <string id="min25">bijna	half	$2$</string>
   <string id="min30">half	$2$	</string>
   <string id="min35">iets over	half	$2$</string>
-  <string id="min40">twintig	voor	$2$</string>
+  <string id="min40">tien over	half	$2$</string>
   <string id="min45">kwart	voor	$2$</string>
   <string id="min50">tien	voor	$2$</string>
   <string id="min55">bijna	$2$	</string>

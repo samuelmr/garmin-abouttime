@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">大約是</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">$1$	剛過了	不久</string>
   <string id="min10">$1$	過了	十分</string>
   <string id="min15">$1$	過了	十五分</string>

@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Omtrent</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">litt	over	$1$</string>
   <string id="min10">ti	over	$1$</string>
   <string id="min15">kvart	over	$1$</string>

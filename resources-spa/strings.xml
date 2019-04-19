@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Aproximadamente</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">	$1$	y cinco</string>
   <string id="min10">	$1$	y diez</string>
   <string id="min15">	$1$	y cuarto</string>

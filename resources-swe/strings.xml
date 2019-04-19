@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Ungefär</string>
-  <string id="min0">		$1$</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">lite	över	$1$</string>
   <string id="min10">tio	över	$1$</string>
   <string id="min15">kvart	över	$1$</string>
