@@ -12,7 +12,7 @@
   <string id="min45">un cuarto	para	$2$</string>
   <string id="min50">diez	para	$2$</string>
   <string id="min55">	casi	$2$</string>
-  <string id="noon">el mediodía</string>
+  <string id="noon">las doce</string>
   <string id="hour1">la una</string>
   <string id="hour2">las dos</string>
   <string id="hour3">las tres</string>
@@ -24,5 +24,5 @@
   <string id="hour9">las nueve</string>
   <string id="hour10">las diez</string>
   <string id="hour11">las once</string>
-  <string id="midnight">medianoche</string>
+  <string id="midnight">las doce</string>
 </resources>

@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://apps.garmin.com/en-US/apps/0379befa-5c10-4af3-918e-ce1bed1203d4)
 
 ## Version history
+- 2019-04-20  Minor fix to Spanish (2.0.8)
 - 2019-04-19  Slightly refined English (2.0.7)
 - 2019-04-19  Minor fixes to Dutch translation (2.0.6)
 - 2019-04-19  Minor fixes to many languages (2.0.5)
