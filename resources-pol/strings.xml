@@ -2,7 +2,7 @@
   <string id="AppName">Okolo</string>
   <string id="min0">około	$1$	</string>
   <string id="min5">chwila	po	$1$</string>
-  <string id="min10">zdziebko	po	$1$</string>
+  <string id="min10">ździebko	po	$1$</string>
   <string id="min15">troszeczkę	po	$1$</string>
   <string id="min20">trochę	po	$1$</string>
   <string id="min25">kawałek	po	$1$</string>
@@ -10,7 +10,7 @@
   <string id="min35">kawałek	do	$2$</string>
   <string id="min40">trochę	do	$2$</string>
   <string id="min45">troszeczkę	do	$2$</string>
-  <string id="min50">zdziebko	do	$2$</string>
+  <string id="min50">ździebko	do	$2$</string>
   <string id="min55">chwila	do	$2$</string>
   <string id="noon">południa</string>
   <string id="hour1">pierwszej</string>
@@ -19,7 +19,7 @@
   <string id="hour4">czwartej</string>
   <string id="hour5">piątej</string>
   <string id="hour6">szóstej</string>
-  <string id="hour7">siudmej</string>
+  <string id="hour7">siódmej</string>
   <string id="hour8">ósmej</string>
   <string id="hour9">dziewiątej</string>
   <string id="hour10">dziesiątej</string>
