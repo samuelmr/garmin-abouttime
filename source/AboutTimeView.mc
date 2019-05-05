@@ -7,9 +7,14 @@ var locale = {};
 var localeArrays = [];
 var halfPast = true;
 var updateCount = 0;
-var smallFont;
-var mediumFont;
-var largeFont;
+var fonts = new [5];
+enum {
+  tiny,
+  small,
+  medium,
+  large,
+  mega
+}
 
 class AboutTimeView extends WatchUi.WatchFace {
 
@@ -21,15 +26,19 @@ class AboutTimeView extends WatchUi.WatchFace {
   function onLayout(dc) {
     readLocale();
 
-    smallFont = WatchUi.loadResource(Rez.Fonts.id_font_small);
-    mediumFont = WatchUi.loadResource(Rez.Fonts.id_font_medium);
-    largeFont = WatchUi.loadResource(Rez.Fonts.id_font_large);
+    fonts[tiny] = WatchUi.loadResource(Rez.Fonts.id_font_tiny);
+    fonts[small] = WatchUi.loadResource(Rez.Fonts.id_font_small);
+    fonts[medium] = WatchUi.loadResource(Rez.Fonts.id_font_medium);
+    fonts[large] = WatchUi.loadResource(Rez.Fonts.id_font_large);
+    fonts[mega] = WatchUi.loadResource(Rez.Fonts.id_font_extralarge);
 
     // ugly hack: use system fonts for traditional Chinese
     if (locale[:hours][1].find("一") != null) {
-      smallFont = Graphics.FONT_TINY;
-      mediumFont = Graphics.FONT_MEDIUM;
-      largeFont = Graphics.FONT_SYSTEM_LARGE;
+      fonts[tiny] = Graphics.FONT_TINY;
+      fonts[small] = Graphics.FONT_SMALL;
+      fonts[medium] = Graphics.FONT_MEDIUM;
+      fonts[large] = Graphics.FONT_SYSTEM_LARGE;
+      fonts[mega] = fonts[large];
     }
 
   }
@@ -45,16 +54,17 @@ class AboutTimeView extends WatchUi.WatchFace {
     dc.fillRectangle(0, 0, width, height);
 
     var heightUsed = drawTimeStrings(dc, System.getClockTime());
-    var lineHeight = Graphics.getFontHeight(Graphics.FONT_XTINY);
+    var lineHeight = Graphics.getFontHeight(fonts[tiny])/2;
 
-    if (height - lineHeight > heightUsed) {
+    // if (height - lineHeight > heightUsed) {
       var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + " %";
-      drawString(dc, width/2, height-lineHeight, Graphics.FONT_XTINY, Graphics.COLOR_WHITE, dataString);
-    }
+      var color = Graphics.COLOR_DK_GRAY;
+      drawString(dc, width/2, height-lineHeight, fonts[tiny], color, dataString);
+    // }
 
   }
 
-  function drawString( dc, x, y, font, color, string ) {
+  function drawString(dc, x, y, font, color, string) {
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
     dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
   }
@@ -68,21 +78,67 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var currentLocale = localize();
     var strings = prepareStrings(time, currentLocale);
+    var top = strings[:top];
+    var topFont = strings[:topFont];
+    var middle = strings[:middle];
+    var middleFont = strings[:middleFont];
+    var bottom = strings[:bottom];
+    var bottomFont = strings[:bottomFont];
 
-    var topHeight = Graphics.getFontHeight(strings[:topFont])/1.2;
-    var middleHeight = Graphics.getFontHeight(strings[:middleFont])/1.2;
-    var bottomHeight = Graphics.getFontHeight(strings[:bottomFont])/1.2;
+    topFont = scaleFont(dc, topFont, top);
+    middleFont = scaleFont(dc, middleFont, middle);
+    bottomFont = scaleFont(dc, bottomFont, bottom);
 
-    var color = Graphics.COLOR_WHITE;
+    var topHeight = Graphics.getFontHeight(topFont)/1.2;
+    var middleHeight = Graphics.getFontHeight(middleFont)/1.2;
+    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.2;
+/*
+    var topHeight = dc.getTextDimensions(top, topFont)[1]/1.2;
+    var middleHeight = dc.getTextDimensions(middle, middleFont)[1]/1.2;
+    var bottomHeight = dc.getTextDimensions(bottom, bottomFont)[1]/1.2;
+*/
+    var totalHeight = topHeight + middleHeight + bottomHeight;
+
     var x = width / 2;
-    var y = height / 2 - Graphics.getFontHeight(Graphics.FONT_XTINY) / 2;
+    var topY = height / 2 - totalHeight / 2;
+    var middleY = topY + topHeight / 2 + middleHeight / 2;
+    var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;
+    var color = Graphics.COLOR_WHITE;
 
-    drawString(dc, x, y - middleHeight/2 - topHeight/2, strings[:topFont], color, strings[:top]);
-    drawString(dc, x, y, strings[:middleFont], color, strings[:middle]);
-    drawString(dc, x, y + middleHeight/2 + bottomHeight/2, strings[:bottomFont], color, strings[:bottom]);
+    drawString(dc, x, topY, topFont, color, top);
+    drawString(dc, x, middleY, middleFont, color, middle);
+    drawString(dc, x, bottomY, bottomFont, color, bottom);
 
-    return y + middleHeight/2 + bottomHeight/2 + bottomHeight;
+/*
+    dc.drawRectangle(0, topY - topHeight/2, width, topHeight);
+    dc.drawRectangle(0, middleY - middleHeight/2, width, middleHeight);
+    dc.drawRectangle(0, bottomY - bottomHeight/2, width, bottomHeight);
+*/
 
+    return bottomY + bottomHeight;
+
+  }
+
+  function scaleFont(dc, font, string) {
+    var width = dc.getWidth();
+    var strWidth = dc.getTextWidthInPixels(string, font);
+    var fontIndex = 2; // default for Epix
+    if (fonts has :indexOf) {
+      fontIndex = fonts.indexOf(font);
+    }
+    if ((width > 180) && (string.length() <= 9)) {
+      if (fontIndex < (fonts.size() - 1)) {
+        fontIndex += 1;
+        font = fonts[fontIndex];
+        strWidth = dc.getTextWidthInPixels(string, font);
+      }
+    }
+    while ((strWidth > width) && (fontIndex >= 0)) {
+      fontIndex -= 1;
+      font = fonts[fontIndex];
+      strWidth = dc.getTextWidthInPixels(string, font);
+    }
+    return font;
   }
 
   function readLocale() {
@@ -155,9 +211,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     var top = "";
     var middle = "";
     var bottom = "";
-    var topFont = mediumFont;
-    var middleFont = smallFont;
-    var bottomFont = largeFont;
 
     var fuzzyHour = time.hour;
     var fuzzyMinutes = ((time.min + 2) / 5) * 5;
@@ -189,7 +242,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var lineString = locale["min" + fuzzyMinutes];
     var lines = new [3];
-    var firstIndex = lineString.find("	");
+    var firstIndex = lineString.find("  ");
     if (firstIndex == null) {
       lines[0] = "";
       lines[1] = lineString;
@@ -199,7 +252,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       lines[0] = "";
       lines[1] = lineString.substring(0, firstIndex);
       lines[2] = lineString.substring(firstIndex + 1, lineString.length());
-      var secondIndex = lines[2].find("	");
+      var secondIndex = lines[2].find("  ");
       if (secondIndex != null) {
         lines[0] = lines[1];
         lines[1] = lines[2].substring(0, secondIndex);
@@ -207,13 +260,30 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
     }
 
+    var topFont = fonts[small];
+    var middleFont = fonts[medium];
+    var bottomFont = fonts[large];
+
     if (lines[0].find("$") != null) {
-      topFont = largeFont;
-      bottomFont = mediumFont;
+      topFont = fonts[large];
+      middleFont = fonts[small];
+      bottomFont = fonts[medium];
     }
-    if (lines[1].find("$") != null) {
-      middleFont = largeFont;
-      bottomFont = mediumFont;
+    else if ((lines[1].find("$") != null) && (lines[2].length() > 0)) {
+      topFont = fonts[small];
+      middleFont = fonts[large];
+      bottomFont = fonts[medium];
+    }
+    else if (lines[1].find("$") != null) {
+      topFont = fonts[medium];
+      middleFont = fonts[large];
+      bottomFont = fonts[tiny];
+    }
+    if (lines[0].length() == 0) {
+      topFont = fonts[tiny];
+    }
+    if (lines[2].length() == 0) {
+      bottomFont = fonts[tiny];
     }
 
     var params = [fuzzyHour, nextHour];
@@ -222,21 +292,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     middle = Lang.format(lines[1], params);
     bottom = Lang.format(lines[2], params);
 
-    if (top.length() > 13) {
-      topFont = smallFont;
-    }
-    if (middle.length() > 13) {
-      middleFont = smallFont;
-    }
-    if (bottom.length() > 13) {
-      bottomFont = smallFont;
-    }
-    if ((middle.length() >= 9) and (middleFont == largeFont)) {
-      middleFont = mediumFont;
-    }
-    if ((bottom.length() >= 9) and (bottomFont == largeFont)) {
-      bottomFont = mediumFont;
-    }
     return {
       :bottom => bottom,
       :bottomFont => bottomFont,
