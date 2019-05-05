@@ -15,18 +15,13 @@ class AboutTimeTest {
       for (var min=0; min<60; min+=5) {
         time.min = min;
         var currentLocale = view.localize();
-        if (view has :prepareStrings) {
-          var dict = view.prepareStrings(time, currentLocale);
-          // var str = "'" + dict[:top] + "' '" + dict[:middle] + "' '" + dict[:bottom] + "'";
-          var str = dict[:top] + "\t" + dict[:middle] + "\t" + dict[:bottom];
-          logger.debug(time.hour + ":" + time.min.format("%02d") + " = " + str);
-          if (str.length() < 4) {
-            logger.warning("Short string: " + time.hour + ":" + time.min.format("%02d") + " = " + str);
-            return false;
-          }
-        }
-        else {
-          logger.debug("here");
+        var dict = view.prepareStrings(time, currentLocale);
+        // var str = "'" + dict[:top] + "' '" + dict[:middle] + "' '" + dict[:bottom] + "'";
+        var str = dict[:top] + "\t" + dict[:middle] + "\t" + dict[:bottom];
+        // logger.debug(time.hour + ":" + time.min.format("%02d") + " = " + str);
+        System.println(time.hour + ":" + time.min.format("%02d") + " = " + str);
+        if (str.length() < 4) {
+          logger.warning("Short string: " + time.hour + ":" + time.min.format("%02d") + " = " + str);
           return false;
         }
       }
