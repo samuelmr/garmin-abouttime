@@ -1,7 +1,7 @@
 #!/bin/bash
 TMPFILE1=./filter.tmp
 TMPFILE2=./filter2.tmp
-touch $TMPFILE1
+echo "0123456789% " > $TMPFILE1
 for filename in ./resources-*/strings.xml; do
   [ -e "$filename" ] || continue
   # echo $filename
