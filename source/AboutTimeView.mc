@@ -85,9 +85,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     var bottom = strings[:bottom];
     var bottomFont = strings[:bottomFont];
 
-    topFont = scaleFont(dc, topFont, top);
-    middleFont = scaleFont(dc, middleFont, middle);
-    bottomFont = scaleFont(dc, bottomFont, bottom);
+    topFont = scaleFont(dc, topFont, top, :top);
+    middleFont = scaleFont(dc, middleFont, middle, :middle);
+    bottomFont = scaleFont(dc, bottomFont, bottom, :bottom);
 
     var topHeight = Graphics.getFontHeight(topFont)/1.2;
     var middleHeight = Graphics.getFontHeight(middleFont)/1.2;
@@ -119,8 +119,13 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   }
 
-  function scaleFont(dc, font, string) {
+  function scaleFont(dc, font, string, position) {
     var width = dc.getWidth();
+    var device = System.getDeviceSettings();
+    var shape = device.screenShape;
+    if ((shape == System.SCREEN_SHAPE_ROUND) && (position != :middle)) {
+      width = 0.9 * width;
+    }
     var strWidth = dc.getTextWidthInPixels(string, font);
     var fontIndex = 2; // default for Epix
     if (fonts has :indexOf) {
@@ -242,7 +247,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var lineString = locale["min" + fuzzyMinutes];
     var lines = new [3];
-    var firstIndex = lineString.find("  ");
+    var firstIndex = lineString.find("	");
     if (firstIndex == null) {
       lines[0] = "";
       lines[1] = lineString;
@@ -252,7 +257,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       lines[0] = "";
       lines[1] = lineString.substring(0, firstIndex);
       lines[2] = lineString.substring(firstIndex + 1, lineString.length());
-      var secondIndex = lines[2].find("  ");
+      var secondIndex = lines[2].find("	");
       if (secondIndex != null) {
         lines[0] = lines[1];
         lines[1] = lines[2].substring(0, secondIndex);
