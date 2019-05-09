@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2019-05-09  Increased font size (2.1.0)
 - 2019-04-24  Added ź to available glyphs (2.0.10)
 - 2019-04-23  Minor fix to Polish (2.0.9)
 - 2019-04-20  Minor fix to Spanish (2.0.8)
