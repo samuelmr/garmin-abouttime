@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2019-05-09  Updated Hungarian translation (2.1.2)
 - 2019-05-09  Dropped support for fr920xt - antialiased custom fonts are not supported (2.1.1)
 - 2019-05-09  Increased font size (2.1.0)
 - 2019-04-24  Added ź to available glyphs (2.0.10)

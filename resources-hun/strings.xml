@@ -1,16 +1,16 @@
 <resources>
-  <string id="AppName">Csaknem</string>
-  <string id="min0">	$1$	</string>
-  <string id="min5">kicsit	múlt	$1$</string>
-  <string id="min10">tíz	múlt	$1$</string>
-  <string id="min15">negyed	múlt	$1$</string>
-  <string id="min20">húsz	múlt	$1$</string>
-  <string id="min25">majdnem	fél	$1$</string>
+  <string id="AppName">KáBé</string>
+  <string id="min0">pontosan	$1$	óra</string>
+  <string id="min5">alig	múlt	$1$</string>
+  <string id="min10">tíz perccel	múlt	$1$</string>
+  <string id="min15">	negyed	$1$</string>
+  <string id="min20">húsz perccel	múlt	$1$</string>
+  <string id="min25">majdnem	fél	$2$</string>
   <string id="min30">	fél	$1$</string>
-  <string id="min35">kicsitmúlt	fél	$1$</string>
-  <string id="min40">negyven	nek	$1$</string>
-  <string id="min45">háromnegyed	nek	$1$</string>
-  <string id="min50">ötven	nek	$1$</string>
+  <string id="min35">kicsivel múlt	fél	$2$</string>
+  <string id="min40">öt perc múlva	háromnegyed	$2$</string>
+  <string id="min45">	háromnegyed	$2$</string>
+  <string id="min50">tíz perc	múlva	$2$</string>
   <string id="min55">	majdnem	$2$</string>
   <string id="noon">dél</string>
   <string id="hour1">egy</string>
