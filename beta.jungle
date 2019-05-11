@@ -1,1 +1,5 @@
 project.manifest = manifest-beta.xml
+epix.resourcePath = resources-smallscreen
+fr735xt.resourcePath = resources-smallscreen
+fr935.resourcePath = resources-fr935
+vivoactive_hr.resourcePath = resources-smallscreen
