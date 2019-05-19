@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2019-05-19  Added Czech, minor fix to Hungarian (3.0.2)
 - 2019-05-11  Small fix to tiny font size (3.0.1)
 - 2019-05-11  Separate resources to small screens and low memory devices (3.0.0)
 - 2019-05-10  Minor fix to Hungarian (2.1.3)

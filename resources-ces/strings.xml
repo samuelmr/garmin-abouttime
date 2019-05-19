@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">KáBé</string>
+  <string id="min0">je	přesně	$1$</string>
+  <string id="min5">$1$	a pět	minut</string>
+  <string id="min10">$1$	a deset	minut</string>
+  <string id="min15">$1$	patnáct	minut</string>
+  <string id="min20">$1$	a dvacet	minut</string>
+  <string id="min25">$1$	pětadvacet	minut</string>
+  <string id="min30">$1$	a třicet	minut</string>
+  <string id="min35">$1$	pětatřicet	minut</string>
+  <string id="min40">$1$	a čtyřicet	minut</string>
+  <string id="min45">$1$	pětačtyřicet	minut</string>
+  <string id="min50">$1$	a padesát	minut</string>
+  <string id="min55">$1$	pětapadesát	minut</string>
+  <string id="noon">poledne</string>
+  <string id="hour1">jedna hodina</string>
+  <string id="hour2">dvě hodiny</string>
+  <string id="hour3">tři hodiny</string>
+  <string id="hour4">čtyři hodiny</string>
+  <string id="hour5">pět hodin</string>
+  <string id="hour6">šest hodin</string>
+  <string id="hour7">sedm hodin</string>
+  <string id="hour8">osm hodin</string>
+  <string id="hour9">devět hodin</string>
+  <string id="hour10">deset hodin</string>
+  <string id="hour11">jedenáct hodin</string>
+  <string id="midnight">půlnoc</string>
+</resources>
