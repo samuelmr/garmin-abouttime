@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">σχεδόν</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">$1$	και	</string>
+  <string id="min10">$1$	και	δέκα</string>
+  <string id="min15">$1$	και	τέταρτο</string>
+  <string id="min20">$1$	και	είκοσι</string>
+  <string id="min25">	$1$	</string>
+  <string id="min30">$1$	και	μισή</string>
+  <string id="min35">	$1$	</string>
+  <string id="min40">$2$	παρα	είκοσι</string>
+  <string id="min45">$2$	παρα	τέταρτο</string>
+  <string id="min50">$2$	παρα	δέκα</string>
+  <string id="min55">	$2$	</string>
+  <string id="noon">μεσημέρι</string>
+  <string id="hour1">μία</string>
+  <string id="hour2">δύο</string>
+  <string id="hour3">τρείς</string>
+  <string id="hour4">τέσσερις</string>
+  <string id="hour5">πέντε</string>
+  <string id="hour6">εξι</string>
+  <string id="hour7">επτά</string>
+  <string id="hour8">οκτώ</string>
+  <string id="hour9">εννιά</string>
+  <string id="hour10">δέκα</string>
+  <string id="hour11">έντεκα</string>
+  <string id="midnight">μεσάνυχτα</string>
+</resources>
