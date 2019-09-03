@@ -3,16 +3,16 @@
   <string id="min0">	$1$	</string>
   <string id="min5">lidt	over	$1$</string>
   <string id="min10">ti	over	$1$</string>
-  <string id="min15">kvarter	over	$1$</string>
+  <string id="min15">kvart	over	$1$</string>
   <string id="min20">tyve	over	$1$</string>
   <string id="min25">næsten	halv	$2$</string>
   <string id="min30">	halv	$2$</string>
   <string id="min35">lidt over	halv	$2$</string>
   <string id="min40">tyve	i	$2$</string>
-  <string id="min45">kvarter	i	$2$</string>
+  <string id="min45">kvart	i	$2$</string>
   <string id="min50">ti	i	$2$</string>
   <string id="min55">	næsten	$2$</string>
-  <string id="noon">middag</string>
+  <string id="noon">tolv</string>
   <string id="hour1">et</string>
   <string id="hour2">to</string>
   <string id="hour3">tre</string>
@@ -23,6 +23,6 @@
   <string id="hour8">otte</string>
   <string id="hour9">ni</string>
   <string id="hour10">ti</string>
-  <string id="hour11">elve</string>
-  <string id="midnight">midnatt</string>
+  <string id="hour11">eleve</string>
+  <string id="midnight">midnat</string>
 </resources>
