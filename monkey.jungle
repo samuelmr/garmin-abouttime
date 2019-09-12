@@ -1,5 +1,6 @@
 project.manifest = manifest.xml
 epix.resourcePath = resources-smallscreen
+fenix3.resourcePath = resources-smallscreen
 fenix3_hr.resourcePath = resources-smallscreen
 fr230.resourcePath = resources-smallscreen
 fr235.resourcePath = resources-smallscreen
