@@ -1,0 +1,2 @@
+project.manifest = manifest-dut.xml
+base.resourcePath = resources-dut

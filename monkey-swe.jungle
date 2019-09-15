@@ -1,0 +1,2 @@
+project.manifest = manifest-swe.xml
+base.resourcePath = resources-swe

@@ -1,0 +1,2 @@
+project.manifest = manifest-ces.xml
+base.resourcePath = resources-ces

@@ -1,0 +1,2 @@
+project.manifest = manifest-pol.xml
+base.resourcePath = resources-pol
