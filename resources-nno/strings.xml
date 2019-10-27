@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Omtrent</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">litt	over	$1$</string>
+  <string id="min10">ti	over	$1$</string>
+  <string id="min15">kvart	over	$1$</string>
+  <string id="min20">ti på	halv	$2$</string>
+  <string id="min25">snart	halv	$2$</string>
+  <string id="min30">	halv	$2$</string>
+  <string id="min35">litt over	halv	$2$</string>
+  <string id="min40">tjue	på	$2$</string>
+  <string id="min45">kvart	på	$2$</string>
+  <string id="min50">ti	på	$2$</string>
+  <string id="min55">	snart	$2$</string>
+  <string id="noon">tolv</string>
+  <string id="hour1">ett</string>
+  <string id="hour2">to</string>
+  <string id="hour3">tre</string>
+  <string id="hour4">fire</string>
+  <string id="hour5">fem</string>
+  <string id="hour6">seks</string>
+  <string id="hour7">syv</string>
+  <string id="hour8">åtte</string>
+  <string id="hour9">ni</string>
+  <string id="hour10">ti</string>
+  <string id="hour11">elleve</string>
+  <string id="midnight">midnatt</string>
+</resources>
