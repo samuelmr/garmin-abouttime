@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">KáBé</string>
-  <string id="min0">je	přesně	$1$</string>
+  <string id="min0">jsou	přesně	$1$</string>
   <string id="min5">$1$	a pět	minut</string>
   <string id="min10">$1$	a deset	minut</string>
   <string id="min15">$1$	patnáct	minut</string>
