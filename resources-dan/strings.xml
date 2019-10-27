@@ -23,6 +23,6 @@
   <string id="hour8">otte</string>
   <string id="hour9">ni</string>
   <string id="hour10">ti</string>
-  <string id="hour11">elve</string>
-  <string id="midnight">midnatt</string>
+  <string id="hour11">elleve</string>
+  <string id="midnight">tolv</string>
 </resources>
