@@ -1,5 +1,7 @@
-project.manifest = manifest.xml
-epix.resourcePath = resources-smallscreen
-fr735xt.resourcePath = resources-smallscreen
-fr920xt.resourcePath = resources-fr920xt
-vivoactive_hr.resourcePath = resources-smallscreen
+# project.manifest = manifest.xml
+# epix.resourcePath = $(epix.resourcePath);resources;resources-smallscreen
+# epix.lang.eng = $(epix.resourcePath);resources;resources-smallscreen
+# fr735xt.resourcePath = resources-smallscreen
+fr920xt.resourcePath = $(base.resourcePath);resources-fr920xt
+# vivoactive_hr.resourcePath = resources-smallscreen
+# fenix5.resourcePath = resources
