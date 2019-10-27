@@ -5,3 +5,4 @@ AboutTime.iq
 resources/.DS_Store
 releases/*.debug.xml
 releases/temp
+releases/*.iq
