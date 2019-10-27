@@ -1,17 +1,17 @@
 <resources>
   <string id="AppName">Environ</string>
-  <string id="min0">	$1$	</string>
+  <string id="min0">	$1$	pile</string>
   <string id="min5">un peu	plus de	$1$</string>
-  <string id="min10">	$1$	dix</string>
+  <string id="min10">environ	$1$	dix</string>
   <string id="min15">	$1$	et quart</string>
   <string id="min20">	$1$	vingt</string>
   <string id="min25">presque	$1$	et demie</string>
-  <string id="min30">$1$	et	demie</string>
+  <string id="min30">exactement	$1$	et demie</string>
   <string id="min35">un peu plus de	$1$	et demie</string>
   <string id="min40">$2$	moins	vingt</string>
   <string id="min45">$2$	moins	le quart</string>
   <string id="min50">$2$	moins	dix</string>
-  <string id="min55">	presque	$2$</string>
+  <string id="min55">bientôt 	$2$	</string>
   <string id="noon">midi</string>
   <string id="hour1">une heure</string>
   <string id="hour2">deux heures</string>
