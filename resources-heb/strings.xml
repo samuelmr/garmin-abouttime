@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">הגיע הזמן (עברית)</string>
+  <string id="min0">בדיוק	$1$</string>
+  <string id="min5">קצת	אחרי	$1$</string>
+  <string id="min10">בסביבות	$1$	ועשרה</string>
+  <string id="min15">ורבע	$1$	</string>
+  <string id="min20">ועשרים	$1$	</string>
+  <string id="min25">כמעט	$1$	וחצי</string>
+  <string id="min30">וחצי	$1$	</string>
+  <string id="min35">קצת אחרי	$1$	וחצי</string>
+  <string id="min40">עשרים ל-	$2$	</string>
+  <string id="min45">רבע ל-	$2$	</string>
+  <string id="min50">בסביבות	עשרה ל-	$2$</string>
+  <string id="min55">אוטוטו	$2$	</string>
+  <string id="noon">שתיים עשרה</string>
+  <string id="hour1">אחת</string>
+  <string id="hour2">שתיים</string>
+  <string id="hour3">שלוש</string>
+  <string id="hour4">ארבע</string>
+  <string id="hour5">חמש</string>
+  <string id="hour6">שש</string>
+  <string id="hour7">שבע</string>
+  <string id="hour8">שמונה</string>
+  <string id="hour9">תשע</string>
+  <string id="hour10">עשר</string>
+  <string id="hour11">אחת עשרה</string>
+  <string id="midnight">חצות</string>
+</resources>
