@@ -1,6 +1,6 @@
-AboutTime.prg
-AboutTime.prg.debug.xml
-AboutTime.iq
+*.prg
+*.prg.debug.xml
+*.iq
 .DS_Store
 resources/.DS_Store
 releases/*.debug.xml

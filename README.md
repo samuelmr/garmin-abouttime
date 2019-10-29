@@ -10,6 +10,16 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2019-09-10  Fix for Fenix 3 (3.1.2)
+- 2019-09-09  Fix for Fenix 3 HR (3.1.1)
+- 2019-09-04  Fixes to fonts and memory issues with small devices (3.1)
+- 2019-09-03  Fixes to the Greek translation (3.0.8)
+- 2019-09-03  Modified German to follow Southern Germany style (3.0.7)
+- 2019-09-03  Small changes to Danish, added Greek translation (3.0.6)
+- 2019-08-22  Minor fixes to Norwegian, added support for new devices (3.0.5)
+- 2019-08-04  Minor fixes to Polish and French (3.0.4)
+- 2019-05-26  Minor fix to Polish translation (3.0.3)
+- 2019-05-19  Added Czech, minor fix to Hungarian (3.0.2)
 - 2019-05-11  Small fix to tiny font size (3.0.1)
 - 2019-05-11  Separate resources to small screens and low memory devices (3.0.0)
 - 2019-05-10  Minor fix to Hungarian (2.1.3)

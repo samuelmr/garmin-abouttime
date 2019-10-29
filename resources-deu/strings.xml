@@ -3,13 +3,13 @@
   <string id="min0">	$1$	</string>
   <string id="min5">kurz	nach	$1$</string>
   <string id="min10">zehn	nach	$1$</string>
-  <string id="min15">viertel	nach	$1$</string>
+  <string id="min15">viertel	$2$	</string>
   <string id="min20">zwanzig	nach	$1$</string>
   <string id="min25">kurz vor	halb	$2$</string>
   <string id="min30">halb	$2$</string>
   <string id="min35">kurz nach	halb	$2$</string>
   <string id="min40">zwanzig	vor	$2$</string>
-  <string id="min45">viertel	vor	$2$</string>
+  <string id="min45">dreiviertel	$2$	</string>
   <string id="min50">zehn	vor	$2$</string>
   <string id="min55">kurz vor	$2$</string>
   <string id="noon">zwölf</string>
