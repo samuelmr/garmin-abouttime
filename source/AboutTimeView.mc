@@ -352,6 +352,9 @@ class AboutTimeView extends WatchUi.WatchFace {
 }
 
 class AboutTimeDelegate extends WatchUi.WatchFaceDelegate {
+  function initialize() {
+    WatchFaceDelegate.initialize();
+  }
   function onPowerBudgetExceeded(powerInfo) {
     System.println( "Average execution time: " + powerInfo.executionTimeAverage );
     System.println( "Allowed execution time: " + powerInfo.executionTimeLimit );
