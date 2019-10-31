@@ -3,6 +3,4 @@
 *.iq
 .DS_Store
 resources/.DS_Store
-releases/*.debug.xml
-releases/temp
-releases/*.iq
+releases
