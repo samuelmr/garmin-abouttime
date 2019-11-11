@@ -2,6 +2,10 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.WatchUi;
 using Toybox.Math;
+using Toybox.Application;
+using Toybox.ActivityMonitor;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 var locale = {};
 var localeArrays = [];
@@ -50,17 +54,59 @@ class AboutTimeView extends WatchUi.WatchFace {
     // updateCount += 1;
     // System.println("updating " + updateCount);
 
-    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
+    dc.setColor(bgColor, textColor);
     dc.fillRectangle(0, 0, width, height);
 
     var heightUsed = drawTimeStrings(dc, System.getClockTime());
-    var lineHeight = Graphics.getFontHeight(fonts[tiny])/2;
+    var lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7;
 
-    // if (height - lineHeight > heightUsed) {
-      var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + " %";
-      var color = Graphics.COLOR_DK_GRAY;
-      drawString(dc, width/2, height-lineHeight, fonts[tiny], color, dataString);
-    // }
+    if (height - lineHeight > heightUsed) {
+      var dataString = (System.getSystemStats().battery + 0.5).format("%d") + " %";
+
+      if (dataField == activeMinutes) {
+        var activityInfo = ActivityMonitor.getInfo();
+        dataString = activityInfo.activeMinutesDay;
+      }
+      if (dataField == date) {
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        dataString = Lang.format("$1$.$2$.", [today.day, today.month]);
+      }
+      if (dataField == distance) {
+        var activityInfo = ActivityMonitor.getInfo();
+        var centimeters = activityInfo.distance;
+        if (centimeters == null) {
+          dataString = "0 m";
+        }
+        else if (centimeters > 100000) {
+          dataString = (centimeters / 100000).format("%.1f") + " km";
+        }
+        else {
+          dataString = (centimeters / 100).format("%d") + " m";
+        }
+      }
+      if (dataField == steps) {
+        var activityInfo = ActivityMonitor.getInfo();
+        dataString = activityInfo.steps;
+      }
+      if (dataField == stepGoal) {
+        var activityInfo = ActivityMonitor.getInfo();
+        dataString = activityInfo.stepGoal;
+      }
+
+      if (dataString == null) {
+        return;
+      }
+      if (dataString has :toString) {
+        dataString = dataString.toString();
+      }
+
+      if (dataString instanceof Lang.String) {
+        drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, dataString);
+      }
+      else {
+        System.println(dataString + " is not a string");
+      }
+    }
 
   }
 
@@ -89,9 +135,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     middleFont = scaleFont(dc, middleFont, middle, :middle);
     bottomFont = scaleFont(dc, bottomFont, bottom, :bottom);
 
-    var topHeight = Graphics.getFontHeight(topFont)/1.2;
-    var middleHeight = Graphics.getFontHeight(middleFont)/1.2;
-    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.2;
+    var topHeight = Graphics.getFontHeight(topFont)/1.25;
+    var middleHeight = Graphics.getFontHeight(middleFont)/1.25;
+    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.25;
 /*
     var topHeight = dc.getTextDimensions(top, topFont)[1]/1.2;
     var middleHeight = dc.getTextDimensions(middle, middleFont)[1]/1.2;
@@ -103,17 +149,11 @@ class AboutTimeView extends WatchUi.WatchFace {
     var topY = height / 2 - totalHeight / 2;
     var middleY = topY + topHeight / 2 + middleHeight / 2;
     var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;
-    var color = Graphics.COLOR_WHITE;
+    var color = textColor;
 
     drawString(dc, x, topY, topFont, color, top);
     drawString(dc, x, middleY, middleFont, color, middle);
     drawString(dc, x, bottomY, bottomFont, color, bottom);
-
-/*
-    dc.drawRectangle(0, topY - topHeight/2, width, topHeight);
-    dc.drawRectangle(0, middleY - middleHeight/2, width, middleHeight);
-    dc.drawRectangle(0, bottomY - bottomHeight/2, width, bottomHeight);
-*/
 
     return bottomY + bottomHeight;
 
