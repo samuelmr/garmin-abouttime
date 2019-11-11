@@ -21,13 +21,17 @@ echo "Updating font filters"
 
 for jungle in ./monkey-*.jungle; do
   LANGUAGE=`echo $jungle | sed -e "s/^.*monkey-\(.*\).jungle.*$/\1/g"`
-	echo "Building $LANGUAGE$TESTMESSAGE"
+  echo "Building $LANGUAGE$TESTMESSAGE"
   if [ $TEST ]
-	then
+  then
     filename="releases/AboutTime-$LANGUAGE-$CIQ_TARGET.prg"
-	  monkeyc -f $jungle -f monkey.jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y ~/garmin/developer_key.der -o $filename $TEST
+    CMD="monkeyc -f $jungle -f monkey.jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y ~/garmin/developer_key.der -o $filename $TEST"
+    echo $CMD
+    monkeyc -f $jungle -f monkey.jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y ~/garmin/developer_key.der -o $filename $TEST
   else
     filename="releases/AboutTime-$LANGUAGE.iq"
+    CMD="monkeyc -f $jungle -e -y ~/garmin/developer_key.der -o $filename"
+    echo $CMD
     monkeyc -f $jungle -e -y ~/garmin/developer_key.der -o $filename
   fi
   echo "Built $filename"
