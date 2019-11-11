@@ -1,0 +1,26 @@
+<resources>
+  <properties>
+    <property id="dataField" type="number">1</property>
+    <property id="colorScheme" type="number">0</property>
+  </properties>
+  <settings>
+    <setting propertyKey="@Properties.dataField" title="@Strings.dataFieldTitle">
+      <settingConfig type="list">
+				<!-- See corresponding enum in source/AboutTimeApp.mc -->
+        <listEntry value="0">@Strings.activeMinutesTitle</listEntry>
+        <listEntry value="1">@Strings.batteryTitle</listEntry>
+        <listEntry value="2">@Strings.dateTitle</listEntry>
+        <listEntry value="3">@Strings.distanceTitle</listEntry>
+        <listEntry value="4">@Strings.stepsTitle</listEntry>
+        <listEntry value="5">@Strings.stepGoalTitle</listEntry>
+      </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.colorScheme" title="@Strings.colorSchemeTitle">
+      <settingConfig type="list">
+				<!-- See corresponding enum in source/AboutTimeApp.mc -->
+        <listEntry value="0">@Strings.whiteOnBlack</listEntry>
+        <listEntry value="1">@Strings.blackOnWhite</listEntry>
+      </settingConfig>
+    </setting>
+  </settings>
+</resources>
