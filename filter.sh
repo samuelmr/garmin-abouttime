@@ -15,7 +15,7 @@ for directory in ./resources-*; do
   cd resource
   [ -L "fonts" ] || ln -s ../../resources/resource/fonts .
   [ -e "resources.xml" ] || cp ../../resources/resource/resources.xml .
-  echo "0123456789%. " > $TMPFILE1
+  echo "0123456789%.km " > $TMPFILE1
   cat ../strings.xml | tr '\n' ' ' | sed -e 's/ //g' -e 's/\$.\$//g' -e 's/<[^>]*>//g' >> $TMPFILE1
   grep -o . $TMPFILE1 | sort -u > $TMPFILE2
   cat $TMPFILE2 | tr '\n' ' ' | sed -e 's/ //g' | sed -e 's/	/ /g' | sed -e 's/|/ /g' > $TMPFILE1
