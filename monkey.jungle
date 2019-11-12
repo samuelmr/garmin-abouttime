@@ -3,5 +3,6 @@
 # epix.lang.eng = $(epix.resourcePath);resources;resources-smallscreen
 # fr735xt.resourcePath = resources-smallscreen
 fr920xt.resourcePath = $(base.resourcePath);resources-fr920xt
+vivoactive.resourcePath = $(base.resourcePath);resources-smallscreen
 # vivoactive_hr.resourcePath = resources-smallscreen
 # fenix5.resourcePath = resources
