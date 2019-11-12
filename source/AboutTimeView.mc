@@ -19,6 +19,9 @@ enum {
   large,
   mega
 }
+var bgColor = Graphics.COLOR_BLACK;
+var textColor = Graphics.COLOR_WHITE;
+var dataColor = Graphics.COLOR_LT_GRAY;
 
 class AboutTimeView extends WatchUi.WatchFace {
 
@@ -30,11 +33,11 @@ class AboutTimeView extends WatchUi.WatchFace {
   function onLayout(dc) {
     readLocale();
 
-    fonts[tiny] = WatchUi.loadResource(Rez.Fonts.id_font_tiny);
-    fonts[small] = WatchUi.loadResource(Rez.Fonts.id_font_small);
-    fonts[medium] = WatchUi.loadResource(Rez.Fonts.id_font_medium);
-    fonts[large] = WatchUi.loadResource(Rez.Fonts.id_font_large);
-    fonts[mega] = WatchUi.loadResource(Rez.Fonts.id_font_extralarge);
+    fonts[tiny] = WatchUi.loadResource(@Rez.Fonts.id_font_tiny);
+    fonts[small] = WatchUi.loadResource(@Rez.Fonts.id_font_small);
+    fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
+    fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
+    fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
 
     // ugly hack: use system fonts for traditional Chinese
     if (locale[:hours][1].find("一") != null) {
@@ -51,8 +54,16 @@ class AboutTimeView extends WatchUi.WatchFace {
     var width = dc.getWidth();
     var height = dc.getHeight();
 
-    // updateCount += 1;
-    // System.println("updating " + updateCount);
+    if (colorScheme == inverted) {
+      bgColor = Graphics.COLOR_WHITE;
+      textColor = Graphics.COLOR_BLACK;
+      dataColor = Graphics.COLOR_DK_GRAY;
+    }
+		else {
+      bgColor = Graphics.COLOR_BLACK;
+      textColor = Graphics.COLOR_WHITE;
+      dataColor = Graphics.COLOR_LT_GRAY;
+		}
 
     dc.setColor(bgColor, textColor);
     dc.fillRectangle(0, 0, width, height);

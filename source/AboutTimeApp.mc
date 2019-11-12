@@ -5,7 +5,6 @@ using Toybox.WatchUi;
 
 var view;
 
-var dataField;
 // data field values, corresponds to settingConfig list of
 // propertyKey @Properties.dataField in resource/settings.xml
 enum {
@@ -16,15 +15,13 @@ enum {
   steps,
   stepGoal
 }
+var dataField = battery;
 
-var bgColor = Graphics.COLOR_BLACK;
-var textColor = Graphics.COLOR_WHITE;
-var dataColor = Graphics.COLOR_LT_GRAY;
 enum {
   normal,   // white on black
   inverted  // black on white
 }
-var colorScheme = inverted;
+var colorScheme = normal;
 
 class AboutTime extends Application.AppBase {
 
@@ -33,18 +30,12 @@ class AboutTime extends Application.AppBase {
   }
 
   function onStart(state) {
-    dataField = steps;
     var app = Application.getApp();
     var storedDataField = app.getProperty("dataField");
     if (storedDataField != null) {
       dataField = storedDataField;
     }
     colorScheme = app.getProperty("colorScheme");
-    if (colorScheme == inverted) {
-      bgColor = Graphics.COLOR_WHITE;
-      textColor = Graphics.COLOR_BLACK;
-      dataColor = Graphics.COLOR_DK_GRAY;
-    }
   }
 
   function onStop(state) {
@@ -68,8 +59,5 @@ class AboutTime extends Application.AppBase {
     colorScheme = app.getProperty("colorScheme");
       WatchUi.requestUpdate();
   }
-
-
-
 
 }
