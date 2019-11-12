@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2019-11-12	Added configurability, fixed a bug in non-standard language versions (4.1)
 - 2019-11-01	Minor fix to Greek (4.0.1)
 - 2019-10-28	Major overhaul: split multilingual About Time into mutiple single-language versions (4.0.0)
 - 2019-09-10  Fix for Fenix 3 (3.1.2)
