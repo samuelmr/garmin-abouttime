@@ -1,19 +1,19 @@
 <resources>
   <string id="AppName">Ongeveer</string>
   <string id="min0">	$1$	uur</string>
-  <string id="min5">iets	na	$1$</string>
+  <string id="min5">iets	over	$1$</string>
   <string id="min10">tien	over	$1$</string>
   <string id="min15">kwart	over	$1$</string>
-  <string id="min20">twintig na	$1$</string>
+  <string id="min20">tien voor	half	$2$</string>
   <string id="min25">bijna	half	$2$</string>
-  <string id="min30">half	$2$	</string>
+  <string id="min30">	half	$2$</string>
   <string id="min35">iets over	half	$2$</string>
   <string id="min40">tien over	half	$2$</string>
   <string id="min45">kwart	voor	$2$</string>
   <string id="min50">tien	voor	$2$</string>
   <string id="min55">bijna	$2$	uur</string>
   <string id="noon">twaalf</string>
-  <string id="hour1">een</string>
+  <string id="hour1">één</string>
   <string id="hour2">twee</string>
   <string id="hour3">drie</string>
   <string id="hour4">vier</string>
