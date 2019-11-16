@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2019-11-16	Added Swiss-Basel translation, minor modifications to Dutch and Hungarian translations (4.1.1)
 - 2019-11-12	Added configurability, fixed a bug in non-standard language versions (4.1)
 - 2019-11-01	Minor fix to Greek (4.0.1)
 - 2019-10-28	Major overhaul: split multilingual About Time into mutiple single-language versions (4.0.0)
