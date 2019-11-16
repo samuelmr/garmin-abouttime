@@ -12,7 +12,7 @@
   <string id="min45">	háromnegyed	$2$</string>
   <string id="min50">tíz perc	múlva	$2$</string>
   <string id="min55">	majdnem	$2$</string>
-  <string id="noon">dél</string>
+  <string id="noon">tizenkettő</string>
   <string id="hour1">egy</string>
   <string id="hour2">kettő</string>
   <string id="hour3">három</string>
@@ -24,5 +24,5 @@
   <string id="hour9">kilenc</string>
   <string id="hour10">tíz</string>
   <string id="hour11">tizenegy</string>
-  <string id="midnight">éjfél</string>
+  <string id="midnight">tizenkettő</string>
 </resources>
