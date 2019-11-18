@@ -1,12 +1,12 @@
 <resources>
   <string id="AppName">הגיע הזמן (עברית)</string>
-  <string id="min0">בדיוק	$1$</string>
+  <string id="min0">בדיוק	$1$	</string>
   <string id="min5">קצת	אחרי	$1$</string>
   <string id="min10">בסביבות	$1$	ועשרה</string>
-  <string id="min15">ורבע	$1$	</string>
-  <string id="min20">ועשרים	$1$	</string>
+  <string id="min15">	$1$	ורבע</string>
+  <string id="min20">	$1$	ועשרים</string>
   <string id="min25">כמעט	$1$	וחצי</string>
-  <string id="min30">וחצי	$1$	</string>
+  <string id="min30">	$1$	וחצי</string>
   <string id="min35">קצת אחרי	$1$	וחצי</string>
   <string id="min40">עשרים ל-	$2$	</string>
   <string id="min45">רבע ל-	$2$	</string>
