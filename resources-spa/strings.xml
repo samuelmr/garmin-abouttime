@@ -7,10 +7,10 @@
   <string id="min20">	$1$	y veinte</string>
   <string id="min25">casi	$1$	y media</string>
   <string id="min30">	$1$	y media</string>
-  <string id="min35">un poco más de	$1$	y media</string>
-  <string id="min40">veinte	para	$2$</string>
-  <string id="min45">un cuarto	para	$2$</string>
-  <string id="min50">diez	para	$2$</string>
+  <string id="min35">$1$	y media	pasadas</string>
+  <string id="min40">$2$	menos	veinte</string>
+  <string id="min45">$2$	menos	cuarto</string>
+  <string id="min50">$2$	menos	diez</string>
   <string id="min55">	casi	$2$</string>
   <string id="noon">las doce</string>
   <string id="hour1">la una</string>
