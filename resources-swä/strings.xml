@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ohgfähr</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">kuuz	noach	$1$</string>
+  <string id="min10">zea	noach	$1$</string>
+  <string id="min15">firddl	$2$	</string>
+  <string id="min20">zea vor	halba	$2$</string>
+  <string id="min25">fenf vor	halba	$2$</string>
+  <string id="min30">halba	$2$	</string>
+  <string id="min35">kuuz noach	halba	$2$</string>
+  <string id="min40">fenf vor	dreifirddl	$2$</string>
+  <string id="min45">dreifirddl	$2$	</string>
+  <string id="min50">zea	vor	$2$</string>
+  <string id="min55">kuuz	vor	$2$</string>
+  <string id="noon">zwelfe</string>
+  <string id="hour1">oise</string>
+  <string id="hour2">zwoie</string>
+  <string id="hour3">dreie</string>
+  <string id="hour4">viere</string>
+  <string id="hour5">fenfe</string>
+  <string id="hour6">seggse</string>
+  <string id="hour7">siabene</string>
+  <string id="hour8">achte</string>
+  <string id="hour9">noine</string>
+  <string id="hour10">zene</string>
+  <string id="hour11">elfe</string>
+  <string id="midnight">goischderschdond</string>
+</resources>
