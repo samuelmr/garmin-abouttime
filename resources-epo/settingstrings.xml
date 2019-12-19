@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Datumo montrata sub la tempo</string>
+  <string id="activeMinutesTitle">Agemaj minutoj</string>
+  <string id="batteryTitle">Ŝargo de baterio</string>
+  <string id="dateTitle">Dato</string>
+  <string id="distanceTitle">Irita distanco</string>
+  <string id="stepsTitle">Paŝoj</string>
+  <string id="stepGoalTitle">Celo da paŝoj</string>
+  <string id="colorSchemeTitle">Sistemo de koloroj</string>
+  <string id="whiteOnBlack">Blanka sur nigra</string>
+  <string id="blackOnWhite">Nigra sur blanka</string>
+</resources>

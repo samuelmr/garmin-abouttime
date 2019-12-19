@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">pli-malpli</string>
+  <string id="min0">estas	$1$	</string>
+  <string id="min5">ĵus estis	$1$	</string>
+  <string id="min10">$1$	kaj	dek</string>
+  <string id="min15">$1$	kaj	kvarono</string>
+  <string id="min20">$1$	kaj	dudek</string>
+  <string id="min25">tuj estos	$1$	kaj duono</string>
+  <string id="min30">estas	$1$	kaj duono</string>
+  <string id="min35">ĵus estis	$1$	kaj duono</string>
+  <string id="min40">dudek	antaŭ	$2$</string>
+  <string id="min45">kvarono	antaŭ	$2$</string>
+  <string id="min50">dek	antaŭ	$2$</string>
+  <string id="min55">tuj estos	$2$	</string>
+  <string id="noon">la dek dua</string>
+  <string id="hour1">la unua</string>
+  <string id="hour2">la dua</string>
+  <string id="hour3">la tria</string>
+  <string id="hour4">la kvara</string>
+  <string id="hour5">la kvina</string>
+  <string id="hour6">la sesa</string>
+  <string id="hour7">la sepa</string>
+  <string id="hour8">la oka</string>
+  <string id="hour9">la naŭa</string>
+  <string id="hour10">la deka</string>
+  <string id="hour11">la dek unua</string>
+  <string id="midnight">la dek dua</string>
+</resources>

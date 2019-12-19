@@ -1,0 +1,2 @@
+project.manifest = manifest-epo.xml
+base.resourcePath = resources-epo
