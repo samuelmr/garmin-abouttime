@@ -74,10 +74,8 @@
       <iq:product id="vivoactive_hr"/>
       <iq:product id="vivolife"/>
     </iq:products>
-<!--
     <iq:languages>
-      <iq:language>epo</iq:language>
+      <iq:language>slv</iq:language>
     </iq:languages>
--->
   </iq:application>
 </iq:manifest>
