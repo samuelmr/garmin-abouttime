@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Podatki prikazani ob času</string>
+  <string id="activeMinutesTitle">Aktivne minute</string>
+  <string id="batteryTitle">Baterija</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Razdalja</string>
+  <string id="stepsTitle">Koraki</string>
+  <string id="stepGoalTitle">Cilj koraki</string>
+  <string id="colorSchemeTitle">Barvna shema</string>
+  <string id="whiteOnBlack">temna (WonB)</string>
+  <string id="blackOnWhite">svetla (BonW)</string>
+</resources>
