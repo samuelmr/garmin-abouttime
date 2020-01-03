@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-01-03	Added Alemannisch (4.1.9)
 - 2019-12-29	Added Slovenian (4.1.8)
 - 2019-12-19	Added Esperanto (4.1.7)
 - 2019-12-15	Updated German and French translations (4.1.6)
