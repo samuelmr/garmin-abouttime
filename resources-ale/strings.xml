@@ -3,13 +3,13 @@
   <string id="min0">s´ isch	grad	$1$</string>
   <string id="min5">fümf	nøch	$1$</string>
   <string id="min10">zeh	nøch	$1$</string>
-  <string id="min15">viertel	$2$	</string>
+  <string id="min15">	viertel	$2$</string>
   <string id="min20">zeh 	vor halber	$2$</string>
   <string id="min25">fümf	vor halber	$2$</string>
-  <string id="min30">halber	$2$	</string>
+  <string id="min30">	halber	$2$</string>
   <string id="min35">fümf	nøch halber	$2$</string>
   <string id="min40">zeh	nøch halber	$2$</string>
-  <string id="min45">dreiviertel	$2$	</string>
+  <string id="min45">	dreiviertel	$2$</string>
   <string id="min50">zeh	vor	$2$</string>
   <string id="min55">fümf	vor	$2$</string>
   <string id="noon">zwelfi</string>
