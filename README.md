@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-01-04	Added yet another German dialect (Köln, Rheinland) (4.1.10)
 - 2020-01-03	Added Alemannisch (4.1.9)
 - 2019-12-29	Added Slovenian (4.1.8)
 - 2019-12-19	Added Esperanto (4.1.7)
