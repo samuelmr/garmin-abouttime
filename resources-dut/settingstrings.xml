@@ -1,6 +1,6 @@
 <resources>
   <string id="dataFieldTitle">Te tonen gegevens onder de tijd</string>
-  <string id="activeMinutesTitle">Aktieve minuten</string>
+  <string id="activeMinutesTitle">Actieve minuten</string>
   <string id="batteryTitle">Batterij</string>
   <string id="dateTitle">Datum</string>
   <string id="distanceTitle">Afstand</string>
