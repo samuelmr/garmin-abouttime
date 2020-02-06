@@ -1,12 +1,16 @@
 <resources>
-  <string id="dataFieldTitle">Data to show with time</string>
-  <string id="activeMinutesTitle">Active minutes</string>
-  <string id="batteryTitle">Battery</string>
-  <string id="dateTitle">Date</string>
-  <string id="distanceTitle">Distance</string>
-  <string id="stepsTitle">Steps</string>
-  <string id="stepGoalTitle">Step goal</string>
-  <string id="colorSchemeTitle">Color scheme</string>
-  <string id="whiteOnBlack">White on black</string>
-  <string id="blackOnWhite">Black on white</string>
+  <string id="dataFieldTitle">Barra inferiore</string>
+  <string id="activeMinutesTitle">Durata attivita'</string>
+  <string id="batteryTitle">Batteria %</string>
+  <string id="dateTitle">Data</string>
+  <string id="distanceTitle">Distanza</string>
+  <string id="stepsTitle">Passi</string>
+  <string id="stepGoalTitle">Obiettivo Passi</string>
+  <string id="colorSchemeTitle">Colore quadrante</string>
+  <string id="whiteOnBlack">Bianco su nero</string>
+  <string id="blackOnWhite">Nero su bianco</string>
+  <string id="showNotificationBarTitle">Mostra barra superiore (notifiche: bluetooth disconnesso, messaggi, sveglie, non disturbare, batteria scarica)</string>
+  <string id="batteryWarnTitle">Livello batteria % per warning %</string>
+  <string id="batteryAlertTitle">Livello batteria % per allerta</string>
+  <string id="myNumberError">Inserire un numero tra 0 e 100</string>
 </resources>

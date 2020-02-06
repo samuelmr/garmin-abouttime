@@ -17,6 +17,11 @@ enum {
 }
 var dataField = battery;
 
+var showNotificationBar = true;
+
+var batteryWarn = 30;
+var batteryAlert = 10;
+
 enum {
   normal,   // white on black
   inverted  // black on white
@@ -36,12 +41,22 @@ class AboutTime extends Application.AppBase {
       dataField = storedDataField;
     }
     colorScheme = app.getProperty("colorScheme");
+    
+    showNotificationBar = app.getProperty("showNotificationBar");
+    
+    batteryWarn = app.getProperty("batteryWarn");
+    batteryAlert = app.getProperty("batteryAlert");    
   }
 
   function onStop(state) {
     var app = Application.getApp();
     app.setProperty("dataField", dataField);
     app.setProperty("colorScheme", colorScheme);
+
+	showNotificationBar = app.setProperty("showNotificationBar", showNotificationBar);
+    
+    batteryWarn = app.setProperty("batteryWarn", batteryWarn);
+    batteryAlert = app.setProperty("batteryAlert", batteryAlert); 
   }
 
   function getInitialView() {
@@ -55,9 +70,16 @@ class AboutTime extends Application.AppBase {
 
   function onSettingsChanged() {
     var app = Application.getApp();
+    
     dataField = app.getProperty("dataField");
     colorScheme = app.getProperty("colorScheme");
-      WatchUi.requestUpdate();
+    
+    showNotificationBar = app.getProperty("showNotificationBar");
+    
+    batteryWarn = app.getProperty("batteryWarn");
+    batteryAlert = app.getProperty("batteryAlert"); 
+    
+    WatchUi.requestUpdate();
   }
 
 }
