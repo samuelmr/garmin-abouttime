@@ -7,6 +7,7 @@ using Toybox.ActivityMonitor;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 
+var iconHeight = 16; // vertical space required for icons
 var locale = {};
 var localeArrays = [];
 var halfPast = true;
@@ -69,10 +70,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     dc.setColor(bgColor, textColor);
     dc.fillRectangle(0, 0, width, height);
 
-    var heightUsed = drawTimeStrings(dc, System.getClockTime());
+    var timeSpace = drawTimeStrings(dc, System.getClockTime());
     var lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7;
 
-    if (height - lineHeight > heightUsed) {
+    if (height - lineHeight > timeSpace[:bottom]) {
       var dataString = (System.getSystemStats().battery + 0.5).format("%d") + " %";
 
       if (dataField == activeMinutes) {
@@ -120,6 +121,13 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
     }
 
+    System.println("Empty space on top: " + timeSpace[:top].format("%d"));
+    if (timeSpace[:top] > iconHeight) {
+		  // draw icons
+		  // var iconTop = (timeSpace[:top] - iconHeight)/2;
+      // drawString(dc, width/2, iconTop, fonts[small], dataColor, "i c o n s");
+    }
+
   }
 
   function drawString(dc, x, y, font, color, string) {
@@ -128,6 +136,8 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function drawTimeStrings(dc, time) {
+
+	  var timeSpace = {};
 
     var width = dc.getWidth();
     var height = dc.getHeight();
@@ -158,7 +168,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     var totalHeight = topHeight + middleHeight + bottomHeight;
 
     var x = width / 2;
-    var topY = height / 2 - totalHeight / 2;
+    var topY = height / 2 - totalHeight / 2 + topHeight/2;
     var middleY = topY + topHeight / 2 + middleHeight / 2;
     var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;
     var color = textColor;
@@ -167,7 +177,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     drawString(dc, x, middleY, middleFont, color, middle);
     drawString(dc, x, bottomY, bottomFont, color, bottom);
 
-    return bottomY + bottomHeight;
+    timeSpace[:top] = topY - topHeight/2;
+		timeSpace[:bottom] = bottomY + bottomHeight/2;
+    return timeSpace;
 
   }
 
