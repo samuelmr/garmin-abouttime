@@ -39,10 +39,11 @@ class AboutTimeView extends WatchUi.WatchFace {
     fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
     fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
 
-    // ugly hack: use system fonts for traditional Chinese
-    if (locale[:hours][1].find("一") != null) {
-      fonts[tiny] = Graphics.FONT_TINY;
-      fonts[small] = Graphics.FONT_SMALL;
+    // ugly hack: use system fonts for languages with unsupported glyphs
+    if ((locale[:hours][1].find("一") != null) ||
+        (locale["min5"].find("ú") != null)) { // ú and ť not found in Andika
+      fonts[tiny] = Graphics.FONT_SMALL;
+      fonts[small] = Graphics.FONT_MEDIUM;
       fonts[medium] = Graphics.FONT_MEDIUM;
       fonts[large] = Graphics.FONT_SYSTEM_LARGE;
       fonts[mega] = fonts[large];
