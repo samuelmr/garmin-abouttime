@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-02-06	Added Glarner Swiss (4.1.16)
 - 2020-02-06	Added Slovakian (4.1.15)
 - 2020-02-03	Added another German Allemannisch dialect (4.1.14)
 - 2020-01-24	Added another Swiss dialect, minor fix to Dutch settings strings (4.1.13)
