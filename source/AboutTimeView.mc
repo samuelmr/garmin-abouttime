@@ -54,7 +54,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 	    fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
 	    fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
 	    fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
-	    font_icons = WatchUi.loadResource(@Rez.Fonts.icons);
+	    font_icons = WatchUi.loadResource(@Rez.Fonts.id_font_icons);
 
 	    // ugly hack: use system fonts for traditional Chinese
 	    if (locale[:hours][1].find("一") != null) {
@@ -178,7 +178,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 		var stats = System.getSystemStats();
 		
 		if (stats has :charging && stats.charging) {
-			icons_string = icons + icon_dict["battery_carg"];
+			icons_string = icons_string + icon_dict["battery_carg"];
 		} else if ((stats.battery + 0.5).toNumber() < batteryAlert) {			
 			icons_string = icons_string + icon_dict["battery_alert"];
 		} else if ((stats.battery + 0.5).toNumber() < batteryWarn) {			
@@ -189,7 +189,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 		var today = Time.today();
 
 		if (now.greaterThan(today.add(profile.sleepTime)) && now.lessThan(today.add(profile.wakeTime))) {			
-			icons = icons + icon_dict["sleep"];
+			icons_string = icons_string + icon_dict["sleep"];
 		}
 			
 		drawString(dc, dc.getWidth()/2, Graphics.getFontHeight(font_icons)/2+1, font_icons, textColor, icons_string);
