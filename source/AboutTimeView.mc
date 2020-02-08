@@ -8,6 +8,7 @@ using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.UserProfile;
 
+var iconHeight = 16; // vertical space required for icons
 var locale = {};
 var localeArrays = [];
 var halfPast = true;

@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefähr</string>
+  <string id="min0">as isch	gnau	$1$</string>
+  <string id="min5">fümf	noch	$1$</string>
+  <string id="min10">zeha	noch	$1$</string>
+  <string id="min15">viertel	noch	$1$</string>
+  <string id="min20">zwansg 	noch	$1$</string>
+  <string id="min25">fümf	vor halbe	$2$</string>
+  <string id="min30">	halbe	$2$</string>
+  <string id="min35">fümf	noch halbe	$2$</string>
+  <string id="min40">zwansg	vor	$2$</string>
+  <string id="min45">viertel	vor	$2$</string>
+  <string id="min50">zeha	vor	$2$</string>
+  <string id="min55">fümf	vor	$2$</string>
+  <string id="noon">zwölfe</string>
+  <string id="hour1">oas</string>
+  <string id="hour2">zwoa</string>
+  <string id="hour3">drü</string>
+  <string id="hour4">viere</string>
+  <string id="hour5">fümfi</string>
+  <string id="hour6">sexe</string>
+  <string id="hour7">simne</string>
+  <string id="hour8">achte</string>
+  <string id="hour9">nüne</string>
+  <string id="hour10">zehne</string>
+  <string id="hour11">oalfe</string>
+  <string id="midnight">zwölfe</string>
+</resources>

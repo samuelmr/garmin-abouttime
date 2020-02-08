@@ -1,0 +1,2 @@
+project.manifest = manifest-swy.xml
+base.resourcePath = resources-swy

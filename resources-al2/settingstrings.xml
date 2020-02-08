@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Info unterhalb vo d'r Uhrzit</string>
+  <string id="activeMinutesTitle">Solang bisch aktiv gsi</string>
+  <string id="batteryTitle">übrige Batterie</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Sowit bisch gloufa</string>
+  <string id="stepsTitle">Schriad</string>
+  <string id="stepGoalTitle">Schriad-Ziel</string>
+  <string id="colorSchemeTitle">Farba uswähla</string>
+  <string id="whiteOnBlack">Wieß uf Schwarz</string>
+  <string id="blackOnWhite">Schwarz uf Wieß</string>
+</resources>
