@@ -1,0 +1,2 @@
+project.manifest = manifest-slo.xml
+base.resourcePath = resources-slo

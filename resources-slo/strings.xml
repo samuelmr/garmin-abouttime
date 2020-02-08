@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Okolo</string>
+  <string id="min0">	okolo	$1$</string>
+  <string id="min5">kúsok	po	$1$</string>
+  <string id="min10">niečo	po	$1$</string>
+  <string id="min15">okolo	štvrť po	$1$</string>
+  <string id="min20">niečo	do pol	$2$</string>
+  <string id="min25">skoro	pol	$2$</string>
+  <string id="min30">okolo	pol	$2$</string>
+  <string id="min35">kúsok	po pol	$2$</string>
+  <string id="min40">niečo	po pol	$2$</string>
+  <string id="min45">okolo	štvrť do	$2$</string>
+  <string id="min50">niečo	do	$2$</string>
+  <string id="min55">kúsok	do	$2$</string>
+  <string id="noon">dvanástej</string>
+  <string id="hour1">jednej</string>
+  <string id="hour2">druhej</string>
+  <string id="hour3">tretej</string>
+  <string id="hour4">štvrtej</string>
+  <string id="hour5">piatej</string>
+  <string id="hour6">šiestej</string>
+  <string id="hour7">siedmej</string>
+  <string id="hour8">ôsmej</string>
+  <string id="hour9">deviatej</string>
+  <string id="hour10">desiatej</string>
+  <string id="hour11">jedenástej</string>
+  <string id="midnight">polnoci</string>
+</resources>
