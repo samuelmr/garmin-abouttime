@@ -12,5 +12,5 @@
   <string id="showNotificationBarTitle">Show notification bar (bluetooth disconnected, notification, alarm, sleep time, battery low)</string>
   <string id="batteryWarnTitle">Warning when battery is lower than %</string>
   <string id="batteryAlertTitle">Alert when battery is lower than %</string>
-  <string id="myNumberError">Inster a number between 0 and 100</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
 </resources>
