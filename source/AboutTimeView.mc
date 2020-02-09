@@ -54,7 +54,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 	    fonts[small] = WatchUi.loadResource(@Rez.Fonts.id_font_small);
 	    fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
 	    fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
-	    fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
+	    // fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
 	    font_icons = WatchUi.loadResource(@Rez.Fonts.id_font_icons);
 
 	    // ugly hack: use system fonts for traditional Chinese
@@ -99,7 +99,8 @@ class AboutTimeView extends WatchUi.WatchFace {
       		if (dataField == date) {
       			var now = Time.now();
       			var info = Gregorian.info(now, Time.FORMAT_LONG);
-      			dataString = Lang.format("$1$, $2$ $3$", [info.day_of_week, info.day, info.month]);
+      			var dataStringCase = Lang.format("$1$, $2$ $3$", [info.day_of_week, info.day, info.month]);
+      			dataString = dataStringCase.toLower();
       		}
       		
       		if (dataField == distance) {
