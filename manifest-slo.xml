@@ -75,7 +75,7 @@
       <iq:product id="vivolife"/>
     </iq:products>
     <iq:languages>
-      <iq:language>slv</iq:language>
+      <iq:language>slo</iq:language>
     </iq:languages>
   </iq:application>
 </iq:manifest>

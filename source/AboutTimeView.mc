@@ -41,8 +41,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
 
     // ugly hack: use system fonts for languages with unsupported glyphs
-    if ((locale[:hours][1].find("一") != null) ||
-        (locale["min5"].find("ú") != null)) { // ú and ť not found in Andika
+    if (locale[:hours][1].find("一") != null) {
       fonts[tiny] = Graphics.FONT_SMALL;
       fonts[small] = Graphics.FONT_MEDIUM;
       fonts[medium] = Graphics.FONT_MEDIUM;
@@ -121,7 +120,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
     }
 
-    System.println("Empty space on top: " + timeSpace[:top].format("%d"));
+    // System.println("Empty space on top: " + timeSpace[:top].format("%d"));
     if (timeSpace[:top] > iconHeight) {
 		  // draw icons
 		  // var iconTop = (timeSpace[:top] - iconHeight)/2;
