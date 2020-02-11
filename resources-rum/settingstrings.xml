@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Data</string>
+  <string id="activeMinutesTitle">Minutes în mișcare</string>
+  <string id="batteryTitle">Baterie</string>
+  <string id="dateTitle">Data</string>
+  <string id="distanceTitle">Distanța</string>
+  <string id="stepsTitle">Pași</string>
+  <string id="stepGoalTitle">Țintă pași</string>
+  <string id="colorSchemeTitle">Schemă culori</string>
+  <string id="whiteOnBlack">Alb pe negru</string>
+  <string id="blackOnWhite">Negru pe alb</string>
+</resources>
