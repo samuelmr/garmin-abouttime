@@ -1,5 +1,5 @@
 <resources>
-  <string id="AppName">Cam cât e ceasul</string>
+  <string id="AppName">Cât e ceasul</string>
   <string id="min0">	$1$	trecute fix</string>
   <string id="min5">puțin	peste	$1$</string>
   <string id="min10">$1$	și	zece</string>
@@ -12,7 +12,7 @@
   <string id="min45">$2$	fără	un sfert</string>
   <string id="min50">$2$	fără	zece</string>
   <string id="min55">aproape	$2$	ceasuri</string>
-  <string id="noon">doișpe ziua</string>
+  <string id="noon">doișpe</string>
   <string id="hour1">unu</string>
   <string id="hour2">două</string>
   <string id="hour3">trei</string>
@@ -24,5 +24,5 @@
   <string id="hour9">nouă</string>
   <string id="hour10">zece</string>
   <string id="hour11">unsprezece</string>
-  <string id="midnight">doișpe noaptea</string>
+  <string id="midnight">doișpe</string>
 </resources>
