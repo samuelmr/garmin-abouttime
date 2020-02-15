@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Info unner de Uhr</string>
+  <string id="activeMinutesTitle">Aktiwe Minudde</string>
+  <string id="batteryTitle">Badderie</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Wieweit de geloff bisch</string>
+  <string id="stepsTitle">Schridde</string>
+  <string id="stepGoalTitle">Schriddziel</string>
+  <string id="colorSchemeTitle">Ferb</string>
+  <string id="whiteOnBlack">Weiß uff Schwazz</string>
+  <string id="blackOnWhite">Schwazz uff Weiß</string>
+</resources>
