@@ -5,13 +5,13 @@
   <string id="min10">zää	ab	$1$</string>
   <string id="min15">viertel	ab	$1$</string>
   <string id="min20">zwänzg	ab	$1$</string>
-  <string id="min25">churz vor	halbi	$2$</string>
+  <string id="min25">füf vor	halbi	$2$</string>
   <string id="min30">halbi	$2$	</string>
-  <string id="min35">churz ab	halbi	$2$</string>
+  <string id="min35">füf ab	halbi	$2$</string>
   <string id="min40">zwänzg	vor	$2$</string>
   <string id="min45">viertel	vor	$2$</string>
   <string id="min50">zää	vor	$2$</string>
-  <string id="min55">churz	vor	$2$</string>
+  <string id="min55">füf	vor	$2$</string>
   <string id="noon">zwölfi</string>
   <string id="hour1">eis</string>
   <string id="hour2">zwei</string>

@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-02-19	More changes to Muotatal (4.1.24)
 - 2020-02-19	Added Mühlviertlerisch German, minor change to Muotatal (4.1.23)
 - 2020-02-16	Added Muotatal Swiss (4.1.22)
 - 2020-02-15	Added new German dialect: Kärntnerisch (4.1.21)
