@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Infos zunderst a de Uhr</string>
+  <string id="activeMinutesTitle">Aktivitätsminutä</string>
+  <string id="batteryTitle">Batterieladig</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Zrurgggleiti Strecki</string>
+  <string id="stepsTitle">Schritt</string>
+  <string id="stepGoalTitle">Schritt Ziel</string>
+  <string id="colorSchemeTitle">Farbwahl</string>
+  <string id="whiteOnBlack">Wiss uf Schwarz</string>
+  <string id="blackOnWhite">Schwarz uf Wiss</string>
+</resources>

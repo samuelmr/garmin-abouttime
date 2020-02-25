@@ -1,0 +1,2 @@
+project.manifest = manifest-lsd.xml
+base.resourcePath = resources-lsd

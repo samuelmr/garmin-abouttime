@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefähr</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">föif	ab	$1$</string>
+  <string id="min10">zä	ab	$1$</string>
+  <string id="min15">viertel	ab	$1$</string>
+  <string id="min20">zwänzg	ab	$1$</string>
+  <string id="min25">föif vor	halbi	$2$</string>
+  <string id="min30">halbi	$2$	</string>
+  <string id="min35">föif ab	halbi	$2$</string>
+  <string id="min40">zwänzg	vor	$2$</string>
+  <string id="min45">viertel	vor	$2$</string>
+  <string id="min50">zä	vor	$2$</string>
+  <string id="min55">föif	vor	$2$</string>
+  <string id="noon">zwölfi</string>
+  <string id="hour1">eis</string>
+  <string id="hour2">zwei</string>
+  <string id="hour3">drü</string>
+  <string id="hour4">vieri</string>
+  <string id="hour5">föifi</string>
+  <string id="hour6">sächsi</string>
+  <string id="hour7">sibni</string>
+  <string id="hour8">achti</string>
+  <string id="hour9">nüni</string>
+  <string id="hour10">zäni</string>
+  <string id="hour11">elfi</string>
+  <string id="midnight">zwölfi</string>
+</resources>
