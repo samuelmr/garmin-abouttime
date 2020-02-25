@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Sekitar</string>
+  <string id="min0">Jam	$1$	</string>
+  <string id="min5">Jam	$1$	lewat lima</string>
+  <string id="min10">Jam	$1$	lewat sepuluh</string>
+  <string id="min15">Jam $1$	lewat	seperempat</string>
+  <string id="min20">Jam setengah	$2$	kurang sepuluh</string>
+  <string id="min25">Jam setengah	$2$	kurang lima</string>
+  <string id="min30">Jam	setengah	$2$</string>
+  <string id="min35">Jam setengah	$2$	lewat lima</string>
+  <string id="min40">Jam setengah	$2$	lewat sepuluh</string>
+  <string id="min45">Jam $2$	kurang	seperempat</string>
+  <string id="min50">Jam	$2$	kurang sepuluh</string>
+  <string id="min55">Jam	$2$	kurang lima</string>
+  <string id="noon">dua belas</string>
+  <string id="hour1">satu</string>
+  <string id="hour2">dua</string>
+  <string id="hour3">tiga</string>
+  <string id="hour4">empat</string>
+  <string id="hour5">lima</string>
+  <string id="hour6">enam</string>
+  <string id="hour7">tujuh</string>
+  <string id="hour8">delapan</string>
+  <string id="hour9">sembilan</string>
+  <string id="hour10">sepuluh</string>
+  <string id="hour11">sebelas</string>
+  <string id="midnight">dua belas</string>
+</resources>

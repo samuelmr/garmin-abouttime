@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">대략</string>
+  <string id="min0">	$1$시	</string>
+  <string id="min5">	$1$시오	</string>
+  <string id="min10">	$1$시십	</string>
+  <string id="min15">	$1$시십오	</string>
+  <string id="min20">	$1$시이십	</string>
+  <string id="min25">	$1$시이십오	</string>
+  <string id="min30">	$1$시반	</string>
+  <string id="min35">	$1$시삼십오	</string>
+  <string id="min40">	$1$시사십	</string>
+  <string id="min45">	$1$시사십오	</string>
+  <string id="min50">	$1$시오십	</string>
+  <string id="min55">	$1$시오십오	</string>
+  <string id="noon">열둘</string>
+  <string id="hour1">하나</string>
+  <string id="hour2">둘</string>
+  <string id="hour3">셋</string>
+  <string id="hour4">넷</string>
+  <string id="hour5">다섯</string>
+  <string id="hour6">여섯</string>
+  <string id="hour7">일곱</string>
+  <string id="hour8">여덟</string>
+  <string id="hour9">아홉</string>
+  <string id="hour10">열</string>
+  <string id="hour11">열하나</string>
+  <string id="midnight">열둘</string>
+</resources>
