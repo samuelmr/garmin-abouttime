@@ -10,6 +10,8 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-03-03	New Basel translation, added Bern and Brandenburgisch (4.1.28)
+- 2020-02-25	Minor fix to Zürcher (4.1.27)
 - 2020-02-25	Added Indonesian and Korean (4.1.26)
 - 2020-02-25	Added Zürcher Dialekt and Leetschärdialäkt (4.1.25)
 - 2020-02-19	More changes to Muotatal (4.1.24)

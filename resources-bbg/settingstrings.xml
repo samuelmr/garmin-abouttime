@@ -1,0 +1,12 @@
+<resources>
+  <string id="dataFieldTitle">Information unter der Uhrzeit</string>
+  <string id="activeMinutesTitle">Aktivitätsminuten</string>
+  <string id="batteryTitle">Batterieladung</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Zurückgelegte Strecke</string>
+  <string id="stepsTitle">Schritte</string>
+  <string id="stepGoalTitle">Schritte Ziel</string>
+  <string id="colorSchemeTitle">Farbwahl</string>
+  <string id="whiteOnBlack">Weiß auf Schwarz</string>
+  <string id="blackOnWhite">Schwarz auf Weiß</string>
+</resources>
