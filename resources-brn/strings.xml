@@ -5,9 +5,9 @@
   <string id="min10">Zää	ab	$1$</string>
   <string id="min15">Viertu	ab	$1$</string>
   <string id="min20">Zwänzg	ab	$1$</string>
-  <string id="min25">Füf vor	Haubi	$1$</string>
-  <string id="min30">Haubi	$1$	</string>
-  <string id="min35">Füf ab	$1$	</string>
+  <string id="min25">Füf vor	Haubi	$2$</string>
+  <string id="min30">Haubi	$2$	</string>
+  <string id="min35">Füf ab	$2$	</string>
   <string id="min40">Zwänzg	vor	$2$</string>
   <string id="min45">Viertu	vor	$2$</string>
   <string id="min50">Zää	vor	$2$</string>
