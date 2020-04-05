@@ -1,0 +1,5 @@
+<resources>
+ <fonts>
+  <font id="id_font_icons" filename="fonts/icons.fnt" antialias="true" filter="01234567" />
+ </fonts>
+</resources>
