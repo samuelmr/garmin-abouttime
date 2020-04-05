@@ -17,7 +17,7 @@ enum {
 }
 var dataField = battery;
 
-var showNotificationBar = true;
+var showIcons = true;
 
 var batteryWarn = 30;
 var batteryAlert = 10;
@@ -41,11 +41,11 @@ class AboutTime extends Application.AppBase {
       dataField = storedDataField;
     }
     colorScheme = app.getProperty("colorScheme");
-    
-    showNotificationBar = app.getProperty("showNotificationBar");
-    
+
+    showIcons = app.getProperty("showIcons");
+
     batteryWarn = app.getProperty("batteryWarn");
-    batteryAlert = app.getProperty("batteryAlert");    
+    batteryAlert = app.getProperty("batteryAlert");
   }
 
   function onStop(state) {
@@ -53,10 +53,10 @@ class AboutTime extends Application.AppBase {
     app.setProperty("dataField", dataField);
     app.setProperty("colorScheme", colorScheme);
 
-	showNotificationBar = app.setProperty("showNotificationBar", showNotificationBar);
-    
+    showIcons = app.setProperty("showIcons", showIcons);
+
     batteryWarn = app.setProperty("batteryWarn", batteryWarn);
-    batteryAlert = app.setProperty("batteryAlert", batteryAlert); 
+    batteryAlert = app.setProperty("batteryAlert", batteryAlert);
   }
 
   function getInitialView() {
@@ -70,15 +70,15 @@ class AboutTime extends Application.AppBase {
 
   function onSettingsChanged() {
     var app = Application.getApp();
-    
+
     dataField = app.getProperty("dataField");
     colorScheme = app.getProperty("colorScheme");
-    
-    showNotificationBar = app.getProperty("showNotificationBar");
-    
+
+    showIcons = app.getProperty("showIcons");
+
     batteryWarn = app.getProperty("batteryWarn");
-    batteryAlert = app.getProperty("batteryAlert"); 
-    
+    batteryAlert = app.getProperty("batteryAlert");
+
     WatchUi.requestUpdate();
   }
 
