@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-04-05	Fix to Bern (Es => Äs) (4.1.31)
 - 2020-03-24	Fix to Glarner (zäni => zächni) (4.1.30)
 - 2020-03-12	Fixes to Bern (4.1.29)
 - 2020-03-03	New Basel translation, added Bern and Brandenburgisch (4.1.28)
