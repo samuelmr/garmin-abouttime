@@ -9,4 +9,8 @@
   <string id="colorSchemeTitle">Kleurenschema</string>
   <string id="whiteOnBlack">Wit op zwarte achtergrond</string>
   <string id="blackOnWhite">Zwart op witte achtergrond</string>
+  <string id="showIconsTitle">Show icons if space allows (bluetooth disconnected, notifications, alarms, sleep mode, battery status)</string>
+  <string id="batteryWarnTitle">Warn when battery charge is below (%)</string>
+  <string id="batteryAlertTitle">Alert when battery charge is below (%)</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
 </resources>

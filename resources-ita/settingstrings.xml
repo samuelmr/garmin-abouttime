@@ -9,8 +9,8 @@
   <string id="colorSchemeTitle">Colore quadrante</string>
   <string id="whiteOnBlack">Bianco su nero</string>
   <string id="blackOnWhite">Nero su bianco</string>
-  <string id="showNotificationBarTitle">Mostra barra superiore (notifiche: bluetooth disconnesso, messaggi, sveglie, non disturbare, batteria scarica)</string>
-  <string id="batteryWarnTitle">Livello batteria % per warning %</string>
+  <string id="showIconsTitle">Mostra barra superiore (notifiche: bluetooth disconnesso, messaggi, sveglie, non disturbare, batteria scarica)</string>
+  <string id="batteryWarnTitle">Livello batteria % per warning</string>
   <string id="batteryAlertTitle">Livello batteria % per allerta</string>
   <string id="myNumberError">Inserire un numero tra 0 e 100</string>
 </resources>
