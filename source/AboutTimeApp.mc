@@ -43,9 +43,19 @@ class AboutTime extends Application.AppBase {
     colorScheme = app.getProperty("colorScheme");
 
     showIcons = app.getProperty("showIcons");
+    if (showIcons != false) {
+      showIcons = true;
+    }
 
-    batteryWarn = app.getProperty("batteryWarn");
-    batteryAlert = app.getProperty("batteryAlert");
+    var storedBatteryWarn = app.getProperty("batteryWarn");
+    if (storedBatteryWarn != null) {
+      batteryWarn = storedBatteryWarn;
+    }
+    var storedBatteryAlert = app.getProperty("batteryAlert");
+    if (storedBatteryAlert != null) {
+      batteryAlert = storedBatteryAlert;
+    }
+
   }
 
   function onStop(state) {
