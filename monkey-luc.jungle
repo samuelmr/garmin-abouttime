@@ -1,0 +1,2 @@
+project.manifest = manifest-luc.xml
+base.resourcePath = resources-luc
