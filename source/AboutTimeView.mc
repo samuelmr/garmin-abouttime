@@ -448,7 +448,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       while (str.find("|")) {
         var splitIndex = str.find("|");
         if (! arr has :add) { // epix doesn't support array.add()
-            return str.substring(0, splitIndex);
+          return str.substring(0, splitIndex);
         }
         arr.add(str.substring(0, splitIndex));
         str = str.substring(splitIndex+1, str.length());
