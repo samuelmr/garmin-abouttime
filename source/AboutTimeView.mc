@@ -169,11 +169,11 @@ class AboutTimeView extends WatchUi.WatchFace {
 	    	icons_string = icons_string + icon_dict["disconnected"];
 	    }
 	    
-	    if (settings.alarmCount > 1) {	    	
+	    if (settings.alarmCount > 0) {	    	
 			icons_string = icons_string + icon_dict["alarm"];
 		}
 		
-		if (settings.notificationCount > 1) {			
+		if (settings.notificationCount > 0) {			
 			icons_string = icons_string + icon_dict["notification"];
 		}
 		
