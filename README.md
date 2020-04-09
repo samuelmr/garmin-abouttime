@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-04-09	Minor fix to Bern (5.0.2)
 - 2020-04-05	Added Lucerne (5.0.1)
 - 2020-04-05	Added icons (thanks Claudio!) (5.0.0)
 - 2020-04-05	Fix to Bern (Es => Äs) (4.1.31)
