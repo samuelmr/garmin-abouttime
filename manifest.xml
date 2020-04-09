@@ -57,6 +57,7 @@
   <iq:permissions>
    <iq:uses-permission id="UserProfile"/>
   </iq:permissions>
+<!--
   <iq:languages>
    <iq:language>ces</iq:language>
    <iq:language>dan</iq:language>
@@ -81,5 +82,6 @@
    <iq:language>swe</iq:language>
    <iq:language>zht</iq:language>
   </iq:languages>
+-->
  </iq:application>
 </iq:manifest>
