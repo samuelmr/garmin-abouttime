@@ -16,6 +16,8 @@ then
   TARGETPOSTFIX="_sim"
 fi
 
+DEVELOPER_KEY="/Users/samuel/garmin/developer_key.der"
+
 echo "Updating font filters"
 ./filter.sh
 
@@ -25,14 +27,11 @@ for jungle in ./monkey-*.jungle; do
   if [ $TEST ]
   then
     filename="releases/AboutTime-$LANGUAGE-$CIQ_TARGET.prg"
-    CMD="monkeyc -f $jungle -f monkey.jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y ~/garmin/developer_key.der -o $filename $TEST"
-    echo $CMD
-    monkeyc -f $jungle -f monkey.jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y ~/garmin/developer_key.der -o $filename $TEST
+    CMD="monkeyc -f $jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y $DEVELOPER_KEY -o $filename $TEST"
   else
     filename="releases/AboutTime-$LANGUAGE.iq"
-    CMD="monkeyc -f $jungle -e -y ~/garmin/developer_key.der -o $filename"
-    echo $CMD
-    monkeyc -f $jungle -e -y ~/garmin/developer_key.der -o $filename
+    CMD="monkeyc -f $jungle -e -y $DEVELOPER_KEY -o $filename"
   fi
-  echo "Built $filename"
+  echo $CMD
+	$CMD && echo "Built $filename"
 done
