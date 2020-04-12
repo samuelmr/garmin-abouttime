@@ -15,7 +15,7 @@ enum {
   steps,
   stepGoal
 }
-var dataField = battery;
+var dataField = date;
 
 var showIcons = true;
 
