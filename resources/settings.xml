@@ -1,6 +1,6 @@
 <resources>
  <properties>
-  <property id="dataField" type="number">1</property>
+  <property id="dataField" type="number">2</property>
   <property id="colorScheme" type="number">0</property>
   <property id="showIcons" type="boolean">true</property>
   <property id="batteryWarn" type="number">30</property>
@@ -29,13 +29,13 @@
     <listEntry value="1">@Strings.blackOnWhite</listEntry>
    </settingConfig>
   </setting>
-  <setting propertyKey="@Properties.showIcons" title="@Strings.showIconsTitle">
+  <setting propertyKey="@Properties.showIcons" title="@Strings.showIconsTitle" prompt="@Strings.showIconsHelp">
    <settingConfig type="boolean" />
   </setting>
-  <setting propertyKey="@Properties.batteryWarn" title="@Strings.batteryWarnTitle">
+  <setting propertyKey="@Properties.batteryWarn" title="@Strings.batteryWarnTitle" prompt="@Strings.batteryWarnPrompt">
    <settingConfig type="numeric" errorMessage="@Strings.myNumberError" />
   </setting>
-  <setting propertyKey="@Properties.batteryAlert" title="@Strings.batteryAlertTitle">
+  <setting propertyKey="@Properties.batteryAlert" title="@Strings.batteryAlertTitle" prompt="@Strings.batteryAlertPrompt">
    <settingConfig type="numeric" errorMessage="@Strings.myNumberError" />
   </setting>
  </settings>
