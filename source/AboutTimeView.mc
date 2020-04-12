@@ -158,10 +158,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     if (!settings.phoneConnected) {
       iconString += fontIcons[:disconnected];
     }
-    if (settings.alarmCount > 1) {
+    if (settings.alarmCount > 0) {
       iconString += fontIcons[:alarm];
     }
-    if (settings.notificationCount > 1) {
+    if (settings.notificationCount > 0) {
       iconString += fontIcons[:notification];
     }
     if (stats has :charging && stats.charging) {
