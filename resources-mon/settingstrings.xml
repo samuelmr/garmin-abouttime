@@ -1,0 +1,16 @@
+<resources>
+  <string id="dataFieldTitle">Zaale unner de Uhrzeit</string>
+  <string id="activeMinutesTitle">Akdife Minudde</string>
+  <string id="batteryTitle">Baddarie</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Wieweit de geloffe bischd</string>
+  <string id="stepsTitle">Schridd</string>
+  <string id="stepGoalTitle">Schriddziel</string>
+  <string id="colorSchemeTitle">Faab</string>
+  <string id="whiteOnBlack">Weiß uff Schwazz</string>
+  <string id="blackOnWhite">Schwazz uff Weiß</string>
+  <string id="showIconsTitle">Show icons if space allows (bluetooth disconnected, notifications, alarms, sleep mode, battery status)</string>
+  <string id="batteryWarnTitle">Warn when battery charge is below (%)</string>
+  <string id="batteryAlertTitle">Alert when battery charge is below (%)</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
+</resources>
