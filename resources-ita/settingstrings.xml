@@ -9,8 +9,11 @@
   <string id="colorSchemeTitle">Colore quadrante</string>
   <string id="whiteOnBlack">Bianco su nero</string>
   <string id="blackOnWhite">Nero su bianco</string>
-  <string id="showIconsTitle">Mostra barra superiore (notifiche: bluetooth disconnesso, messaggi, sveglie, non disturbare, batteria scarica)</string>
-  <string id="batteryWarnTitle">Livello batteria % per warning</string>
-  <string id="batteryAlertTitle">Livello batteria % per allerta</string>
-  <string id="myNumberError">Inserire un numero tra 0 e 100</string>
+  <string id="showIconsTitle">Show icons</string>
+  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
+  <string id="batteryWarnTitle">Battery warning %</string>
+  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
+  <string id="batteryAlertTitle">Battery alert %</string>
+  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
 </resources>

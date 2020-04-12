@@ -9,8 +9,11 @@
   <string id="colorSchemeTitle">Color scheme</string>
   <string id="whiteOnBlack">White on black</string>
   <string id="blackOnWhite">Black on white</string>
-  <string id="showIconsTitle">Show icons if space allows (bluetooth disconnected, notifications, alarms, sleep mode, battery status)</string>
-  <string id="batteryWarnTitle">Warn when battery charge is below (%)</string>
-  <string id="batteryAlertTitle">Alert when battery charge is below (%)</string>
+  <string id="showIconsTitle">Show icons</string>
+  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
+  <string id="batteryWarnTitle">Battery warning %</string>
+  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
+  <string id="batteryAlertTitle">Battery alert %</string>
+  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
   <string id="myNumberError">Insert a number between 0 and 100</string>
 </resources>
