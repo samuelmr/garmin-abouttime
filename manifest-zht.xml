@@ -2,6 +2,7 @@
  <iq:application entry="AboutTime" id="679a1355b7fb41518b01866426ca71c9" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="1.2.0" name="@Strings.AppName" type="watchface">
   <iq:products>
    <iq:product id="approachs60"/>
+   <iq:product id="approachs62"/>
    <iq:product id="d2bravo"/>
 <!--
    <iq:product id="d2bravo_titanium"/>
@@ -62,6 +63,9 @@
 -->
    <iq:product id="legacyherocaptainmarvel"/>
    <iq:product id="legacyherofirstavenger"/>
+   <iq:product id="legacysagadarthvader"/>
+   <iq:product id="legacysagarey"/>
+   <iq:product id="marqadventurer"/>
    <iq:product id="marqathlete"/>
    <iq:product id="marqaviator"/>
    <iq:product id="marqcaptain"/>
