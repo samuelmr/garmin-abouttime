@@ -1,16 +1,16 @@
 <resources>
   <string id="AppName">Ungefähr</string>
-  <string id="min0">Äs isch gnou	$1$	</string>
+  <string id="min0">Es esch	$1$	</string>
   <string id="min5">Füf	ab	$1$</string>
-  <string id="min10">Zää	ab	$1$</string>
-  <string id="min15">Viertu	ab	$1$</string>
+  <string id="min10">Zäh	ab	$1$</string>
+  <string id="min15">Viertel	ab	$1$</string>
   <string id="min20">Zwänzg	ab	$1$</string>
   <string id="min25">Füf vor	Haubi	$2$</string>
   <string id="min30">Haubi	$2$	</string>
-  <string id="min35">Füf ab	$2$	</string>
+  <string id="min35">Füf ab	Haubi	$2$</string>
   <string id="min40">Zwänzg	vor	$2$</string>
-  <string id="min45">Viertu	vor	$2$</string>
-  <string id="min50">Zää	vor	$2$</string>
+  <string id="min45">Viertel	vor	$2$</string>
+  <string id="min50">Zäh	vor	$2$</string>
   <string id="min55">Füf	vor	$2$</string>
   <string id="noon">Zwöufi</string>
   <string id="hour1">Eis</string>
@@ -19,10 +19,10 @@
   <string id="hour4">Vieri</string>
   <string id="hour5">Füfi</string>
   <string id="hour6">Sächsi</string>
-  <string id="hour7">Sibni</string>
+  <string id="hour7">Sebni</string>
   <string id="hour8">Achti</string>
   <string id="hour9">Nüni</string>
-  <string id="hour10">Zäni</string>
-  <string id="hour11">Eufi</string>
+  <string id="hour10">Zähni</string>
+  <string id="hour11">Öufi</string>
   <string id="midnight">Zwöufi</string>
 </resources>
