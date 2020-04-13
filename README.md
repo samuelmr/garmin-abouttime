@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-04-11	Minor fix to Bern (5.1.3)
 - 2020-04-11	Fix to Lucerne (5.1.2)
 - 2020-04-11	Some changes to settings, date as a default datafield, added Vordapälzisch (5.1.1)
 - 2020-04-11	Added support to new devices (5.1.0)
