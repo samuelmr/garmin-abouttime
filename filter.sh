@@ -2,7 +2,7 @@
 TMPFILE1=./filter.tmp
 TMPFILE2=./filter2.tmp
 for directory in ./resources-*; do
-  if [ $directory = "./resources-smallscreen" ]
+  if [ $directory = "./resources-smallscreen" ] || [ $directory = "./resources-fr920xt" ] || [ $directory = "./resources-venu" ]
   then
     continue
   fi
