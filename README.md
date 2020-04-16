@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-04-16	Recompiled some releases with SDK 3.1.8, more fixes to Monnemerisch (5.1.6)
 - 2020-04-16	Fixes to Monnemerisch (5.1.5)
 - 2020-04-16	Rolled back releases compiled with SDK 3.1.8 to 3.1.3 (5.1.4)
 - 2020-04-11	Minor fix to Bern (5.1.3)
