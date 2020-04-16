@@ -12,17 +12,17 @@
   <string id="min45">	dreiverdel	$2$</string>
   <string id="min50">zää	vor	$2$</string>
   <string id="min55">korz	vor	$2$</string>
-  <string id="noon">zwöfe</string>
-  <string id="hour1">ans</string>
-  <string id="hour2">zwa</string>
+  <string id="noon">zwelf</string>
+  <string id="hour1">ääns</string>
+  <string id="hour2">zwee</string>
   <string id="hour3">drei</string>
   <string id="hour4">viere</string>
   <string id="hour5">fünfe</string>
-  <string id="hour6">sexe</string>
-  <string id="hour7">siemi</string>
-  <string id="hour8">ochte</string>
+  <string id="hour6">sechse</string>
+  <string id="hour7">siwwene</string>
+  <string id="hour8">achde</string>
   <string id="hour9">neine</string>
-  <string id="hour10">zehne</string>
-  <string id="hour11">öfe</string>
-  <string id="midnight">zwöfe</string>
+  <string id="hour10">zääne</string>
+  <string id="hour11">elf</string>
+  <string id="midnight">Mittanacht</string>
 </resources>
