@@ -6,10 +6,11 @@ A watch face for Garmin Connect IQ devices
 ![Store image](store/AboutTime.png?raw=true "Preview")
 
 ## Get it
-[Download from Connect IQ Store](https://apps.garmin.com/en-US/apps/0379befa-5c10-4af3-918e-ce1bed1203d4)
+[Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
 
+- 2020-04-18	Fixed builds for Venu (5.1.7)
 - 2020-04-16	Recompiled some releases with SDK 3.1.8, more fixes to Monnemerisch (5.1.6)
 - 2020-04-16	Fixes to Monnemerisch (5.1.5)
 - 2020-04-16	Rolled back releases compiled with SDK 3.1.8 to 3.1.3 (5.1.4)
