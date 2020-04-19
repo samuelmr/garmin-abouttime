@@ -82,8 +82,5 @@
   <iq:permissions>
    <iq:uses-permission id="UserProfile"/>
   </iq:permissions>
-  <iq:languages>
-   <iq:language>dut</iq:language>
-  </iq:languages>
  </iq:application>
 </iq:manifest>

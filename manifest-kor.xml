@@ -100,8 +100,5 @@
   <iq:permissions>
    <iq:uses-permission id="UserProfile"/>
   </iq:permissions>
-  <iq:languages>
-   <iq:language>kor</iq:language>
-  </iq:languages>
  </iq:application>
 </iq:manifest>
