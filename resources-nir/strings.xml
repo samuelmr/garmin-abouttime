@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Norn Iron</string>
+  <string id="min0">dead-on	$1$	</string>
+  <string id="min5">a bit	after	$1$</string>
+  <string id="min10">'bout	ten past	$1$</string>
+  <string id="min15">a quarter	past	$1$</string>
+  <string id="min20">twenty	past	$1$</string>
+  <string id="min25">nearly	half	$1$</string>
+  <string id="min30">half	$1$	</string>
+  <string id="min35">after	half	$1$</string>
+  <string id="min40">twenty	to	$2$</string>
+  <string id="min45">a quarter	to	$2$</string>
+  <string id="min50">'bout	ten to	$2$</string>
+  <string id="min55">g'n on	for	$2$</string>
+  <string id="noon">twelve</string>
+  <string id="hour1">one</string>
+  <string id="hour2">two</string>
+  <string id="hour3">three</string>
+  <string id="hour4">four</string>
+  <string id="hour5">five</string>
+  <string id="hour6">six</string>
+  <string id="hour7">seven</string>
+  <string id="hour8">eight</string>
+  <string id="hour9">nine</string>
+  <string id="hour10">ten</string>
+  <string id="hour11">eleven</string>
+  <string id="midnight">twelve</string>
+</resources>
