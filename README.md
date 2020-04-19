@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-04-19	New device-family-specific resources, e.g. bigger fonts for bigger screens (5.2)
 - 2020-04-18	Fixed builds for Venu (5.1.7)
 - 2020-04-16	Recompiled some releases with SDK 3.1.8, more fixes to Monnemerisch (5.1.6)
 - 2020-04-16	Fixes to Monnemerisch (5.1.5)
