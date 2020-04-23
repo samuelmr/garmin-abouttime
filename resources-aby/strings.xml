@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Umara</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">fimf	iwa	$1$</string>
+  <string id="min10">zeen	iwa	$1$</string>
+  <string id="min15">viadl	iwa	$1$</string>
+  <string id="min20">zeen af	hoibe	$1$</string>
+  <string id="min25">fimf af	hoibe	$2$</string>
+  <string id="min30">hoibe	$2$</string>
+  <string id="min35">fimf iwa	hoibe	$2$</string>
+  <string id="min40">zeen iwa	hoibe	$2$</string>
+  <string id="min45">viadl	af	$2$</string>
+  <string id="min50">zeen	af	$2$</string>
+  <string id="min55">fimf af	$2$</string>
+  <string id="noon">zwejfe</string>
+  <string id="hour1">oans</string>
+  <string id="hour2">zwoa</string>
+  <string id="hour3">drei</string>
+  <string id="hour4">viare</string>
+  <string id="hour5">fimfe</string>
+  <string id="hour6">seggse</string>
+  <string id="hour7">sieme</string>
+  <string id="hour8">ochte</string>
+  <string id="hour9">neine</string>
+  <string id="hour10">zeene</string>
+  <string id="hour11">ejfe</string>
+  <string id="midnight">zwejfe</string>
+</resources>
