@@ -70,6 +70,13 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   }
 
+  function onPartialUpdate(dc) {
+		var clockTime = System.getClockTime();
+		if (clockTime.sec == 30) {
+			WatchUi.requestUpdate();
+		}
+	}
+
   function onUpdate(dc) {
     var width = dc.getWidth();
     var height = dc.getHeight();
