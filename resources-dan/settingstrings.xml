@@ -1,14 +1,14 @@
 <resources>
-  <string id="dataFieldTitle">Data to show with time</string>
-  <string id="activeMinutesTitle">Active minutes</string>
-  <string id="batteryTitle">Battery</string>
-  <string id="dateTitle">Date</string>
+  <string id="dataFieldTitle">Data som skal vises sammen med tiden</string>
+  <string id="activeMinutesTitle">Aktive minutter</string>
+  <string id="batteryTitle">Batteri</string>
+  <string id="dateTitle">Dato</string>
   <string id="distanceTitle">Distance</string>
-  <string id="stepsTitle">Steps</string>
-  <string id="stepGoalTitle">Step goal</string>
-  <string id="colorSchemeTitle">Color scheme</string>
-  <string id="whiteOnBlack">White on black</string>
-  <string id="blackOnWhite">Black on white</string>
+  <string id="stepsTitle">Skridt</string>
+  <string id="stepGoalTitle">Skridt mål</string>
+  <string id="colorSchemeTitle">Farvetema</string>
+  <string id="whiteOnBlack">Hvid tekst på sort baggrund</string>
+  <string id="blackOnWhite">Sort tekst på hvid baggrund</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>
