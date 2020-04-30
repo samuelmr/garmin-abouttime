@@ -29,6 +29,9 @@ var bgColor = Graphics.COLOR_BLACK;
 var textColor = Graphics.COLOR_WHITE;
 var dataColor = Graphics.COLOR_LT_GRAY;
 
+
+var width, height, shape, device;
+
 var fontIcons = {
   :alarm => "0",
   :batteryAlert => "1",
@@ -46,8 +49,12 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function onLayout(dc) {
-    readLocale();
 
+    readLocale();
+    device = System.getDeviceSettings();
+    height = dc.getHeight();
+    width = dc.getWidth();
+    shape = device.screenShape;
     fonts[tiny] = WatchUi.loadResource(@Rez.Fonts.id_font_tiny);
     fonts[small] = WatchUi.loadResource(@Rez.Fonts.id_font_small);
     fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
@@ -78,23 +85,18 @@ class AboutTimeView extends WatchUi.WatchFace {
 	}
 
   function onUpdate(dc) {
-    var width = dc.getWidth();
-    var height = dc.getHeight();
+   
 
     if (colorScheme == inverted) {
       bgColor = Graphics.COLOR_WHITE;
       textColor = Graphics.COLOR_BLACK;
       dataColor = Graphics.COLOR_DK_GRAY;
     }
-    else {
-      bgColor = Graphics.COLOR_BLACK;
-      textColor = Graphics.COLOR_WHITE;
-      dataColor = Graphics.COLOR_LT_GRAY;
-    }
+    
 
-    dc.setColor(bgColor, textColor);
-    dc.fillRectangle(0, 0, width, height);
-
+    dc.setColor(bgColor, bgColor);
+    dc.clear();
+    dc.setColor(bgColor, bgColor);
     var timeSpace = drawTimeStrings(dc, System.getClockTime());
 
     if (height - lineHeight > timeSpace[:bottom]) {
@@ -203,8 +205,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var timeSpace = {};
 
-    var width = dc.getWidth();
-    var height = dc.getHeight();
+
 
     var r = 0;
 
@@ -248,9 +249,8 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function scaleFont(dc, font, string, position) {
-    var width = dc.getWidth();
-    var device = System.getDeviceSettings();
-    var shape = device.screenShape;
+    
+    
     if ((shape == System.SCREEN_SHAPE_ROUND) && (position != :middle)) {
       width = 0.9 * width;
     }
