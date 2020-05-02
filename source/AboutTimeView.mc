@@ -13,8 +13,9 @@ var localeArrays = [];
 var halfPast = true;
 var updateCount = 0;
 var fonts = new [6];
-var lineHeight;
-var iconHeight;
+var lineHeight, iconHeight;
+var prevTime, prevIcons;
+var width, height, shape, device;
 
 enum {
   tiny,
@@ -28,9 +29,6 @@ enum {
 var bgColor = Graphics.COLOR_BLACK;
 var textColor = Graphics.COLOR_WHITE;
 var dataColor = Graphics.COLOR_LT_GRAY;
-
-
-var width, height, shape, device;
 
 var fontIcons = {
   :alarm => "0",
@@ -78,26 +76,46 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function onPartialUpdate(dc) {
-		var clockTime = System.getClockTime();
-		if (clockTime.sec == 30) {
-			WatchUi.requestUpdate();
-		}
-	}
+    var clockTime = System.getClockTime();
+    if (clockTime.sec == 30) {
+      WatchUi.requestUpdate();
+    }
+  }
 
   function onUpdate(dc) {
-   
+
+    var time = System.getClockTime();
+    var fuzzyHour = time.hour;
+    var fuzzyMinutes = ((time.min + 2) / 5) * 5;
+    if (fuzzyMinutes > 55) {
+      fuzzyMinutes = 0;
+      fuzzyHour += 1;
+      if (fuzzyHour > 23) {
+        fuzzyHour = 0;
+      }
+    }
+    var thisTime = fuzzyHour.format("%d") + ":" + fuzzyMinutes.format("%02d");
+
+    var iconString = getIconString();
+
+    if (thisTime.equals(prevTime) && iconString.equals(prevIcons)) {
+      // time and status haven't really changed, no need to update
+      // System.println(thisTime + " – " + iconString);
+      return;
+    }
+    prevTime = thisTime;
+    prevIcons = iconString;
 
     if (colorScheme == inverted) {
       bgColor = Graphics.COLOR_WHITE;
       textColor = Graphics.COLOR_BLACK;
       dataColor = Graphics.COLOR_DK_GRAY;
     }
-    
 
     dc.setColor(bgColor, bgColor);
     dc.clear();
     dc.setColor(bgColor, bgColor);
-    var timeSpace = drawTimeStrings(dc, System.getClockTime());
+    var timeSpace = drawTimeStrings(dc, fuzzyHour, fuzzyMinutes);
 
     if (height - lineHeight > timeSpace[:bottom]) {
       var activityInfo;
@@ -151,17 +169,26 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
 
     if ((timeSpace[:top] > iconHeight) && showIcons) {
-      drawIcons(dc, timeSpace[:top]);
+      drawString(dc, width/2, iconHeight, fonts[icons], textColor, iconString);
     }
+
   }
 
-  function drawIcons(dc, verticalSpace) {
+  function getIconString() {
 
     var settings = System.getDeviceSettings();
     var profile = UserProfile.getProfile();
     var stats = System.getSystemStats();
+
     var now = Time.now();
     var today = Time.today();
+    var isSleepTime = now.greaterThan(today.add(profile.sleepTime)) &&
+                      now.lessThan(today.add(profile.wakeTime));
+
+    var doNotDisturb = false;
+    if (settings has :doNotDisturb) {
+      doNotDisturb = settings.doNotDisturb;
+    }
 
     var iconString = "";
     if (!settings.phoneConnected) {
@@ -182,17 +209,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     else if ((stats.battery + 0.5).toNumber() < batteryWarn) {
       iconString += fontIcons[:batteryWarning];
     }
-    if (now.greaterThan(today.add(profile.sleepTime)) && now.lessThan(today.add(profile.wakeTime))) {
+    if (isSleepTime || doNotDisturb) {
       iconString += fontIcons[:sleep];
     }
-
-    var textColor = Graphics.COLOR_WHITE;
-    if (colorScheme == inverted) {
-      textColor = Graphics.COLOR_BLACK;
-    }
-    var x = dc.getWidth()/2;
-    var y = 4 + Graphics.getFontHeight(fonts[icons])/2;
-    drawString(dc, x, y, fonts[icons], textColor, iconString);
+    return iconString;
 
   }
 
@@ -201,16 +221,12 @@ class AboutTimeView extends WatchUi.WatchFace {
     dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
   }
 
-  function drawTimeStrings(dc, time) {
+  function drawTimeStrings(dc, fuzzyHour, fuzzyMinutes) {
 
     var timeSpace = {};
 
-
-
-    var r = 0;
-
     var currentLocale = localize();
-    var strings = prepareStrings(time, currentLocale);
+    var strings = prepareStrings(fuzzyHour, fuzzyMinutes, currentLocale);
     var top = strings[:top];
     var topFont = strings[:topFont];
     var middle = strings[:middle];
@@ -225,11 +241,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     var topHeight = Graphics.getFontHeight(topFont)/1.25;
     var middleHeight = Graphics.getFontHeight(middleFont)/1.25;
     var bottomHeight = Graphics.getFontHeight(bottomFont)/1.25;
-/*
-    var topHeight = dc.getTextDimensions(top, topFont)[1]/1.2;
-    var middleHeight = dc.getTextDimensions(middle, middleFont)[1]/1.2;
-    var bottomHeight = dc.getTextDimensions(bottom, bottomFont)[1]/1.2;
-*/
     var totalHeight = topHeight + middleHeight + bottomHeight;
 
     var x = width / 2;
@@ -249,32 +260,33 @@ class AboutTimeView extends WatchUi.WatchFace {
   }
 
   function scaleFont(dc, font, string, position) {
-    
-    
+
+    var lineWidth = width;
     if ((shape == System.SCREEN_SHAPE_ROUND) && (position != :middle)) {
-      width = 0.9 * width;
+      lineWidth = 0.9 * width;
     }
 
     var strWidth = dc.getTextWidthInPixels(string, font);
-    var fontIndex = 2; // default for Epix
+    var fontIndex = medium;
 
     if (fonts has :indexOf) {
       fontIndex = fonts.indexOf(font);
     }
 
-    if ((width > 180) && (string.length() <= 9)) {
+    if ((lineWidth > 180) && (string.length() <= 9)) {
       if (fontIndex < (fonts.size() - 1)) {
         fontIndex += 1;
         font = fonts[fontIndex];
         strWidth = dc.getTextWidthInPixels(string, font);
       }
     }
-    while ((strWidth > width) && (fontIndex >= 0)) {
+    while ((strWidth > lineWidth) && (fontIndex > 0)) {
       fontIndex -= 1;
       font = fonts[fontIndex];
       strWidth = dc.getTextWidthInPixels(string, font);
     }
     return font;
+
   }
 
   function readLocale() {
@@ -291,7 +303,6 @@ class AboutTimeView extends WatchUi.WatchFace {
       "min45" => WatchUi.loadResource(Rez.Strings.min45),
       "min50" => WatchUi.loadResource(Rez.Strings.min50),
       "min55" => WatchUi.loadResource(Rez.Strings.min55),
-
       :hours => [
         "",
         WatchUi.loadResource(Rez.Strings.hour1),
@@ -309,7 +320,6 @@ class AboutTimeView extends WatchUi.WatchFace {
       :noon => WatchUi.loadResource(Rez.Strings.noon),
       :midnight => WatchUi.loadResource(Rez.Strings.midnight),
     };
-
     var keys = locale.keys();
     for (var i=0; i<keys.size(); i++) {
       var key = keys[i];
@@ -328,7 +338,6 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   function localize() {
     var currentLocale = cloneDictionary(locale);
-
     var i;
     for (i=0; i<localeArrays.size(); i++) {
       var it = localeArrays[i];
@@ -344,21 +353,11 @@ class AboutTimeView extends WatchUi.WatchFace {
     return currentLocale;
   }
 
-  function prepareStrings(time, currentLocale) {
+  function prepareStrings(fuzzyHour, fuzzyMinutes, currentLocale) {
     var top = "";
     var middle = "";
     var bottom = "";
 
-    var fuzzyHour = time.hour;
-    var fuzzyMinutes = ((time.min + 2) / 5) * 5;
-
-    if (fuzzyMinutes > 55) {
-      fuzzyMinutes = 0;
-      fuzzyHour += 1;
-      if (fuzzyHour > 23) {
-        fuzzyHour = 0;
-      }
-    }
     var nextHour = fuzzyHour + 1;
 
     if (fuzzyHour == 0) {
@@ -443,6 +442,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       :top => top,
       :topFont => topFont
     };
+
   }
 
   function strToArray(str) {
@@ -454,9 +454,9 @@ class AboutTimeView extends WatchUi.WatchFace {
       var arr = [];
       while (str.find("|")) {
         var splitIndex = str.find("|");
-        if (! arr has :add) { // epix doesn't support array.add()
-          return str.substring(0, splitIndex);
-        }
+        // if (! arr has :add) { // epix doesn't support array.add()
+        //   return str.substring(0, splitIndex);
+        // }
         arr.add(str.substring(0, splitIndex));
         str = str.substring(splitIndex+1, str.length());
       }
