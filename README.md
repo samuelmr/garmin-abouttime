@@ -10,6 +10,10 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-05-02	Added DoNotDisturb icon, reformatted code (thanks Dexter!) (5.4.0)
+- 2020-04-28	Translated Danish setting strings (5.3.1)
+- 2020-04-24	Update time on half minutes (thanks Ola!) (5.3)
+- 2020-04-24	Minor fix to Norwegian (5.2.2)
 - 2020-04-23	Added Altbairisch (5.2.1)
 - 2020-04-19	New device-family-specific resources, e.g. bigger fonts for bigger screens (5.2.0)
 - 2020-04-18	Fixed builds for Venu (5.1.7)
