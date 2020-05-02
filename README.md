@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-05-02	Minor fix to Dutch (thanks Bart!) (5.4.1)
 - 2020-05-02	Added DoNotDisturb icon, reformatted code (thanks Dexter!) (5.4.0)
 - 2020-04-28	Translated Danish setting strings (5.3.1)
 - 2020-04-24	Update time on half minutes (thanks Ola!) (5.3)
