@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Umbes</string>
+  <string id="min0">	kell on	$1$</string>
+  <string id="min5">	$1$	läbi</string>
+  <string id="min10">kümme minti	$1$	läbi</string>
+  <string id="min15">	veerand	$2$</string>
+  <string id="min20">	$1$	kakskend</string>
+  <string id="min25">kohe saab	pool	$2$</string>
+  <string id="min30">	pool	$2$</string>
+  <string id="min35">pool 	$2$	läbi</string>
+  <string id="min40">	$1$	nelikend</string>
+  <string id="min45">	kolmveerand	$2$</string>
+  <string id="min50">kümne	pärast	$2$</string>
+  <string id="min55">kohe	saab	$2$</string>
+  <string id="noon">kaksteist</string>
+  <string id="hour1">üks</string>
+  <string id="hour2">kaks</string>
+  <string id="hour3">kolm</string>
+  <string id="hour4">neli</string>
+  <string id="hour5">viis</string>
+  <string id="hour6">kuus</string>
+  <string id="hour7">seitse</string>
+  <string id="hour8">kaheksa</string>
+  <string id="hour9">üheksa</string>
+  <string id="hour10">kümme</string>
+  <string id="hour11">üksteist</string>
+  <string id="midnight">kaksteist</string>
+</resources>
