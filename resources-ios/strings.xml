@@ -3,7 +3,7 @@
   <string id="min0">$1$	hundred hours	'sactly!</string>
   <string id="min5">$1$	oh five	</string>
   <string id="min10">$1$	tennish	</string>
-  <string id="min15">$1$	oh fifteen	</string>
+  <string id="min15">$1$	fifteen	</string>
   <string id="min20">$1$	twentysomething	</string>
   <string id="min25">almost	$1$	thirty</string>
   <string id="min30">$1$	thirty	'cisely!</string>
@@ -12,7 +12,7 @@
   <string id="min45">$1$	forty five	old boy</string>
   <string id="min50">$1$	fifty	</string>
   <string id="min55">very nearly	$2$	hundred hours!</string>
-  <string id="noon">oh twelve</string>
+  <string id="noon">twelve</string>
   <string id="hour1">oh one</string>
   <string id="hour2">oh two</string>
   <string id="hour3">oh three</string>
@@ -22,7 +22,7 @@
   <string id="hour7">oh seven</string>
   <string id="hour8">oh eight</string>
   <string id="hour9">oh nine</string>
-  <string id="hour10">oh ten</string>
-  <string id="hour11">oh eleven</string>
+  <string id="hour10">ten</string>
+  <string id="hour11">eleven</string>
   <string id="midnight">oh oh</string>
 </resources>
