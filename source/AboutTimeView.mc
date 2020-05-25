@@ -98,6 +98,13 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var iconString = getIconString();
 
+/*
+ * It seems we need to redraw the screen anyway. Just returning from
+ * onUpdate() may cause the screen to appear blank on real devices
+ * (although it works fine in the simulator)
+ *
+ * See https://github.com/samuelmr/garmin-abouttime/issues/13
+ *
     if (thisTime.equals(prevTime) && iconString.equals(prevIcons)) {
       // time and status haven't really changed, no need to update
       // System.println(thisTime + " – " + iconString);
@@ -105,6 +112,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
     prevTime = thisTime;
     prevIcons = iconString;
+*/
 
     if (colorScheme == inverted) {
       bgColor = Graphics.COLOR_WHITE;
@@ -114,7 +122,6 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     dc.setColor(bgColor, bgColor);
     dc.clear();
-    dc.setColor(bgColor, bgColor);
     var timeSpace = drawTimeStrings(dc, fuzzyHour, fuzzyMinutes);
 
     if (height - lineHeight > timeSpace[:bottom]) {
