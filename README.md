@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-07-02	Updated Aargau (5.4.10)
 - 2020-06-29	Added Aargau (5.4.9)
 - 2020-06-21	Added alternative Dutch version (5.4.8)
 - 2020-05-16	Rolled back over-enthusiastic optimizations (5.4.7)
