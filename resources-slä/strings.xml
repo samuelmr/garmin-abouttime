@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ugfähr</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">kurz	noh	$1$</string>
+  <string id="min10">zehn	noh	$1$</string>
+  <string id="min15">verdell	noh	$1$</string>
+  <string id="min20">zwansisch	noh	$1$</string>
+  <string id="min25">korz vor	hallwer	$2$</string>
+  <string id="min30">hallwer	$2$	</string>
+  <string id="min35">korz noh	hallwer	$2$</string>
+  <string id="min40">zwansisch	vor	$2$</string>
+  <string id="min45">verdell	vor	$2$</string>
+  <string id="min50">zehn	vor	$2$</string>
+  <string id="min55">kurz	vor	$2$</string>
+  <string id="noon">zwölf</string>
+  <string id="hour1">enns</string>
+  <string id="hour2">zwee</string>
+  <string id="hour3">drei</string>
+  <string id="hour4">vier</string>
+  <string id="hour5">fünf</string>
+  <string id="hour6">sechs</string>
+  <string id="hour7">siwwe</string>
+  <string id="hour8">acht</string>
+  <string id="hour9">nein</string>
+  <string id="hour10">zehn</string>
+  <string id="hour11">ölf</string>
+  <string id="midnight">zwölf</string>
+</resources>
