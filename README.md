@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-07-19	Changes to Pälzisch (5.4.12)
 - 2020-07-10	Added Saarländisch (5.4.11)
 - 2020-07-02	Updated Aargau (5.4.10)
 - 2020-06-29	Added Aargau (5.4.9)
