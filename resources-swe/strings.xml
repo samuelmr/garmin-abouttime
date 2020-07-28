@@ -1,13 +1,13 @@
 <resources>
   <string id="AppName">Ungefär</string>
   <string id="min0">	$1$	</string>
-  <string id="min5">lite	över	$1$</string>
+  <string id="min5">lite	efter	$1$</string>
   <string id="min10">tio	över	$1$</string>
   <string id="min15">kvart	över	$1$</string>
   <string id="min20">tjugo	över	$1$</string>
   <string id="min25">nästan	halv	$2$</string>
   <string id="min30">	halv	$2$</string>
-  <string id="min35">lite över	halv	$2$</string>
+  <string id="min35">lite efter	halv	$2$</string>
   <string id="min40">tjugo	i	$2$</string>
   <string id="min45">kvart	i	$2$</string>
   <string id="min50">tio	i	$2$</string>
