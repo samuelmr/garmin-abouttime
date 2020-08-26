@@ -6,6 +6,7 @@
   <string id="distanceTitle">Zurückgelegte Strecke</string>
   <string id="stepsTitle">Schritte</string>
   <string id="stepGoalTitle">Schritte Ziel</string>
+  <string id="timeTitle">Exact time</string>
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Weiß auf Schwarz</string>
   <string id="blackOnWhite">Schwarz auf Weiß</string>

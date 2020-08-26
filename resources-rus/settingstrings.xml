@@ -6,6 +6,7 @@
   <string id="distanceTitle">Расстояние</string>
   <string id="stepsTitle">Шаги</string>
   <string id="stepGoalTitle">Цель по шагам</string>
+  <string id="timeTitle">Exact time</string>
   <string id="colorSchemeTitle">Цветовая схема</string>
   <string id="whiteOnBlack">Белый на черном</string>
   <string id="blackOnWhite">Черный на белом</string>

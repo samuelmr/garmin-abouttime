@@ -6,6 +6,7 @@
   <string id="distanceTitle">Liikuttu matka</string>
   <string id="stepsTitle">Askeleet</string>
   <string id="stepGoalTitle">Askeltavoite</string>
+  <string id="timeTitle">Tarkka aika</string>
   <string id="colorSchemeTitle">Värit</string>
   <string id="whiteOnBlack">Valkoinen mustalla taustalla</string>
   <string id="blackOnWhite">Musta valkoisella taustalla</string>

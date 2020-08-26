@@ -6,14 +6,15 @@ using Toybox.WatchUi;
 var view;
 
 // data field values, corresponds to settingConfig list of
-// propertyKey @Properties.dataField in resource/settings.xml
+// propertyKey @Properties.dataField in resources/settings.xml
 enum {
   activeMinutes,
   battery,
   date,
   distance,
   steps,
-  stepGoal
+  stepGoal,
+  exactTime
 }
 var dataField = date;
 

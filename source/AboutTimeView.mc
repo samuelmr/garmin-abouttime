@@ -77,7 +77,10 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   function onPartialUpdate(dc) {
     var clockTime = System.getClockTime();
-    if (clockTime.sec == 30) {
+		if (dataField == exactTime) {
+      WatchUi.requestUpdate();
+		}
+    else if (clockTime.sec == 30) {
       WatchUi.requestUpdate();
     }
   }
@@ -94,7 +97,6 @@ class AboutTimeView extends WatchUi.WatchFace {
         fuzzyHour = 0;
       }
     }
-    var thisTime = fuzzyHour.format("%d") + ":" + fuzzyMinutes.format("%02d");
 
     var iconString = getIconString();
 
@@ -105,6 +107,7 @@ class AboutTimeView extends WatchUi.WatchFace {
  *
  * See https://github.com/samuelmr/garmin-abouttime/issues/13
  *
+    var thisTime = fuzzyHour.format("%d") + ":" + fuzzyMinutes.format("%02d");
     if (thisTime.equals(prevTime) && iconString.equals(prevIcons)) {
       // time and status haven't really changed, no need to update
       // System.println(thisTime + " – " + iconString);
@@ -156,6 +159,9 @@ class AboutTimeView extends WatchUi.WatchFace {
         case stepGoal:
           activityInfo = ActivityMonitor.getInfo();
           dataString = activityInfo.stepGoal;
+          break;
+        case exactTime:
+          dataString = Lang.format("$1$:$2$", [time.hour.format("%d"), time.min.format("%02d")]);
           break;
       }
 

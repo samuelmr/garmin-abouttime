@@ -20,6 +20,7 @@
 <!--
     <listEntry value="5">@Strings.stepGoalTitle</listEntry>
 -->
+    <listEntry value="6">@Strings.timeTitle</listEntry>
    </settingConfig>
   </setting>
   <setting propertyKey="@Properties.colorScheme" title="@Strings.colorSchemeTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">

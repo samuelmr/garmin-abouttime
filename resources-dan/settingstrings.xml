@@ -6,6 +6,7 @@
   <string id="distanceTitle">Distance</string>
   <string id="stepsTitle">Skridt</string>
   <string id="stepGoalTitle">Skridt mål</string>
+  <string id="timeTitle">Exact time</string>
   <string id="colorSchemeTitle">Farvetema</string>
   <string id="whiteOnBlack">Hvid tekst på sort baggrund</string>
   <string id="blackOnWhite">Sort tekst på hvid baggrund</string>
