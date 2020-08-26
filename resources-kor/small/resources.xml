@@ -1,9 +1,9 @@
 <resources>
  <fonts>
-  <font id="id_font_tiny" filename="fonts/andika18.fnt" antialias="true" filter=" %.0123456789km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
-  <font id="id_font_small" filename="fonts/andika18.fnt" antialias="true" filter=" %.0123456789km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
-  <font id="id_font_medium" filename="fonts/andika24.fnt" antialias="true" filter=" %.0123456789km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
-  <font id="id_font_large" filename="fonts/andika32.fnt" antialias="true" filter=" %.0123456789km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
-  <font id="id_font_extralarge" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
+  <font id="id_font_tiny" filename="fonts/andika18.fnt" antialias="true" filter=" %.0123456789:km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
+  <font id="id_font_small" filename="fonts/andika18.fnt" antialias="true" filter=" %.0123456789:km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
+  <font id="id_font_medium" filename="fonts/andika24.fnt" antialias="true" filter=" %.0123456789:km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
+  <font id="id_font_large" filename="fonts/andika32.fnt" antialias="true" filter=" %.0123456789:km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
+  <font id="id_font_extralarge" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789:km곱나넷다대덟둘략반사삼섯셋시십아여열오이일하홉" />
  </fonts>
 </resources>
