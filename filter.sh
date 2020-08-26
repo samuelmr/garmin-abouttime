@@ -7,7 +7,7 @@ for directory in ./resources-*; do
   [ -L "images" ] || ln -s ../resources/images .
   [ -f "settingstrings.xml" ] || cp ../resources/settingstrings.xml .
   [ -L "settings.xml" ] || ln -s ../resources/settings.xml .
-  echo "0123456789%.km " > $TMPFILE1
+  echo "0123456789%.:km " > $TMPFILE1
   cat strings.xml | tr '\n' ' ' | sed -e 's/ //g' -e 's/\$.\$//g' -e 's/<[^>]*>//g' >> $TMPFILE1
   grep -o . $TMPFILE1 | sort -u > $TMPFILE2
   cat $TMPFILE2 | tr '\n' ' ' | sed -e 's/ //g' | sed -e 's/	/ /g' | sed -e 's/|/ /g' > $TMPFILE1
