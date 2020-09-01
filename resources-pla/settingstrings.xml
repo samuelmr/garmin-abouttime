@@ -1,0 +1,20 @@
+<resources>
+  <string id="dataFieldTitle">Information unner de Tied</string>
+  <string id="activeMinutesTitle">Flietige Menüüten</string>
+  <string id="batteryTitle">Batterieladung</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Dörhalte Streek</string>
+  <string id="stepsTitle">Stappen</string>
+  <string id="stepGoalTitle">Stappen End</string>
+  <string id="timeTitle">Akkraat Tied</string>
+  <string id="colorSchemeTitle">Köör of de Farv</string>
+  <string id="whiteOnBlack">Witt op swart</string>
+  <string id="blackOnWhite">Swart of witt</string>
+  <string id="showIconsTitle">Wies Icons</string>
+  <string id="showIconsHelp">Unnerbroken, annmarkens, alarm, slaup tied, Batterie leeg</string>
+  <string id="batteryWarnTitle">Batteriehinweis</string>
+  <string id="batteryWarnPrompt">Wies Hinweis-Icons, wenn Ladung is unner</string>
+  <string id="batteryAlertTitle">Batteriewarnung</string>
+  <string id="batteryAlertPrompt">Wies Alarm-Icon, wenn Ladung is unner</string>
+  <string id="myNumberError">Set een nummer tüschen 0 un 100 in</string>
+</resources>
