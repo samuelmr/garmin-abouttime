@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-09-02	Minor corrections to Plattdütsch (5.6.2)
 - 2020-08-31	Added Plattdütsch (5.6.1)
 - 2020-08-28	Added support for new devices, compiled with SDK 3.2.1 (5.6.0)
 - 2020-08-23	Added exact date as a datafield (5.5.0)
