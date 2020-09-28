@@ -1,5 +1,6 @@
 <resources>
   <string id="dataFieldTitle">Data</string>
+  <string id="hideTitle">Nothing (hide)</string>
   <string id="activeMinutesTitle">Minutes în mișcare</string>
   <string id="batteryTitle">Baterie</string>
   <string id="dateTitle">Data</string>

@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-09-28	Ability to hide data field (5.8.0)
 - 2020-09-06	Compiled with SDK 3.2.2 (5.7.0)
 - 2020-09-02	Minor corrections to Plattdütsch (5.6.2)
 - 2020-08-31	Added Plattdütsch (5.6.1)

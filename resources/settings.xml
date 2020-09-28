@@ -10,9 +10,7 @@
   <setting propertyKey="@Properties.dataField" title="@Strings.dataFieldTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">
    <settingConfig type="list">
    <!-- See corresponding enum in source/AboutTimeApp.mc -->
-<!--
-    <listEntry value="0">@Strings.activeMinutesTitle</listEntry>
--->
+    <listEntry value="0">@Strings.hideTitle</listEntry>
     <listEntry value="1">@Strings.batteryTitle</listEntry>
     <listEntry value="2">@Strings.dateTitle</listEntry>
     <listEntry value="3">@Strings.distanceTitle</listEntry>
@@ -21,6 +19,9 @@
     <listEntry value="5">@Strings.stepGoalTitle</listEntry>
 -->
     <listEntry value="6">@Strings.timeTitle</listEntry>
+<!--
+    <listEntry value="7">@Strings.activeMinutesTitle</listEntry>
+-->
    </settingConfig>
   </setting>
   <setting propertyKey="@Properties.colorScheme" title="@Strings.colorSchemeTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">

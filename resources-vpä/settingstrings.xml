@@ -1,5 +1,6 @@
 <resources>
   <string id="dataFieldTitle">Info unner de Uhr</string>
+  <string id="hideTitle">Ausblenden</string>
   <string id="activeMinutesTitle">Akdive Minudde</string>
   <string id="batteryTitle">Baddarie</string>
   <string id="dateTitle">Dadum</string>

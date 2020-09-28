@@ -1,5 +1,6 @@
 <resources>
   <string id="dataFieldTitle">Podatki prikazani ob času</string>
+  <string id="hideTitle">Ausblenden</string>
   <string id="activeMinutesTitle">Aktivne minute</string>
   <string id="batteryTitle">Baterija</string>
   <string id="dateTitle">Datum</string>

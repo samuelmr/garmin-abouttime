@@ -127,7 +127,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     dc.clear();
     var timeSpace = drawTimeStrings(dc, fuzzyHour, fuzzyMinutes);
 
-    if (height - lineHeight > timeSpace[:bottom]) {
+    if ((dataField != hide) && (height - lineHeight > timeSpace[:bottom])) {
       var activityInfo;
       var dataString = (System.getSystemStats().battery + 0.5).format("%d") + " %";
       switch(dataField) {

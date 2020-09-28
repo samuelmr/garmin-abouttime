@@ -1,12 +1,13 @@
 <resources>
   <string id="dataFieldTitle">Infos z'onderscht of de Uhr</string>
-  <string id="activeMinutesTitle">Aktivitäätsminute</string>
+  <string id="hideTitle">Ausblenden</string>
   <string id="batteryTitle">Batterielaadig</string>
   <string id="dateTitle">Datom</string>
   <string id="distanceTitle">Zrogggleiti Schtrecki</string>
   <string id="stepsTitle">Schrett</string>
   <string id="stepGoalTitle">Schrett Ziel</string>
   <string id="timeTitle">Exact time</string>
+  <string id="activeMinutesTitle">Aktivitäätsminute</string>
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Wiiss of Schwaarz</string>
   <string id="blackOnWhite">Schwaarz uf Wiss</string>

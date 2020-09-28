@@ -1,12 +1,13 @@
 <resources>
   <string id="dataFieldTitle">Data to show with time</string>
-  <string id="activeMinutesTitle">Active minutes</string>
+  <string id="hideTitle">Hide</string>
   <string id="batteryTitle">Battery</string>
   <string id="dateTitle">Date</string>
   <string id="distanceTitle">Distance</string>
   <string id="stepsTitle">Steps</string>
   <string id="stepGoalTitle">Step goal</string>
   <string id="timeTitle">Exact time</string>
+  <string id="activeMinutesTitle">Active minutes</string>
   <string id="colorSchemeTitle">Color scheme</string>
   <string id="whiteOnBlack">White on black</string>
   <string id="blackOnWhite">Black on white</string>

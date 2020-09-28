@@ -8,13 +8,14 @@ var view;
 // data field values, corresponds to settingConfig list of
 // propertyKey @Properties.dataField in resources/settings.xml
 enum {
-  activeMinutes,
+  hide,
   battery,
   date,
   distance,
   steps,
   stepGoal,
-  exactTime
+  exactTime,
+  activeMinutes
 }
 var dataField = date;
 

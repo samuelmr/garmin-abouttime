@@ -1,5 +1,6 @@
 <resources>
   <string id="dataFieldTitle">Datumo montrata sub la tempo</string>
+  <string id="hideTitle">Nothing (hide)</string>
   <string id="activeMinutesTitle">Agemaj minutoj</string>
   <string id="batteryTitle">Ŝargo de baterio</string>
   <string id="dateTitle">Dato</string>

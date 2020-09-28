@@ -1,5 +1,6 @@
 <resources>
   <string id="dataFieldTitle">Info unterhalb vo d'r Uhrzit</string>
+  <string id="hideTitle">Ausblenden</string>
   <string id="activeMinutesTitle">Solang bisch aktiv gsi</string>
   <string id="batteryTitle">übrige Batterie</string>
   <string id="dateTitle">Datum</string>

@@ -1,12 +1,13 @@
 <resources>
   <string id="dataFieldTitle">Näytä ajan lisäksi</string>
-  <string id="activeMinutesTitle">Aktiivinen aika</string>
+  <string id="hideTitle">Ei mitään (piilota)</string>
   <string id="batteryTitle">Akun varaus</string>
   <string id="dateTitle">Päiväys</string>
   <string id="distanceTitle">Liikuttu matka</string>
   <string id="stepsTitle">Askeleet</string>
   <string id="stepGoalTitle">Askeltavoite</string>
   <string id="timeTitle">Tarkka aika</string>
+  <string id="activeMinutesTitle">Aktiivinen aika</string>
   <string id="colorSchemeTitle">Värit</string>
   <string id="whiteOnBlack">Valkoinen mustalla taustalla</string>
   <string id="blackOnWhite">Musta valkoisella taustalla</string>
