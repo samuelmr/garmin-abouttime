@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-10-16	Added support for new devices (5.8.3)
 - 2020-10-16	Added Quese (Italian dialett) (5.8.2)
 - 2020-10-16	Changes to Italian (5.8.1)
 - 2020-09-28	Ability to hide data field (5.8.0)
