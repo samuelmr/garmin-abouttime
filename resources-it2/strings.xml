@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quese</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	e cinc</string>
+  <string id="min10">	$1$	e dees</string>
+  <string id="min15">	$1$	e un quert</string>
+  <string id="min20">	$1$	e vinti</string>
+  <string id="min25">quese	$1$	e meza</string>
+  <string id="min30">	$1$	e meza</string>
+  <string id="min35">	$1$	e trentacinc</string>
+  <string id="min40">	$2$	meno vinti</string>
+  <string id="min45">	$2$	meno un quert</string>
+  <string id="min50">	$2$	meno dees</string>
+  <string id="min55">	quese	$2$</string>
+  <string id="noon">meesdí</string>
+  <string id="hour1">l'una</string>
+  <string id="hour2">i do</string>
+  <string id="hour3">i tre</string>
+  <string id="hour4">i quatro</string>
+  <string id="hour5">i cinc</string>
+  <string id="hour6">i sees</string>
+  <string id="hour7">i sett</string>
+  <string id="hour8">i ott</string>
+  <string id="hour9">i nóf</string>
+  <string id="hour10">i dees</string>
+  <string id="hour11">i undés</string>
+  <string id="midnight">mezzanócc</string>
+</resources>
