@@ -4,6 +4,7 @@
    <iq:product id="approachs60"/>
    <iq:product id="approachs62"/>
    <iq:product id="d2bravo"/>
+   <iq:product id="d2air"/>
 <!--
    <iq:product id="d2bravo_titanium"/>
 -->
@@ -19,6 +20,7 @@
 <!--
    <iq:product id="edge1030"/>
    <iq:product id="edge1030bontrager"/>
+   <iq:product id="edge1030plus"/>
    <iq:product id="edge130"/>
    <iq:product id="edge130pus"/>
    <iq:product id="edge520plus"/>
@@ -55,6 +57,7 @@
    <iq:product id="fr645"/>
    <iq:product id="fr645m"/>
    <iq:product id="fr735xt"/>
+   <iq:product id="fr745"/>
    <iq:product id="fr920xt"/>
    <iq:product id="fr935"/>
    <iq:product id="fr945"/>
@@ -80,6 +83,8 @@
 -->
    <iq:product id="venu"/>
    <iq:product id="venud"/>
+   <iq:product id="venusq"/>
+   <iq:product id="venusqm"/>
    <iq:product id="vivoactive"/>
    <iq:product id="vivoactive3"/>
    <iq:product id="vivoactive3d"/>
