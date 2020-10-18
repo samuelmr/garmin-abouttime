@@ -10,8 +10,8 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
-- 2020-10-16	Added two Austrian dialects: Wienerisch and Ost-Österreich (5.8.4)
-- 2020-10-16	Added support for new devices (5.8.3)
+- 2020-10-16	Added two Austrian dialects: Wienerisch and Ost-Österreich (5.9.1)
+- 2020-10-16	Added support for new devices, compiled with SDK 3.2.3 (5.9.0)
 - 2020-10-16	Added Quese (Italian dialett) (5.8.2)
 - 2020-10-16	Changes to Italian (5.8.1)
 - 2020-09-28	Ability to hide data field (5.8.0)
