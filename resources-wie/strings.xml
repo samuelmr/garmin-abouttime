@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Zeitworte</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">fünf	nauch	$1$</string>
+  <string id="min10">zehn	nauch	$1$</string>
+  <string id="min15">	viadl	$2$</string>
+  <string id="min20">zehn vua	hoib	$2$</string>
+  <string id="min25">fünf vua	hoib	$2$</string>
+  <string id="min30">hoib	$2$	</string>
+  <string id="min35">fünf nauch	hoib	$2$</string>
+  <string id="min40">zehn nauch	hoib	$2$</string>
+  <string id="min45">drei	viadl	$2$</string>
+  <string id="min50">zehn	vua	$2$</string>
+  <string id="min55">fünf	vua	$2$</string>
+  <string id="noon">zwö’f</string>
+  <string id="hour1">aans</string>
+  <string id="hour2">zwaa</string>
+  <string id="hour3">drei</string>
+  <string id="hour4">via</string>
+  <string id="hour5">fünf</string>
+  <string id="hour6">sechs</string>
+  <string id="hour7">siebm</string>
+  <string id="hour8">ocht</string>
+  <string id="hour9">nein</string>
+  <string id="hour10">zehn</string>
+  <string id="hour11">ö’f</string>
+  <string id="midnight">zwö’f</string>
+</resources>
