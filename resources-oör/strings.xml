@@ -1,15 +1,15 @@
 <resources>
-  <string id="AppName">Ungefähr</string>
+  <string id="AppName">Zeitworte</string>
   <string id="min0">	$1$	</string>
-  <string id="min5">fünf	nach	$1$</string>
-  <string id="min10">zehn	nach	$1$</string>
-  <string id="min15">	viertel	$2$</string>
+  <string id="min5">fünf nach	$1$	</string>
+  <string id="min10">zehn nach	$1$	</string>
+  <string id="min15">viertel	$2$	</string>
   <string id="min20">zehn vor	halb	$2$</string>
   <string id="min25">fünf vor	halb	$2$</string>
   <string id="min30">halb	$2$	</string>
   <string id="min35">fünf nach	halb	$2$</string>
   <string id="min40">zehn nach	halb	$2$</string>
-  <string id="min45">drei	viertel	$2$</string>
+  <string id="min45">dreiviertel	$2$	</string>
   <string id="min50">zehn	vor	$2$</string>
   <string id="min55">fünf	vor	$2$</string>
   <string id="noon">zwölf</string>
