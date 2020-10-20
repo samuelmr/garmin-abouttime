@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Wort+Zahl</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">5 nach	$1$	</string>
+  <string id="min10">10 nach	$1$	</string>
+  <string id="min15">¼	$2$	</string>
+  <string id="min20">10 vor ½	$2$	</string>
+  <string id="min25">5 vor ½	$2$	</string>
+  <string id="min30">½	$2$	</string>
+  <string id="min35">5 nach ½	$2$	</string>
+  <string id="min40">10 nach ½	$2$	</string>
+  <string id="min45">¾	$2$	</string>
+  <string id="min50">10 vor	$2$	</string>
+  <string id="min55">5 vor	$2$	</string>
+  <string id="noon">zwölf</string>
+  <string id="hour1">eins</string>
+  <string id="hour2">zwei</string>
+  <string id="hour3">drei</string>
+  <string id="hour4">vier</string>
+  <string id="hour5">fünf</string>
+  <string id="hour6">sechs</string>
+  <string id="hour7">sieben</string>
+  <string id="hour8">acht</string>
+  <string id="hour9">neun</string>
+  <string id="hour10">zehn</string>
+  <string id="hour11">elf</string>
+  <string id="midnight">zwölf</string>
+</resources>

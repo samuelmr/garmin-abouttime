@@ -1,0 +1,21 @@
+<resources>
+  <string id="dataFieldTitle">Information unter der Uhrzeit</string>
+  <string id="hideTitle">Ausblenden</string>
+  <string id="activeMinutesTitle">Aktivitätsminuten</string>
+  <string id="batteryTitle">Batterieladung</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Zurückgelegte Strecke</string>
+  <string id="stepsTitle">Schritte</string>
+  <string id="stepGoalTitle">Schritte Ziel</string>
+  <string id="timeTitle">Exact time</string>
+  <string id="colorSchemeTitle">Farbwahl</string>
+  <string id="whiteOnBlack">Weiß auf Schwarz</string>
+  <string id="blackOnWhite">Schwarz auf Weiß</string>
+  <string id="showIconsTitle">Show icons</string>
+  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
+  <string id="batteryWarnTitle">Battery warning %</string>
+  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
+  <string id="batteryAlertTitle">Battery alert %</string>
+  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
+</resources>
