@@ -10,6 +10,8 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-10-31	Added support for descentmk2 and marqcommander (5.10.0)
+- 2020-10-31	Added Afrikaans (5.9.3)
 - 2020-10-20	Changes to Wienerisch and Ost-Österreich, added Wort&Zahl (5.9.2)
 - 2020-10-16	Added two Austrian dialects: Wienerisch and Ost-Österreich (5.9.1)
 - 2020-10-16	Added support for new devices, compiled with SDK 3.2.3 (5.9.0)

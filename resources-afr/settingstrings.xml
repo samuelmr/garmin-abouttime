@@ -1,0 +1,21 @@
+<resources>
+  <string id="dataFieldTitle">Additionele ingligting om aan te toon		</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="activeMinutesTitle">Aktiewe minute</string>
+  <string id="batteryTitle">Battery</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Afstand</string>
+  <string id="stepsTitle">Tree</string>
+  <string id="stepGoalTitle">Tree doelwit</string>
+  <string id="timeTitle">Presiese tyd</string>
+  <string id="colorSchemeTitle">Kleurskema</string>
+  <string id="whiteOnBlack">Wit op swart</string>
+  <string id="blackOnWhite">Swart op wit</string>
+  <string id="showIconsTitle">Toon ikone</string>
+  <string id="showIconsHelp">afgesny, kennisgewings, alarms, slaaptyd, battery amper pap</string>
+  <string id="batteryWarnTitle">Lae battery waarskuwing (%)</string>
+  <string id="batteryWarnPrompt">Wys waarskuwing wanneer battery onder</string>
+  <string id="batteryAlertTitle">Battery alarm (%)</string>
+  <string id="batteryAlertPrompt">Wys battery alarm wanneer battery onder</string>
+  <string id="myNumberError">Sleutel 'n nommer tussen 0 en 100 in</string>
+</resources>
