@@ -11,6 +11,7 @@
    <iq:product id="d2deltapx"/>
    <iq:product id="d2deltas"/>
    <iq:product id="descentmk1"/>
+   <iq:product id="descentmk2"/>
 <!--
    <iq:product id="edge1030"/>
    <iq:product id="edge1030bontrager"/>
@@ -66,6 +67,8 @@
    <iq:product id="marqathlete"/>
    <iq:product id="marqaviator"/>
    <iq:product id="marqcaptain"/>
+   <iq:product id="marqcommander"/>
+   <iq:product id="marqcommander"/>
    <iq:product id="marqdriver"/>
    <iq:product id="marqexpedition"/>
    <iq:product id="marqgolfer"/>
