@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Pararia</string>
+  <string id="min0">	$1$	spacà</string>
+  <string id="min5">pena pasà	$1$	e sìnque</string>
+  <string id="min10">	$1$	e diexe</string>
+  <string id="min15">	$1$	e un quarto</string>
+  <string id="min20">	$1$	e vinti</string>
+  <string id="min25">altri sinque	minuti	e xe la mexa</string>
+  <string id="min30">	$1$	e mexa</string>
+  <string id="min35">	$1$	e trentasinque</string>
+  <string id="min40">someja	$2$	manca vinti</string>
+  <string id="min45">	$1$	e tre quarti</string>
+  <string id="min50">	$2$	manca diexe</string>
+  <string id="min55">daromai xe	$2$	</string>
+  <string id="noon">mexodì</string>
+  <string id="hour1">un bòto</string>
+  <string id="hour2">le dò</string>
+  <string id="hour3">le tre</string>
+  <string id="hour4">le quatro</string>
+  <string id="hour5">le sinque</string>
+  <string id="hour6">le sìe</string>
+  <string id="hour7">le sete</string>
+  <string id="hour8">le oto</string>
+  <string id="hour9">le nòve</string>
+  <string id="hour10">le diexe</string>
+  <string id="hour11">le undese</string>
+  <string id="midnight">mexanote</string>
+</resources>
