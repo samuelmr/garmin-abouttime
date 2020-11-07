@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-11-08	Reverted 5.8.1 Italian changes based on user feedback (5.10.2)
 - 2020-11-07	Added Venetio and Venetkens (5.10.1)
 - 2020-10-31	Added support for descentmk2 and marqcommander (5.10.0)
 - 2020-10-31	Added Afrikaans (5.9.3)
