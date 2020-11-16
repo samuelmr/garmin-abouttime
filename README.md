@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-11-15	Changes to Venetkens (5.10.4)
 - 2020-11-14	Changes to Veneto (5.10.3)
 - 2020-11-08	Reverted 5.8.1 Italian changes based on user feedback (5.10.2)
 - 2020-11-07	Added Venetio and Venetkens (5.10.1)
