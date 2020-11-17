@@ -1,9 +1,9 @@
 <resources>
  <fonts>
-  <font id="id_font_tiny" filename="fonts/andika21.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnoqrstuvxzàìòöù" />
-  <font id="id_font_small" filename="fonts/andika24.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnoqrstuvxzàìòöù" />
-  <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnoqrstuvxzàìòöù" />
-  <font id="id_font_large" filename="fonts/andika48.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnoqrstuvxzàìòöù" />
-  <font id="id_font_extralarge" filename="fonts/andika48.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnoqrstuvxzàìòöù" />
+  <font id="id_font_tiny" filename="fonts/andika21.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnopqrstuvxzàäìòöù" />
+  <font id="id_font_small" filename="fonts/andika24.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnopqrstuvxzàäìòöù" />
+  <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnopqrstuvxzàäìòöù" />
+  <font id="id_font_large" filename="fonts/andika48.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnopqrstuvxzàäìòöù" />
+  <font id="id_font_extralarge" filename="fonts/andika48.fnt" antialias="false" filter=" %.0123456789:Vabcdeiklmnopqrstuvxzàäìòöù" />
  </fonts>
 </resources>

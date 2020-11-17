@@ -5,17 +5,17 @@
   <string id="batteryTitle">Batarìa</string>
   <string id="dateTitle">Oncò xe el</string>
   <string id="distanceTitle">Distansa</string>
-  <string id="stepsTitle">Pasî</string>
+  <string id="stepsTitle">Pasî fati</string>
   <string id="stepGoalTitle">Pasî da far oncò</string>
   <string id="timeTitle">Tempo del Doge</string>
   <string id="colorSchemeTitle">Color del schema</string>
-  <string id="whiteOnBlack">Bianco sul Nero</string>
-  <string id="blackOnWhite">Nero sul Bianco</string>
+  <string id="whiteOnBlack">Bianco in tel Nero</string>
+  <string id="blackOnWhite">Nero in tel Bianco</string>
   <string id="showIconsTitle">Fame  veder le icone</string>
   <string id="showIconsHelp">destacà, dime de, alarmi, tempo de poja, Bateria basa</string>
   <string id="batteryWarnTitle">Ocio la Batarìa %</string>
   <string id="batteryWarnPrompt">Fame veder l'icona della bateria quando la xe masa basa</string>
-  <string id="batteryAlertTitle">Alerta Batarìa %</string>
+  <string id="batteryAlertTitle">Finia la Batarìa %</string>
   <string id="batteryAlertPrompt">Mostrame l'icona de aviso quando il livelo de cargar va zo soto el</string>
-  <string id="myNumberError">Meti un numero tra 0 e 100</string>
+  <string id="myNumberError">Meti un numer tra 0 e 100</string>
 </resources>
