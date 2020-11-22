@@ -2,10 +2,10 @@
 
 TRANSLATION=""
 TEST=""
-TESTMESSAGE=" for release"
+TESTMESSAGE="for release"
 if [ "$1" = "-t" ]; then
   TEST="--unit-test"
-  TESTMESSAGE=" with unit tests for testing"
+  TESTMESSAGE="with unit tests for testing"
 elif [ -z "$1"]; then # empty; compile all translations
   TRANSLATION="*"
 else
@@ -26,7 +26,7 @@ echo "Updating font filters"
 
 for jungle in ./monkey-$TRANSLATION.jungle; do
   LANGUAGE=`echo $jungle | sed -e "s/^.*monkey-\(.*\).jungle.*$/\1/g"`
-  echo "Building $LANGUAGE$TESTMESSAGE"
+  echo "Building $LANGUAGE $TESTMESSAGE"
   if [ $TEST ]; then
     filename="releases/AboutTime-$LANGUAGE-$CIQ_TARGET.prg"
     CMD="monkeyc -f $jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y $DEVELOPER_KEY -o $filename $TEST"
