@@ -18,7 +18,7 @@ for directory in ./resources-*; do
   for resource in resource small large fr920xt; do
     [ -e $resource ] || mkdir $resource
     cd $resource
-    [ -L "fonts" ] || ln -s ../../resources/$resource/fonts .
+    [ -L "fonts" ] || [ -e "fonts" ] || ln -s ../../resources/$resource/fonts .
     [ -e "resources.xml" ] || cp ../../resources/$resource/resources.xml .
     [ -L "iconfont.xml" ] || ln -s ../../resources/$resource/iconfont.xml .
     sed -e "s/filter=\".*\"/filter=\"${FILTERSTR}\"/g" resources.xml > $TMPFILE1
