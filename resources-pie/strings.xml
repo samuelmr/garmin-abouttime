@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi</string>
+  <string id="min0">A l’é	$1$	</string>
+  <string id="min5">A l’é	$1$	e sinch</string>
+  <string id="min10">A l’é	$1$	e des</string>
+  <string id="min15">A l’é	$1$	e un quart</string>
+  <string id="min20">A l’é	$1$	e vint</string>
+  <string id="min25">A l’é	$1$	e vintessinch</string>
+  <string id="min30">A l’é	$1$	e mesa</string>
+  <string id="min35">A l’é	$1$	e trantessinch</string>
+  <string id="min40">A l’é	vint minute a	$2$</string>
+  <string id="min45">A l’é	un quart a	$2$</string>
+  <string id="min50">A l’é	des minute a	$2$</string>
+  <string id="min55">A l’é	sinch minute a	$2$</string>
+  <string id="noon">mesdì</string>
+  <string id="hour1">un bòt</string>
+  <string id="hour2">doi bòt</string>
+  <string id="hour3">tre bòt</string>
+  <string id="hour4">quatr ore</string>
+  <string id="hour5">sinch ore</string>
+  <string id="hour6">ses ore</string>
+  <string id="hour7">set ore</string>
+  <string id="hour8">eut ore</string>
+  <string id="hour9">neuv ore</string>
+  <string id="hour10">des ore</string>
+  <string id="hour11">óndes ore</string>
+  <string id="midnight">mesaneuit</string>
+</resources>

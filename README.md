@@ -10,6 +10,8 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2020-12-05	Added Piemontese (5.10.7)
+- 2020-11-22	Added Arabic (5.10.6) [not published, see [bug report](https://forums.garmin.com/developer/connect-iq/i/bug-reports/custom-font-with-filter-fails-with-arabic)]
 - 2020-11-17	More changes to Venetkens (5.10.5)
 - 2020-11-15	Changes to Venetkens (5.10.4)
 - 2020-11-14	Changes to Veneto (5.10.3)
