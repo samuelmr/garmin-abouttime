@@ -6,7 +6,7 @@ TESTMESSAGE="for release"
 if [ "$1" = "-t" ]; then
   TEST="--unit-test"
   TESTMESSAGE="with unit tests for testing"
-elif [ -z "$1"]; then # empty; compile all translations
+elif [ -z "$1" ]; then # empty; compile all translations
   TRANSLATION="*"
 else
   TRANSLATION=$1
