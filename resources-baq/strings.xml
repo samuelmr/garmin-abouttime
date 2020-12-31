@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Gutxi gorabehera</string>
+  <string id="min0">	$1$	puntutan</string>
+  <string id="min5">$1$	pittin bat	pasata</string>
+  <string id="min10">$1$	eta hamar	</string>
+  <string id="min15">$1$	eta laurden	</string>
+  <string id="min20">$1$	eta hogei	</string>
+  <string id="min25">ia-ia	$1$	eta erdiak</string>
+  <string id="min30">$1$	eta erdiak	</string>
+  <string id="min35">$1$	eta erdiak	pasata</string>
+  <string id="min40">$2$	hogei	gutti</string>
+  <string id="min45">$2$	laurden	gutti</string>
+  <string id="min50">$2$	hamar	gutti</string>
+  <string id="min55">ia-ia	$2$	</string>
+  <string id="noon">eguerdia</string>
+  <string id="hour1">ordubata</string>
+  <string id="hour2">ordubiak</string>
+  <string id="hour3">hirurak</string>
+  <string id="hour4">laurak</string>
+  <string id="hour5">bostak</string>
+  <string id="hour6">seiak</string>
+  <string id="hour7">zazpiak</string>
+  <string id="hour8">zortziak</string>
+  <string id="hour9">bederatziak</string>
+  <string id="hour10">hamarrak</string>
+  <string id="hour11">hamaikak</string>
+  <string id="midnight">hamabiak</string>
+</resources>
