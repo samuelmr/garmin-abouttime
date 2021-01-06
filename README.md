@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-01-06	Added Mechels (5.10.9)
 - 2021-01-05	Added Bergamasque (5.10.9)
 - 2021-01-01	Added Basque (5.10.8)
 - 2020-12-05	Added Piemontese (5.10.7)
