@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi – Bergamo</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	sic</string>
+  <string id="min10">	$1$	des</string>
+  <string id="min15">	$1$	u Quart</string>
+  <string id="min20">	$1$	vinte</string>
+  <string id="min25">	$1$	vintesic</string>
+  <string id="min30">	$1$	e mesa</string>
+  <string id="min35">	$1$	trentasic</string>
+  <string id="min40">	$2$	meno vintesic</string>
+  <string id="min45">	$2$	meno u Quart</string>
+  <string id="min50">	$2$	meno dieci</string>
+  <string id="min55">	quasi	meno sic</string>
+  <string id="noon">mesde</string>
+  <string id="hour1">l'una</string>
+  <string id="hour2">i do</string>
+  <string id="hour3">i tre</string>
+  <string id="hour4">i quater</string>
+  <string id="hour5">i sic</string>
+  <string id="hour6">i ses</string>
+  <string id="hour7">i set</string>
+  <string id="hour8">ot</string>
+  <string id="hour9">nuf</string>
+  <string id="hour10">i des</string>
+  <string id="hour11">i undes</string>
+  <string id="midnight">mesanoc</string>
+</resources>
