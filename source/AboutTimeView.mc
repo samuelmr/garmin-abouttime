@@ -161,7 +161,7 @@ class AboutTimeView extends WatchUi.WatchFace {
           dataString = activityInfo.stepGoal;
           break;
         case exactTime:
-          dataString = Lang.format("$1$:$2$", [time.hour.format("%d"), time.min.format("%02d")]);
+          dataString = Lang.format("$1$:$2$:$3$", [time.hour.format("%d"), time.min.format("%02d"), time.sec.format("%02d")]);
           break;
       }
 
