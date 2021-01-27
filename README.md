@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-01-24	Compiled using SDK 3.2.4 (5.11.0)
 - 2021-01-13	Minor changes to French, added seconds to exact time (5.10.11)
 - 2021-01-13	Added Italian – Normale (5.10.10)
 - 2021-01-06	Added Mechels (5.10.9)
