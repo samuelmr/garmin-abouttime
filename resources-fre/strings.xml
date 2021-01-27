@@ -1,7 +1,7 @@
 <resources>
   <string id="AppName">Environ</string>
-  <string id="min0">	$1$	pile</string>
-  <string id="min5">à peu près	$1$	</string>
+  <string id="min0">à peu près	$1$	</string>
+  <string id="min5">un peu	plus de	$1$</string>
   <string id="min10">environ	$1$	dix</string>
   <string id="min15">	$1$	et quart</string>
   <string id="min20">	$1$	vingt</string>
