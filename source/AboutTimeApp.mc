@@ -15,7 +15,8 @@ enum {
   steps,
   stepGoal,
   exactTime,
-  activeMinutes
+  activeMinutes,
+  heartRate
 }
 var dataField = date;
 
