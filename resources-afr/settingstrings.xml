@@ -7,7 +7,8 @@
   <string id="distanceTitle">Afstand</string>
   <string id="stepsTitle">Tree</string>
   <string id="stepGoalTitle">Tree doelwit</string>
-  <string id="timeTitle">Presiese tyd</string>
+  <string id="timeTitle">Exact time</string>
+  <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Kleurskema</string>
   <string id="whiteOnBlack">Wit op swart</string>
   <string id="blackOnWhite">Swart op wit</string>

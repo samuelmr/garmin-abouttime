@@ -7,7 +7,8 @@
   <string id="distanceTitle">Distansa</string>
   <string id="stepsTitle">Pasî fati</string>
   <string id="stepGoalTitle">Pasî da far oncò</string>
-  <string id="timeTitle">Tempo del Doge</string>
+  <string id="timeTitle">Exact time</string>
+  <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Color del schema</string>
   <string id="whiteOnBlack">Bianco in tel Nero</string>
   <string id="blackOnWhite">Nero in tel Bianco</string>

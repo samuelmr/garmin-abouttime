@@ -7,7 +7,8 @@
   <string id="distanceTitle">Dörhalte Streek</string>
   <string id="stepsTitle">Stappen</string>
   <string id="stepGoalTitle">Stappen End</string>
-  <string id="timeTitle">Akkraat Tied</string>
+  <string id="timeTitle">Exact time</string>
+  <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Köör of de Farv</string>
   <string id="whiteOnBlack">Witt op swart</string>
   <string id="blackOnWhite">Swart op witt</string>

@@ -8,6 +8,7 @@
   <string id="stepsTitle">Stappen</string>
   <string id="stepGoalTitle">Doel aantal stappen</string>
   <string id="timeTitle">Exact time</string>
+  <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Kleurenschema</string>
   <string id="whiteOnBlack">Wit op zwarte achtergrond</string>
   <string id="blackOnWhite">Zwart op witte achtergrond</string>
