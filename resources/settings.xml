@@ -22,6 +22,7 @@
 <!--
     <listEntry value="7">@Strings.activeMinutesTitle</listEntry>
 -->
+    <listEntry value="8">@Strings.hrTitle</listEntry>
    </settingConfig>
   </setting>
   <setting propertyKey="@Properties.colorScheme" title="@Strings.colorSchemeTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">
