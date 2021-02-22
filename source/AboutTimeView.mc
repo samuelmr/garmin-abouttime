@@ -258,6 +258,8 @@ class AboutTimeView extends WatchUi.WatchFace {
     var bottom = strings[:bottom];
     var bottomFont = strings[:bottomFont];
 
+    // System.println(strings[:top] + strings[:middle] + strings[:bottom]);
+
     topFont = scaleFont(dc, topFont, top, :top);
     middleFont = scaleFont(dc, middleFont, middle, :middle);
     bottomFont = scaleFont(dc, bottomFont, bottom, :bottom);

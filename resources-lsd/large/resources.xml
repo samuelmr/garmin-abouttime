@@ -1,9 +1,9 @@
 <resources>
  <fonts>
-  <font id="id_font_tiny" filename="fonts/andika32.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZabcefghiklmnorstuvwzäü" />
-  <font id="id_font_small" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZabcefghiklmnorstuvwzäü" />
-  <font id="id_font_medium" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZabcefghiklmnorstuvwzäü" />
-  <font id="id_font_large" filename="fonts/andika64.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZabcefghiklmnorstuvwzäü" />
-  <font id="id_font_extralarge" filename="fonts/andika64.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZabcefghiklmnorstuvwzäü" />
+  <font id="id_font_tiny" filename="fonts/andika32.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZaäbcefghiklmnorstuüvwz" />
+  <font id="id_font_small" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZaäbcefghiklmnorstuüvwz" />
+  <font id="id_font_medium" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZaäbcefghiklmnorstuüvwz" />
+  <font id="id_font_large" filename="fonts/andika64.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZaäbcefghiklmnorstuüvwz" />
+  <font id="id_font_extralarge" filename="fonts/andika64.fnt" antialias="true" filter=" %.0123456789:ADEFMNSUVZaäbcefghiklmnorstuüvwz" />
  </fonts>
 </resources>

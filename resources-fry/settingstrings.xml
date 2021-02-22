@@ -1,0 +1,22 @@
+<resources>
+  <string id="dataFieldTitle">Te toanen data ûnder de tiid</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="activeMinutesTitle">Aktive minuten</string>
+  <string id="batteryTitle">Batterij</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Ofstan</string>
+  <string id="stepsTitle">Stappen</string>
+  <string id="stepGoalTitle">Doel oantal stappen</string>
+  <string id="timeTitle">Krekte tiid</string>
+  <string id="hrTitle">Heart rate</string>
+  <string id="colorSchemeTitle">Kleurenskema</string>
+  <string id="whiteOnBlack">Wyt op swarte eftergrûn</string>
+  <string id="blackOnWhite">Swart op wite eftergrûn</string>
+  <string id="showIconsTitle">Lit ikoanen sjen</string>
+  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
+  <string id="batteryWarnTitle">Batterij warskôging %</string>
+  <string id="batteryWarnPrompt">Toan warskôging at it laadnivo falt ûnder</string>
+  <string id="batteryAlertTitle">Batterij warskôging %</string>
+  <string id="batteryAlertPrompt">Toan noch in warskôging at it laadnivo falt ûnder</string>
+  <string id="myNumberError">Folje in nûmer yn tusken 0 en 100</string>
+</resources>

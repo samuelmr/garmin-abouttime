@@ -1,9 +1,9 @@
 <resources>
  <fonts>
-  <font id="id_font_tiny" filename="fonts/andika24.fnt" antialias="true" filter="一七約分 三 三 三 三不%大.是01就23456789:十久過剛九k八m六要了二再五四點快" />
-  <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter="一七約分 三 三 三 三不%大.是01就23456789:十久過剛九k八m六要了二再五四點快" />
-  <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter="一七約分 三 三 三 三不%大.是01就23456789:十久過剛九k八m六要了二再五四點快" />
-  <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter="一七約分 三 三 三 三不%大.是01就23456789:十久過剛九k八m六要了二再五四點快" />
-  <font id="id_font_extralarge" filename="fonts/andika64.fnt" antialias="true" filter="一七約分 三 三 三 三不%大.是01就23456789:十久過剛九k八m六要了二再五四點快" />
+  <font id="id_font_tiny" filename="fonts/andika24.fnt" antialias="true" filter=" %.0123456789:km一七三不久九了二五八六再分剛十四大就快是約要過點" />
+  <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter=" %.0123456789:km一七三不久九了二五八六再分剛十四大就快是約要過點" />
+  <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter=" %.0123456789:km一七三不久九了二五八六再分剛十四大就快是約要過點" />
+  <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter=" %.0123456789:km一七三不久九了二五八六再分剛十四大就快是約要過點" />
+  <font id="id_font_extralarge" filename="fonts/andika64.fnt" antialias="true" filter=" %.0123456789:km一七三不久九了二五八六再分剛十四大就快是約要過點" />
  </fonts>
 </resources>
