@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Sokssawat</string>
-  <string id="min0">	$1$	oere</string>
+  <string id="min0">t is	$1$	oere</string>
   <string id="min5">krekt	oer	$1$</string>
   <string id="min10">tsien	oer	$1$</string>
   <string id="min15">kertier	oer	$1$</string>
@@ -12,17 +12,17 @@
   <string id="min45">kertier	foar	$2$</string>
   <string id="min50">tsien	foar	$2$</string>
   <string id="min55">hast	$2$	oere</string>
-  <string id="noon">tolven</string>
-  <string id="hour1">ienen</string>
-  <string id="hour2">twaen</string>
-  <string id="hour3">trijen</string>
-  <string id="hour4">fjouweren</string>
-  <string id="hour5">fiven</string>
-  <string id="hour6">seizen</string>
-  <string id="hour7">sânen</string>
-  <string id="hour8">achten</string>
-  <string id="hour9">njoggenen</string>
-  <string id="hour10">tsienen</string>
-  <string id="hour11">alven</string>
-  <string id="midnight">tolven</string>
+  <string id="noon">tolve</string>
+  <string id="hour1">ien</string>
+  <string id="hour2">twa</string>
+  <string id="hour3">trije</string>
+  <string id="hour4">fjouwer</string>
+  <string id="hour5">fiif</string>
+  <string id="hour6">seis</string>
+  <string id="hour7">sân</string>
+  <string id="hour8">acht</string>
+  <string id="hour9">njoggen</string>
+  <string id="hour10">tsien</string>
+  <string id="hour11">alve</string>
+  <string id="midnight">tolve</string>
 </resources>
