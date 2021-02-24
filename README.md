@@ -1,5 +1,5 @@
 # About Time
-<img src="store/anim.gif?raw=true" align="right" alt="Animation" />
+<img src="store/anim.gif?raw=true" style="float:right" alt="Animation" />
 
 A watch face for Garmin Connect IQ devices
 
@@ -10,7 +10,12 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
-- 2021-02-21	Added heart rate support, using larger fonts for 240x240 screens, compiled using SDK 3.2.5 (5.12.0)
+- 2021-02-24	Minor fix to Frisian (5.13.4)
+- 2021-02-22	Small changes to Frisian (5.13.3)
+- 2021-02-22	Fix to heart rate configuration (5.13.2)
+- 2021-02-22	Added Frisian (5.13.1)
+- 2021-02-21	Added possibility to configure heart rate as the data field (5.13.0)
+- 2021-02-21	Using larger fonts for 240x240 screens, added support for Enduro, compiled using SDK 3.2.5 (5.12.0)
 - 2021-01-24	Compiled using SDK 3.2.4 (5.11.0)
 - 2021-01-13	Minor changes to French, added seconds to exact time (5.10.11)
 - 2021-01-13	Added Italian – Normale (5.10.10)
