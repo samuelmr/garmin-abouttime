@@ -1,1 +1,3 @@
-../resources/bitmaps.xml
+<resources>
+    <bitmap id="LauncherIcon" filename="images/icon.png" />
+</resources>
