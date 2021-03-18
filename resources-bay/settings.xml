@@ -1,0 +1,45 @@
+<resources>
+ <properties>
+  <property id="dataField" type="number">2</property>
+  <property id="colorScheme" type="number">0</property>
+  <property id="showIcons" type="boolean">true</property>
+  <property id="batteryWarn" type="number">30</property>
+  <property id="batteryAlert" type="number">15</property>
+ </properties>
+ <settings>
+  <setting propertyKey="@Properties.dataField" title="@Strings.dataFieldTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">
+   <settingConfig type="list">
+   <!-- See corresponding enum in source/AboutTimeApp.mc -->
+    <listEntry value="0">@Strings.hideTitle</listEntry>
+    <listEntry value="1">@Strings.batteryTitle</listEntry>
+    <listEntry value="2">@Strings.dateTitle</listEntry>
+    <listEntry value="3">@Strings.distanceTitle</listEntry>
+    <listEntry value="4">@Strings.stepsTitle</listEntry>
+<!--
+    <listEntry value="5">@Strings.stepGoalTitle</listEntry>
+-->
+    <listEntry value="6">@Strings.timeTitle</listEntry>
+<!--
+    <listEntry value="7">@Strings.activeMinutesTitle</listEntry>
+-->
+    <listEntry value="8">@Strings.hrTitle</listEntry>
+   </settingConfig>
+  </setting>
+  <setting propertyKey="@Properties.colorScheme" title="@Strings.colorSchemeTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">
+   <settingConfig type="list">
+    <!-- See corresponding enum in source/AboutTimeApp.mc -->
+    <listEntry value="0">@Strings.whiteOnBlack</listEntry>
+    <listEntry value="1">@Strings.blackOnWhite</listEntry>
+   </settingConfig>
+  </setting>
+  <setting propertyKey="@Properties.showIcons" title="@Strings.showIconsTitle" prompt="@Strings.showIconsHelp">
+   <settingConfig type="boolean" />
+  </setting>
+  <setting propertyKey="@Properties.batteryWarn" title="@Strings.batteryWarnTitle" prompt="@Strings.batteryWarnPrompt">
+   <settingConfig type="numeric" errorMessage="@Strings.myNumberError" />
+  </setting>
+  <setting propertyKey="@Properties.batteryAlert" title="@Strings.batteryAlertTitle" prompt="@Strings.batteryAlertPrompt">
+   <settingConfig type="numeric" errorMessage="@Strings.myNumberError" />
+  </setting>
+ </settings>
+</resources>
