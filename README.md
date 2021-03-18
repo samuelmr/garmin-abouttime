@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-03-18	Added Bavarian (5.13.5)
 - 2021-02-24	Minor fix to Frisian (5.13.4)
 - 2021-02-22	Small changes to Frisian (5.13.3)
 - 2021-02-22	Fix to heart rate configuration (5.13.2)
