@@ -13,7 +13,7 @@ var locale = {};
 var localeArrays = [];
 var halfPast = true;
 var updateCount = 0;
-var fonts = new [6];
+var fonts = new [7];
 var lineHeight, iconHeight;
 var prevTime, prevIcons;
 var width, height, shape, device;
@@ -24,7 +24,8 @@ enum {
   medium,
   large,
   mega,
-  icons
+  icons,
+  icons_large
 }
 
 var bgColor = Graphics.COLOR_BLACK;
@@ -52,6 +53,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     readLocale();
     device = System.getDeviceSettings();
     height = dc.getHeight();
+  //  System.println(height);
     width = dc.getWidth();
     shape = device.screenShape;
     fonts[tiny] = WatchUi.loadResource(@Rez.Fonts.id_font_tiny);
@@ -59,7 +61,13 @@ class AboutTimeView extends WatchUi.WatchFace {
     fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
     fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
     fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
+    if ( height > 240) {
+    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont_large);
+    }
+    if (height<240) {
     fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont);
+    }
+    
 
     // ugly hack: use system fonts for languages with unsupported glyphs
     if ((locale[:hours][1].find("一") != null) ||
@@ -71,9 +79,9 @@ class AboutTimeView extends WatchUi.WatchFace {
       fonts[mega] = fonts[large];
     }
 
-    lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7;
-    iconHeight = Graphics.getFontHeight(fonts[icons]) + 4;
-
+    lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7; //Date
+    iconHeight = Graphics.getFontHeight(fonts[icons])+4 ;
+    System.println(lineHeight);
   }
 
   function onPartialUpdate(dc) {
@@ -117,7 +125,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     prevTime = thisTime;
     prevIcons = iconString;
 */
-
+    var thisTime = fuzzyHour.format("%d") + ":" + fuzzyMinutes.format("%02d");
+//	System.println(thisTime + " – " + iconString);
+   
+      
     if (colorScheme == inverted) {
       bgColor = Graphics.COLOR_WHITE;
       textColor = Graphics.COLOR_BLACK;
@@ -193,7 +204,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
 
     if ((timeSpace[:top] > iconHeight) && showIcons) {
+  //  drawString(dc, width/2, iconHeight, fonts[icons_large], textColor, iconString)
       drawString(dc, width/2, iconHeight, fonts[icons], textColor, iconString);
+     System.println(iconHeight);
     }
 
   }
@@ -242,7 +255,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   function drawString(dc, x, y, font, color, string) {
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+   dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
   }
 
   function drawTimeStrings(dc, fuzzyHour, fuzzyMinutes) {
@@ -468,7 +481,6 @@ class AboutTimeView extends WatchUi.WatchFace {
       :top => top,
       :topFont => topFont
     };
-
   }
 
   function strToArray(str) {
