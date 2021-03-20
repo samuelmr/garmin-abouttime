@@ -17,6 +17,9 @@ var fonts = new [7];
 var lineHeight, iconHeight;
 var prevTime, prevIcons;
 var width, height, shape, device;
+var canBurnIn = false;
+var upTop=true;
+var inLowPower =false;
 
 enum {
   tiny,
@@ -46,6 +49,15 @@ class AboutTimeView extends WatchUi.WatchFace {
   function initialize() {
     WatchFace.initialize();
     Math.srand(System.getTimer());
+    //new
+    //check if burn in protection needed
+        var sSettings=System.getDeviceSettings();
+        //first check if the setting is availe on the current device
+        if(sSettings has :requiresBurnInProtection) {
+        	//get the state of the setting      
+        	canBurnIn=sSettings.requiresBurnInProtection;
+        	}
+    //
   }
 
   function onLayout(dc) {
@@ -61,12 +73,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
     fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
     fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
-    if ( height > 240) {
-    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont_large);
-    }
-    if (height<240) {
-    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont);
-    }
+
     
 
     // ugly hack: use system fonts for languages with unsupported glyphs
@@ -78,10 +85,19 @@ class AboutTimeView extends WatchUi.WatchFace {
       fonts[large] = Graphics.FONT_SYSTEM_LARGE;
       fonts[mega] = fonts[large];
     }
-
-    lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7; //Date
+//
+    if ( height > 240) {
+    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont_large);
+    } else {
+    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont);
+    }
+    if (height>240) {
+    	lineHeight = Graphics.getFontHeight(fonts[medium])/1.7; //Date
+    } else {
+   		lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7; //Date
+    }
     iconHeight = Graphics.getFontHeight(fonts[icons])+4 ;
-    System.println(lineHeight);
+ //   System.println(lineHeight);
   }
 
   function onPartialUpdate(dc) {
@@ -109,6 +125,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var iconString = getIconString();
 
+    
 /*
  * It seems we need to redraw the screen anyway. Just returning from
  * onUpdate() may cause the screen to appear blank on real devices
@@ -196,17 +213,20 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
 
       if (dataString instanceof Lang.String) {
+      	if (height>240) {
+        drawString(dc, width/2, height-lineHeight, fonts[medium], dataColor, dataString);
+        } else {
         drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, dataString);
+        }
       }
       else {
-        System.println(dataString + " is not a string");
+  //      System.println(dataString + " is not a string");
       }
     }
 
     if ((timeSpace[:top] > iconHeight) && showIcons) {
-  //  drawString(dc, width/2, iconHeight, fonts[icons_large], textColor, iconString)
       drawString(dc, width/2, iconHeight, fonts[icons], textColor, iconString);
-     System.println(iconHeight);
+  //   System.println(iconHeight);
     }
 
   }
@@ -252,7 +272,16 @@ class AboutTimeView extends WatchUi.WatchFace {
     return iconString;
 
   }
+    function onExitSleep() {
+        inLowPower=false;
+    	WatchUi.requestUpdate(); 
+    }
 
+    function onEnterSleep() {
+    	inLowPower=true;
+    	WatchUi.requestUpdate(); 
+    }
+    
   function drawString(dc, x, y, font, color, string) {
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
    dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -284,8 +313,19 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var x = width / 2;
     var topY = height / 2 - totalHeight / 2 + topHeight/2;
+
+        if(inLowPower) {
+			if(canBurnIn) {
+				//move pixels a littele bit on the venu, in preperation to always on
+				topY=(upTop) ? topY*.99 : topY;
+				x = (upTop) ? x*0.99 : x;
+				upTop=!upTop;
+			} else {
+				 topY = height / 2 - totalHeight / 2 + topHeight/2;
+			}}
     var middleY = topY + topHeight / 2 + middleHeight / 2;
-    var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;
+    var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;    
+
     var color = textColor;
 
     drawString(dc, x, topY, topFont, color, top);
@@ -528,7 +568,9 @@ class AboutTimeView extends WatchUi.WatchFace {
 
 }
 
+
 class AboutTimeDelegate extends WatchUi.WatchFaceDelegate {
+
   function initialize() {
     WatchFaceDelegate.initialize();
   }
