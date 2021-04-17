@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-04-05	Minor change to Fränkisch (5.13.7)
 - 2021-03-19	Changes to Polish (5.13.6)
 - 2021-03-18	Added Bavarian (5.13.5)
 - 2021-02-24	Minor fix to Frisian (5.13.4)
