@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi – Ticinese</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	e cinch</string>
+  <string id="min10">	$1$	e dés</string>
+  <string id="min15">	$1$	e un quart</string>
+  <string id="min20">	$1$	e vint</string>
+  <string id="min25">	$1$	e vinticinch</string>
+  <string id="min30">	$1$	e mèza</string>
+  <string id="min35">	$1$	e tréntacinch</string>
+  <string id="min40">	$2$	mén vint</string>
+  <string id="min45">	$2$	mén un quart</string>
+  <string id="min50">	$2$	mén dés</string>
+  <string id="min55">	$2$	mén cinch</string>
+  <string id="noon">mezdí</string>
+  <string id="hour1">la vüna</string>
+  <string id="hour2">i dó</string>
+  <string id="hour3">i tré</string>
+  <string id="hour4">i quatar</string>
+  <string id="hour5">i cinch</string>
+  <string id="hour6">i sés</string>
+  <string id="hour7">i sètt</string>
+  <string id="hour8">i vòtt</string>
+  <string id="hour9">i nöf</string>
+  <string id="hour10">i dés</string>
+  <string id="hour11">i vündas</string>
+  <string id="midnight">mezanòcc</string>
+</resources>
