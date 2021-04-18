@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-04-18	Translated French setting strings (5.13.9)
 - 2021-04-17	Added Ticinese (5.13.8)
 - 2021-04-05	Minor change to Fränkisch (5.13.7)
 - 2021-03-19	Changes to Polish (5.13.6)
