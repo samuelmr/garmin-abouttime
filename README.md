@@ -10,6 +10,8 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-04-20	Minor changes to Barese (5.13.12)
+- 2021-04-20	Added Barese (5.13.11)
 - 2021-04-18	Added Walliser (5.13.10)
 - 2021-04-18	Translated French setting strings (5.13.9)
 - 2021-04-17	Added Ticinese (5.13.8)

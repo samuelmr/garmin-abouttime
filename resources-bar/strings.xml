@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi – barese</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	e cing</string>
+  <string id="min10">	$1$	e desc</string>
+  <string id="min15">	$1$	e nu quart</string>
+  <string id="min20">	$1$	e vind</string>
+  <string id="min25"> $1$	e vindicing</string>
+  <string id="min30">	$1$	e mezz</string>
+  <string id="min35">	$1$	e trentacing</string>
+  <string id="min40">	$2$	mang vind</string>
+  <string id="min45">	$2$	mang nu quart</string>
+  <string id="min50">	$2$	mang desc</string>
+  <string id="min55">	$2$	mang cing</string>
+  <string id="noon">menzzadì</string>
+  <string id="hour1">l'un</string>
+  <string id="hour2">le du</string>
+  <string id="hour3">le tre</string>
+  <string id="hour4">le quatt</string>
+  <string id="hour5">le cing</string>
+  <string id="hour6">le se</string>
+  <string id="hour7">l sett</string>
+  <string id="hour8">l'ott</string>
+  <string id="hour9">le nov</string>
+  <string id="hour10">l desc</string>
+  <string id="hour11">l'unc</string>
+  <string id="midnight">menzzanott</string>
+</resources>
