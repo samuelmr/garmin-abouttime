@@ -1,17 +1,17 @@
 <resources>
   <string id="AppName">Quasi – barese</string>
-  <string id="min0">	$1$	</string>
+  <string id="min0">	$1$	spaccat</string>
   <string id="min5">	$1$	e cing</string>
   <string id="min10">	$1$	e desc</string>
   <string id="min15">	$1$	e nu quart</string>
   <string id="min20">	$1$	e vind</string>
-  <string id="min25"> $1$	e vindicing</string>
+  <string id="min25">	$1$	quas e mezz</string>
   <string id="min30">	$1$	e mezz</string>
   <string id="min35">	$1$	e trentacing</string>
   <string id="min40">	$2$	mang vind</string>
   <string id="min45">	$2$	mang nu quart</string>
   <string id="min50">	$2$	mang desc</string>
-  <string id="min55">	$2$	mang cing</string>
+  <string id="min55">	$2$	quas</string>
   <string id="noon">menzzadì</string>
   <string id="hour1">l'un</string>
   <string id="hour2">le du</string>
