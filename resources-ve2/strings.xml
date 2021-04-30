@@ -1,15 +1,15 @@
 <resources>
   <string id="AppName">quàzi Venetkens</string>
   <string id="min0">	$1$	in punto</string>
-  <string id="min5">	$1$	pasä</string>
+  <string id="min5">	$1$	pasà</string>
   <string id="min10">	$1$	e diese</string>
-  <string id="min15">	$1$	e quindese</string>
+  <string id="min15">	$1$	e un quarto</string>
   <string id="min20">	$1$	e vinti</string>
   <string id="min25">	$1$	e vintisinque</string>
   <string id="min30">	$1$	e mesa</string>
   <string id="min35">	$1$	e trentasinque</string>
   <string id="min40">	$2$	manca vinti</string>
-  <string id="min45">	$2$	manca quindese</string>
+  <string id="min45">	$2$	manca un quarto</string>
   <string id="min50">	$2$	manca diese</string>
   <string id="min55">	quàzi	$2$</string>
   <string id="noon">xe mesodì</string>
