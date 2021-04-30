@@ -10,6 +10,7 @@ A watch face for Garmin Connect IQ devices
 
 ## Version history
 
+- 2021-04-22	Changes to Veneto (5.13.13)
 - 2021-04-20	Minor changes to Barese (5.13.12)
 - 2021-04-20	Added Barese (5.13.11)
 - 2021-04-18	Added Walliser (5.13.10)
