@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2021-06-23	Compiled with SDK 4.0.3, added support for Venu2 (5.14.0)
 - 2021-05-09	Changes to Polish (5.13.16)
 - 2021-04-30	Changes to Venetkens (5.13.15)
 - 2021-04-30	Changes to Barese (5.13.14)
