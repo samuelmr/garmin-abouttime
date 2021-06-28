@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">今何時ですか</string>
+  <string id="min0">$1$	です。	</string>
+  <string id="min5">$1$	五分	です。</string>
+  <string id="min10">$1$	十分	です。</string>
+  <string id="min15">$1$	十五分	です。</string>
+  <string id="min20">$1$	二十分	です。</string>
+  <string id="min25">$1$	二十五分	です。</string>
+  <string id="min30">$1$	半	です。</string>
+  <string id="min35">$1$	三十五分	です。</string>
+  <string id="min40">$1$	四十分	です。</string>
+  <string id="min45">$1$	四十五分	です。</string>
+  <string id="min50">$1$	五十分	です。</string>
+  <string id="min55">$1$	五十五分	です。</string>
+  <string id="noon">十二時</string>
+  <string id="hour1">一時</string>
+  <string id="hour2">二時</string>
+  <string id="hour3">三時</string>
+  <string id="hour4">四時</string>
+  <string id="hour5">五時</string>
+  <string id="hour6">六時</string>
+  <string id="hour7">七時</string>
+  <string id="hour8">八時</string>
+  <string id="hour9">九時</string>
+  <string id="hour10">十時</string>
+  <string id="hour11">十一時</string>
+  <string id="midnight">十二時</string>
+</resources>
