@@ -78,9 +78,9 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   function onPartialUpdate(dc) {
     var clockTime = System.getClockTime();
-		if (dataField == exactTime) {
+    if (dataField == exactTime) {
       WatchUi.requestUpdate();
-		}
+    }
     else if (clockTime.sec == 30) {
       WatchUi.requestUpdate();
     }
