@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Saat kaç?</string>
+  <string id="min0">	saat	$1$</string>
+  <string id="min5">$1$	beş	geçiyor</string>
+  <string id="min10">$1$	on	geçiyor</string>
+  <string id="min15">$1$	çeyrek	geçiyor</string>
+  <string id="min20">$1$	yirmi	geçiyor</string>
+  <string id="min25">$1$	yirmi beş	geçiyora</string>
+  <string id="min30">$1$	buçuk	</string>
+  <string id="min35">$1$	otuz beş	geçiyor</string>
+  <string id="min40">$2$	yirmi	var</string>
+  <string id="min45">$2$	çeyrek	var</string>
+  <string id="min50">$2$	on	var</string>
+  <string id="min55">$2$	beş	var</string>
+  <string id="noon">on iki</string>
+  <string id="hour1">bir</string>
+  <string id="hour2">iki</string>
+  <string id="hour3">üç</string>
+  <string id="hour4">dört</string>
+  <string id="hour5">beş</string>
+  <string id="hour6">altı</string>
+  <string id="hour7">yedi</string>
+  <string id="hour8">sekiz</string>
+  <string id="hour9">sekiz</string>
+  <string id="hour10">on</string>
+  <string id="hour11">on bir</string>
+  <string id="midnight">on iki</string>
+</resources>

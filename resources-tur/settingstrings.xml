@@ -1,0 +1,22 @@
+<resources>
+  <string id="dataFieldTitle">Saat ile gösterilecek veri</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="activeMinutesTitle">Aktif dakika</string>
+  <string id="batteryTitle">Pil</string>
+  <string id="dateTitle">Tarih</string>
+  <string id="distanceTitle">Mesafe</string>
+  <string id="stepsTitle">Adım</string>
+  <string id="stepGoalTitle">Adım hedefi</string>
+  <string id="timeTitle">Tam saat</string>
+  <string id="hrTitle">Heart rate</string>
+  <string id="colorSchemeTitle">Renk şeması</string>
+  <string id="whiteOnBlack">Siyahın üzerinde beyaz</string>
+  <string id="blackOnWhite">Beyazın üzerinde siyah</string>
+  <string id="showIconsTitle">İkonları göster</string>
+  <string id="showIconsHelp">bağlantı koptu, bildirimler, alarmlar, uyku saati, düşük pil</string>
+  <string id="batteryWarnTitle">Düşük pil uyarısı %</string>
+  <string id="batteryWarnPrompt">Pil saviyesi düştüğünde uyarı ikonunu göster</string>
+  <string id="batteryAlertTitle">Pil uyarısı %</string>
+  <string id="batteryAlertPrompt">Uyarı ikonunu pil seviyesi altına düştüğünde göster</string>
+  <string id="myNumberError">0 ile 100 arasında bir numara girin</string>
+</resources>
