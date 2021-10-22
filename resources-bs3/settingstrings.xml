@@ -1,0 +1,22 @@
+<resources>
+  <string id="dataFieldTitle">Informatione unter dr Uhrzit</string>
+  <string id="hideTitle">Usblände</string>
+  <string id="activeMinutesTitle">Aktivitätsminute</string>
+  <string id="batteryTitle">Akkuladig</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Zruggleggti Streggi</string>
+  <string id="stepsTitle">Schritt</string>
+  <string id="stepGoalTitle">Schritt-Ziel</string>
+  <string id="timeTitle">Exaggti Zit</string>
+  <string id="hrTitle">Puls</string>
+  <string id="colorSchemeTitle">Farbwahl</string>
+  <string id="whiteOnBlack">Wyss uf Schwarz</string>
+  <string id="blackOnWhite">Schwarz uf Wyss</string>
+  <string id="showIconsTitle">Icons iiblände</string>
+  <string id="showIconsHelp">nit verbunde, Mäldige, Wecker, Schloof-Zit, Akku niedrig</string>
+  <string id="batteryWarnTitle">Akku-Warnig %</string>
+  <string id="batteryWarnPrompt">Zeig es Warn-Symbol ah wenn dr Akku drunter fallt</string>
+  <string id="batteryAlertTitle">Akku-Alarm %</string>
+  <string id="batteryAlertPrompt">Zeig es Alarm-Symbol ah wenn dr Akku drunter fallt</string>
+  <string id="myNumberError">Gib e Nummere zwüsche 0 und 100 iih</string>
+</resources>
