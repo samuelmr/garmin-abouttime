@@ -1,12 +1,12 @@
 <resources>
   <string id="AppName">Ungefähr</string>
-  <string id="min0">$1</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">fünf	ab	$1$</string>
   <string id="min10">zäh	ab	$1$</string>
   <string id="min15">viertel	ab	$1$</string>
   <string id="min20">zwanzig	ab	$1$</string>
   <string id="min25">fünf vor	halbi	$2$</string>
-  <string id="min30">halbi	$2$</string>
+  <string id="min30">halbi	$2$	</string>
   <string id="min35">fünf ab	halbi	$2$</string>
   <string id="min40">zwanzig	vor	$2$</string>
   <string id="min45">viertel	vor	$2$</string>
