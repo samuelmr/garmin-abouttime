@@ -9,6 +9,8 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2021-10-22	Added Baselland (5.15.1)
+- 2021-10-22	Added support for DescentMK2s, FR55, and FR945LTE, compiled with SDK 4.0.6 (5.15.0)
 - 2021-09-20	Chances to Kärntnerisch (5.14.5)
 - 2021-08-11	Translated Czech settings (5.14.4)
 - 2021-08-11	Added Turkish (5.14.3)
