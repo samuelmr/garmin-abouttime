@@ -12,6 +12,7 @@
    <iq:product id="d2deltas"/>
    <iq:product id="descentmk1"/>
    <iq:product id="descentmk2"/>
+   <iq:product id="descentmk2s"/>
 <!--
    <iq:product id="edge1030"/>
    <iq:product id="edge1030bontrager"/>
@@ -47,6 +48,7 @@
    <iq:product id="fr245"/>
    <iq:product id="fr245m"/>
    <iq:product id="fr45"/>
+   <iq:product id="fr55"/>
    <iq:product id="fr630"/>
    <iq:product id="fr645"/>
    <iq:product id="fr645m"/>
@@ -55,6 +57,7 @@
    <iq:product id="fr920xt"/>
    <iq:product id="fr935"/>
    <iq:product id="fr945"/>
+   <iq:product id="fr945lte"/>
    <iq:product id="garminswim2"/>
 <!--
    <iq:product id="gpsmap66"/>
