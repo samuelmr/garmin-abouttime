@@ -1,0 +1,9 @@
+<resources>
+ <fonts>
+  <font id="id_font_tiny" filename="fonts/andika24.fnt" antialias="true" filter=" О%.0а1б2в34д5е67з8и9й:клмнопрстчшkmà" />
+  <font id="id_font_small" filename="fonts/andika24.fnt" antialias="true" filter=" О%.0а1б2в34д5е67з8и9й:клмнопрстчшkmà" />
+  <font id="id_font_medium" filename="fonts/andika32.fnt" antialias="true" filter=" О%.0а1б2в34д5е67з8и9й:клмнопрстчшkmà" />
+  <font id="id_font_large" filename="fonts/andika48.fnt" antialias="true" filter=" О%.0а1б2в34д5е67з8и9й:клмнопрстчшkmà" />
+  <font id="id_font_extralarge" filename="fonts/andika64.fnt" antialias="true" filter=" О%.0а1б2в34д5е67з8и9й:клмнопрстчшkmà" />
+ </fonts>
+</resources>

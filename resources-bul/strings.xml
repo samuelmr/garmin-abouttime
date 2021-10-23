@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Около</string>
+  <string id="min0">	$1$	часà</string>
+  <string id="min5">малко	след	$1$</string>
+  <string id="min10">$1$	и	десет</string>
+  <string id="min15">$1$	и	петнайсет</string>
+  <string id="min20">$1$	и	двайсет</string>
+  <string id="min25">почти	$1$	и половина</string>
+  <string id="min30">$1$	и половина	</string>
+  <string id="min35">малко след	$1$	и половина</string>
+  <string id="min40">$2$	без	двайсет</string>
+  <string id="min45">$2$	без	петнайсет</string>
+  <string id="min50">$2$	без	десет</string>
+  <string id="min55">почти	$2$	часà</string>
+  <string id="noon">дванайсет</string>
+  <string id="hour1">един</string>
+  <string id="hour2">два</string>
+  <string id="hour3">три</string>
+  <string id="hour4">четири</string>
+  <string id="hour5">пет</string>
+  <string id="hour6">шест</string>
+  <string id="hour7">седем</string>
+  <string id="hour8">осем</string>
+  <string id="hour9">девет</string>
+  <string id="hour10">десет</string>
+  <string id="hour11">единайсет</string>
+  <string id="midnight">дванайсет</string>
+</resources>
