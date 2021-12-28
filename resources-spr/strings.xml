@@ -1,17 +1,17 @@
 <resources>
   <string id="AppName">Koliko je sati</string>
-  <string id="min0">	$1$	sat</string>
+  <string id="min0">	$1$	</string>
   <string id="min5">malo	posle	$1$</string>
   <string id="min10">deset	posle	$1$</string>
-  <string id="min15">četvrt	posle	$1$</string>
+  <string id="min15">petnaest	posle	$1$</string>
   <string id="min20">dvadeset	posle	$1$</string>
   <string id="min25">skoro	$1$	i trideset</string>
-  <string id="min30">pola	posle	$1$</string>
-  <string id="min35">malo posle	$1$	i trideset</string>
+  <string id="min30">	pola	$2$</string>
+  <string id="min35">malo posle	$2$	i trideset</string>
   <string id="min40">dvadeset	do	$2$</string>
-  <string id="min45">četvrt	do	$2$</string>
+  <string id="min45">petnaest	do	$2$</string>
   <string id="min50">deset	do	$2$</string>
-  <string id="min55">skoro	$2$	sat</string>
+  <string id="min55">skoro	$2$	</string>
   <string id="noon">dvanaest</string>
   <string id="hour1">jedan</string>
   <string id="hour2">dva</string>
