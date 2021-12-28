@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2021-12-28	Changes to Sprski (5.15.7)
 - 2021-12-28	Added another Swedish version (5.15.6)
 - 2021-12-28	Added Sprski (Serbian) (5.15.5)
 - 2021-12-11	Minor change to Zürcher (5.15.4)
