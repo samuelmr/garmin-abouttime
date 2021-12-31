@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">КОЛИКО ЈЕ САТИ</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">мало	после	$1$</string>
+  <string id="min10">$1$	и	десет</string>
+  <string id="min15">$1$	и	петнаест</string>
+  <string id="min20">$1$	и	двадесет</string>
+  <string id="min25">скоро	$1$	и тридесет</string>
+  <string id="min30">	пола	$2$</string>
+  <string id="min35">мало после	$1$	и тридесет</string>
+  <string id="min40">двадесет	до	$2$</string>
+  <string id="min45">петнаест	до	$2$</string>
+  <string id="min50">десет	до	$2$</string>
+  <string id="min55">скоро	$2$	</string>
+  <string id="noon">дванаест</string>
+  <string id="hour1">један</string>
+  <string id="hour2">два</string>
+  <string id="hour3">три</string>
+  <string id="hour4">четири</string>
+  <string id="hour5">пет</string>
+  <string id="hour6">шест</string>
+  <string id="hour7">sedседамam</string>
+  <string id="hour8">осам</string>
+  <string id="hour9">девет</string>
+  <string id="hour10">десет</string>
+  <string id="hour11">једанаест</string>
+  <string id="midnight">дванаест</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+  <string id="dataFieldTitle">Подаци за приказ са временом</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="activeMinutesTitle">Активни минути</string>
+  <string id="batteryTitle">Батерија</string>
+  <string id="dateTitle">Датум</string>
+  <string id="distanceTitle">Даљина</string>
+  <string id="stepsTitle">Кораци</string>
+  <string id="stepGoalTitle">Корачни циљ</string>
+  <string id="timeTitle">Тацно време</string>
+  <string id="hrTitle">Heart rate</string>
+  <string id="colorSchemeTitle">Шема боја</string>
+  <string id="whiteOnBlack">Бело на црно</string>
+  <string id="blackOnWhite">Црно на бело</string>
+  <string id="showIconsTitle">Прикажи иконе</string>
+  <string id="showIconsHelp">искључена, обавештења, аларми, време спавања, празна батерија</string>
+  <string id="batteryWarnTitle">Упозорење о батерији %</string>
+  <string id="batteryWarnPrompt">Прикажи икону упозорења када ниво напуњености падне испод</string>
+  <string id="batteryAlertTitle">Упозорење о батерији %</string>
+  <string id="batteryAlertPrompt">Прикажи икону упозорења када ниво напуњености падне испод</string>
+  <string id="myNumberError">Унеси број између 0 и 100</string>
+</resources>
