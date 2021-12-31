@@ -209,23 +209,22 @@
 	 <p>Tap the settings to set new values. Save the settings.</p>
    <h2 id="add">Add a new translation</h2>
    <p>You can add a new translation either by making the changes to the source code or editing an online spreadsheet.</p>
+   <h3 id="spreadsheet">Translate by editing a spreadsheet (preferred)</h3>
+   <p>Open <a href="https://docs.google.com/spreadsheets/d/1rqoHvd_8lOEooDplv6kUgsBH1nO9YNz6JuFV_6bVoxA/">the translation spreadsheet</a> in your browser. Duplicate one of existing sheets (tabs), rename your translation and drag it into the right place (in alphabetical order). Translate the strings. I should get a notification about the changes, and I can make the code changes based on the spreadsheet when I find the time.</p>
    <h3 id="pullreq">Translate by submitting code</h3>
    <p><a href="https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/">Clone</a> the repository <a href="https://github.com/samuelmr/garmin-abouttime">samuelmr/garmin-abouttime</a> on GitHub. Copy some language's <tt>resources-<em>lang</em></tt> directory, <tt>manifest-<em>lang</em>.xml</tt> and <tt>monkey-<em>lang</em>.jungle</tt>, replace occurrences of <tt><em>lang</em></tt> with your new language and edit the contents of <tt>resources-<em>lang</em>/strings.xml</tt> and <tt>resources-<em>lang</em>/settingstrings.xml</tt>.</p>
 	 <p>Submit a <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">pull request</a> and wait for me to accept it.</p>
-   <h3 id="spreadsheet">Translate by editing a spreadsheet</h3>
-   <p>Open <a href="https://docs.google.com/spreadsheets/d/1rqoHvd_8lOEooDplv6kUgsBH1nO9YNz6JuFV_6bVoxA/">the translation spreadsheet</a> in your browser. Duplicate one of existing sheets (tabs), rename your translation and drag it into the right place (in alphabetical order). Translate the strings. I should get a notification about the changes, and I can make the code changes based on the spreadsheet when I find the time.</p>
    <h2 id="features">Feature requests and suggestions</h2>
 	 <p>Please create a <a href="https://github.com/samuelmr/garmin-abouttime/issues/new">new issue</a>. Explain why your suggestion is useful, and what value it would bring to which kind of user or situation.</p>
    <h2 id="history">History</h2>
-   <p>The About Time watch face is created by Samuel Rinnetmäki (that's me). I originally (in February 2014) created <a href="http://samuelmr.github.io/pebble/">a similar watch face for Pebble</a> (an early family of smartch watches). Although the watch face was only available in Finnish, it was quite popular and I got some praise from the users.</p>
+   <p>The About Time watch face is created by Samuel Rinnetmäki (that's me). I originally (in February 2014) created <a href="http://samuelmr.github.io/pebble/">a similar watch face for Pebble</a> (an early family of smart watches). Although the watch face was only available in Finnish, it was quite popular and I got some praise from the users.</p>
    <p>When I bought a Garmin watch in early 2019 I wanted to test its ConnectIQ development platform. I chose to re-create About Time for Garmin watches. As an extra effort, I decided to make it multilingual.</p>
    <p>At first, I translated the watch face to languages I knew (English, Swedish, German). Then, mostly using online resources, I added support for French, Italian, Portuguese and Spanish. When a user requested for a Russian version, I was in trouble. I set up a Google Sheet where users could translate the required strings to their own language.</p>
    <p>During a few weeks I got translations to Chinese, Czech, Danish, Dutch, Greek, Hebrew, Hungarian, Norwegian, Polish and Russian - with many corrections to my initial translations. Some users wanted to translate the watch face to dialects instead of just languages. It was great, but posed some technical challenges.</p>
    <p>The number of special characters was adding up, and the limited memory of some Garmin watches couldn't manage them all. Although the ConnectIQ platform supports many languages, it has no notion of dialects. I had to break the multilingual About Time watch face into multiple, single-language versions.</p>
-<!--
    <h2 id="support">Support</h2>
-   <p>Waiting for Github Sponsors</p>
--->
+   <p>In three years, the number of translations exceeded 80. Adding and supporting new features and dozens of translations takes considerable amount of my free time.</p>
+   <p>The watch face, all its features and translations are and will stay free in the Connect IQ Store. If you feel like offering me a beverage or a snack to compensate for my efforts, you can <a href="https://paypal.me/samuelrinnetmaki/">donate a small sum by PayPal</a>.</p>
    <p id="footer">Thanks for reading!</p>
   </div>
  </body>
