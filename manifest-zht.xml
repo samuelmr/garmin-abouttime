@@ -35,6 +35,7 @@
 -->
    <iq:product id="enduro"/>
    <iq:product id="epix"/>
+   <iq:product id="epix2"/>
    <iq:product id="fenix3"/>
    <iq:product id="fenix3_hr"/>
    <iq:product id="fenix5"/>
@@ -48,6 +49,9 @@
    <iq:product id="fenix6s"/>
    <iq:product id="fenix6spro"/>
    <iq:product id="fenix6xpro"/>
+   <iq:product id="fenix7"/>
+   <iq:product id="fenix7s"/>
+   <iq:product id="fenix7x"/>
    <iq:product id="fenixchronos"/>
 <!--
    <iq:product id="fr230"/>
@@ -57,7 +61,7 @@
    <iq:product id="fr245m"/>
    <iq:product id="fr45"/>
    <iq:product id="fr55"/>
-  <iq:product id="fr630"/>
+   <iq:product id="fr630"/>
    <iq:product id="fr645"/>
    <iq:product id="fr645m"/>
    <iq:product id="fr735xt"/>
@@ -90,6 +94,7 @@
    <iq:product id="venu"/>
 <!--
    <iq:product id="venu2"/>
+   <iq:product id="venu2plus"/>
    <iq:product id="venu2s"/>
 -->
    <iq:product id="venud"/>
