@@ -9,6 +9,9 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-05-20	Added alternative Polish (5.16.3)
+- 2022-05-16	Minor changes to Polish (5.16.2)
+- 2022-03-30	Revised Polish (5.16.1)
 - 2022-01-19	Added support for new devices (Fenix7, Epix2, Venu2plus) (5.16.0)
 - 2022-01-04	Minor fix to cyrillic Serbian (5.15.10)
 - 2021-12-30	Added cyrillic Serbian (5.15.9)
