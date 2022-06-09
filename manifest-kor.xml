@@ -4,6 +4,7 @@
    <iq:product id="approachs60"/>
    <iq:product id="approachs62"/>
    <iq:product id="d2air"/>
+   <iq:product id="d2airx10"/>
 <!--
    <iq:product id="d2bravo"/>
    <iq:product id="d2bravo_titanium"/>
@@ -60,6 +61,10 @@
    <iq:product id="fr235"/>
    <iq:product id="fr245"/>
    <iq:product id="fr245m"/>
+   <iq:product id="fr255"/>
+   <iq:product id="fr255m"/>
+   <iq:product id="fr255s"/>
+   <iq:product id="fr255sm"/>
    <iq:product id="fr45"/>
    <iq:product id="fr55"/>
 <!--
@@ -75,6 +80,7 @@
    <iq:product id="fr935"/>
    <iq:product id="fr945"/>
    <iq:product id="fr945lte"/>
+   <iq:product id="fr955"/>
    <iq:product id="garminswim2"/>
 <!--
    <iq:product id="gpsmap66"/>
