@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-06-05	Compiled with SDK 4.1.3. Added support for d2airx10, fr255, fr255m, fr255s, fr255sm and fr955 (5.17.0)
 - 2022-05-20	Added alternative Polish (5.16.3)
 - 2022-05-16	Minor changes to Polish (5.16.2)
 - 2022-03-30	Revised Polish (5.16.1)
