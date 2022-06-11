@@ -264,13 +264,13 @@ class AboutTimeView extends WatchUi.WatchFace {
     middleFont = scaleFont(dc, middleFont, middle, :middle);
     bottomFont = scaleFont(dc, bottomFont, bottom, :bottom);
 
-    var topHeight = Graphics.getFontHeight(topFont)/1.25;
-    var middleHeight = Graphics.getFontHeight(middleFont)/1.25;
-    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.25;
+    var topHeight = Graphics.getFontHeight(topFont)/1.75;
+    var middleHeight = Graphics.getFontHeight(middleFont)/1.75;
+    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.75;
     var totalHeight = topHeight + middleHeight + bottomHeight;
 
     var x = width / 2;
-    var topY = height / 2 - totalHeight / 2 + topHeight/2;
+    var topY = height / 2 - totalHeight / 2 + topHeight / 2;
     var middleY = topY + topHeight / 2 + middleHeight / 2;
     var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;
     var color = textColor;
