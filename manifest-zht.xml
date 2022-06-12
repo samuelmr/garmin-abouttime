@@ -25,7 +25,7 @@
    <iq:product id="edge1030bontrager"/>
    <iq:product id="edge1030plus"/>
    <iq:product id="edge130"/>
-   <iq:product id="edge130pus"/>
+   <iq:product id="edge130plus"/>
    <iq:product id="edge520plus"/>
    <iq:product id="edge530"/>
    <iq:product id="edge820"/>
@@ -76,6 +76,7 @@
    <iq:product id="fr945"/>
    <iq:product id="fr945lte"/>
    <iq:product id="fr955"/>
+   <iq:product id="garminswim2"/>
 <!--
    <iq:product id="gpsmap66"/>
    <iq:product id="gpsmap86"/>
@@ -98,11 +99,9 @@
    <iq:product id="rino7xx"/>
 -->
    <iq:product id="venu"/>
-<!--
    <iq:product id="venu2"/>
    <iq:product id="venu2plus"/>
    <iq:product id="venu2s"/>
--->
    <iq:product id="venud"/>
    <iq:product id="venusq"/>
    <iq:product id="venusqm"/>
