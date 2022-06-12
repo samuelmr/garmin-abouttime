@@ -18,8 +18,10 @@ var lineHeight, iconHeight;
 var prevTime, prevIcons;
 var width, height, shape, device;
 var canBurnIn = false;
-var upTop=true;
+var upTop = true;
 var inLowPower =false;
+// vertical compression of lines (decrease line spacing)
+var linePack = 1.75; 
 
 enum {
   tiny,
@@ -49,15 +51,13 @@ class AboutTimeView extends WatchUi.WatchFace {
   function initialize() {
     WatchFace.initialize();
     Math.srand(System.getTimer());
-    //new
     //check if burn in protection needed
-        var sSettings=System.getDeviceSettings();
-        //first check if the setting is availe on the current device
-        if(sSettings has :requiresBurnInProtection) {
-        	//get the state of the setting      
-        	canBurnIn=sSettings.requiresBurnInProtection;
-        	}
-    //
+    var sysSettings = System.getDeviceSettings();
+    //first check if the setting is availe on the current device
+    if(sysSettings has :requiresBurnInProtection) {
+      //get the state of the setting
+      canBurnIn = sysSettings.requiresBurnInProtection;
+    }
   }
 
   function onLayout(dc) {
@@ -65,7 +65,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     readLocale();
     device = System.getDeviceSettings();
     height = dc.getHeight();
-  //  System.println(height);
     width = dc.getWidth();
     shape = device.screenShape;
     fonts[tiny] = WatchUi.loadResource(@Rez.Fonts.id_font_tiny);
@@ -73,8 +72,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
     fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
     fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
-
-    
 
     // ugly hack: use system fonts for languages with unsupported glyphs
     if ((locale[:hours][1].find("一") != null) ||
@@ -84,20 +81,13 @@ class AboutTimeView extends WatchUi.WatchFace {
       fonts[medium] = Graphics.FONT_SYSTEM_LARGE;
       fonts[large] = Graphics.FONT_SYSTEM_LARGE;
       fonts[mega] = fonts[large];
+      // no vertical compression for system fonts
+      linePack = 1;
     }
-//
-    if ( height > 240) {
-    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont_large);
-    } else {
+
     fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont);
-    }
-    if (height>240) {
-    	lineHeight = Graphics.getFontHeight(fonts[medium])/1.7; //Date
-    } else {
-   		lineHeight = Graphics.getFontHeight(fonts[tiny])/1.7; //Date
-    }
-    iconHeight = Graphics.getFontHeight(fonts[icons])+4 ;
- //   System.println(lineHeight);
+    lineHeight = Graphics.getFontHeight(fonts[tiny]) / 2;
+    iconHeight = Graphics.getFontHeight(fonts[icons]);
   }
 
   function onPartialUpdate(dc) {
@@ -108,6 +98,16 @@ class AboutTimeView extends WatchUi.WatchFace {
     else if (clockTime.sec == 30) {
       WatchUi.requestUpdate();
     }
+  }
+
+  function onExitSleep() {
+    inLowPower = false;
+    WatchUi.requestUpdate();
+  }
+
+  function onEnterSleep() {
+    inLowPower = true;
+    WatchUi.requestUpdate();
   }
 
   function onUpdate(dc) {
@@ -124,7 +124,6 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
 
     var iconString = getIconString();
-
     
 /*
  * It seems we need to redraw the screen anyway. Just returning from
@@ -141,11 +140,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
     prevTime = thisTime;
     prevIcons = iconString;
+    // var thisTime = fuzzyHour.format("%d") + ":" + fuzzyMinutes.format("%02d");
+    // System.println(thisTime + " – " + iconString);
 */
-    var thisTime = fuzzyHour.format("%d") + ":" + fuzzyMinutes.format("%02d");
-//	System.println(thisTime + " – " + iconString);
-   
-      
+
     if (colorScheme == inverted) {
       bgColor = Graphics.COLOR_WHITE;
       textColor = Graphics.COLOR_BLACK;
@@ -213,20 +211,15 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
 
       if (dataString instanceof Lang.String) {
-      	if (height>240) {
-        drawString(dc, width/2, height-lineHeight, fonts[medium], dataColor, dataString);
-        } else {
         drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, dataString);
-        }
       }
       else {
-  //      System.println(dataString + " is not a string");
+        // System.println(dataString + " is not a string");
       }
     }
 
-    if ((timeSpace[:top] > iconHeight) && showIcons) {
+    if ((timeSpace[:top] >= iconHeight) && showIcons) {
       drawString(dc, width/2, iconHeight, fonts[icons], textColor, iconString);
-  //   System.println(iconHeight);
     }
 
   }
@@ -272,19 +265,10 @@ class AboutTimeView extends WatchUi.WatchFace {
     return iconString;
 
   }
-    function onExitSleep() {
-        inLowPower=false;
-    	WatchUi.requestUpdate(); 
-    }
 
-    function onEnterSleep() {
-    	inLowPower=true;
-    	WatchUi.requestUpdate(); 
-    }
-    
   function drawString(dc, x, y, font, color, string) {
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-   dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+    dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
   }
 
   function drawTimeStrings(dc, fuzzyHour, fuzzyMinutes) {
@@ -306,25 +290,23 @@ class AboutTimeView extends WatchUi.WatchFace {
     middleFont = scaleFont(dc, middleFont, middle, :middle);
     bottomFont = scaleFont(dc, bottomFont, bottom, :bottom);
 
-    var topHeight = Graphics.getFontHeight(topFont)/1.75;
-    var middleHeight = Graphics.getFontHeight(middleFont)/1.75;
-    var bottomHeight = Graphics.getFontHeight(bottomFont)/1.75;
+    var topHeight = Graphics.getFontHeight(topFont) / linePack;
+    var middleHeight = Graphics.getFontHeight(middleFont) / linePack;
+    var bottomHeight = Graphics.getFontHeight(bottomFont) / linePack;
     var totalHeight = topHeight + middleHeight + bottomHeight;
 
     var x = width / 2;
     var topY = height / 2 - totalHeight / 2 + topHeight / 2;
-    if (inLowPower) {
-			if (canBurnIn) {
-				// move pixels a littele bit on the venu, in preparation to always on
-				topY = (upTop) ? topY * .99 : topY;
-				x = (upTop) ? x * 0.99 : x;
-				upTop = !upTop;
-			} else {
-				topY = height / 2 - totalHeight / 2 + topHeight / 2;
-			}
-    }
     var middleY = topY + topHeight / 2 + middleHeight / 2;
     var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;    
+    if (inLowPower && canBurnIn) {
+      // move by 1 pixel to prevent burn-in
+      x += upTop ? 1 : 0;
+      topY += upTop ? 1 : 0;
+      middleY += upTop ? 1 : 0;
+      bottomY += upTop ? 1 : 0;
+      upTop = !upTop;
+    }
 
     var color = textColor;
 
@@ -334,6 +316,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     timeSpace[:top] = topY - topHeight/2;
     timeSpace[:bottom] = bottomY + bottomHeight/2;
+
     return timeSpace;
 
   }
