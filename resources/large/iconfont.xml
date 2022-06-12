@@ -1,1 +1,5 @@
-../../resources/resource/iconfont.xml
+<resources>
+ <fonts>
+  <font id="id_iconFont" filename="fonts/icons1.fnt" antialias="true" filter="01234567" />
+ </fonts>
+</resources>
