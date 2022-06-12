@@ -2,6 +2,16 @@
 TMPFILE1=filter.tmp
 TMPFILE2=filter2.tmp
 for directory in ./resources-*; do
+  lang=`echo $directory | sed -e 's/.*-//'`
+  if [ ! -e manifest-$lang.xml ]; then
+    echo "Creating manifest-$lang.xml"
+    uuid=`uuidgen`
+    cat manifest.xml | sed -e "s/application\([^>]*\)id=\"[0-9a-f]*/application\\1id=\"$uuid/" > manifest-$lang.xml
+  fi
+  if [ ! -e monkey-$lang.jungle ]; then
+    echo "Creating monkey-$lang.jungle"
+    cat monkey-eng.jungle | sed -e "s/-eng/-$lang/" > monkey-$lang.jungle
+  fi
   cd $directory
   [ -L "bitmaps.xml" ] || ln -s ../resources/bitmaps.xml .
   [ -L "images" ] || ln -s ../resources/images .
@@ -15,7 +25,7 @@ for directory in ./resources-*; do
   rm $TMPFILE1
   rm $TMPFILE2
   echo "${directory}	${FILTERSTR}"
-  for resource in resource small large fr920xt; do
+  for resource in resource small large extralarge fr920xt; do
     [ -e $resource ] || mkdir $resource
     cd $resource
     [ -L "fonts" ] || [ -e "fonts" ] || ln -s ../../resources/$resource/fonts .
