@@ -2,6 +2,9 @@
  <iq:application entry="AboutTime" id="6961ac8dec684fb2b4fb53bd722be9dc" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.2.0" name="@Strings.AppName" type="watchface">
   <iq:products>
    <iq:product id="approachs60"/>
+   <iq:product id="approachs62"/>
+   <iq:product id="d2air"/>
+   <iq:product id="d2airx10"/>
    <iq:product id="d2bravo"/>
    <iq:product id="d2bravo_titanium"/>
    <iq:product id="d2charlie"/>
@@ -11,6 +14,20 @@
    <iq:product id="descentmk1"/>
    <iq:product id="descentmk2"/>
    <iq:product id="descentmk2s"/>
+<!--
+   <iq:product id="edge1030"/>
+   <iq:product id="edge1030bontrager"/>
+   <iq:product id="edge1030plus"/>
+   <iq:product id="edge130"/>
+   <iq:product id="edge130plus"/>
+   <iq:product id="edge520plus"/>
+   <iq:product id="edge530"/>
+   <iq:product id="edge820"/>
+   <iq:product id="edge830"/>
+   <iq:product id="edge_1000"/>
+   <iq:product id="edge_520"/>
+   <iq:product id="edgeexplore"/>
+-->
    <iq:product id="enduro"/>
    <iq:product id="epix"/>
    <iq:product id="epix2"/>
@@ -45,23 +62,42 @@
    <iq:product id="fr645"/>
    <iq:product id="fr645m"/>
    <iq:product id="fr735xt"/>
+   <iq:product id="fr745"/>
    <iq:product id="fr920xt"/>
    <iq:product id="fr935"/>
    <iq:product id="fr945"/>
    <iq:product id="fr945lte"/>
    <iq:product id="fr955"/>
+   <iq:product id="garminswim2"/>
+<!--
+   <iq:product id="gpsmap66"/>
+   <iq:product id="gpsmap86"/>
+-->
    <iq:product id="legacyherocaptainmarvel"/>
    <iq:product id="legacyherofirstavenger"/>
+   <iq:product id="legacysagadarthvader"/>
+   <iq:product id="legacysagarey"/>
+   <iq:product id="marqadventurer"/>
    <iq:product id="marqathlete"/>
    <iq:product id="marqaviator"/>
    <iq:product id="marqcaptain"/>
    <iq:product id="marqcommander"/>
+   <iq:product id="marqcommander"/>
    <iq:product id="marqdriver"/>
    <iq:product id="marqexpedition"/>
+   <iq:product id="marqgolfer"/>
+<!--
+   <iq:product id="montana7xx"/>
+   <iq:product id="oregon7xx"/>
+   <iq:product id="rino7xx"/>
+-->
    <iq:product id="venu"/>
    <iq:product id="venu2"/>
    <iq:product id="venu2plus"/>
    <iq:product id="venu2s"/>
+   <iq:product id="venud"/>
+   <iq:product id="venusq"/>
+   <iq:product id="venusqm"/>
    <iq:product id="vivoactive"/>
    <iq:product id="vivoactive3"/>
    <iq:product id="vivoactive3d"/>
@@ -75,31 +111,5 @@
   <iq:permissions>
    <iq:uses-permission id="UserProfile"/>
   </iq:permissions>
-<!--
-  <iq:languages>
-   <iq:language>ces</iq:language>
-   <iq:language>dan</iq:language>
-   <iq:language>deu</iq:language>
-   <iq:language>dut</iq:language>
-   <iq:language>eng</iq:language>
-   <iq:language>fin</iq:language>
-   <iq:language>fre</iq:language>
-   <iq:language>gre</iq:language>
-   <iq:language>heb</iq:language>
-   <iq:language>hun</iq:language>
-   <iq:language>ind</iq:language>
-   <iq:language>ita</iq:language>
-   <iq:language>kor</iq:language>
-   <iq:language>nob</iq:language>
-   <iq:language>pol</iq:language>
-   <iq:language>por</iq:language>
-   <iq:language>rus</iq:language>
-   <iq:language>slo</iq:language>
-   <iq:language>slv</iq:language>
-   <iq:language>spa</iq:language>
-   <iq:language>swe</iq:language>
-   <iq:language>zht</iq:language>
-  </iq:languages>
--->
  </iq:application>
 </iq:manifest>
