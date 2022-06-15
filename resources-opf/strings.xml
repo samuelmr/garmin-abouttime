@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefähr</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">kuaz	nach	$1$</string>
+  <string id="min10">zea	nach	$1$</string>
+  <string id="min15">viatl	nach	$1$</string>
+  <string id="min20">zwanzg	nach	$1$</string>
+  <string id="min25">glei	halwa	$2$</string>
+  <string id="min30">halwa	$2$	</string>
+  <string id="min35">kuaz nach	halwa	$2$</string>
+  <string id="min40">zwanzg	vor	$2$</string>
+  <string id="min45">dreiviatl	$2$	</string>
+  <string id="min50">zehn	vor	$2$</string>
+  <string id="min55">kuaz	vor	$2$</string>
+  <string id="noon">zwölfe</string>
+  <string id="hour1">oans</string>
+  <string id="hour2">zwoa</string>
+  <string id="hour3">drei</string>
+  <string id="hour4">viere</string>
+  <string id="hour5">fümfe</string>
+  <string id="hour6">sechse</string>
+  <string id="hour7">sieme</string>
+  <string id="hour8">achte</string>
+  <string id="hour9">neine</string>
+  <string id="hour10">zeane</string>
+  <string id="hour11">ölfe</string>
+  <string id="midnight">zwölfe</string>
+</resources>
