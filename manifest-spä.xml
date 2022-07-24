@@ -11,6 +11,8 @@
    <iq:product id="d2delta"/>
    <iq:product id="d2deltapx"/>
    <iq:product id="d2deltas"/>
+   <iq:product id="d2mach1"/>
+   <iq:product id="descentg1"/>
    <iq:product id="descentmk1"/>
    <iq:product id="descentmk2"/>
    <iq:product id="descentmk2s"/>
@@ -18,6 +20,7 @@
    <iq:product id="edge1030"/>
    <iq:product id="edge1030bontrager"/>
    <iq:product id="edge1030plus"/>
+   <iq:product id="edge1040"/>
    <iq:product id="edge130"/>
    <iq:product id="edge130plus"/>
    <iq:product id="edge520plus"/>
@@ -27,6 +30,7 @@
    <iq:product id="edge_1000"/>
    <iq:product id="edge_520"/>
    <iq:product id="edgeexplore"/>
+   <iq:product id="edgeexplore2"/>
 -->
    <iq:product id="enduro"/>
    <iq:product id="epix"/>
@@ -73,6 +77,8 @@
    <iq:product id="gpsmap66"/>
    <iq:product id="gpsmap86"/>
 -->
+   <iq:product id="instinct2"/>
+   <iq:product id="instinct2s"/>
    <iq:product id="legacyherocaptainmarvel"/>
    <iq:product id="legacyherofirstavenger"/>
    <iq:product id="legacysagadarthvader"/>
