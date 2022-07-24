@@ -19,8 +19,6 @@ if [ $CIQ_TARGET = "fr920xt" ]; then
   TARGETPOSTFIX="_sim"
 fi
 
-DEVELOPER_KEY="/Users/samuel/garmin/developer_key.der"
-
 echo "Updating font filters"
 ./filter.sh
 
@@ -29,10 +27,10 @@ for jungle in ./monkey-$TRANSLATION.jungle; do
   echo "Building $LANGUAGE $TESTMESSAGE"
   if [ $TEST ]; then
     filename="releases/AboutTime-$LANGUAGE-$CIQ_TARGET.prg"
-    CMD="monkeyc -f $jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y $DEVELOPER_KEY -o $filename $TEST"
+    CMD="monkeyc -f $jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y $CIQ_KEYFILE -o $filename $TEST"
   else
     filename="releases/AboutTime-$LANGUAGE.iq"
-    CMD="monkeyc -f $jungle -e -y $DEVELOPER_KEY -o $filename"
+    CMD="monkeyc -f $jungle -e -y $CIQ_KEYFILE -o $filename"
   fi
   echo $CMD
 	$CMD && echo "Built $filename"
