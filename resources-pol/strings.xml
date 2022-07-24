@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Około</string>
-  <string id="min0">	gdzieś tak koło	$1$</string>
+  <string id="min0">gdzieś tak	koło	$1$</string>
   <string id="min5">ździebko	po	$1$</string>
   <string id="min10">troszkę	po	$1$</string>
   <string id="min15">mniej więcej	kwadrans po	$1$</string>
