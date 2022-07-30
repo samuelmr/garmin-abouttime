@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Thème</string>
   <string id="whiteOnBlack">Blanc sur noir</string>
   <string id="blackOnWhite">Noir sur blanc</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Afficher icones</string>
   <string id="showIconsHelp">déconnecté, notifications, alarmes, sommeil, batterie faible</string>
   <string id="batteryWarnTitle">Batterie faible %</string>

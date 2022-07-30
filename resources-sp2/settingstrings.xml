@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Шема боја</string>
   <string id="whiteOnBlack">Бело на црно</string>
   <string id="blackOnWhite">Црно на бело</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Прикажи иконе</string>
   <string id="showIconsHelp">искључена, обавештења, аларми, време спавања, празна батерија</string>
   <string id="batteryWarnTitle">Упозорење о батерији %</string>

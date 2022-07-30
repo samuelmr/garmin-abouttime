@@ -2,6 +2,7 @@
  <properties>
   <property id="dataField" type="number">2</property>
   <property id="colorScheme" type="number">0</property>
+  <property id="smallerFont" type="boolean">true</property>
   <property id="showIcons" type="boolean">true</property>
   <property id="batteryWarn" type="number">30</property>
   <property id="batteryAlert" type="number">15</property>
@@ -31,6 +32,9 @@
     <listEntry value="0">@Strings.whiteOnBlack</listEntry>
     <listEntry value="1">@Strings.blackOnWhite</listEntry>
    </settingConfig>
+  </setting>
+  <setting propertyKey="@Properties.smallerFont" title="@Strings.smallerFontTitle">
+   <settingConfig type="boolean" />
   </setting>
   <setting propertyKey="@Properties.showIcons" title="@Strings.showIconsTitle" prompt="@Strings.showIconsHelp">
    <settingConfig type="boolean" />

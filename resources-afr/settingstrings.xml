@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Kleurskema</string>
   <string id="whiteOnBlack">Wit op swart</string>
   <string id="blackOnWhite">Swart op wit</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Toon ikone</string>
   <string id="showIconsHelp">afgesny, kennisgewings, alarms, slaaptyd, battery amper pap</string>
   <string id="batteryWarnTitle">Lae battery waarskuwing (%)</string>

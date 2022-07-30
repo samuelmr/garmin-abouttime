@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Wyss uf Schwarz</string>
   <string id="blackOnWhite">Schwarz uf Wyss</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Icons iiblände</string>
   <string id="showIconsHelp">nit verbunde, Mäldige, Wecker, Schloof-Zit, Akku niedrig</string>
   <string id="batteryWarnTitle">Akku-Warnig %</string>

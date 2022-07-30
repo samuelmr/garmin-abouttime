@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Wiiss of Schwaarz</string>
   <string id="blackOnWhite">Schwaarz uf Wiss</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>

@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Färgtema</string>
   <string id="whiteOnBlack">Vitt på svart</string>
   <string id="blackOnWhite">Svart på vitt</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>

@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Värit</string>
   <string id="whiteOnBlack">Valkoinen mustalla taustalla</string>
   <string id="blackOnWhite">Musta valkoisella taustalla</string>
+  <string id="smallerFontTitle">Pienempi teksti</string>
   <string id="showIconsTitle">Näytä kuvakkeet, jos niille on tilaa</string>
   <string id="showIconsHelp">puhelinyhteys, viestit, herätykset, uniaika, akkuvaroitus</string>
   <string id="batteryWarnTitle">Akun varoitus</string>

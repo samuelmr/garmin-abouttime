@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Renk şeması</string>
   <string id="whiteOnBlack">Siyahın üzerinde beyaz</string>
   <string id="blackOnWhite">Beyazın üzerinde siyah</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">İkonları göster</string>
   <string id="showIconsHelp">bağlantı koptu, bildirimler, alarmlar, uyku saati, düşük pil</string>
   <string id="batteryWarnTitle">Düşük pil uyarısı %</string>

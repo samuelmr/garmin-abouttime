@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Цветова схема</string>
   <string id="whiteOnBlack">Бало на черно</string>
   <string id="blackOnWhite">Черно на бяло</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Покажи икони</string>
   <string id="showIconsHelp">не свързано, уведомления, аларми, време за сън,слаба батерия</string>
   <string id="batteryWarnTitle">Предупреждение за батерията %</string>

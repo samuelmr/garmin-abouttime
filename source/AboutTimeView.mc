@@ -71,7 +71,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     fonts[small] = WatchUi.loadResource(@Rez.Fonts.id_font_small);
     fonts[medium] = WatchUi.loadResource(@Rez.Fonts.id_font_medium);
     fonts[large] = WatchUi.loadResource(@Rez.Fonts.id_font_large);
-    fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
+    if (smallerFont == false) {
+      fonts[mega] = WatchUi.loadResource(@Rez.Fonts.id_font_extralarge);
+    }
 
     // ugly hack: use system fonts for languages with unsupported glyphs
     if ((locale[:hours][1].find("一") != null) ||
@@ -80,12 +82,17 @@ class AboutTimeView extends WatchUi.WatchFace {
       fonts[small] = Graphics.FONT_MEDIUM;
       fonts[medium] = Graphics.FONT_SYSTEM_LARGE;
       fonts[large] = Graphics.FONT_SYSTEM_LARGE;
-      fonts[mega] = fonts[large];
+      // fonts[mega] = fonts[large];
       // no vertical compression for system fonts
       linePack = 1;
     }
 
-    fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont);
+    if (smallerFont == false) {
+      fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFontLarge);
+    }
+    else {
+      fonts[icons] = WatchUi.loadResource(@Rez.Fonts.id_iconFont);
+    }
     lineHeight = Graphics.getFontHeight(fonts[tiny]) / 2;
     iconHeight = Graphics.getFontHeight(fonts[icons]);
   }
@@ -335,7 +342,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       fontIndex = fonts.indexOf(font);
     }
 
-    if ((lineWidth > 180) && (string.length() <= 9)) {
+    if ((smallerFont == false) && (lineWidth > 180) && (string.length() <= 9)) {
       if (fontIndex < (fonts.size() - 1)) {
         fontIndex += 1;
         font = fonts[fontIndex];

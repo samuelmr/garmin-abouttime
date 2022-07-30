@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Färbb</string>
   <string id="whiteOnBlack">Wääß uff Schwazz</string>
   <string id="blackOnWhite">Schwazz uff Wääß</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>

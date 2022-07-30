@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Sistemo de koloroj</string>
   <string id="whiteOnBlack">Blanka sur nigra</string>
   <string id="blackOnWhite">Nigra sur blanka</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>

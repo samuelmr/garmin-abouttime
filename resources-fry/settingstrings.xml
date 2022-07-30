@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Kleurenskema</string>
   <string id="whiteOnBlack">Wyt op swarte eftergrûn</string>
   <string id="blackOnWhite">Swart op wite eftergrûn</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Lit ikoanen sjen</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Batterij warskôging %</string>

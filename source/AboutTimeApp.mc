@@ -20,6 +20,8 @@ enum {
 }
 var dataField = date;
 
+var smallerFont = false;
+
 var showIcons = true;
 
 var batteryWarn = 30;
@@ -45,6 +47,11 @@ class AboutTime extends Application.AppBase {
     }
     colorScheme = app.getProperty("colorScheme");
 
+    smallerFont = app.getProperty("smallerFont");
+    if (smallerFont != true) {
+      smallerFont = false;
+    }
+
     showIcons = app.getProperty("showIcons");
     if (showIcons != false) {
       showIcons = true;
@@ -66,10 +73,11 @@ class AboutTime extends Application.AppBase {
     app.setProperty("dataField", dataField);
     app.setProperty("colorScheme", colorScheme);
 
-    showIcons = app.setProperty("showIcons", showIcons);
+    app.setProperty("smallerFont", smallerFont);
+    app.setProperty("showIcons", showIcons);
 
-    batteryWarn = app.setProperty("batteryWarn", batteryWarn);
-    batteryAlert = app.setProperty("batteryAlert", batteryAlert);
+    app.setProperty("batteryWarn", batteryWarn);
+    app.setProperty("batteryAlert", batteryAlert);
   }
 
   function getInitialView() {
@@ -87,6 +95,7 @@ class AboutTime extends Application.AppBase {
     dataField = app.getProperty("dataField");
     colorScheme = app.getProperty("colorScheme");
 
+    smallerFont = app.getProperty("smallerFont");
     showIcons = app.getProperty("showIcons");
 
     batteryWarn = app.getProperty("batteryWarn");

@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Boje</string>
   <string id="whiteOnBlack">Svetlo</string>
   <string id="blackOnWhite">Tamno</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Pokaži ikone</string>
   <string id="showIconsHelp">isključen, obaveštenje, alarmi, vreme spavanja, baterija skoro prazna</string>
   <string id="batteryWarnTitle">Upozorenje baterije %</string>

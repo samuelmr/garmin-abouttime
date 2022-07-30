@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Schemă culori</string>
   <string id="whiteOnBlack">Alb pe negru</string>
   <string id="blackOnWhite">Negru pe alb</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>

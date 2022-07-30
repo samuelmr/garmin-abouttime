@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Weiß auf Schwarz</string>
   <string id="blackOnWhite">Schwarz auf Weiß</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Zeige Symbole</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Batteriewarnung %</string>

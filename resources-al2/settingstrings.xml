@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Farba uswähla</string>
   <string id="whiteOnBlack">Wieß uf Schwarz</string>
   <string id="blackOnWhite">Schwarz uf Wieß</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>

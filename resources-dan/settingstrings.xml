@@ -12,6 +12,7 @@
   <string id="colorSchemeTitle">Farvetema</string>
   <string id="whiteOnBlack">Hvid tekst på sort baggrund</string>
   <string id="blackOnWhite">Sort tekst på hvid baggrund</string>
+  <string id="smallerFontTitle">Smaller font</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>
