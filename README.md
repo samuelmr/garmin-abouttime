@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-08-08	Added Hessisch (7.0.2)
 - 2022-08-08	Fixed font size for large screens (7.0.1)
 - 2022-07-31	Using Noto Sans instead of Andika, setting to choose smaller font size (7.0.0)
 - 2022-07-24	Minor fix to Polish (6.0.3)
