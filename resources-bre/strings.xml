@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quase</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	e sìk</string>
+  <string id="min10">	$1$	e dès</string>
+  <string id="min15">	$1$	e n quàrt</string>
+  <string id="min20">	$1$	e vinte</string>
+  <string id="min25">quase	$1$	e mèza</string>
+  <string id="min30">	$1$	e mèza</string>
+  <string id="min35">	$1$	e trentasìk</string>
+  <string id="min40">	$2$	meno vinte</string>
+  <string id="min45">	$2$	meno n quàrt</string>
+  <string id="min50">	$2$	meno dès</string>
+  <string id="min55">	quase	$2$</string>
+  <string id="noon">mezdè</string>
+  <string id="hour1">mbòt</string>
+  <string id="hour2">le dò</string>
+  <string id="hour3">le tre</string>
+  <string id="hour4">le quàter</string>
+  <string id="hour5">le sìk</string>
+  <string id="hour6">le sès</string>
+  <string id="hour7">le sèt</string>
+  <string id="hour8">le ott</string>
+  <string id="hour9">le nóf</string>
+  <string id="hour10">le des</string>
+  <string id="hour11">le òndés</string>
+  <string id="midnight">mezanót</string>
+</resources>
