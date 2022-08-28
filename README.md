@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-08-26	Added Niedersachsen (7.0.4)
 - 2022-08-08	Added Brescia (7.0.3)
 - 2022-08-08	Added Hessisch (7.0.2)
 - 2022-08-08	Fixed font size for large screens (7.0.1)
