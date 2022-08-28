@@ -5,3 +5,6 @@
 resources/.DS_Store
 releases
 AboutTime-settings.json
+config.js
+node_modules
+package-lock.json
