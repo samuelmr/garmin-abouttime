@@ -9,6 +9,8 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-08-30	Added Scots (7.0.7)
+- 2022-08-29	Compiled with SDK 4.1.5, added puppeteer publishing script (7.0.6)
 - 2022-08-28	Added Toscano (7.0.5)
 - 2022-08-26	Added Niedersachsen (7.0.4)
 - 2022-08-08	Added Brescia (7.0.3)

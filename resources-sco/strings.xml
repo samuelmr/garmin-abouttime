@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">About</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">the back	o'	$1$</string>
+  <string id="min10">ten	efter	$1$</string>
+  <string id="min15">a quarter	efter	$1$</string>
+  <string id="min20">twinty	efter	$1$</string>
+  <string id="min25">awmaist	hauf	$1$</string>
+  <string id="min30">	hauf	$1$</string>
+  <string id="min35">	$1$	therty-five</string>
+  <string id="min40">twinty	tae	$2$</string>
+  <string id="min45">a quarter	tae	$2$</string>
+  <string id="min50">ten	tae	$2$</string>
+  <string id="min55">awmaist	$2$	</string>
+  <string id="noon">twalhoures</string>
+  <string id="hour1">wan</string>
+  <string id="hour2">twa</string>
+  <string id="hour3">three</string>
+  <string id="hour4">fower</string>
+  <string id="hour5">five</string>
+  <string id="hour6">sax</string>
+  <string id="hour7">seeven</string>
+  <string id="hour8">echt</string>
+  <string id="hour9">nine</string>
+  <string id="hour10">ten</string>
+  <string id="hour11">eleeven</string>
+  <string id="midnight">midnicht</string>
+</resources>
