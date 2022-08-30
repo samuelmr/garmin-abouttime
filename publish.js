@@ -27,10 +27,11 @@ const loginPage = 'https://apps.garmin.com/login';
       const url = `https://apps.garmin.com/en-US/developer/${config.dev}/apps/${uuid}/update`
       await page.goto(url, {waitUntil: 'networkidle2'})
 
+      await new Promise(r => setTimeout(r, 2 * 1000))
       const consentHandle = await page.$('#truste-consent-button')
       if (consentHandle) {
         await page.click('#truste-consent-button')
-        await new Promise(r => setTimeout(r, 2 * 1000))
+        await new Promise(r => setTimeout(r, 1 * 1000))
       }
 
       const input = await page.$('input[name=file]')
