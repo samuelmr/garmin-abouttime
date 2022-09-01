@@ -1,0 +1,9 @@
+<resources>
+ <fonts>
+  <font id="id_font_tiny" filename="fonts/NotoSans21.fnt" antialias="true" filter=" %.0123456789:Kadeijklmnoprstuvćčš" />
+  <font id="id_font_small" filename="fonts/NotoSans24.fnt" antialias="true" filter=" %.0123456789:Kadeijklmnoprstuvćčš" />
+  <font id="id_font_medium" filename="fonts/NotoSans32.fnt" antialias="true" filter=" %.0123456789:Kadeijklmnoprstuvćčš" />
+  <font id="id_font_large" filename="fonts/NotoSans48.fnt" antialias="true" filter=" %.0123456789:Kadeijklmnoprstuvćčš" />
+  <font id="id_font_extralarge" filename="fonts/NotoSans64.fnt" antialias="true" filter=" %.0123456789:Kadeijklmnoprstuvćčš" />
+ </fonts>
+</resources>

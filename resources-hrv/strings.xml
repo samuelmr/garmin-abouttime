@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Koliko je uri</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">$1$	i	pet</string>
+  <string id="min10">$1$	i	deset</string>
+  <string id="min15">$1$	i	kvarat</string>
+  <string id="min20">$1$	i	dvodeset</string>
+  <string id="min25">$1$	i	dvastipet</string>
+  <string id="min30">	$1$	ipo</string>
+  <string id="min35">$1$	i	tristipet</string>
+  <string id="min40">$2$	manje 	dvodeset</string>
+  <string id="min45">$2$	manje 	kvarat</string>
+  <string id="min50">$2$	manje	deset</string>
+  <string id="min55">$2$	manje	pet</string>
+  <string id="noon">podne</string>
+  <string id="hour1">jedna</string>
+  <string id="hour2">dvi</string>
+  <string id="hour3">tri</string>
+  <string id="hour4">četiri</string>
+  <string id="hour5">pet</string>
+  <string id="hour6">šest</string>
+  <string id="hour7">sedan</string>
+  <string id="hour8">osan</string>
+  <string id="hour9">devet</string>
+  <string id="hour10">deset</string>
+  <string id="hour11">jedanaest</string>
+  <string id="midnight">ponoć</string>
+</resources>
