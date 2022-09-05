@@ -5,9 +5,9 @@
   <string id="min10">troszkę	po	$1$</string>
   <string id="min15">mniej więcej	kwadrans po	$1$</string>
   <string id="min20">trochę ponad	kwadrans po	$1$</string>
-  <string id="min25">zaraz	w pół do	$2$</string>
-  <string id="min30">na oko	w pół do	$2$</string>
-  <string id="min35">chwila po	w pół do	$2$</string>
+  <string id="min25">zaraz	wpół do	$2$</string>
+  <string id="min30">na oko	wpół do	$2$</string>
+  <string id="min35">chwila po	wpół do	$2$</string>
   <string id="min40">niemalże	kwadrans do	$2$</string>
   <string id="min45">pi razy drzwi	kwadrans do	$2$</string>
   <string id="min50">cokolwiek	do	$2$</string>
