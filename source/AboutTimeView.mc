@@ -225,8 +225,13 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
     }
 
+    var x = width/2;
+    if (WatchUi has :getSubscreen && WatchUi.getSubscreen() != null) {
+      // stupid hard coded value just for descentg1 and instinct2
+      x -= 20;
+    }
     if ((timeSpace[:top] >= iconHeight) && showIcons) {
-      drawString(dc, width/2, iconHeight, fonts[icons], textColor, Graphics.TEXT_JUSTIFY_CENTER, iconString);
+      drawString(dc, x, iconHeight, fonts[icons], textColor, Graphics.TEXT_JUSTIFY_CENTER, iconString);
     }
 
   }
@@ -304,13 +309,12 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var x = width / 2;
     var topY = height / 2 - totalHeight / 2 + topHeight / 2;
+    if (WatchUi has :getSubscreen && WatchUi.getSubscreen() != null) {
+      // stupid hard coded value just for descentg1 and instinct2
+      topY += 20;
+    }
     var middleY = topY + topHeight / 2 + middleHeight / 2;
     var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;    
-    var alignment = Graphics.TEXT_JUSTIFY_CENTER;
-    if (WatchUi has :getSubscreen && WatchUi.getSubscreen() != null) {
-      alignment = Graphics.TEXT_JUSTIFY_LEFT;
-      x = 2;
-    }
     if (inLowPower && canBurnIn) {
       // move by 1 pixel to prevent burn-in
       x += upTop ? 1 : 0;
@@ -322,9 +326,9 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var color = textColor;
 
-    drawString(dc, x, topY, topFont, color, alignment, top);
-    drawString(dc, x, middleY, middleFont, color, alignment, middle);
-    drawString(dc, x, bottomY, bottomFont, color, alignment, bottom);
+    drawString(dc, x, topY, topFont, color, Graphics.TEXT_JUSTIFY_CENTER, top);
+    drawString(dc, x, middleY, middleFont, color, Graphics.TEXT_JUSTIFY_CENTER, middle);
+    drawString(dc, x, bottomY, bottomFont, color, Graphics.TEXT_JUSTIFY_CENTER, bottom);
 
     timeSpace[:top] = topY - topHeight/2;
     timeSpace[:bottom] = bottomY + bottomHeight/2;
