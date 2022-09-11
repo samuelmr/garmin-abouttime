@@ -218,7 +218,7 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
 
       if (dataString instanceof Lang.String) {
-        drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, dataString);
+        drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, Graphics.TEXT_JUSTIFY_CENTER, dataString);
       }
       else {
         // System.println(dataString + " is not a string");
@@ -226,7 +226,7 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
 
     if ((timeSpace[:top] >= iconHeight) && showIcons) {
-      drawString(dc, width/2, iconHeight, fonts[icons], textColor, iconString);
+      drawString(dc, width/2, iconHeight, fonts[icons], textColor, Graphics.TEXT_JUSTIFY_CENTER, iconString);
     }
 
   }
@@ -273,9 +273,9 @@ class AboutTimeView extends WatchUi.WatchFace {
 
   }
 
-  function drawString(dc, x, y, font, color, string) {
+  function drawString(dc, x, y, font, color, alignment, string) {
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(x, y, font, string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+    dc.drawText(x, y, font, string, alignment | Graphics.TEXT_JUSTIFY_VCENTER);
   }
 
   function drawTimeStrings(dc, fuzzyHour, fuzzyMinutes) {
@@ -306,6 +306,11 @@ class AboutTimeView extends WatchUi.WatchFace {
     var topY = height / 2 - totalHeight / 2 + topHeight / 2;
     var middleY = topY + topHeight / 2 + middleHeight / 2;
     var bottomY = middleY + middleHeight / 2 + bottomHeight / 2;    
+    var alignment = Graphics.TEXT_JUSTIFY_CENTER;
+    if (WatchUi has :getSubscreen && WatchUi.getSubscreen() != null) {
+      alignment = Graphics.TEXT_JUSTIFY_LEFT;
+      x = 2;
+    }
     if (inLowPower && canBurnIn) {
       // move by 1 pixel to prevent burn-in
       x += upTop ? 1 : 0;
@@ -317,9 +322,9 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var color = textColor;
 
-    drawString(dc, x, topY, topFont, color, top);
-    drawString(dc, x, middleY, middleFont, color, middle);
-    drawString(dc, x, bottomY, bottomFont, color, bottom);
+    drawString(dc, x, topY, topFont, color, alignment, top);
+    drawString(dc, x, middleY, middleFont, color, alignment, middle);
+    drawString(dc, x, bottomY, bottomFont, color, alignment, bottom);
 
     timeSpace[:top] = topY - topHeight/2;
     timeSpace[:bottom] = bottomY + bottomHeight/2;
@@ -333,6 +338,9 @@ class AboutTimeView extends WatchUi.WatchFace {
     var lineWidth = width;
     if ((shape == System.SCREEN_SHAPE_ROUND) && (position != :middle)) {
       lineWidth = 0.9 * width;
+    }
+    if ((position == :top) && (WatchUi has :getSubscreen) && (WatchUi.getSubscreen() == null)) {
+      lineWidth = 0.7 * width;
     }
 
     var strWidth = dc.getTextWidthInPixels(string, font);
