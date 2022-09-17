@@ -1,5 +1,5 @@
 <resources>
-  <string id="dataFieldTitle">Information att visa med tiden</string>
+  <string id="dataFieldTitle">Visa ihop med tiden på urtavlan</string>
   <string id="hideTitle">Ausblenden</string>
   <string id="activeMinutesTitle">Aktiva minuter</string>
   <string id="batteryTitle">Batteri</string>
@@ -7,17 +7,17 @@
   <string id="distanceTitle">Distans</string>
   <string id="stepsTitle">Steg</string>
   <string id="stepGoalTitle">Stegmål</string>
-  <string id="timeTitle">Exact time</string>
+  <string id="timeTitle">Exakt tid</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Färgtema</string>
   <string id="whiteOnBlack">Vitt på svart</string>
   <string id="blackOnWhite">Svart på vitt</string>
   <string id="smallerFontTitle">Smaller font</string>
-  <string id="showIconsTitle">Show icons</string>
-  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
-  <string id="batteryWarnTitle">Battery warning %</string>
-  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
-  <string id="batteryAlertTitle">Battery alert %</string>
-  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
-  <string id="myNumberError">Insert a number between 0 and 100</string>
+  <string id="showIconsTitle">Visa ikoner</string>
+  <string id="showIconsHelp">frånkopplad, notifikationer, alarm, sovtid, lågt batteri</string>
+  <string id="batteryWarnTitle">Batterivarning %</string>
+  <string id="batteryWarnPrompt">Visa varningsikon när batterinivån är under</string>
+  <string id="batteryAlertTitle">Batterivarning %</string>
+  <string id="batteryAlertPrompt">Visa varningsikon när batterinivån är under %</string>
+  <string id="myNumberError">Ange ett nummer mellan 0 och 100</string>
 </resources>
