@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ongeveer</string>
+  <string id="min0">	$1$	uur</string>
+  <string id="min5">iet	over	$1$</string>
+  <string id="min10">ting	over	$1$</string>
+  <string id="min15">kwart	over	$1$</string>
+  <string id="min20">twingtèch	over	$2$</string>
+  <string id="min25">bekan	half	$2$</string>
+  <string id="min30">	half	$2$</string>
+  <string id="min35">just nô	half	$2$</string>
+  <string id="min40">twingtèch	veur	$2$</string>
+  <string id="min45">kwart	veur	$2$</string>
+  <string id="min50">ting	veur	$2$</string>
+  <string id="min55">bekan	$2$	uur</string>
+  <string id="noon">twellef </string>
+  <string id="hour1">iejn</string>
+  <string id="hour2">twie</string>
+  <string id="hour3">draa</string>
+  <string id="hour4">vier</string>
+  <string id="hour5">vaaif </string>
+  <string id="hour6">zes</string>
+  <string id="hour7">zeve</string>
+  <string id="hour8">acht</string>
+  <string id="hour9">nege</string>
+  <string id="hour10">ting</string>
+  <string id="hour11">ellef </string>
+  <string id="midnight">twellef</string>
+</resources>
