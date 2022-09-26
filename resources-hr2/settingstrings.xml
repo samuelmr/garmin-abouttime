@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Donje podatkovno polje</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="activeMinutesTitle">Aktivne minute</string>
+  <string id="batteryTitle">Baterija</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Udaljenost</string>
+  <string id="stepsTitle">Koraci</string>
+  <string id="stepGoalTitle">Cilj koraka</string>
+  <string id="timeTitle">Točno vrijeme</string>
+  <string id="hrTitle">Heart rate</string>
+  <string id="colorSchemeTitle">Tema prikaza</string>
+  <string id="whiteOnBlack">Bijelo na crno</string>
+  <string id="blackOnWhite">Crno na bijelo</string>
+  <string id="smallerFontTitle">Smaller font</string>
+  <string id="showIconsTitle">Pokaži ikone</string>
+  <string id="showIconsHelp">isključen, obavijest, alarmi, vrijeme spavanja, baterija skoro prazna</string>
+  <string id="batteryWarnTitle">Upozorenje %</string>
+  <string id="batteryWarnPrompt">Prikaži ikonu upozorenja kada nivo napunjenosti padne ispod</string>
+  <string id="batteryAlertTitle">Baterija skoro prazna %</string>
+  <string id="batteryAlertPrompt">Prikaži ikonu upozorenja kada nivo napunjenosti padne ispod</string>
+  <string id="myNumberError">Unesi broj između 0 i 100</string>
+</resources>

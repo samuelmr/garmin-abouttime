@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Kolko je sati</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">$1$	i	pet</string>
+  <string id="min10">$1$	i	deset</string>
+  <string id="min15">tri	frtalja	$2$</string>
+  <string id="min20">$1$	i	dvajest</string>
+  <string id="min25">$1$	i	dvajspet</string>
+  <string id="min30">	pol	$1$</string>
+  <string id="min35">$1$	i	trispet</string>
+  <string id="min40">dvaest	do	$2$</string>
+  <string id="min45">	frtalj	$2$</string>
+  <string id="min50">deset	do	$2$</string>
+  <string id="min55">pet	do	$2$</string>
+  <string id="noon">podne</string>
+  <string id="hour1">jen</string>
+  <string id="hour2">dva</string>
+  <string id="hour3">tri</string>
+  <string id="hour4">četiri</string>
+  <string id="hour5">pet</string>
+  <string id="hour6">šest</string>
+  <string id="hour7">sedam</string>
+  <string id="hour8">osam</string>
+  <string id="hour9">devet</string>
+  <string id="hour10">deset</string>
+  <string id="hour11">jedanaest</string>
+  <string id="midnight">dvanaest</string>
+</resources>
