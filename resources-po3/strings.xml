@@ -1,16 +1,16 @@
 <resources>
   <string id="AppName">Około</string>
   <string id="min0">	koło	$1$</string>
-  <string id="min5">chwila	po	$1$</string>
+  <string id="min5">	chwila po	$1$</string>
   <string id="min10">zaraz	kwadrans po	$1$</string>
-  <string id="min15">jakoś	kwadrans po	$1$</string>
-  <string id="min20">trochę ponad	kwadrans po	$1$</string>
+  <string id="min15">jakoś	piętnaście po	$1$</string>
+  <string id="min20">przed chwilą był	kwadrans po	$1$</string>
   <string id="min25">zaraz będzie	w pół do	$2$</string>
-  <string id="min30">mniej więcej	w pół do	$2$</string>
+  <string id="min30">gdzieś	w pół do	$2$</string>
   <string id="min35">chwila po	w pół do	$2$</string>
   <string id="min40">prawie	kwadrans do	$2$</string>
   <string id="min45">jakoś	kwadrans do	$2$</string>
-  <string id="min50">parę chwil	do	$2$</string>
+  <string id="min50">	chwilka do	$2$</string>
   <string id="min55">jeszcze	nie ma	$2$</string>
   <string id="noon">dwunastej</string>
   <string id="hour1">pierwszej</string>

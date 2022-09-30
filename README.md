@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-09-30	Changes to everyday Polish (7.1.8)
 - 2022-09-26	Added another Polish translation (7.1.7)
 - 2022-09-26	Added Zagreb version of Croatian (7.1.6)
 - 2022-09-23	Added another version of Glarner, a Swiss German dialect (7.1.5)
