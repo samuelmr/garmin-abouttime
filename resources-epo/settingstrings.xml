@@ -7,7 +7,7 @@
   <string id="distanceTitle">Irita distanco</string>
   <string id="stepsTitle">Paŝoj</string>
   <string id="stepGoalTitle">Celo da paŝoj</string>
-  <string id="timeTitle">Exact time</string>
+  <string id="timeTitle">Ekzakta tempo</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Sistemo de koloroj</string>
   <string id="whiteOnBlack">Blanka sur nigra</string>
@@ -19,5 +19,5 @@
   <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
   <string id="batteryAlertTitle">Battery alert %</string>
   <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
-  <string id="myNumberError">Insert a number between 0 and 100</string>
+  <string id="myNumberError">Skribu numeron inter 0 kaj 100</string>
 </resources>
