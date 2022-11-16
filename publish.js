@@ -3,14 +3,22 @@ const config = require('./config.js')
 const translations = require('./translations.json')
 
 const PAGE_TIMEOUT_S = 120
+const HEADLESS = false
 
 const loginPage = 'https://apps.garmin.com/login';
 
 (async () => {
-  const browser = await puppeteer.launch({headless: true})
+  const browser = await puppeteer.launch({headless: HEADLESS})
   const page = await browser.newPage()
   page.setDefaultNavigationTimeout(PAGE_TIMEOUT_S * 1000)
   await page.goto(loginPage, {waitUntil: 'networkidle2'})
+
+  await new Promise(r => setTimeout(r, 2 * 1000))
+  const consentHandle = await page.$('#truste-consent-button')
+  if (consentHandle) {
+    await page.click('#truste-consent-button')
+    await new Promise(r => setTimeout(r, 4 * 1000))
+  }
 
   const elementHandle = await page.$('#gauth-widget-frame-gauth-widget')
   if (elementHandle) { // else assume we're authenticated
@@ -27,13 +35,15 @@ const loginPage = 'https://apps.garmin.com/login';
       const url = `https://apps.garmin.com/en-US/developer/${config.dev}/apps/${uuid}/update`
       await page.goto(url, {waitUntil: 'networkidle2'})
 
-      await new Promise(r => setTimeout(r, 2 * 1000))
-      const consentHandle = await page.$('#truste-consent-button')
-      if (consentHandle) {
-        await page.click('#truste-consent-button')
-        await new Promise(r => setTimeout(r, 1 * 1000))
+      const [versionElement] = await page.$x('//span[contains(text(), "Latest app version: ")]')
+      const versionText = await page.evaluate(el => el.textContent, versionElement);
+      if (versionText) {
+        const match = versionText.match(/: ([\d\.]+)/)
+        if (match[1] == config.version) {
+          console.log(`Skipping ${translations[uuid]} ${versionText}`)
+          continue;
+        }
       }
-
       const input = await page.$('input[name=file]')
       await input.uploadFile(`./releases/AboutTime-${translations[uuid]}.iq`)
       await new Promise(r => setTimeout(r, 1 * 1000))
@@ -43,7 +53,7 @@ const loginPage = 'https://apps.garmin.com/login';
 
       const successtHandle = await page.$('.text-success')
       if (successtHandle) {
-        console.log(`Published v. ${config.version} of ${translations[uuid]}`)
+        console.log(`Published version ${config.version} of ${translations[uuid]}`)
         ++counter
       }
       else {
