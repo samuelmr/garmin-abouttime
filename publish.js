@@ -1,9 +1,15 @@
 const puppeteer = require('puppeteer')
 const config = require('./config.js')
-const translations = require('./translations.json')
+const allTranslations = require('./translations.json')
 
 const PAGE_TIMEOUT_S = 120
 const HEADLESS = false
+
+let translations = allTranslations
+if (process.argv.length > 2) {
+  const tk = process.argv.slice(2)
+  translations = Object.fromEntries(Object.entries(allTranslations).filter((e) => tk.includes(e[1])))
+}
 
 const loginPage = 'https://apps.garmin.com/login';
 
