@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Aproximadamente</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	y cinco</string>
+  <string id="min10">	$1$	y diez</string>
+  <string id="min15">	$1$	y cuarto</string>
+  <string id="min20">	$1$	y veinte</string>
+  <string id="min25">	$1$	y veinticinco</string>
+  <string id="min30">	$1$	y media</string>
+  <string id="min35">	$1$	y treintaicinco</string>
+  <string id="min40">	$1$	y cuarenta</string>
+  <string id="min45">cuarto para	$2$	</string>
+  <string id="min50">diez para	$2$	</string>
+  <string id="min55">cinco para	$2$	</string>
+  <string id="noon">las doce</string>
+  <string id="hour1">la una</string>
+  <string id="hour2">las dos</string>
+  <string id="hour3">las tres</string>
+  <string id="hour4">las cuatro</string>
+  <string id="hour5">las cinco</string>
+  <string id="hour6">las seis</string>
+  <string id="hour7">las siete</string>
+  <string id="hour8">las ocho</string>
+  <string id="hour9">las nueve</string>
+  <string id="hour10">las diez</string>
+  <string id="hour11">las once</string>
+  <string id="midnight">las doce</string>
+</resources>
