@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi – Napoletano</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	e cinque</string>
+  <string id="min10">	$1$	e dieci</string>
+  <string id="min15">	$1$	e un quarto</string>
+  <string id="min20">	$1$	e venti</string>
+  <string id="min25">quasi	$1$	e mezza</string>
+  <string id="min30">	$1$	e mezza</string>
+  <string id="min35">	$1$	e trentacinque</string>
+  <string id="min40">	$2$	meno venti</string>
+  <string id="min45">	$2$	meno un quarto</string>
+  <string id="min50">	$2$	meno dieci</string>
+  <string id="min55">	quasi	$2$</string>
+  <string id="noon">mezzogiorno</string>
+  <string id="hour1">l'una</string>
+  <string id="hour2">le due</string>
+  <string id="hour3">le tre</string>
+  <string id="hour4">le quattro</string>
+  <string id="hour5">le cinque</string>
+  <string id="hour6">le sei</string>
+  <string id="hour7">le sette</string>
+  <string id="hour8">le otto</string>
+  <string id="hour9">le nove</string>
+  <string id="hour10">le dieci</string>
+  <string id="hour11">le undici</string>
+  <string id="midnight">mezzanotte</string>
+</resources>
