@@ -11,7 +11,7 @@ A watch face for Garmin Connect IQ devices
 ## Version history
 - 2022-11-21	Added Italian approssimativo and Napoletano (7.2.2)
 - 2022-11-17	Added Ecuadorian Spanish (7.2.1)
-- 2022-11-13	Added venusq2 and venusq2m, compiled with SDK 4.1.6 (7.2.0)
+- 2022-11-13	Added support for venusq2 and venusq2m, compiled with SDK 4.1.6 (7.2.0)
 - 2022-11-02	Small changes to Norvegian (7.1.9)
 - 2022-09-30	Changes to everyday Polish (7.1.8)
 - 2022-09-26	Added another Polish translation (7.1.7)
