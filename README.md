@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-11-21	Added Italian approssimativo and Napoletano (7.2.2)
 - 2022-11-17	Added Ecuadorian Spanish (7.2.1)
 - 2022-11-13	Added venusq2 and venusq2m, compiled with SDK 4.1.6 (7.2.0)
 - 2022-11-02	Small changes to Norvegian (7.1.9)
