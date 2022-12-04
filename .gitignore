@@ -8,3 +8,6 @@ AboutTime-settings.json
 config.js
 node_modules
 package-lock.json
+AboutTime.code-workspace
+internal-mir
+mir
