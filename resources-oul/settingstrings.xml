@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Näytä ajan lisäksi</string>
+  <string id="hideTitle">Ei mitään (piilota)</string>
+  <string id="batteryTitle">Akun varaus</string>
+  <string id="dateTitle">Päiväys</string>
+  <string id="distanceTitle">Liikuttu matka</string>
+  <string id="stepsTitle">Askeleet</string>
+  <string id="stepGoalTitle">Askeltavoite</string>
+  <string id="timeTitle">Tarkka aika</string>
+  <string id="hrTitle">Syke</string>
+  <string id="activeMinutesTitle">Aktiivinen aika</string>
+  <string id="colorSchemeTitle">Värit</string>
+  <string id="whiteOnBlack">Valkoinen mustalla taustalla</string>
+  <string id="blackOnWhite">Musta valkoisella taustalla</string>
+  <string id="smallerFontTitle">Pienempi teksti</string>
+  <string id="showIconsTitle">Näytä kuvakkeet, jos niille on tilaa</string>
+  <string id="showIconsHelp">puhelinyhteys, viestit, herätykset, uniaika, akkuvaroitus</string>
+  <string id="batteryWarnTitle">Akun varoitus</string>
+  <string id="batteryWarnPrompt">Näytä varoituskuvake, kun akun varaus on alle (%)</string>
+  <string id="batteryAlertTitle">Akkuhälytys</string>
+  <string id="batteryAlertPrompt">Näytä hälytyskuvake, kun akun varaus on alle (%)</string>
+  <string id="myNumberError">Syötä numero 0 ja 100 välillä</string>
+</resources>

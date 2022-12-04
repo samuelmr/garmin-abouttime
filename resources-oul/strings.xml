@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Suunnillee</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">vähä	yli	$1$</string>
+  <string id="min10">kymmene	yli	$1$</string>
+  <string id="min15">varti	yli	$1$</string>
+  <string id="min20">kakskytä	yli	$1$</string>
+  <string id="min25">kohta	puol	$2$</string>
+  <string id="min30">	puol	$2$</string>
+  <string id="min35">vähä yli	puol	$2$</string>
+  <string id="min40">kahtakytä	vaille	$2$</string>
+  <string id="min45">varttia	vaille	$2$</string>
+  <string id="min50">kymmentä	vaille	$2$</string>
+  <string id="min55">	kohta	$2$</string>
+  <string id="noon">kakstoista</string>
+  <string id="hour1">yks</string>
+  <string id="hour2">kaks</string>
+  <string id="hour3">kolome</string>
+  <string id="hour4">nelijä</string>
+  <string id="hour5">viis</string>
+  <string id="hour6">kuus</string>
+  <string id="hour7">seittemän</string>
+  <string id="hour8">kaheksan</string>
+  <string id="hour9">yheksän</string>
+  <string id="hour10">kymmenen</string>
+  <string id="hour11">ykstoista</string>
+  <string id="midnight">kakstoista</string>
+</resources>
