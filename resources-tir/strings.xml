@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefähr – Tirolerisch</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">kuschz	noch	$1$</string>
+  <string id="min10">zehn	noch	$1$</string>
+  <string id="min15">viaschtl	noch	$1$</string>
+  <string id="min20">zwanzg	noch	$1$</string>
+  <string id="min25">aufd glei	hoiwi	$2$</string>
+  <string id="min30">hoiwi	$2$	</string>
+  <string id="min35">kuschz noch	hoiwi	$2$</string>
+  <string id="min40">zwanzg	vor	$2$</string>
+  <string id="min45">viaschtl	vor	$2$</string>
+  <string id="min50">zehn	vor	$2$</string>
+  <string id="min55">eh glei		$2$</string>
+  <string id="noon">zwöfi Mittog</string>
+  <string id="hour1">oas</string>
+  <string id="hour2">zwoa</string>
+  <string id="hour3">drei</string>
+  <string id="hour4">vieri</string>
+  <string id="hour5">fünfi</string>
+  <string id="hour6">sexi</string>
+  <string id="hour7">siemi</string>
+  <string id="hour8">ochti</string>
+  <string id="hour9">neini</string>
+  <string id="hour10">zehni</string>
+  <string id="hour11">öfi</string>
+  <string id="midnight">zwöfi d'Nocht</string>
+</resources>
