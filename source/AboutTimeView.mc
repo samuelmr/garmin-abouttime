@@ -21,7 +21,7 @@ var canBurnIn = false;
 var upTop = true;
 var inLowPower =false;
 // vertical compression of lines (decrease line spacing)
-var linePack = 1.75; 
+var linePack = 1.5; 
 
 enum {
   tiny,
