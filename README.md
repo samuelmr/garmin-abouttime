@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2022-12-28	Added support for Marq 2 and Marq 2 Aviator (7.4.0)
 - 2022-12-18	Compiled using SDK 4.1.7, less aggressive vertical squeezing of lines (7.3.0)
 - 2022-12-17	Added Tirolerisch (7.2.5)
 - 2022-12-04	Added Oulu (100th published translation!) (7.2.4)
