@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Data i ddangos gyda'r amser</string>
+  <string id="hideTitle">Dim (Cuddio)</string>
+  <string id="activeMinutesTitle">Munudau actif</string>
+  <string id="batteryTitle">Batri</string>
+  <string id="dateTitle">Dyddiad</string>
+  <string id="distanceTitle">Pellter</string>
+  <string id="stepsTitle">Camau</string>
+  <string id="stepGoalTitle">Targed Camau</string>
+  <string id="timeTitle">Amser union</string>
+  <string id="hrTitle">Cyfradd curiad y galon</string>
+  <string id="colorSchemeTitle">Cynllun lliw</string>
+  <string id="whiteOnBlack">Gwyn ar du</string>
+  <string id="blackOnWhite">Du ar gwyn</string>
+  <string id="smallerFontTitle">Ffont llai</string>
+  <string id="showIconsTitle">Dangos eiconau</string>
+  <string id="showIconsHelp">digyswllt, hysbysiadau, larwm, amser cysgu, batri isel</string>
+  <string id="batteryWarnTitle">Rhybudd batri %</string>
+  <string id="batteryWarnPrompt">Dangos eicon rhybudd pan fo lefel batri yn gollwng o dan</string>
+  <string id="batteryAlertTitle">Rhybudd batri %</string>
+  <string id="batteryAlertPrompt">Dangos eicon rhybudd pan fo lefel gwefru yn gollwng o dan</string>
+  <string id="myNumberError">Mewnosodwch rhif rhwng 1 a 100</string>
+</resources>

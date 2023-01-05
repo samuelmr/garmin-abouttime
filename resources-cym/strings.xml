@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Faint o’r gloch ydy hi?</string>
+  <string id="min0">	$1$	o'r gloch</string>
+  <string id="min5">pum munud	wedi	$1$</string>
+  <string id="min10">deg munud	wedi	$1$</string>
+  <string id="min15">chwarter	wedi	$1$</string>
+  <string id="min20">ugain munud	wedi	$1$</string>
+  <string id="min25">dauddeg pum munud	wedi	$1$</string>
+  <string id="min30">hanner awr	wedi	$1$</string>
+  <string id="min35">dauddeg pum munud	i	$2$</string>
+  <string id="min40">dauddeg munud	i	$2$</string>
+  <string id="min45">chwarter	i	$2$</string>
+  <string id="min50">deg munud	i	$2$</string>
+  <string id="min55">bron a fod	$2$	o'r gloch</string>
+  <string id="noon">deuddeg</string>
+  <string id="hour1">un</string>
+  <string id="hour2">dau</string>
+  <string id="hour3">tri</string>
+  <string id="hour4">pedwar</string>
+  <string id="hour5">pump</string>
+  <string id="hour6">chwech</string>
+  <string id="hour7">saith</string>
+  <string id="hour8">wyth</string>
+  <string id="hour9">naw</string>
+  <string id="hour10">deg</string>
+  <string id="hour11">un ar ddeg</string>
+  <string id="midnight">sero</string>
+</resources>
