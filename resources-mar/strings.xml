@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">वेळ बद्दल</string>
+  <string id="min0">	$1$	o'clock</string>
+  <string id="min5">थोडे	भूतकाळ	$1$</string>
+  <string id="min10">दहा	भूतकाळ	$1$</string>
+  <string id="min15">तिमाहीत	भूतकाळ	$1$</string>
+  <string id="min20">वीस	भूतकाळ	$1$</string>
+  <string id="min25">जवळजवळ	$1$	तीस</string>
+  <string id="min30">अर्धा	भूतकाळ	$1$</string>
+  <string id="min35">थोडा भूतकाळ	$1$	thirty</string>
+  <string id="min40">वीस	to	$2$</string>
+  <string id="min45">तिमाहीत	to	$2$</string>
+  <string id="min50">दहा	to	$2$</string>
+  <string id="min55">जवळजवळ	$2$	o'clock</string>
+  <string id="noon">बारा</string>
+  <string id="hour1">oएक</string>
+  <string id="hour2">दोन</string>
+  <string id="hour3">तीन</string>
+  <string id="hour4">चार</string>
+  <string id="hour5">पाच</string>
+  <string id="hour6">सहा</string>
+  <string id="hour7">सात</string>
+  <string id="hour8">आठ</string>
+  <string id="hour9">नऊ</string>
+  <string id="hour10">दहा</string>
+  <string id="hour11">अकरा</string>
+  <string id="midnight">बारा</string>
+</resources>
