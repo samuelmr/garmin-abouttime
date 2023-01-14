@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Quasi</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">	$1$	e zẽncv</string>
+  <string id="min10">	$1$	e déṣ</string>
+  <string id="min15">	$1$	e un cvêrt</string>
+  <string id="min20">	$1$	e vẽnt</string>
+  <string id="min25">guasi	$1$	e vintzẽncv</string>
+  <string id="min30">	$1$	e mëẓ</string>
+  <string id="min35">	$1$	e trentazẽncv</string>
+  <string id="min40">	$2$	mãnc vẽnt</string>
+  <string id="min45">	$2$	mãnc un cvêrt</string>
+  <string id="min50">	$2$	mãnc déṣ</string>
+  <string id="min55">	guasi	$2$</string>
+  <string id="noon">meẓdé</string>
+  <string id="hour1">l'una</string>
+  <string id="hour2">al dò</string>
+  <string id="hour3">al tré</string>
+  <string id="hour4">al quatri</string>
+  <string id="hour5">al zẽncv</string>
+  <string id="hour6">al sé</string>
+  <string id="hour7">al sèt</string>
+  <string id="hour8">agl òt</string>
+  <string id="hour9">al nóv</string>
+  <string id="hour10">al déṣ</string>
+  <string id="hour11">agl ŏnǵ</string>
+  <string id="midnight">mezanòta</string>
+</resources>
