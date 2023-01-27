@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Móstrame ła data co l'ora</string>
+  <string id="hideTitle">Njente (scondi)</string>
+  <string id="activeMinutesTitle">Menuti ativi</string>
+  <string id="batteryTitle">Batarìa</string>
+  <string id="dateTitle">Ancó l'è</string>
+  <string id="distanceTitle">Distansa</string>
+  <string id="stepsTitle">Pasi</string>
+  <string id="stepGoalTitle">Pasi da far ancó</string>
+  <string id="timeTitle">l'ora justa</string>
+  <string id="hrTitle">Pulsasion cor</string>
+  <string id="colorSchemeTitle">Cołor de'l schema</string>
+  <string id="whiteOnBlack">Bianco fondo moro</string>
+  <string id="blackOnWhite">Moro fondo bianco</string>
+  <string id="smallerFontTitle">Font pì picenin</string>
+  <string id="showIconsTitle">Fame védar łe icone</string>
+  <string id="showIconsHelp">destacà, dime de, ałarmi, tenpo de sono, Batarìa basa</string>
+  <string id="batteryWarnTitle">Batarìa scarseta (%)</string>
+  <string id="batteryWarnPrompt">Fame védar l'icona de ła batarìa co ła ze masa basa</string>
+  <string id="batteryAlertTitle">Ocio ła batarìa %</string>
+  <string id="batteryAlertPrompt">Móstrame l'icona de avizo se'l łivelo el va soto el %</string>
+  <string id="myNumberError">Meti un nùmaro intrà 0 e 100</string>
+</resources>
