@@ -358,8 +358,16 @@ class AboutTimeView extends WatchUi.WatchFace {
       if (fontIndex < (fonts.size() - 1)) {
         fontIndex += 1;
         font = fonts[fontIndex];
-        strWidth = dc.getTextWidthInPixels(string, font);
-      }
+        try {
+          // this line was causing "Unhandled Exception" in some cases,
+          // trying to catch errors
+          strWidth = dc.getTextWidthInPixels(string, font);
+        }
+        catch (e instanceof Toybox.Lang.Exception) {
+          System.println("Error when trying to set font to " + fontIndex.format("%d") + "/" + fonts.size().format("%d"));
+          System.println(e.getErrorMessage());
+        }
+     }
     }
     while ((strWidth > lineWidth) && (fontIndex > 0)) {
       fontIndex -= 1;
