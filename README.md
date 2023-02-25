@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-02-25	Minor fix to Aantwaareps (7.4.12)
 - 2023-02-05	Added Lovntolerisch (7.4.11)
 - 2023-02-04	Minor fix to Romagnolo (7.4.10)
 - 2023-02-01	Added another Tirolisch version (7.4.9)
