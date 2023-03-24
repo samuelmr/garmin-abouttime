@@ -35,7 +35,7 @@ const loginPage = 'https://apps.garmin.com/login';
     await page.waitForNavigation()
   }
 
-  let counter = 0;
+  let counter = 0
   for (uuid in translations) {
     try {
       const url = `https://apps.garmin.com/en-US/developer/${config.dev}/apps/${uuid}/update`
