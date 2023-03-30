@@ -1,15 +1,26 @@
 #!/bin/bash
 
-TRANSLATION=""
 TEST=""
 TESTMESSAGE="for release"
-if [ "$1" = "-t" ]; then
-  TEST="--unit-test"
-  TESTMESSAGE="with unit tests for testing"
-elif [ -z "$1" ]; then # empty; compile all translations
+PUBLISH=0
+
+while getopts ":tp" opt; do
+  case $opt in
+    t)
+      TEST="--unit-test"
+      TESTMESSAGE="with unit tests for testing"
+      ;;
+    p)
+      PUBLISH=1
+      TESTMESSAGE="for immediate publishing"
+      ;;
+  esac
+done
+shift $((OPTIND - 1))
+
+TRANSLATION="$1"
+if [ -z "$1" ]; then # empty; compile all translations
   TRANSLATION="*"
-else
-  TRANSLATION=$1
 fi
 
 : ${CIQ_TARGET:="fenix5plus"}
@@ -34,4 +45,8 @@ for jungle in ./monkey-$TRANSLATION.jungle; do
   fi
   echo $CMD
 	$CMD && echo "Built $filename"
+  if [ $PUBLISH -eq 1 ]; then
+    echo "Publishing $filename"
+    node ./publish.js $TRANSLATION
+  fi
 done
