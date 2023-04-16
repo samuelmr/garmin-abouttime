@@ -357,10 +357,8 @@ class AboutTimeView extends WatchUi.WatchFace {
     if ((smallerFont == false) && (lineWidth > 180) && (string.length() <= 9)) {
       if (fontIndex < (fonts.size() - 1)) {
         fontIndex += 1;
-        font = fonts[fontIndex];
         try {
-          // this line was causing "Unhandled Exception" in some cases,
-          // trying to catch errors
+          font = fonts[fontIndex];
           strWidth = dc.getTextWidthInPixels(string, font);
         }
         catch (e instanceof Toybox.Lang.Exception) {
