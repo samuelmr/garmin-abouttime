@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-04-16	Added Sächsisch (7.7.1)
 - 2023-03-24	Added support for fr265, fr265s, fr965 (7.7.0)
 - 2023-03-24	Compiled using SDK 4.2.3 (7.6.0)
 - 2023-03-24	Minor fix to Venetian (7.5.2)
