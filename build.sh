@@ -47,6 +47,6 @@ for jungle in ./monkey-$TRANSLATION.jungle; do
 	$CMD && echo "Built $filename"
   if [ $PUBLISH -eq 1 ]; then
     echo "Publishing $filename"
-    node ./publish.js $TRANSLATION
+    node ./publish.js $LANGUAGE
   fi
 done
