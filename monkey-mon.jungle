@@ -17,5 +17,6 @@ round-280x280.resourcePath = $(base.resourcePath);resources-mon/large
 round-360x360.resourcePath = $(base.resourcePath);resources-mon/extralarge
 round-390x390.resourcePath = $(base.resourcePath);resources-mon/extralarge
 round-416x416.resourcePath = $(base.resourcePath);resources-mon/extralarge
+round-454x454.resourcePath = $(base.resourcePath);resources-mon/extralarge
 semiround-215x180.resourcePath = $(base.resourcePath)
 fr920xt.resourcePath = $(base.resourcePath);resources-mon/fr920xt
