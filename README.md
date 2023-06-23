@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-06-01	Added support for Fenix 7 pro, Approach 70, Instinct 2x (7.9.0)
 - 2023-04-16	Compiled using SDK 4.2.4 (7.8.0)
 - 2023-04-16	Added Sächsisch (7.7.1)
 - 2023-03-24	Added support for fr265, fr265s, fr965 (7.7.0)
