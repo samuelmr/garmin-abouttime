@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-06-23	Large font support for 320x360 and 454x454 screens (venu sq 2, epix 2 pro 51 mm); compiled with SDK 6.2.0 (7.10.0)
 - 2023-06-23	Added another Bavarian version (7.9.1)
 - 2023-06-01	Added support for Fenix 7 pro, Approach 70, Instinct 2x (7.9.0)
 - 2023-04-16	Compiled using SDK 4.2.4 (7.8.0)
