@@ -9,6 +9,7 @@ rectangle-240x240.resourcePath = $(base.resourcePath);resources-ktn/large
 rectangle-240x400.resourcePath = $(base.resourcePath);resources-ktn/large
 rectangle-246x322.resourcePath = $(base.resourcePath);resources-ktn/large
 rectangle-282x470.resourcePath = $(base.resourcePath);resources-ktn/large
+rectangle-320x360.resourcePath = $(base.resourcePath);resources-ktn/extralarge
 round-208x208.resourcePath = $(base.resourcePath)
 round-218x218.resourcePath = $(base.resourcePath)
 round-240x240.resourcePath = $(base.resourcePath);resources-ktn/large
