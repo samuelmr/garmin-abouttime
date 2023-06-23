@@ -1,7 +1,7 @@
 <resources>
  <fonts>
-  <font id="id_font_tiny" filename="fonts/NotoSans48.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
-  <font id="id_font_small" filename="fonts/NotoSans64.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
+  <font id="id_font_tiny" filename="fonts/NotoSans64.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
+  <font id="id_font_small" filename="fonts/NotoSans80.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
   <font id="id_font_medium" filename="fonts/NotoSans96.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
   <font id="id_font_large" filename="fonts/NotoSans128.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
   <font id="id_font_extralarge" filename="fonts/NotoSans192.fnt" antialias="true" filter=" %.0123456789:Pabcdeikmnoprstuvxzàìù" />
