@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Kole</string>
+  <string id="min0">	pizła	$1$</string>
+  <string id="min5">$1$	a pora	minut</string>
+  <string id="min10">dochodzi	sztwierć na	$2$</string>
+  <string id="min15">tak na oko	sztwierć na	$2$</string>
+  <string id="min20">$1$	i dwadzieścia	pora minut</string>
+  <string id="min25">prawie	pōł na	$2$</string>
+  <string id="min30">przed chwilōm	było pōł na	$2$</string>
+  <string id="min35">$1$	i trzidzieści	pora</string>
+  <string id="min40">zaro bydzie	trzi sztwierci na	$2$</string>
+  <string id="min45">klupło	trzi sztwierci na	$2$</string>
+  <string id="min50">$2$	za pora	minut</string>
+  <string id="min55">	dochodzi	$2$</string>
+  <string id="noon">dwanosto</string>
+  <string id="hour1">jedna</string>
+  <string id="hour2">drugo</string>
+  <string id="hour3">trzecio</string>
+  <string id="hour4">sztworto</string>
+  <string id="hour5">piōnto</string>
+  <string id="hour6">szōsto</string>
+  <string id="hour7">siōdmo</string>
+  <string id="hour8">ōsmo</string>
+  <string id="hour9">dziewiōnto</string>
+  <string id="hour10">dziesiōnto</string>
+  <string id="hour11">jedynosto</string>
+  <string id="midnight">dwanosto w nocy</string>
+</resources>
