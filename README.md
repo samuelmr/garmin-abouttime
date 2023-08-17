@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-08-10	Minor changes to Oulu (7.11.2)
 - 2023-07-26	Added two versions of Silesian (7.11.1)
 - 2023-07-12	compiled with SDK 6.2.1 (7.11.0)
 - 2023-06-23	Large font support for 320x360 and 454x454 screens (venu sq 2, epix 2 pro 51 mm); compiled with SDK 6.2.0 (7.10.0)
