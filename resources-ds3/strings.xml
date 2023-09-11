@@ -1,6 +1,6 @@
 <resources>
   <string id="AppName">Ungefähr – hochdeutsch</string>
-  <string id="min0">kurz nach 	um	$1$</string>
+  <string id="min0">um	$1$</string>
   <string id="min5">um	$1$	vorbei</string>
   <string id="min10">kurz vor	viertel	$2$</string>
   <string id="min15">viertel	$2$	</string>
