@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Infos zunderst uf de Uhr</string>
+  <string id="hideTitle">Nüüt (verstecke)</string>
+  <string id="activeMinutesTitle">Aktivitätsminute</string>
+  <string id="batteryTitle">Batterieladig</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Zruggleiti Strecki</string>
+  <string id="stepsTitle">Schritt</string>
+  <string id="stepGoalTitle">Schrittziel</string>
+  <string id="timeTitle">Genaui Ziit</string>
+  <string id="hrTitle">Puls</string>
+  <string id="colorSchemeTitle">Farbwahl</string>
+  <string id="whiteOnBlack">Wiss uf Schwarz</string>
+  <string id="blackOnWhite">Schwarz uf Wiss</string>
+  <string id="smallerFontTitle">Chlinneri Schrift</string>
+  <string id="showIconsTitle">Symbol aazeige</string>
+  <string id="showIconsHelp">kei Verbindig, Benachrichtigunge, Wecker, Schlafensziit, Batterie schwach</string>
+  <string id="batteryWarnTitle">Batteriemeldig bi %</string>
+  <string id="batteryWarnPrompt">Vorwarnig zeige, wenn d Batterieladig unter de Wert gheit</string>
+  <string id="batteryAlertTitle">Batteriewarnig bi %</string>
+  <string id="batteryAlertPrompt">Warnsymbol zeige, wenn d Batterieladig unter de Wert gheit</string>
+  <string id="myNumberError">Muesch e Zahl zwüschet 0 und 100 iiträge</string>
+</resources>
