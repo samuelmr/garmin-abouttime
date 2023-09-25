@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-09-25	Fixed sleep icon (7.13.0)
 - 2023-09-25	Fix to Ostschweizer German (7.12.3)
 - 2023-09-11	Added Ostschweizer German (7.12.2)
 - 2023-09-06	Added yet another German version (7.12.1)
