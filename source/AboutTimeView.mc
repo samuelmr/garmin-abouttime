@@ -244,7 +244,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var now = Time.now();
     var today = Time.today();
-    var isSleepTime = now.greaterThan(today.add(profile.sleepTime)) &&
+    var isSleepTime = now.greaterThan(today.add(profile.sleepTime)) ||
                       now.lessThan(today.add(profile.wakeTime));
 
     var doNotDisturb = false;
