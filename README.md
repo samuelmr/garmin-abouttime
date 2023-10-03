@@ -9,6 +9,8 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-09-28	Compiled with SDK 6.3.1, added Gaeilge (7.14.0)
+- 2023-09-28	Added support for Vivoactive 5 (7.13.1)
 - 2023-09-25	Fixed sleep icon (7.13.0)
 - 2023-09-25	Fix to Ostschweizer German (7.12.3)
 - 2023-09-11	Added Ostschweizer German (7.12.2)

@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Faoi Am</string>
+  <string id="min0">	$1$	a chlog</string>
+  <string id="min5">beagán	tar éis a	$1$</string>
+  <string id="min10">deich	tar éis a	$1$</string>
+  <string id="min15">ceathrú	tar éis a	$1$</string>
+  <string id="min20">fiche	tar éis a	$1$</string>
+  <string id="min25">beagnach	$1$	tríocha</string>
+  <string id="min30">leathuair	tar éis a	$1$</string>
+  <string id="min35">beagán tar éis a	$1$	tríocha</string>
+  <string id="min40">fiche	chun a	$2$</string>
+  <string id="min45">ceathrú	chun a	$2$</string>
+  <string id="min50">deich	chun a	$2$</string>
+  <string id="min55">beagnach	$2$	a chlog</string>
+  <string id="noon">dó dhéag</string>
+  <string id="hour1">haon</string>
+  <string id="hour2">dó</string>
+  <string id="hour3">trí</string>
+  <string id="hour4">ceathair</string>
+  <string id="hour5">cuig</string>
+  <string id="hour6">sé</string>
+  <string id="hour7">seacht</string>
+  <string id="hour8">hocht</string>
+  <string id="hour9">naoi</string>
+  <string id="hour10">deich</string>
+  <string id="hour11">haon déag</string>
+  <string id="midnight">dó dhéag</string>
+</resources>
