@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Om en bie</string>
+  <string id="min0">om en bie	$1$	uur</string>
+  <string id="min5">al eem	over $1$	uur</string>
+  <string id="min10">tien	over	$1$</string>
+  <string id="min15">ketaier	veurbie	$1$</string>
+  <string id="min20">twinneg	noa	$1$</string>
+  <string id="min25">kört veur	haalf	$2$</string>
+  <string id="min30">om en bie	haalf	$2$</string>
+  <string id="min35">vief over	haalf	$2$</string>
+  <string id="min40">twinneg	tegen	$2$</string>
+  <string id="min45">kwaart	veur	$2$</string>
+  <string id="min50">tiene	veur	$2$</string>
+  <string id="min55">benoa	$2$	uur</string>
+  <string id="noon">twaalf </string>
+  <string id="hour1">ain</string>
+  <string id="hour2">twai</string>
+  <string id="hour3">draai</string>
+  <string id="hour4">vaier</string>
+  <string id="hour5">vief </string>
+  <string id="hour6">zèzze</string>
+  <string id="hour7">zeuven</string>
+  <string id="hour8">aacht</string>
+  <string id="hour9">negen</string>
+  <string id="hour10">tien</string>
+  <string id="hour11">elm </string>
+  <string id="midnight">twaalf</string>
+</resources>

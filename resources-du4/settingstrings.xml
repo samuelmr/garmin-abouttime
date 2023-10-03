@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Wat wilst onder de tied sein</string>
+  <string id="hideTitle">Niks (verbaargen)</string>
+  <string id="activeMinutesTitle">Actieve menuuten</string>
+  <string id="batteryTitle">Batterei</string>
+  <string id="dateTitle">Doatum</string>
+  <string id="distanceTitle">Afstaand</string>
+  <string id="stepsTitle">Stappen</string>
+  <string id="stepGoalTitle">Doul aantal stappen</string>
+  <string id="timeTitle">Eksakte tied</string>
+  <string id="hrTitle">Haartslag</string>
+  <string id="colorSchemeTitle">Kleurenschema</string>
+  <string id="whiteOnBlack">Wit op zwaarte achtergrond</string>
+  <string id="blackOnWhite">Zwaart op widde achtergrond</string>
+  <string id="smallerFontTitle">Klainere letters</string>
+  <string id="showIconsTitle">figuurtjes der bie</string>
+  <string id="showIconsHelp">nait vurbonden, berichen, alaarms, sloap tied, batterie leeg</string>
+  <string id="batteryWarnTitle">Batterie bienoa leeg %</string>
+  <string id="batteryWarnPrompt">Toon woarschouwing feguurtje bie batterie %</string>
+  <string id="batteryAlertTitle">Batterie alaarm %</string>
+  <string id="batteryAlertPrompt">Toon alaarm feguurtje bie batterie %</string>
+  <string id="myNumberError">Most een nummer geven tussen 0 en 100</string>
+</resources>
