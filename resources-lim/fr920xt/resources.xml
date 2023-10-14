@@ -1,0 +1,9 @@
+<resources>
+ <fonts>
+  <font id="id_font_tiny" filename="fonts/NotoSans21.fnt" antialias="false" filter=" %.0123456789:OW`acdefghiklmnoprstuvwzèë–" />
+  <font id="id_font_small" filename="fonts/NotoSans24.fnt" antialias="false" filter=" %.0123456789:OW`acdefghiklmnoprstuvwzèë–" />
+  <font id="id_font_medium" filename="fonts/NotoSans32.fnt" antialias="false" filter=" %.0123456789:OW`acdefghiklmnoprstuvwzèë–" />
+  <font id="id_font_large" filename="fonts/NotoSans48.fnt" antialias="false" filter=" %.0123456789:OW`acdefghiklmnoprstuvwzèë–" />
+  <font id="id_font_extralarge" filename="fonts/NotoSans48.fnt" antialias="false" filter=" %.0123456789:OW`acdefghiklmnoprstuvwzèë–" />
+ </fonts>
+</resources>

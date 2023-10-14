@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ongevieër – Wèssems</string>
+  <string id="min0">`t is	$1$	oor</string>
+  <string id="min5">vief	op	$1$</string>
+  <string id="min10">tieën	op	$1$</string>
+  <string id="min15">kwart	op	$1$</string>
+  <string id="min20">tieën vuuer	half	$2$</string>
+  <string id="min25">vief vuuer	half	$2$</string>
+  <string id="min30">`t is	half	$2$</string>
+  <string id="min35">vief op	half	$2$</string>
+  <string id="min40">tiën op	half	$2$</string>
+  <string id="min45">kwart 	vuuer	$2$</string>
+  <string id="min50">tieën	vuuer	$2$</string>
+  <string id="min55">vief	vuuer	$2$</string>
+  <string id="noon">twelf </string>
+  <string id="hour1">ein</string>
+  <string id="hour2">twieë</string>
+  <string id="hour3">drie</string>
+  <string id="hour4">veer</string>
+  <string id="hour5">vief </string>
+  <string id="hour6">zès</string>
+  <string id="hour7">zeve</string>
+  <string id="hour8">ach</string>
+  <string id="hour9">nege</string>
+  <string id="hour10">tieën</string>
+  <string id="hour11">èlf</string>
+  <string id="midnight">twelf</string>
+</resources>

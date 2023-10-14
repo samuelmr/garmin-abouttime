@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Te toeane gegaeves ònger de tied</string>
+  <string id="hideTitle">Niks</string>
+  <string id="activeMinutesTitle">Actieve minuten</string>
+  <string id="batteryTitle">Batterie</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Afstandj</string>
+  <string id="stepsTitle">Stappen</string>
+  <string id="stepGoalTitle">Doel aantal stappen</string>
+  <string id="timeTitle">Exacte tied</string>
+  <string id="hrTitle">Hertslaag</string>
+  <string id="colorSchemeTitle">Klaorensjema</string>
+  <string id="whiteOnBlack">Wit op zwarte achtergrondj</string>
+  <string id="blackOnWhite">Zwart op witte achtergrondj</string>
+  <string id="smallerFontTitle">Kleiner lètters</string>
+  <string id="showIconsTitle">Laot iconen zeen</string>
+  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
+  <string id="batteryWarnTitle">Batterie waarsjuwing %</string>
+  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
+  <string id="batteryAlertTitle">Batterie alarm %</string>
+  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
+</resources>
