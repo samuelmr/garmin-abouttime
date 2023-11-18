@@ -9,6 +9,8 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2023-11-18    halbi => halb in Baselland; dreifürdl => dreivürdl in Berlinerisch (7.15.1)
+- 2023-11-18    Compiled with SDK 6.4.0, dreifürdl (7.15.0)
 - 2023-11-04	Minor edit to Czech settings (7.14.3)
 - 2023-10-14	Added Limbörgs (Dutch) (7.14.2)
 - 2023-10-03	Added Grunnings (Dutch) (7.14.1)
