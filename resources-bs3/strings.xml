@@ -9,7 +9,7 @@
   <string id="min30">halb	$2$	</string>
   <string id="min35">fünf ab	halb	$2$</string>
   <string id="min40">zwanzig	vor	$2$</string>
-  <string id="min45">viertel	vor	$2$</string>
+  <string id="min45">dreiviertel	$2$	</string>
   <string id="min50">zää	vor	$2$</string>
   <string id="min55">fünf	vor	$2$</string>
   <string id="noon">zwölfi</string>
@@ -19,10 +19,10 @@
   <string id="hour4">vieri</string>
   <string id="hour5">fünfi</string>
   <string id="hour6">säggsi</string>
-  <string id="hour7">siibni</string>
+  <string id="hour7">siibeni</string>
   <string id="hour8">achti</string>
   <string id="hour9">nüüni</string>
   <string id="hour10">zääni</string>
-  <string id="hour11">elfi</string>
+  <string id="hour11">ölfi</string>
   <string id="midnight">zwölfi</string>
 </resources>
