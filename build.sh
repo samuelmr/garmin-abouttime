@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export JAVA_TOOL_OPTIONS="-XX:ReservedCodeCacheSize=500M"
+
 TEST=""
 TESTMESSAGE="for release"
 PUBLISH=0
