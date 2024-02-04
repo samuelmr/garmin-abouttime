@@ -3,13 +3,13 @@
   <string id="min0">	okolo	$1$</string>
   <string id="min5">kúsok	po	$1$</string>
   <string id="min10">niečo	po	$1$</string>
-  <string id="min15">okolo	štvrť po	$1$</string>
+  <string id="min15">okolo	štvrť na	$1$</string>
   <string id="min20">niečo	do pol	$2$</string>
   <string id="min25">skoro	pol	$2$</string>
   <string id="min30">okolo	pol	$2$</string>
   <string id="min35">kúsok	po pol	$2$</string>
   <string id="min40">niečo	po pol	$2$</string>
-  <string id="min45">okolo	štvrť do	$2$</string>
+  <string id="min45">okolo	štvrť na	$2$</string>
   <string id="min50">niečo	do	$2$</string>
   <string id="min55">kúsok	do	$2$</string>
   <string id="noon">dvanástej</string>
