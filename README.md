@@ -255,4 +255,4 @@ A watch face for Garmin Connect IQ devices
 - 2019-02-26  Initial release (1.0)
 
 ## Translate it to your languages
-See [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1bbJwAqKmjQ0ft2WymPCyD2eO-7Qqde6p5bW6bEIMPWY/)
+See [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1rqoHvd_8lOEooDplv6kUgsBH1nO9YNz6JuFV_6bVoxA)
