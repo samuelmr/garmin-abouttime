@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2024-03-03    halbe => holbe in Oberperferisch (7.18.1)
 - 2024-02-25    Added support for fr165 and fr165m (7.18.0)
 - 2024-02-20    Updated Slovakian again (7.17.2)
 - 2024-02-04    Updated Slovakian (7.17.1)
