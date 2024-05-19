@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Дані, що показують з часом</string>
+  <string id="hideTitle">Нічого (приховано)</string>
+  <string id="activeMinutesTitle">Час активності</string>
+  <string id="batteryTitle">Заряд батареї</string>
+  <string id="dateTitle">Дата</string>
+  <string id="distanceTitle">Відстань</string>
+  <string id="stepsTitle">Кроки</string>
+  <string id="stepGoalTitle">Денна кількість кроків</string>
+  <string id="timeTitle">Точний час</string>
+  <string id="hrTitle">ЧСС</string>
+  <string id="colorSchemeTitle">Кольорова тема</string>
+  <string id="whiteOnBlack">Білий по чорному</string>
+  <string id="blackOnWhite">Чорний по білому</string>
+  <string id="smallerFontTitle">Менший шрифт</string>
+  <string id="showIconsTitle">Показувати іконки</string>
+  <string id="showIconsHelp">Відключено, сповіщення, тривоги, час сну, низький</string>
+  <string id="batteryWarnTitle">Попередження акумулятора %</string>
+  <string id="batteryWarnPrompt">Показати значок попередження, коли рівень заряду знизиться нижче</string>
+  <string id="batteryAlertTitle">Оповіщення акумулятора %</string>
+  <string id="batteryAlertPrompt">Показати значок попередження, коли рівень заряду знизиться нижче</string>
+  <string id="myNumberError">Вставте число від 0 до 100</string>
+</resources>

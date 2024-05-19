@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Котра година?</string>
+  <string id="min0">	$1$	годині</string>
+  <string id="min5">п'ята	на	$1$</string>
+  <string id="min10">десята	на	$1$</string>
+  <string id="min15">чверть	на	$1$</string>
+  <string id="min20">двадцять 	на	$1$</string>
+  <string id="min25">$1$	двадцять	п’ять</string>
+  <string id="min30">Пів	на	$1$</string>
+  <string id="min35">$1$	тридцять	п'ять</string>
+  <string id="min40">$1$	сорок	</string>
+  <string id="min45">За	чверть	$2$</string>
+  <string id="min50">За	десять	$2$</string>
+  <string id="min55">за 	п'ять	$2$</string>
+  <string id="noon">дванадцятій</string>
+  <string id="hour1">першій</string>
+  <string id="hour2">другій</string>
+  <string id="hour3">третій</string>
+  <string id="hour4">четвертій</string>
+  <string id="hour5">п'ятій</string>
+  <string id="hour6">шостій</string>
+  <string id="hour7">шостій</string>
+  <string id="hour8">восьмій</string>
+  <string id="hour9">дев'ятій</string>
+  <string id="hour10">десятій</string>
+  <string id="hour11">одинадцятій</string>
+  <string id="midnight">дванадцятій</string>
+</resources>
