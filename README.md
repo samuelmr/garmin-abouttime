@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2024-05-09    Compiled with SDK 7.1.1 (7.20.0)
 - 2024-04-13    Updated Russian (7.19.1)
 - 2024-03-11    Changed icon font base size, fixes an issue with FR 645 Music (7.19.0)
 - 2024-03-11    Added Weinviertlerisch (7.18.2)
