@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2024-08-28    Compiled with SDK 7.3.0, added support for Enduro 3 and Fenix 8 (7.23.0)
 - 2024-08-03    Small fixes to Bavarian (7.22.1)
 - 2024-06-30    Compiled with SDK 7.2.1 (7.22.0)
 - 2024-06-06    Fixes to Süd Tirolerisch, compiled with SDK 7.2.0 (7.21.0)

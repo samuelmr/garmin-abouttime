@@ -46,6 +46,7 @@
    <iq:product id="edgeexplore2"/>
 -->
    <iq:product id="enduro"/>
+   <iq:product id="enduro3"/>
    <iq:product id="epix"/>
    <iq:product id="epix2"/>
    <iq:product id="epix2pro42mm"/>
@@ -72,8 +73,12 @@
    <iq:product id="fenix7x"/>
    <iq:product id="fenix7xpro"/>
    <iq:product id="fenix7xpronowifi"/>
+   <iq:product id="fenix843mm"/>
+   <iq:product id="fenix847mm"/>
+   <iq:product id="fenix8solar47mm"/>
    <iq:product id="fenixchronos"/>
-<!--
+   <iq:product id="fenixe"/>
+ <!--
    <iq:product id="fr230"/>
 -->
    <iq:product id="fr235"/>
