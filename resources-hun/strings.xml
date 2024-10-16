@@ -1,18 +1,18 @@
 <resources>
   <string id="AppName">KáBé</string>
-  <string id="min0">pontosan	$1$	óra</string>
-  <string id="min5">alig	múlt	$1$</string>
-  <string id="min10">tíz perccel	múlt	$1$</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">$1$	múlt	</string>
+  <string id="min10">negyed	$2$	lesz</string>
   <string id="min15">	negyed	$2$</string>
-  <string id="min20">húsz perccel	múlt	$1$</string>
-  <string id="min25">majdnem	fél	$2$</string>
+  <string id="min20">$1$	húsz 	</string>
+  <string id="min25">fél	$2$	lesz</string>
   <string id="min30">	fél	$2$</string>
   <string id="min35">kicsivel múlt	fél	$2$</string>
-  <string id="min40">öt perc múlva	háromnegyed	$2$</string>
+  <string id="min40">$2$	negyven	</string>
   <string id="min45">	háromnegyed	$2$</string>
-  <string id="min50">tíz perc	múlva	$2$</string>
+  <string id="min50">	múlva	$2$</string>
   <string id="min55">	majdnem	$2$</string>
-  <string id="noon">tizenkettő</string>
+  <string id="noon">dél</string>
   <string id="hour1">egy</string>
   <string id="hour2">kettő</string>
   <string id="hour3">három</string>
@@ -24,5 +24,5 @@
   <string id="hour9">kilenc</string>
   <string id="hour10">tíz</string>
   <string id="hour11">tizenegy</string>
-  <string id="midnight">tizenkettő</string>
+  <string id="midnight">éjfél</string>
 </resources>
