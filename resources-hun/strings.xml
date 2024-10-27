@@ -8,9 +8,9 @@
   <string id="min25">fél	$2$	lesz</string>
   <string id="min30">	fél	$2$</string>
   <string id="min35">kicsivel múlt	fél	$2$</string>
-  <string id="min40">$2$	negyven	</string>
+  <string id="min40">$1$	negyven	</string>
   <string id="min45">	háromnegyed	$2$</string>
-  <string id="min50">	múlva	$2$</string>
+  <string id="min50">tíz perc	múlva	$2$</string>
   <string id="min55">	majdnem	$2$</string>
   <string id="noon">dél</string>
   <string id="hour1">egy</string>
