@@ -9,7 +9,8 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
-- 2024-11-17    Added Brescia, minor change to Brazilian Portuguese (7.24.2)
+- 2024-11-17    Minor fix to Brescia (Garda) (7.24.3)
+- 2024-11-17    Added Brescia (Garda), minor change to Brazilian Portuguese (7.24.2)
 - 2024-10-19    Small fixes to Hungarian (7.24.1)
 - 2024-10-16    Compiled with SDK 7.3.1, changes to Hungarian (7.24.0)
 - 2024-08-28    Compiled with SDK 7.3.0, added support for Enduro 3 and Fenix 8 (7.23.0)
