@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefähr</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">kourz	nooch	$1$</string>
+  <string id="min10">zea	nooch	$1$</string>
+  <string id="min15">värdl	$2$	</string>
+  <string id="min20">zwanzich	nooch	$1$</string>
+  <string id="min25">glei	halb	$2$</string>
+  <string id="min30">halb	$2$	</string>
+  <string id="min35">kourz nooch	halb	$2$</string>
+  <string id="min40">zwanzich	voe	$2$</string>
+  <string id="min45">draivärdl	$2$	</string>
+  <string id="min50">zea	voe	$2$</string>
+  <string id="min55">kourz	voe	$2$</string>
+  <string id="noon">zwölf</string>
+  <string id="hour1">eens</string>
+  <string id="hour2">zwaa</string>
+  <string id="hour3">drai</string>
+  <string id="hour4">vier</string>
+  <string id="hour5">fümbf</string>
+  <string id="hour6">seggs</string>
+  <string id="hour7">siem</string>
+  <string id="hour8">acht</string>
+  <string id="hour9">neu</string>
+  <string id="hour10">zea</string>
+  <string id="hour11">elf</string>
+  <string id="midnight">middernachd</string>
+</resources>
