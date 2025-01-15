@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2025-01-15    Added Perugino (7.25.1)
 - 2024-12-26    Added Underfränggisch, compiled with SDK 7.4.3 (7.25.0)
 - 2024-11-17    Minor fix to Brescia (Garda) (7.24.3)
 - 2024-11-17    Added Brescia (Garda), minor change to Brazilian Portuguese (7.24.2)

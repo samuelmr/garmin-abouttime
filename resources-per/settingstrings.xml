@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Barra inferiore</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="activeMinutesTitle">Minuti di Attività</string>
+  <string id="batteryTitle">Batteria %</string>
+  <string id="dateTitle">Data</string>
+  <string id="distanceTitle">Distanza</string>
+  <string id="stepsTitle">Passi</string>
+  <string id="stepGoalTitle">Obiettivo Passi</string>
+  <string id="timeTitle">Exact time</string>
+  <string id="hrTitle">Heart rate</string>
+  <string id="colorSchemeTitle">Colore quadrante</string>
+  <string id="whiteOnBlack">Bianco su nero</string>
+  <string id="blackOnWhite">Nero su bianco</string>
+  <string id="smallerFontTitle">Smaller font</string>
+  <string id="showIconsTitle">Mostra Icone</string>
+  <string id="showIconsHelp">disconnesso, notifiche, allarmi, sonno, batteria bassa</string>
+  <string id="batteryWarnTitle">Avviso Batteria %</string>
+  <string id="batteryWarnPrompt">Mostra Icona di avviso quando la batteria è bassa</string>
+  <string id="batteryAlertTitle">% allerta Batteria</string>
+  <string id="batteryAlertPrompt">Mostra Icona di allarme quando la batteria è bassa</string>
+  <string id="myNumberError">Inserisci un numero tra 0 e 100</string>
+</resources>
