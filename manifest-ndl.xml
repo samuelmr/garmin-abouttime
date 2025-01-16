@@ -1,5 +1,5 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
- <iq:application entry="AboutTime" id="c9c6b8c7a1f1440f93432d54d68782bd" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.2.0" name="@Strings.AppName" type="watchface">
+ <iq:application entry="AboutTime" id="1EABB360-F6F7-4F33-B8AF-D748B9FF43AF" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.2.0" name="@Strings.AppName" type="watchface">
   <iq:products>
    <iq:product id="approachs60"/>
    <iq:product id="approachs62"/>
