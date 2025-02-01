@@ -1,6 +1,7 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
  <iq:application entry="AboutTime" id="B42BA4BB-53E4-4216-9F6B-357B03777896" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.2.0" name="@Strings.AppName" type="watchface">
   <iq:products>
+   <iq:product id="approachs50"/>
    <iq:product id="approachs60"/>
    <iq:product id="approachs62"/>
    <iq:product id="approachs7042mm"/>
