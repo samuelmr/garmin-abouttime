@@ -1,16 +1,16 @@
 <resources>
   <string id="AppName">Sokssawat</string>
   <string id="min0">	$1$	oere</string>
-  <string id="min5">krekt	oer	$1$</string>
-  <string id="min10">tsien	oer	$1$</string>
-  <string id="min15">kertier	oer	$1$</string>
-  <string id="min20">tweintich	oer	$1$</string>
-  <string id="min25">hast	healwei	$2$</string>
-  <string id="min30">	healwei	$2$</string>
-  <string id="min35">krekt oer	healwei	$2$</string>
-  <string id="min40">tweintich	foar	$2$</string>
-  <string id="min45">kertier	foar	$2$</string>
-  <string id="min50">tsien	foar	$2$</string>
+  <string id="min5">krekt	oer	$1$en</string>
+  <string id="min10">tsien	oer	$1$en</string>
+  <string id="min15">kertier	oer	$1$en</string>
+  <string id="min20">tweintich	oer	$1$en</string>
+  <string id="min25">hast	healwei	$2$en</string>
+  <string id="min30">	healwei	$2$en</string>
+  <string id="min35">krekt oer	healwei	$2$en</string>
+  <string id="min40">tweintich	foar	$2$en</string>
+  <string id="min45">kertier	foar	$2$en</string>
+  <string id="min50">tsien	foar	$2$en</string>
   <string id="min55">hast	$2$	oere</string>
   <string id="noon">tolve</string>
   <string id="hour1">ien</string>
