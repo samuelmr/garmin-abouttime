@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2025-02-19    Compiled with SDK 8.1.0, minor changes to Frisian (7.28.0)
 - 2025-02-19    Separated alternative Hungarian translations (7.27.1)
 - 2025-02-01    Added support Approach S 50 (7.27.0)
 - 2025-01-16    Added support for Instinct 3 and E, added vlaams (7.26.0)
