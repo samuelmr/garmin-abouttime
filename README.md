@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2025-05-31	Added support for fr570, fr970 (7.28.3)
 - 2025-03-22    Minor change to simplified Chinese (7.28.2)
 - 2025-03-17    Added Descent G2 (7.28.1)
 - 2025-02-19    Compiled with SDK 8.1.0, minor changes to Frisian (7.28.0)
