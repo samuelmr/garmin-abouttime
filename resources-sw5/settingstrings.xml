@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Extrainformation på urtavlan</string>
+  <string id="hideTitle">Ingen extra info	</string>
+  <string id="activeMinutesTitle">Aktiva minuter</string>
+  <string id="batteryTitle">Batteriladdning	</string>
+  <string id="dateTitle">Datum</string>
+  <string id="distanceTitle">Distans</string>
+  <string id="stepsTitle">Steg</string>
+  <string id="stepGoalTitle">Stegmål</string>
+  <string id="timeTitle">Exakt tid</string>
+  <string id="hrTitle">Puls</string>
+  <string id="colorSchemeTitle">Färgtema</string>
+  <string id="whiteOnBlack">Vitt på svart</string>
+  <string id="blackOnWhite">Svart på vitt</string>
+  <string id="smallerFontTitle">Mindre textstorlek</string>
+  <string id="showIconsTitle">Visa ikoner</string>
+  <string id="showIconsHelp">frånkopplad, notifikationer, alarm, sovtid, lågt batteri</string>
+  <string id="batteryWarnTitle">Batterinotis %</string>
+  <string id="batteryWarnPrompt">Visa uppmärksamhetsikon när batterinivån är under</string>
+  <string id="batteryAlertTitle">Batterivarning %</string>
+  <string id="batteryAlertPrompt">Visa varningsikon när batterinivån är under %</string>
+  <string id="myNumberError">Ange ett nummer mellan 0 och 100</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefär</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">fem	över	$1$</string>
+  <string id="min10">tio	över	$1$</string>
+  <string id="min15">kvart	över	$1$</string>
+  <string id="min20">tjugo	över	$1$</string>
+  <string id="min25">fem i	halv	$2$</string>
+  <string id="min30">	halv	$2$</string>
+  <string id="min35">fem över	halv	$2$</string>
+  <string id="min40">tjugo	i	$2$</string>
+  <string id="min45">kvart	i	$2$</string>
+  <string id="min50">tio	i	$2$</string>
+  <string id="min55">fem	i	$2$</string>
+  <string id="noon">tolv</string>
+  <string id="hour1">ett</string>
+  <string id="hour2">två</string>
+  <string id="hour3">tre</string>
+  <string id="hour4">fyra</string>
+  <string id="hour5">fem</string>
+  <string id="hour6">sex</string>
+  <string id="hour7">sju</string>
+  <string id="hour8">åtta</string>
+  <string id="hour9">nio</string>
+  <string id="hour10">tio</string>
+  <string id="hour11">elva</string>
+  <string id="midnight">tolv</string>
+</resources>
