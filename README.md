@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2025-09-20    Minor fix to Süd Tirolerisch (7.33.1)
 - 2025-09-12    Added support for Fenix 8 pro (7.33.0)
 - 2025-09-11    Fixes to Slovenian (7.32.2)
 - 2025-09-06    Added two more Swedish variants (7.32.1)
