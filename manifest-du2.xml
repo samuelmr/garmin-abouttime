@@ -121,6 +121,7 @@
    <iq:product id="instinct3amoled50mm"/>
    <iq:product id="instinct3solar45mm"/>
    <iq:product id="instinctcrossover"/>
+   <iq:product id="instinctcrossoveramoled"/>
    <iq:product id="instincte40mm"/>
    <iq:product id="instincte45mm"/>
    <iq:product id="legacyherocaptainmarvel"/>
@@ -148,6 +149,8 @@
    <iq:product id="venu2s"/>
    <iq:product id="venu3"/>
    <iq:product id="venu3s"/>
+   <iq:product id="venu441mm"/>
+   <iq:product id="venu445mm"/>
    <iq:product id="venud"/>
    <iq:product id="venusq"/>
    <iq:product id="venusq2"/>
