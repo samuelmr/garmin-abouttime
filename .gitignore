@@ -13,3 +13,4 @@ internal-mir
 mir
 reports-*.json
 gen
+external-mir
