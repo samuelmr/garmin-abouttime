@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2025-10-29    Added Westbrabants (7.35.1)
 - 2025-09-26    Added Belgian French, compiled with SDK 8.3.0 (7.35.0)
 - 2025-09-20    Added support for Venu 4 and Instinct Crossover Amoled (7.34.0)
 - 2025-09-20    Minor fix to Süd Tirolerisch (7.33.1)

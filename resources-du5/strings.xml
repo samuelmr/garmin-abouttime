@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">OOngeveer – Westbrabants</string>
+  <string id="min0">	$1$	uur p'cies</string>
+  <string id="min5">net over	$1$	uur</string>
+  <string id="min10">tien	over	$1$</string>
+  <string id="min15">kwart	over	$1$</string>
+  <string id="min20">tien vuer	halluf	$2$</string>
+  <string id="min25">bekaant	halluf	$2$</string>
+  <string id="min30">	halluf	$2$</string>
+  <string id="min35">net over	halluf	$2$</string>
+  <string id="min40">tien over	halluf	$2$</string>
+  <string id="min45">kwart	vuer	$2$</string>
+  <string id="min50">tien	vuer	$2$</string>
+  <string id="min55">bekaant	$2$	uur</string>
+  <string id="noon">de middag </string>
+  <string id="hour1">jin</string>
+  <string id="hour2">tweej</string>
+  <string id="hour3">driej</string>
+  <string id="hour4">vier</string>
+  <string id="hour5">vèèf </string>
+  <string id="hour6">zes</string>
+  <string id="hour7">zeuve</string>
+  <string id="hour8">aacht</string>
+  <string id="hour9">nêge</string>
+  <string id="hour10">tien</string>
+  <string id="hour11">elluf </string>
+  <string id="midnight">twolluf</string>
+</resources>

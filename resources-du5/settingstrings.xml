@@ -1,0 +1,23 @@
+<resources>
+  <string id="dataFieldTitle">Wa mot er onder de tijdn</string>
+  <string id="hideTitle">Niks nie (hide)</string>
+  <string id="activeMinutesTitle">minuute bêzig</string>
+  <string id="batteryTitle">Batterij</string>
+  <string id="dateTitle">Daotum</string>
+  <string id="distanceTitle">Afstaand</string>
+  <string id="stepsTitle">Stappe</string>
+  <string id="stepGoalTitle">Plan veur aontal stappe</string>
+  <string id="timeTitle">Precieze tèèd</string>
+  <string id="hrTitle">Hartsnelhèèd</string>
+  <string id="colorSchemeTitle">Kleurkes</string>
+  <string id="whiteOnBlack">Wiet op zwarte aachtergrond</string>
+  <string id="blackOnWhite">Zwart op wiete aachtergrond</string>
+  <string id="smallerFontTitle">Klendere letters</string>
+  <string id="showIconsTitle">Laot plaotjes zien</string>
+  <string id="showIconsHelp">nie verbonde, meldinge, probleme, slaop tèèd, batterij op</string>
+  <string id="batteryWarnTitle">Batterij bekaant op %</string>
+  <string id="batteryWarnPrompt">Batterij bekaant op as miender dan</string>
+  <string id="batteryAlertTitle">Batterij op %</string>
+  <string id="batteryAlertPrompt">Batterij op as miender dan</string>
+  <string id="myNumberError">Vul iets in tusse nul en honderd</string>
+</resources>
