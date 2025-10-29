@@ -10,6 +10,7 @@ rectangle-240x400.resourcePath = $(base.resourcePath);resources-ios/large
 rectangle-246x322.resourcePath = $(base.resourcePath);resources-ios/large
 rectangle-282x470.resourcePath = $(base.resourcePath);resources-ios/large
 rectangle-320x360.resourcePath = $(base.resourcePath);resources-ios/extralarge
+rectangle-448x486.resourcePath = $(base.resourcePath);resources-ios/extralarge
 round-208x208.resourcePath = $(base.resourcePath)
 round-218x218.resourcePath = $(base.resourcePath)
 round-240x240.resourcePath = $(base.resourcePath);resources-ios/large
