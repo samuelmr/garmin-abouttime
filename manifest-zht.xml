@@ -20,6 +20,7 @@
 <!--
    <iq:product id="d2deltas"/>
    <iq:product id="d2mach1"/>
+   <iq:product id="d2mach2"/>
    <iq:product id="descentg1"/>
    <iq:product id="descentg2"/>
 -->
@@ -57,6 +58,9 @@
    <iq:product id="epix2pro42mm"/>
    <iq:product id="epix2pro47mm"/>
    <iq:product id="epix2pro51mm"/>
+<!--
+   <iq:product id="etrextouch"/>
+-->
    <iq:product id="fenix3"/>
    <iq:product id="fenix3_hr"/>
    <iq:product id="fenix5"/>
