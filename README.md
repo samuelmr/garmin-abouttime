@@ -9,6 +9,8 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2026-03-08    Added Nidwaldnerdeutsch (7.37.1)
+- 2026-02-15    Compiled with SDK 8.4.1 (7.37.0)
 - 2025-10-29    Added support for d2mach2 and etrextouch, compiled with SDK 8.4.0  (7.36.0)
 - 2025-10-29    Added Westbrabants (7.35.1)
 - 2025-09-26    Added Belgian French, compiled with SDK 8.3.0 (7.35.0)

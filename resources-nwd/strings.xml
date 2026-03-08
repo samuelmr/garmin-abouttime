@@ -1,0 +1,28 @@
+<resources>
+  <string id="AppName">Ungefähr – Nidwaldnerdeutsch</string>
+  <string id="min0">	$1$	</string>
+  <string id="min5">feyf 	ab	$1$</string>
+  <string id="min10">zä	ab	$1$</string>
+  <string id="min15">viärtl	ab	$1$</string>
+  <string id="min20">zwänzg	ab	$1$</string>
+  <string id="min25">feyf vor	haubi	$1$</string>
+  <string id="min30">	haubi	$1$</string>
+  <string id="min35">feyf ab	haubi	$1$</string>
+  <string id="min40">zwänzg	vor	$2$</string>
+  <string id="min45">viärtel	vor	$2$</string>
+  <string id="min50">zä	vor	$2$</string>
+  <string id="min55">feyf	vor	$2$</string>
+  <string id="noon">zwelfi</string>
+  <string id="hour1">eis</string>
+  <string id="hour2">zwäi</string>
+  <string id="hour3">drey</string>
+  <string id="hour4">viäri</string>
+  <string id="hour5">feyfi</string>
+  <string id="hour6">sächsi</string>
+  <string id="hour7">sibni</string>
+  <string id="hour8">achti</string>
+  <string id="hour9">neyni</string>
+  <string id="hour10">zääni</string>
+  <string id="hour11">elfi</string>
+  <string id="midnight">zwelfi</string>
+</resources>
