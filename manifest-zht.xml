@@ -88,6 +88,13 @@
    <iq:product id="fenix8pro47mm"/>
    <iq:product id="fenix8solar47mm"/>
    <iq:product id="fenix8solar51mm"/>
+   <iq:product id="fenix943mm"/>
+   <iq:product id="fenix947mm"/>
+   <iq:product id="fenix9pro43mm"/>
+   <iq:product id="fenix9pro47mm"/>
+   <iq:product id="fenix9pro51mm"/>
+   <iq:product id="fenix9prosolar47mm"/>
+   <iq:product id="fenix9prosolar51mm"/>
    <iq:product id="fenixchronos"/>
    <iq:product id="fenixe"/>
    <iq:product id="fr165"/>
@@ -157,7 +164,6 @@
 <!--
    <iq:product id="montana7xx"/>
    <iq:product id="oregon7xx"/>
-   <iq:product id="rino7xx"/>
 -->
    <iq:product id="venu"/>
    <iq:product id="venu2"/>
