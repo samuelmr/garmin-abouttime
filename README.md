@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2026-09-09    Added support for Fenix 9 series (7.39.1)
 - 2026-06-25    Compiled with SDK 9.2.0 (7.39.0)
 - 2026-05-25    Added Parisian dialect (7.38.1)
 - 2026-05-15    Compiled with SDK 9.1.0, added support for d2mach2pro, fr170, fr170m, and fr70 (7.38.0)
