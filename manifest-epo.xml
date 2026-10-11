@@ -6,6 +6,8 @@
    <iq:product id="approachs62"/>
    <iq:product id="approachs7042mm"/>
    <iq:product id="approachs7047mm"/>
+   <iq:product id="approachs7243mm"/>
+   <iq:product id="approachs7247mm"/>
    <iq:product id="d2air"/>
    <iq:product id="d2airx10"/>
    <iq:product id="d2bravo"/>
@@ -48,6 +50,7 @@
 -->
    <iq:product id="enduro"/>
    <iq:product id="enduro3"/>
+   <iq:product id="enduro4"/>
    <iq:product id="epix"/>
    <iq:product id="epix2"/>
    <iq:product id="epix2pro42mm"/>
@@ -156,6 +159,7 @@
 <!--
    <iq:product id="montana7xx"/>
    <iq:product id="oregon7xx"/>
+   <iq:product id="rino7xx"/>
 -->
    <iq:product id="venu"/>
    <iq:product id="venu2"/>
