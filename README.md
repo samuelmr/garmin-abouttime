@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2026-10-25    Added support for MARQ3, compiled with SDK 9.3.0 (7.40.0)
 - 2026-10-12    Fixes to Zagreb Croatian (7.39.4)
 - 2026-10-11    Added support for approachs72 and enduro4 (7.39.3)
 - 2026-10-11    Added Genève and Polisy (French dialects) (7.39.2)
