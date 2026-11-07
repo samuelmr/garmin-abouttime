@@ -19,7 +19,9 @@ for directory in ./resources-*; do
   [ -L "settings.xml" ] || ln -s ../resources/settings.xml .
   echo "0123456789%.:km " > $TMPFILE1
   cat strings.xml | tr '\n' ' ' | sed -e 's/ //g' -e 's/\$.\$//g' -e 's/<[^>]*>//g' >> $TMPFILE1
-  grep -o . $TMPFILE1 | sort -u > $TMPFILE2
+  # LC_ALL=C: byte order and byte-wise uniqueness. In UTF-8 locales sort -u
+  # collapses many non-Latin characters into one and the order varies.
+  grep -o . $TMPFILE1 | LC_ALL=C sort -u > $TMPFILE2
   cat $TMPFILE2 | tr '\n' ' ' | sed -e 's/ //g' | sed -e 's/	/ /g' | sed -e 's/|/ /g' > $TMPFILE1
   FILTERSTR=`cat $TMPFILE1`
   rm $TMPFILE1
