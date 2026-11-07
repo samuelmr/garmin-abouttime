@@ -24,5 +24,16 @@
   <string id="hour9">девет</string>
   <string id="hour10">десет</string>
   <string id="hour11">једанаест</string>
+  <string id="hour13">један</string>
+  <string id="hour14">два</string>
+  <string id="hour15">три</string>
+  <string id="hour16">четири</string>
+  <string id="hour17">пет</string>
+  <string id="hour18">шест</string>
+  <string id="hour19">седам</string>
+  <string id="hour20">осам</string>
+  <string id="hour21">девет</string>
+  <string id="hour22">десет</string>
+  <string id="hour23">једанаест</string>
   <string id="midnight">дванаест</string>
 </resources>

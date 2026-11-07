@@ -24,5 +24,16 @@
   <string id="hour9">nein</string>
   <string id="hour10">zehn</string>
   <string id="hour11">ölf</string>
+  <string id="hour13">enns</string>
+  <string id="hour14">zwee</string>
+  <string id="hour15">drei</string>
+  <string id="hour16">vier</string>
+  <string id="hour17">fünf</string>
+  <string id="hour18">sechs</string>
+  <string id="hour19">siwwe</string>
+  <string id="hour20">acht</string>
+  <string id="hour21">nein</string>
+  <string id="hour22">zehn</string>
+  <string id="hour23">ölf</string>
   <string id="midnight">zwölf</string>
 </resources>

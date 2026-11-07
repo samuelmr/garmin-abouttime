@@ -24,5 +24,16 @@
   <string id="hour9">devet</string>
   <string id="hour10">deset</string>
   <string id="hour11">jedanaest</string>
+  <string id="hour13">jedna</string>
+  <string id="hour14">dvi</string>
+  <string id="hour15">tri</string>
+  <string id="hour16">četiri</string>
+  <string id="hour17">pet</string>
+  <string id="hour18">šest</string>
+  <string id="hour19">sedan</string>
+  <string id="hour20">osan</string>
+  <string id="hour21">devet</string>
+  <string id="hour22">deset</string>
+  <string id="hour23">jedanaest</string>
   <string id="midnight">ponoć</string>
 </resources>

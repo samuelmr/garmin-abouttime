@@ -24,5 +24,16 @@
   <string id="hour9">naoi</string>
   <string id="hour10">deich</string>
   <string id="hour11">haon déag</string>
+  <string id="hour13">haon</string>
+  <string id="hour14">dó</string>
+  <string id="hour15">trí</string>
+  <string id="hour16">ceathair</string>
+  <string id="hour17">cuig</string>
+  <string id="hour18">sé</string>
+  <string id="hour19">seacht</string>
+  <string id="hour20">hocht</string>
+  <string id="hour21">naoi</string>
+  <string id="hour22">deich</string>
+  <string id="hour23">haon déag</string>
   <string id="midnight">dó dhéag</string>
 </resources>

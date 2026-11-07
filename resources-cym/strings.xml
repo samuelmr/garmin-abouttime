@@ -24,5 +24,16 @@
   <string id="hour9">naw</string>
   <string id="hour10">deg</string>
   <string id="hour11">un ar ddeg</string>
+  <string id="hour13">un</string>
+  <string id="hour14">dau</string>
+  <string id="hour15">tri</string>
+  <string id="hour16">pedwar</string>
+  <string id="hour17">pump</string>
+  <string id="hour18">chwech</string>
+  <string id="hour19">saith</string>
+  <string id="hour20">wyth</string>
+  <string id="hour21">naw</string>
+  <string id="hour22">deg</string>
+  <string id="hour23">un ar ddeg</string>
   <string id="midnight">sero</string>
 </resources>

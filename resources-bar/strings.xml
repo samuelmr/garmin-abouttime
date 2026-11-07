@@ -24,5 +24,16 @@
   <string id="hour9">le nov</string>
   <string id="hour10">l desc</string>
   <string id="hour11">l'unc</string>
+  <string id="hour13">l'un</string>
+  <string id="hour14">le du</string>
+  <string id="hour15">le tre</string>
+  <string id="hour16">le quatt</string>
+  <string id="hour17">le cing</string>
+  <string id="hour18">le se</string>
+  <string id="hour19">l sett</string>
+  <string id="hour20">l'ott</string>
+  <string id="hour21">le nov</string>
+  <string id="hour22">l desc</string>
+  <string id="hour23">l'unc</string>
   <string id="midnight">menzzanott</string>
 </resources>

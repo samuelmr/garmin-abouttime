@@ -24,5 +24,16 @@
   <string id="hour9">ni</string>
   <string id="hour10">ti</string>
   <string id="hour11">elleve</string>
+  <string id="hour13">ett</string>
+  <string id="hour14">to</string>
+  <string id="hour15">tre</string>
+  <string id="hour16">fire</string>
+  <string id="hour17">fem</string>
+  <string id="hour18">seks</string>
+  <string id="hour19">sju</string>
+  <string id="hour20">åtte</string>
+  <string id="hour21">ni</string>
+  <string id="hour22">ti</string>
+  <string id="hour23">elleve</string>
   <string id="midnight">midnatt</string>
 </resources>

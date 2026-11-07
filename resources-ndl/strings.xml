@@ -24,5 +24,16 @@
   <string id="hour9">negen</string>
   <string id="hour10">tien</string>
   <string id="hour11">elf</string>
+  <string id="hour13">één</string>
+  <string id="hour14">twee</string>
+  <string id="hour15">drie</string>
+  <string id="hour16">vier</string>
+  <string id="hour17">vijf</string>
+  <string id="hour18">zes</string>
+  <string id="hour19">zeven</string>
+  <string id="hour20">acht</string>
+  <string id="hour21">negen</string>
+  <string id="hour22">tien</string>
+  <string id="hour23">elf</string>
   <string id="midnight">twaalf</string>
 </resources>

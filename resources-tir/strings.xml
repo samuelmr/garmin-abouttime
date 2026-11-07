@@ -24,5 +24,16 @@
   <string id="hour9">neini</string>
   <string id="hour10">zehni</string>
   <string id="hour11">öfi</string>
+  <string id="hour13">oas</string>
+  <string id="hour14">zwoa</string>
+  <string id="hour15">drei</string>
+  <string id="hour16">vieri</string>
+  <string id="hour17">fünfi</string>
+  <string id="hour18">sexi</string>
+  <string id="hour19">siemi</string>
+  <string id="hour20">ochti</string>
+  <string id="hour21">neini</string>
+  <string id="hour22">zehni</string>
+  <string id="hour23">öfi</string>
   <string id="midnight">zwöfi d'Nocht</string>
 </resources>

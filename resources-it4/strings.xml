@@ -24,5 +24,16 @@
   <string id="hour9">Le nove</string>
   <string id="hour10">Le dieci</string>
   <string id="hour11">Le undici</string>
+  <string id="hour13">L'una</string>
+  <string id="hour14">Le due</string>
+  <string id="hour15">Le tre</string>
+  <string id="hour16">Le quattro</string>
+  <string id="hour17">Le cinque</string>
+  <string id="hour18">Le sei</string>
+  <string id="hour19">Le sette</string>
+  <string id="hour20">Le otto</string>
+  <string id="hour21">Le nove</string>
+  <string id="hour22">Le dieci</string>
+  <string id="hour23">Le undici</string>
   <string id="midnight">Mezzanotte</string>
 </resources>

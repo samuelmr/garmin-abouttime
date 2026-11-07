@@ -24,5 +24,16 @@
   <string id="hour9">la naŭa</string>
   <string id="hour10">la deka</string>
   <string id="hour11">la dek unua</string>
+  <string id="hour13">la unua</string>
+  <string id="hour14">la dua</string>
+  <string id="hour15">la tria</string>
+  <string id="hour16">la kvara</string>
+  <string id="hour17">la kvina</string>
+  <string id="hour18">la sesa</string>
+  <string id="hour19">la sepa</string>
+  <string id="hour20">la oka</string>
+  <string id="hour21">la naŭa</string>
+  <string id="hour22">la deka</string>
+  <string id="hour23">la dek unua</string>
   <string id="midnight">la dek dua</string>
 </resources>

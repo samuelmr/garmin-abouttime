@@ -24,5 +24,16 @@
   <string id="hour9">nouă</string>
   <string id="hour10">zece</string>
   <string id="hour11">unșpe</string>
+  <string id="hour13">unu</string>
+  <string id="hour14">două</string>
+  <string id="hour15">trei</string>
+  <string id="hour16">patru</string>
+  <string id="hour17">cinci</string>
+  <string id="hour18">șase</string>
+  <string id="hour19">șapte</string>
+  <string id="hour20">opt</string>
+  <string id="hour21">nouă</string>
+  <string id="hour22">zece</string>
+  <string id="hour23">unșpe</string>
   <string id="midnight">doișpe</string>
 </resources>

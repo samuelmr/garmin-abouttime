@@ -428,7 +428,22 @@ class AboutTimeView extends WatchUi.WatchFace {
         WatchUi.loadResource(Rez.Strings.hour8),
         WatchUi.loadResource(Rez.Strings.hour9),
         WatchUi.loadResource(Rez.Strings.hour10),
-        WatchUi.loadResource(Rez.Strings.hour11)
+        WatchUi.loadResource(Rez.Strings.hour11),
+        // 12 is noon
+        "",
+        // 13-23: same as 1-11 unless the language has different words for
+        // the morning and the afternoon (e.g. Thai)
+        WatchUi.loadResource(Rez.Strings.hour13),
+        WatchUi.loadResource(Rez.Strings.hour14),
+        WatchUi.loadResource(Rez.Strings.hour15),
+        WatchUi.loadResource(Rez.Strings.hour16),
+        WatchUi.loadResource(Rez.Strings.hour17),
+        WatchUi.loadResource(Rez.Strings.hour18),
+        WatchUi.loadResource(Rez.Strings.hour19),
+        WatchUi.loadResource(Rez.Strings.hour20),
+        WatchUi.loadResource(Rez.Strings.hour21),
+        WatchUi.loadResource(Rez.Strings.hour22),
+        WatchUi.loadResource(Rez.Strings.hour23)
       ],
       :noon => WatchUi.loadResource(Rez.Strings.noon),
       :midnight => WatchUi.loadResource(Rez.Strings.midnight),
@@ -466,6 +481,22 @@ class AboutTimeView extends WatchUi.WatchFace {
     return currentLocale;
   }
 
+  // hour is 0-24, 0 and 24 are midnight, 12 is noon
+  function hourString(currentLocale, hour) {
+    if (hour == 0 || hour == 24) {
+      return currentLocale[:midnight];
+    }
+    if (hour == 12) {
+      return currentLocale[:noon];
+    }
+    var str = currentLocale[:hours][hour];
+    if (hour > 12 && (str == null || str.length() == 0)) {
+      // no separate afternoon string, use the 12-hour one
+      str = currentLocale[:hours][hour - 12];
+    }
+    return str;
+  }
+
   function prepareStrings(fuzzyHour, fuzzyMinutes, currentLocale) {
     var top = "";
     var middle = "";
@@ -473,25 +504,8 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var nextHour = fuzzyHour + 1;
 
-    if (fuzzyHour == 0) {
-      fuzzyHour = currentLocale[:midnight];
-    }
-    else if (fuzzyHour == 12) {
-      fuzzyHour = currentLocale[:noon];
-    }
-    else {
-      fuzzyHour = currentLocale[:hours][fuzzyHour % 12];
-    }
-
-    if (nextHour == 24) {
-      nextHour = currentLocale[:midnight];
-    }
-    else if (nextHour == 12) {
-      nextHour = currentLocale[:noon];
-    }
-    else {
-      nextHour = currentLocale[:hours][nextHour % 12];
-    }
+    fuzzyHour = hourString(currentLocale, fuzzyHour);
+    nextHour = hourString(currentLocale, nextHour);
 
     var lineString = locale["min" + fuzzyMinutes];
     var lines = new [3];

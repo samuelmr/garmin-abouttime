@@ -24,5 +24,16 @@
   <string id="hour9">neuf heures</string>
   <string id="hour10">dix heures</string>
   <string id="hour11">onze heures</string>
+  <string id="hour13">une heure</string>
+  <string id="hour14">deux heures</string>
+  <string id="hour15">trois heures</string>
+  <string id="hour16">quatre heures</string>
+  <string id="hour17">cinq heures</string>
+  <string id="hour18">six heures</string>
+  <string id="hour19">sept heures</string>
+  <string id="hour20">huit heures</string>
+  <string id="hour21">neuf heures</string>
+  <string id="hour22">dix heures</string>
+  <string id="hour23">onze heures</string>
   <string id="midnight">minuit</string>
 </resources>

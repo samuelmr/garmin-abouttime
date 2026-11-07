@@ -24,5 +24,16 @@
   <string id="hour9">oh nine</string>
   <string id="hour10">ten</string>
   <string id="hour11">eleven</string>
+  <string id="hour13">oh one</string>
+  <string id="hour14">oh two</string>
+  <string id="hour15">oh three</string>
+  <string id="hour16">oh four</string>
+  <string id="hour17">oh five</string>
+  <string id="hour18">oh six</string>
+  <string id="hour19">oh seven</string>
+  <string id="hour20">oh eight</string>
+  <string id="hour21">oh nine</string>
+  <string id="hour22">ten</string>
+  <string id="hour23">eleven</string>
   <string id="midnight">oh oh</string>
 </resources>

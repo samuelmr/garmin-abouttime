@@ -24,5 +24,16 @@
   <string id="hour9">üheksa</string>
   <string id="hour10">kümme</string>
   <string id="hour11">üksteist</string>
+  <string id="hour13">üks</string>
+  <string id="hour14">kaks</string>
+  <string id="hour15">kolm</string>
+  <string id="hour16">neli</string>
+  <string id="hour17">viis</string>
+  <string id="hour18">kuus</string>
+  <string id="hour19">seitse</string>
+  <string id="hour20">kaheksa</string>
+  <string id="hour21">üheksa</string>
+  <string id="hour22">kümme</string>
+  <string id="hour23">üksteist</string>
   <string id="midnight">kaksteist</string>
 </resources>

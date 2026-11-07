@@ -24,5 +24,16 @@
   <string id="hour9">kilenc</string>
   <string id="hour10">tíz</string>
   <string id="hour11">tizenegy</string>
+  <string id="hour13">egy</string>
+  <string id="hour14">kettő</string>
+  <string id="hour15">három</string>
+  <string id="hour16">négy</string>
+  <string id="hour17">öt</string>
+  <string id="hour18">hat</string>
+  <string id="hour19">hét</string>
+  <string id="hour20">nyolc</string>
+  <string id="hour21">kilenc</string>
+  <string id="hour22">tíz</string>
+  <string id="hour23">tizenegy</string>
   <string id="midnight">tizenkettő</string>
 </resources>

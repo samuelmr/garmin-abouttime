@@ -24,5 +24,16 @@
   <string id="hour9">bederatziak</string>
   <string id="hour10">hamarrak</string>
   <string id="hour11">hamaikak</string>
+  <string id="hour13">ordubata</string>
+  <string id="hour14">ordubiak</string>
+  <string id="hour15">hirurak</string>
+  <string id="hour16">laurak</string>
+  <string id="hour17">bostak</string>
+  <string id="hour18">seiak</string>
+  <string id="hour19">zazpiak</string>
+  <string id="hour20">zortziak</string>
+  <string id="hour21">bederatziak</string>
+  <string id="hour22">hamarrak</string>
+  <string id="hour23">hamaikak</string>
   <string id="midnight">hamabiak</string>
 </resources>

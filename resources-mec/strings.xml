@@ -24,5 +24,16 @@
   <string id="hour9">nung</string>
   <string id="hour10">tiën</string>
   <string id="hour11">illef</string>
+  <string id="hour13">ee</string>
+  <string id="hour14">twej</string>
+  <string id="hour15">dri'j</string>
+  <string id="hour16">veer</string>
+  <string id="hour17">vunnef</string>
+  <string id="hour18">zes</string>
+  <string id="hour19">zuve</string>
+  <string id="hour20">ag</string>
+  <string id="hour21">nung</string>
+  <string id="hour22">tiën</string>
+  <string id="hour23">illef</string>
   <string id="midnight">twellef</string>
 </resources>

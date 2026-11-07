@@ -24,5 +24,16 @@
   <string id="hour9">девять часов</string>
   <string id="hour10">десять часов</string>
   <string id="hour11">одиннадцать часов</string>
+  <string id="hour13">час</string>
+  <string id="hour14">два часа</string>
+  <string id="hour15">три часа</string>
+  <string id="hour16">четыре часа</string>
+  <string id="hour17">пять часов</string>
+  <string id="hour18">шесть часов</string>
+  <string id="hour19">семь часов</string>
+  <string id="hour20">восемь часов</string>
+  <string id="hour21">девять часов</string>
+  <string id="hour22">десять часов</string>
+  <string id="hour23">одиннадцать часов</string>
   <string id="midnight">полночь</string>
 </resources>

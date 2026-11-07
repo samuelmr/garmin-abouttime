@@ -24,5 +24,16 @@
   <string id="hour9">i nóf</string>
   <string id="hour10">i dees</string>
   <string id="hour11">i undés</string>
+  <string id="hour13">l'una</string>
+  <string id="hour14">i do</string>
+  <string id="hour15">i tre</string>
+  <string id="hour16">i quatro</string>
+  <string id="hour17">i cinc</string>
+  <string id="hour18">i sees</string>
+  <string id="hour19">i sett</string>
+  <string id="hour20">i ott</string>
+  <string id="hour21">i nóf</string>
+  <string id="hour22">i dees</string>
+  <string id="hour23">i undés</string>
   <string id="midnight">mezzanócc</string>
 </resources>

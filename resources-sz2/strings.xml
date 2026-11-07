@@ -24,5 +24,16 @@
   <string id="hour9">dziewiōnto</string>
   <string id="hour10">dziesiōnto</string>
   <string id="hour11">jedynosto</string>
+  <string id="hour13">jedna</string>
+  <string id="hour14">drugo</string>
+  <string id="hour15">trzecio</string>
+  <string id="hour16">sztworto</string>
+  <string id="hour17">piōnto</string>
+  <string id="hour18">szōsto</string>
+  <string id="hour19">siōdmo</string>
+  <string id="hour20">ōsmo</string>
+  <string id="hour21">dziewiōnto</string>
+  <string id="hour22">dziesiōnto</string>
+  <string id="hour23">jedynosto</string>
   <string id="midnight">dwanosto w nocy</string>
 </resources>

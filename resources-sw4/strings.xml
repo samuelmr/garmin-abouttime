@@ -24,5 +24,16 @@
   <string id="hour9">nio</string>
   <string id="hour10">tio</string>
   <string id="hour11">elva</string>
+  <string id="hour13">ett</string>
+  <string id="hour14">två</string>
+  <string id="hour15">tre</string>
+  <string id="hour16">fyra</string>
+  <string id="hour17">fem</string>
+  <string id="hour18">sex</string>
+  <string id="hour19">sju</string>
+  <string id="hour20">åtta</string>
+  <string id="hour21">nio</string>
+  <string id="hour22">tio</string>
+  <string id="hour23">elva</string>
   <string id="midnight">tolv</string>
 </resources>
