@@ -132,7 +132,7 @@ class AboutTimeView extends WatchUi.WatchFace {
 
     var time = System.getClockTime();
     var fuzzyHour = time.hour;
-    var fuzzyMinutes = ((time.min + 2) / 5) * 5;
+    var fuzzyMinutes = ((time.min * 60 + time.sec + 150) / 300) * 5;
     if (fuzzyMinutes > 55) {
       fuzzyMinutes = 0;
       fuzzyHour += 1;
