@@ -182,7 +182,15 @@ class AboutTimeView extends WatchUi.WatchFace {
           break;
         case date:
           var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-          dataString = Lang.format("$1$.$2$.", [today.day, today.month]);
+          if (dateFormat == monthDaySlash) {
+            dataString = Lang.format("$1$/$2$", [today.month, today.day]);
+          }
+          else if (dateFormat == dayMonthSlash) {
+            dataString = Lang.format("$1$/$2$", [today.day, today.month]);
+          }
+          else {
+            dataString = Lang.format("$1$.$2$.", [today.day, today.month]);
+          }
           break;
         case distance:
           activityInfo = ActivityMonitor.getInfo();

@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Menuti ativi</string>
   <string id="batteryTitle">Batarìa</string>
   <string id="dateTitle">Ancó l'è</string>
+  <string id="dateFormatTitle">Formato de la data</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Distansa</string>
   <string id="stepsTitle">Pasi</string>
   <string id="stepGoalTitle">Pasi da far ancó</string>

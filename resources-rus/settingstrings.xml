@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Активные минуты</string>
   <string id="batteryTitle">Аккумулятор</string>
   <string id="dateTitle">Дата</string>
+  <string id="dateFormatTitle">Формат даты</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Расстояние</string>
   <string id="stepsTitle">Шаги</string>
   <string id="stepGoalTitle">Шаги - цель</string>

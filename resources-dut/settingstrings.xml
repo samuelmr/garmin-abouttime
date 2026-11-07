@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Actieve minuten</string>
   <string id="batteryTitle">Batterij</string>
   <string id="dateTitle">Datum</string>
+  <string id="dateFormatTitle">Datumnotatie</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Afstand</string>
   <string id="stepsTitle">Stappen</string>
   <string id="stepGoalTitle">Doel aantal stappen</string>

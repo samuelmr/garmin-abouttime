@@ -1,6 +1,7 @@
 <resources>
  <properties>
   <property id="dataField" type="number">2</property>
+  <property id="dateFormat" type="number">0</property>
   <property id="colorScheme" type="number">0</property>
   <property id="smallerFont" type="boolean">true</property>
   <property id="showIcons" type="boolean">true</property>
@@ -25,6 +26,14 @@
 -->
     <listEntry value="8">@Strings.hrTitle</listEntry>
     <listEntry value="9">@Strings.timeNoSecondsTitle</listEntry>
+   </settingConfig>
+  </setting>
+  <setting propertyKey="@Properties.dateFormat" title="@Strings.dateFormatTitle">
+   <settingConfig type="list">
+    <!-- See corresponding enum in source/AboutTimeApp.mc -->
+    <listEntry value="0">@Strings.dateFormatDayMonth</listEntry>
+    <listEntry value="1">@Strings.dateFormatMonthDaySlash</listEntry>
+    <listEntry value="2">@Strings.dateFormatDayMonthSlash</listEntry>
    </settingConfig>
   </setting>
   <setting propertyKey="@Properties.colorScheme" title="@Strings.colorSchemeTitle" helpUrl="https://samuelmr.github.io/garmin-abouttime/#howto">

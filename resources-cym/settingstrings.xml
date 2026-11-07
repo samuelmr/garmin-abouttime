@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Munudau actif</string>
   <string id="batteryTitle">Batri</string>
   <string id="dateTitle">Dyddiad</string>
+  <string id="dateFormatTitle">Fformat dyddiad</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Pellter</string>
   <string id="stepsTitle">Camau</string>
   <string id="stepGoalTitle">Targed Camau</string>

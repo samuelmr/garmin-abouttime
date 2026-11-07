@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Minutes în mișcare</string>
   <string id="batteryTitle">Baterie</string>
   <string id="dateTitle">Data</string>
+  <string id="dateFormatTitle">Formatul datei</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Distanța</string>
   <string id="stepsTitle">Pași</string>
   <string id="stepGoalTitle">Țintă pași</string>

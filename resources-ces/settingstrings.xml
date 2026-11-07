@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Aktivní minuty</string>
   <string id="batteryTitle">Baterie</string>
   <string id="dateTitle">Datum</string>
+  <string id="dateFormatTitle">Formát data</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Vzdálenost</string>
   <string id="stepsTitle">Kroky</string>
   <string id="stepGoalTitle">Cíl kroků</string>

@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Akdife Minudde</string>
   <string id="batteryTitle">Baddarie</string>
   <string id="dateTitle">Datum</string>
+  <string id="dateFormatTitle">Огнооны формат</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Wieweit de geloffe bischd</string>
   <string id="stepsTitle">Schridd</string>
   <string id="stepGoalTitle">Schriddziel</string>

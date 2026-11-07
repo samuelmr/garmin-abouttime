@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Активни минути</string>
   <string id="batteryTitle">Батерија</string>
   <string id="dateTitle">Датум</string>
+  <string id="dateFormatTitle">Формат датума</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Даљина</string>
   <string id="stepsTitle">Кораци</string>
   <string id="stepGoalTitle">Корачни циљ</string>

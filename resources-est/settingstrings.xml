@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Aktiivsusminutid</string>
   <string id="batteryTitle">Aku laetus</string>
   <string id="dateTitle">Kuupäev</string>
+  <string id="dateFormatTitle">Kuupäeva vorming</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Läbitud vahemaa</string>
   <string id="stepsTitle">Sammud</string>
   <string id="stepGoalTitle">% sammueesmärgist</string>

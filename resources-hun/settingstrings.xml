@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Aktív percek</string>
   <string id="batteryTitle">Akkumulátor</string>
   <string id="dateTitle">Dátum</string>
+  <string id="dateFormatTitle">Dátumformátum</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Távolság</string>
   <string id="stepsTitle">Lépések</string>
   <string id="stepGoalTitle">Lépéscél</string>

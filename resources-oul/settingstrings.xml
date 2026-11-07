@@ -3,6 +3,10 @@
   <string id="hideTitle">Ei mitään (piilota)</string>
   <string id="batteryTitle">Akun varaus</string>
   <string id="dateTitle">Päiväys</string>
+  <string id="dateFormatTitle">Päiväyksen muoto</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Liikuttu matka</string>
   <string id="stepsTitle">Askeleet</string>
   <string id="stepGoalTitle">Askeltavoite</string>

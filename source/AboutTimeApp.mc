@@ -21,6 +21,15 @@ enum {
 }
 var dataField = date;
 
+// date format values, corresponds to settingConfig list of
+// propertyKey @Properties.dateFormat in resources/settings.xml
+enum {
+  dayMonth,      // 31.12.
+  monthDaySlash, // 12/31
+  dayMonthSlash  // 31/12
+}
+var dateFormat = dayMonth;
+
 var smallerFont = false;
 
 var showIcons = true;
@@ -45,6 +54,10 @@ class AboutTime extends Application.AppBase {
     var storedDataField = app.getProperty("dataField");
     if (storedDataField != null) {
       dataField = storedDataField;
+    }
+    var storedDateFormat = app.getProperty("dateFormat");
+    if (storedDateFormat != null) {
+      dateFormat = storedDateFormat;
     }
     colorScheme = app.getProperty("colorScheme");
 
@@ -72,6 +85,7 @@ class AboutTime extends Application.AppBase {
   function onStop(state) {
     var app = Application.getApp();
     app.setProperty("dataField", dataField);
+    app.setProperty("dateFormat", dateFormat);
     app.setProperty("colorScheme", colorScheme);
 
     app.setProperty("smallerFont", smallerFont);
@@ -94,6 +108,10 @@ class AboutTime extends Application.AppBase {
     var app = Application.getApp();
 
     dataField = app.getProperty("dataField");
+    var newDateFormat = app.getProperty("dateFormat");
+    if (newDateFormat != null) {
+      dateFormat = newDateFormat;
+    }
     colorScheme = app.getProperty("colorScheme");
 
     smallerFont = app.getProperty("smallerFont");

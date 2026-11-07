@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Час активності</string>
   <string id="batteryTitle">Заряд батареї</string>
   <string id="dateTitle">Дата</string>
+  <string id="dateFormatTitle">Формат дати</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Відстань</string>
   <string id="stepsTitle">Кроки</string>
   <string id="stepGoalTitle">Денна кількість кроків</string>

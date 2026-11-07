@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Aktif dakika</string>
   <string id="batteryTitle">Pil</string>
   <string id="dateTitle">Tarih</string>
+  <string id="dateFormatTitle">Tarih biçimi</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Mesafe</string>
   <string id="stepsTitle">Adım</string>
   <string id="stepGoalTitle">Adım hedefi</string>

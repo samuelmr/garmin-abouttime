@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Minuti di Attività</string>
   <string id="batteryTitle">Batteria %</string>
   <string id="dateTitle">Data</string>
+  <string id="dateFormatTitle">قالب تاریخ</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Distanza</string>
   <string id="stepsTitle">Passi</string>
   <string id="stepGoalTitle">Obiettivo Passi</string>

@@ -3,6 +3,10 @@
   <string id="hideTitle">Ausblenden</string>
   <string id="batteryTitle">Batterielaadig</string>
   <string id="dateTitle">Datom</string>
+  <string id="dateFormatTitle">Date format</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Zrogggleiti Schtrecki</string>
   <string id="stepsTitle">Schrett</string>
   <string id="stepGoalTitle">Schrett Ziel</string>

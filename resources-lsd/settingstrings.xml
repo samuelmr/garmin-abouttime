@@ -4,6 +4,10 @@
   <string id="activeMinutesTitle">Aktivitätsminutä</string>
   <string id="batteryTitle">Batterieladig</string>
   <string id="dateTitle">Datum</string>
+  <string id="dateFormatTitle">Date format</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
   <string id="distanceTitle">Zrurgggleiti Strecki</string>
   <string id="stepsTitle">Schritt</string>
   <string id="stepGoalTitle">Schritt Ziel</string>
