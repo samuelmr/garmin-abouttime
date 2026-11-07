@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "puppeteer": "latest"
+  },
+  "scripts": {
+    "import": "node import.js"
   }
 }
