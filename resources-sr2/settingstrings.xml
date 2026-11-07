@@ -8,6 +8,7 @@
   <string id="stepsTitle">Кораци</string>
   <string id="stepGoalTitle">Корачни циљ</string>
   <string id="timeTitle">Тацно време</string>
+  <string id="timeNoSecondsTitle">Време без секунди</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Шема боја</string>
   <string id="whiteOnBlack">Бело на црно</string>

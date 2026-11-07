@@ -8,6 +8,7 @@
   <string id="stepsTitle">Кроки</string>
   <string id="stepGoalTitle">Денна кількість кроків</string>
   <string id="timeTitle">Точний час</string>
+  <string id="timeNoSecondsTitle">Час без секунд</string>
   <string id="hrTitle">ЧСС</string>
   <string id="colorSchemeTitle">Кольорова тема</string>
   <string id="whiteOnBlack">Білий по чорному</string>

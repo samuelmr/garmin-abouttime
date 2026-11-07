@@ -8,6 +8,7 @@
   <string id="stepsTitle">Kroky</string>
   <string id="stepGoalTitle">Cieľ krokov</string>
   <string id="timeTitle">Presný čas</string>
+  <string id="timeNoSecondsTitle">Čas bez sekúnd</string>
   <string id="hrTitle">Tep srdca</string>
   <string id="colorSchemeTitle">Farebná schéma</string>
   <string id="whiteOnBlack">Biela na čiernom</string>

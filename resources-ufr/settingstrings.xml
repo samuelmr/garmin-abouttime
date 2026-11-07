@@ -8,6 +8,7 @@
   <string id="stepsTitle">Schritte</string>
   <string id="stepGoalTitle">Schritte Ziel</string>
   <string id="timeTitle">Exakte Zeit</string>
+  <string id="timeNoSecondsTitle">Zeit ohne Sekunden</string>
   <string id="hrTitle">Puls</string>
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Weiß auf Schwarz</string>

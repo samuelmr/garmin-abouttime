@@ -8,6 +8,7 @@
   <string id="stepsTitle">Lépések</string>
   <string id="stepGoalTitle">Lépéscél</string>
   <string id="timeTitle">Pontos idő</string>
+  <string id="timeNoSecondsTitle">Idő másodperc nélkül</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Szín séma</string>
   <string id="whiteOnBlack">Fekete alapon fehér</string>

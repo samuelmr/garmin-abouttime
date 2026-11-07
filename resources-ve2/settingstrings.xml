@@ -8,6 +8,7 @@
   <string id="stepsTitle">Pasî fati</string>
   <string id="stepGoalTitle">Pasî da far oncò</string>
   <string id="timeTitle">Exact time</string>
+  <string id="timeNoSecondsTitle">Time without seconds</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Color del schema</string>
   <string id="whiteOnBlack">Bianco in tel Nero</string>

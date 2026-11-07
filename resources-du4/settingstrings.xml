@@ -8,6 +8,7 @@
   <string id="stepsTitle">Stappen</string>
   <string id="stepGoalTitle">Doul aantal stappen</string>
   <string id="timeTitle">Eksakte tied</string>
+  <string id="timeNoSecondsTitle">Time without seconds</string>
   <string id="hrTitle">Haartslag</string>
   <string id="colorSchemeTitle">Kleurenschema</string>
   <string id="whiteOnBlack">Wit op zwaarte achtergrond</string>

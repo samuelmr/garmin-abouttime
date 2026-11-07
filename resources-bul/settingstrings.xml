@@ -8,6 +8,7 @@
   <string id="stepsTitle">Стъпки</string>
   <string id="stepGoalTitle">Стъпки - цел</string>
   <string id="timeTitle">Точен час</string>
+  <string id="timeNoSecondsTitle">Час без секунди</string>
   <string id="hrTitle">Пулс</string>
   <string id="colorSchemeTitle">Цветова схема</string>
   <string id="whiteOnBlack">Бяло на черен фон</string>

@@ -8,6 +8,7 @@
   <string id="stepsTitle">Passi</string>
   <string id="stepGoalTitle">Obiettivo Passi</string>
   <string id="timeTitle">Ora Esatta</string>
+  <string id="timeNoSecondsTitle">Ora senza secondi</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Color schermo</string>
   <string id="whiteOnBlack">Bianco su nero</string>

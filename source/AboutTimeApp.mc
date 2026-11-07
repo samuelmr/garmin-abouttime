@@ -16,7 +16,8 @@ enum {
   stepGoal,
   exactTime,
   activeMinutes,
-  heartRate
+  heartRate,
+  timeNoSeconds
 }
 var dataField = date;
 

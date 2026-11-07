@@ -8,6 +8,7 @@
   <string id="stepsTitle">Steg</string>
   <string id="stepGoalTitle">Stegmål</string>
   <string id="timeTitle">Exact time</string>
+  <string id="timeNoSecondsTitle">Time without seconds</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Färgtema</string>
   <string id="whiteOnBlack">Vitt på svart</string>

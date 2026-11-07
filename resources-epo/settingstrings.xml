@@ -8,6 +8,7 @@
   <string id="stepsTitle">Paŝoj</string>
   <string id="stepGoalTitle">Celo da paŝoj</string>
   <string id="timeTitle">Ekzakta tempo</string>
+  <string id="timeNoSecondsTitle">Tempo sen sekundoj</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Sistemo de koloroj</string>
   <string id="whiteOnBlack">Blanka sur nigra</string>

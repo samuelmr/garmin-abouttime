@@ -208,6 +208,9 @@ class AboutTimeView extends WatchUi.WatchFace {
         case exactTime:
           dataString = Lang.format("$1$:$2$:$3$", [time.hour.format("%d"), time.min.format("%02d"), time.sec.format("%02d")]);
           break;
+        case timeNoSeconds:
+          dataString = Lang.format("$1$:$2$", [time.hour.format("%d"), time.min.format("%02d")]);
+          break;
         case heartRate:
           if (ActivityMonitor has :getHeartRateHistory) {
             dataString = Activity.getActivityInfo().currentHeartRate;

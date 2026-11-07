@@ -8,6 +8,7 @@
   <string id="stepsTitle">Stappen</string>
   <string id="stepGoalTitle">Stappen End</string>
   <string id="timeTitle">Exact time</string>
+  <string id="timeNoSecondsTitle">Time without seconds</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Köör of de Farv</string>
   <string id="whiteOnBlack">Witt op swart</string>

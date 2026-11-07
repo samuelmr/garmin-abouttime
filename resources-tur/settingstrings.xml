@@ -8,6 +8,7 @@
   <string id="stepsTitle">Adım</string>
   <string id="stepGoalTitle">Adım hedefi</string>
   <string id="timeTitle">Tam saat</string>
+  <string id="timeNoSecondsTitle">Saniyesiz saat</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Renk şeması</string>
   <string id="whiteOnBlack">Siyahın üzerinde beyaz</string>
