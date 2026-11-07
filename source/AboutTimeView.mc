@@ -47,6 +47,10 @@ var fontIcons = {
   :notification => "7"
 };
 
+var hasSubscreen = false;
+var subscrX;
+var subscrY;
+
 class AboutTimeView extends WatchUi.WatchFace {
   function initialize() {
     WatchFace.initialize();
@@ -95,6 +99,13 @@ class AboutTimeView extends WatchUi.WatchFace {
     }
     lineHeight = Graphics.getFontHeight(fonts[tiny]) / 2;
     iconHeight = Graphics.getFontHeight(fonts[icons]);
+
+    if (WatchUi has :getSubscreen && WatchUi.getSubscreen() != null) {
+      hasSubscreen = true;
+      var subscr = WatchUi.getSubscreen();
+      subscrX = subscr.x + subscr.width / 2;
+      subscrY = subscr.y + subscr.height / 2;
+    }
   }
 
   function onPartialUpdate(dc) {
@@ -218,7 +229,11 @@ class AboutTimeView extends WatchUi.WatchFace {
       }
 
       if (dataString instanceof Lang.String) {
-        drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, Graphics.TEXT_JUSTIFY_CENTER, dataString);
+        if (hasSubscreen) {
+          drawString(dc, subscrX, subscrY, fonts[tiny], dataColor, Graphics.TEXT_JUSTIFY_CENTER, dataString);
+        } else {
+          drawString(dc, width/2, height-lineHeight, fonts[tiny], dataColor, Graphics.TEXT_JUSTIFY_CENTER, dataString);
+        }
       }
       else {
         // System.println(dataString + " is not a string");
