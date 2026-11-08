@@ -24,5 +24,5 @@
   <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
   <string id="batteryAlertTitle">Batteriealarm %</string>
   <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
-  <string id="myNumberError">Insert a number between 0 and 100</string>
+  <string id="myNumberError">Eine Zahl zwischen 0 und 100 eintragen</string>
 </resources>

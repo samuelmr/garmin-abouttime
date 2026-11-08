@@ -13,11 +13,11 @@
   <string id="stepGoalTitle">Lépéscél</string>
   <string id="timeTitle">Pontos idő</string>
   <string id="timeNoSecondsTitle">Idő másodperc nélkül</string>
-  <string id="hrTitle">Heart rate</string>
+  <string id="hrTitle">Pulzusszám</string>
   <string id="colorSchemeTitle">Szín séma</string>
   <string id="whiteOnBlack">Fekete alapon fehér</string>
   <string id="blackOnWhite">Fehér alapon fekete</string>
-  <string id="smallerFontTitle">Smaller font</string>
+  <string id="smallerFontTitle">Kisebb betűk</string>
   <string id="showIconsTitle">Ikonok mutatása</string>
   <string id="showIconsHelp">leválasztva, értesítések, riasztások, alvásidő, alacsony töltöttség</string>
   <string id="batteryWarnTitle">Akkumulátor figyelmeztetés %</string>

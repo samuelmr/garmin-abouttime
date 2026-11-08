@@ -11,18 +11,18 @@
   <string id="distanceTitle">Zurückgelegte Strecke</string>
   <string id="stepsTitle">Schritte</string>
   <string id="stepGoalTitle">Schritte Ziel</string>
-  <string id="timeTitle">Exact time</string>
+  <string id="timeTitle">Genaue Zeit</string>
   <string id="timeNoSecondsTitle">Time without seconds</string>
-  <string id="hrTitle">Heart rate</string>
+  <string id="hrTitle">Herzfrequenz</string>
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Weiß auf Schwarz</string>
   <string id="blackOnWhite">Schwarz auf Weiß</string>
-  <string id="smallerFontTitle">Smaller font</string>
-  <string id="showIconsTitle">Show icons</string>
+  <string id="smallerFontTitle">Kleinere schrift</string>
+  <string id="showIconsTitle">Icons anzeigen</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
-  <string id="batteryWarnTitle">Battery warning %</string>
-  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
-  <string id="batteryAlertTitle">Battery alert %</string>
-  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
+  <string id="batteryWarnTitle">Batterie - Warnung (%)</string>
+  <string id="batteryWarnPrompt">zeigt Warnungssymbol wenn Akkuladung unter ...%</string>
+  <string id="batteryAlertTitle">Batterie - Alarm (%)</string>
+  <string id="batteryAlertPrompt">zeigt Alarmsymbol wenn Akkuladung unter ...%</string>
   <string id="myNumberError">Insert a number between 0 and 100</string>
 </resources>

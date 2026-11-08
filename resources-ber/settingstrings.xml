@@ -11,13 +11,13 @@
   <string id="distanceTitle">Zurückgelegte Strecke</string>
   <string id="stepsTitle">Schritte</string>
   <string id="stepGoalTitle">Schritte Ziel</string>
-  <string id="timeTitle">Exact time</string>
+  <string id="timeTitle">jenaue Zeit</string>
   <string id="timeNoSecondsTitle">Time without seconds</string>
   <string id="hrTitle">Heart rate</string>
   <string id="colorSchemeTitle">Farbwahl</string>
   <string id="whiteOnBlack">Weiß auf Schwarz</string>
   <string id="blackOnWhite">Schwarz auf Weiß</string>
-  <string id="smallerFontTitle">Smaller font</string>
+  <string id="smallerFontTitle">Kleene Schrift</string>
   <string id="showIconsTitle">Show icons</string>
   <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
   <string id="batteryWarnTitle">Battery warning %</string>
