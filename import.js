@@ -18,6 +18,9 @@
  * Options:  --yes      do not ask, apply everything
  *           --dry-run  only show what would change
  *           --dir <d>  use <d> as the repository root (default: this folder)
+ *           --only <ids>  comma-separated string ids; leave all others untouched
+ *           --code <c>    language code to use instead of the one in cell C2
+ *           --no-filter   do not offer to run ./filter.sh afterwards
  *
  * After writing, it offers to run ./filter.sh, which creates the manifest,
  * jungle and size folders of a new translation and refreshes the font filters
@@ -33,6 +36,9 @@ const flag = (name) => { const i = args.indexOf(name); if (i >= 0) { args.splice
 const option = (name) => { const i = args.indexOf(name); if (i >= 0) { const v = args[i + 1]; args.splice(i, 2); return v; } return null; };
 const YES = flag('--yes');
 const DRY = flag('--dry-run');
+const NO_FILTER = flag('--no-filter');
+const ONLY = (option('--only') || '').split(',').filter(Boolean);
+const CODE = option('--code');
 const ROOT = path.resolve(option('--dir') || __dirname);
 const source = args[0];
 
@@ -120,7 +126,7 @@ const show = (id, v) => (isMin(id) ? lines(v).map((l) => l || '·').join(dim(' |
 
 async function main() {
   const rows = parseCsv(await readSheet(source));
-  const code = ((rows[1] || [])[2] || '').trim().normalize('NFC');
+  const code = (CODE || (rows[1] || [])[2] || '').trim().normalize('NFC');
   if (!/^[\p{L}\p{N}]{2,5}$/u.test(code)) die(`Cell C2 should contain the language code, found: '${code}'`);
 
   const file = (dir, name) => path.join(ROOT, dir, name);
@@ -181,6 +187,7 @@ async function main() {
   // ---- what changes
   const changes = [];
   for (const id of Object.keys(wanted)) {
+    if (ONLY.length && !ONLY.includes(id)) continue;
     if (id in old === false) changes.push({ id, old: null, new: wanted[id] });
     else if (!same(id, old[id], wanted[id])) changes.push({ id, old: old[id], new: wanted[id] });
   }
@@ -229,7 +236,7 @@ async function main() {
   write('settingstrings.xml', baseSettings, settingsOrder);
   console.log(green(`\nWrote ${dir}/strings.xml and ${dir}/settingstrings.xml (${changes.length || Object.keys(wanted).length} strings).`));
 
-  if (await confirm(isNew ? 'Run ./filter.sh now (creates manifest, jungle and size folders, updates font filters)?'
+  if (!NO_FILTER && await confirm(isNew ? 'Run ./filter.sh now (creates manifest, jungle and size folders, updates font filters)?'
     : 'Run ./filter.sh now (updates the font filters in case of new characters)?', true)) {
     if (!fs.existsSync(path.join(ROOT, 'filter.sh'))) console.log('No filter.sh in ' + ROOT);
     else spawnSync('./filter.sh', { cwd: ROOT, stdio: 'inherit' });
