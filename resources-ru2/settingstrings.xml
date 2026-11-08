@@ -1,0 +1,29 @@
+<resources>
+  <string id="dataFieldTitle">Данные для показа с временем</string>
+  <string id="hideTitle">Nothing (hide)</string>
+  <string id="batteryTitle">Батарея</string>
+  <string id="dateTitle">Дата</string>
+  <string id="dateFormatTitle">Формат даты</string>
+  <string id="dateFormatDayMonth">31.12.</string>
+  <string id="dateFormatMonthDaySlash">12/31</string>
+  <string id="dateFormatDayMonthSlash">31/12</string>
+  <string id="distanceTitle">Расстояние</string>
+  <string id="stepsTitle">Шаги</string>
+  <string id="stepGoalTitle">Цель по шагам</string>
+  <string id="timeTitle">Exact time</string>
+  <string id="timeNoSecondsTitle">Время без секунд</string>
+  <string id="hrTitle">Heart rate</string>
+  <string id="activeMinutesTitle">Минуты активности</string>
+  <string id="colorSchemeTitle">Цветовая схема</string>
+  <string id="whiteOnBlack">Белый на черном</string>
+  <string id="blackOnWhite">Черный на белом</string>
+  <string id="smallerFontTitle">Smaller font</string>
+  <string id="smallerFontTitle">Smaller font</string>
+  <string id="showIconsTitle">Show icons</string>
+  <string id="showIconsHelp">disconnected, notifications, alarms, sleep time, battery low</string>
+  <string id="batteryWarnTitle">Battery warning %</string>
+  <string id="batteryWarnPrompt">Show warning icon when charge level falls below</string>
+  <string id="batteryAlertTitle">Battery alert %</string>
+  <string id="batteryAlertPrompt">Show alert icon when charge level falls below</string>
+  <string id="myNumberError">Insert a number between 0 and 100</string>
+</resources>
