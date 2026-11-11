@@ -1,13 +1,13 @@
 <resources>
   <string id="AppName">Saat kaç?</string>
   <string id="min0">	saat	$1$</string>
-  <string id="min5">$1$	beş	geçiyor</string>
-  <string id="min10">$1$	on	geçiyor</string>
-  <string id="min15">$1$	çeyrek	geçiyor</string>
-  <string id="min20">$1$	yirmi	geçiyor</string>
-  <string id="min25">$1$	yirmi beş	geçiyora</string>
+  <string id="min5">$1$	beş	</string>
+  <string id="min10">$1$	on	</string>
+  <string id="min15">$1$	çeyrek	</string>
+  <string id="min20">$1$	yirmi	</string>
+  <string id="min25">$1$	yirmi beş	</string>
   <string id="min30">$1$	buçuk	</string>
-  <string id="min35">$1$	otuz beş	geçiyor</string>
+  <string id="min35">$1$	otuz beş	</string>
   <string id="min40">$2$	yirmi	var</string>
   <string id="min45">$2$	çeyrek	var</string>
   <string id="min50">$2$	on	var</string>
@@ -21,7 +21,7 @@
   <string id="hour6">altı</string>
   <string id="hour7">yedi</string>
   <string id="hour8">sekiz</string>
-  <string id="hour9">sekiz</string>
+  <string id="hour9">dokuz</string>
   <string id="hour10">on</string>
   <string id="hour11">on bir</string>
   <string id="hour13">bir</string>
@@ -32,7 +32,7 @@
   <string id="hour18">altı</string>
   <string id="hour19">yedi</string>
   <string id="hour20">sekiz</string>
-  <string id="hour21">sekiz</string>
+  <string id="hour21">dokuz</string>
   <string id="hour22">on</string>
   <string id="hour23">on bir</string>
   <string id="midnight">on iki</string>

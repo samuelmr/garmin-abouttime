@@ -12,7 +12,7 @@
   <string id="min45">	$2$	mang nu quart</string>
   <string id="min50">	$2$	mang desc</string>
   <string id="min55">	$2$	quas</string>
-  <string id="noon">menzzadì</string>
+  <string id="noon">mezzadì</string>
   <string id="hour1">l'un</string>
   <string id="hour2">le du</string>
   <string id="hour3">le tre</string>
@@ -35,5 +35,5 @@
   <string id="hour21">le nov</string>
   <string id="hour22">l desc</string>
   <string id="hour23">l'unc</string>
-  <string id="midnight">menzzanott</string>
+  <string id="midnight">mezzanott</string>
 </resources>

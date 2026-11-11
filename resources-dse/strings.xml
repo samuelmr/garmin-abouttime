@@ -11,9 +11,9 @@
   <string id="min40">zehn nach	halb	$2$</string>
   <string id="min45">dreiviertel	$2$	</string>
   <string id="min50">zehn	vor	$2$</string>
-  <string id="min55">kurz vor	$2$</string>
+  <string id="min55">kurz	vor	$2$</string>
   <string id="noon">zwölf</string>
-  <string id="hour1">eins</string>
+  <string id="hour1">oans</string>
   <string id="hour2">zwei</string>
   <string id="hour3">drei</string>
   <string id="hour4">vier</string>
@@ -24,7 +24,7 @@
   <string id="hour9">neun</string>
   <string id="hour10">zehn</string>
   <string id="hour11">elf</string>
-  <string id="hour13">eins</string>
+  <string id="hour13">oans</string>
   <string id="hour14">zwei</string>
   <string id="hour15">drei</string>
   <string id="hour16">vier</string>

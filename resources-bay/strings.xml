@@ -11,8 +11,8 @@
   <string id="min40">zwanzg	vor	$2$</string>
   <string id="min45">viertl	vor	$2$</string>
   <string id="min50">zehn	vor	$2$</string>
-  <string id="min55">eh glei	$2$</string>
-  <string id="noon">zwäif</string>
+  <string id="min55"> eh glei	$2$</string>
+  <string id="noon">zwäife</string>
   <string id="hour1">oans</string>
   <string id="hour2">zwoa</string>
   <string id="hour3">dreie</string>
@@ -34,6 +34,6 @@
   <string id="hour20">achte</string>
   <string id="hour21">neine</string>
   <string id="hour22">zehne</string>
-  <string id="hour23">aife</string>
+  <string id="hour23">äife</string>
   <string id="midnight">zwäife</string>
 </resources>

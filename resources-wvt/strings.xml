@@ -3,7 +3,7 @@
   <string id="min0">	$1$	</string>
   <string id="min5">kurz	noch	$1$</string>
   <string id="min10">zehn	noch	$1$</string>
-  <string id="min15">viertl $2$ </string>
+  <string id="min15">viertl	$2$	</string>
   <string id="min20">zwanzg	noch	$1$</string>
   <string id="min25">kurz vor	hoiwa	$2$</string>
   <string id="min30">hoiwa	$2$	</string>
@@ -19,7 +19,7 @@
   <string id="hour4">viere</string>
   <string id="hour5">fünfe</string>
   <string id="hour6">sexe</string>
-  <string id="hour7">siemi</string>
+  <string id="hour7">sieme</string>
   <string id="hour8">ochte</string>
   <string id="hour9">neine</string>
   <string id="hour10">zehne</string>
@@ -30,7 +30,7 @@
   <string id="hour16">viere</string>
   <string id="hour17">fünfe</string>
   <string id="hour18">sexe</string>
-  <string id="hour19">siemi</string>
+  <string id="hour19">sieme</string>
   <string id="hour20">ochte</string>
   <string id="hour21">neine</string>
   <string id="hour22">zehne</string>

@@ -4,7 +4,7 @@
   <string id="min5">fümf	noch	$1$</string>
   <string id="min10">zeha	noch	$1$</string>
   <string id="min15">viertel	noch	$1$</string>
-  <string id="min20">zwansg 	noch	$1$</string>
+  <string id="min20">zwansg noch	$1$</string>
   <string id="min25">fümf	vor halbe	$2$</string>
   <string id="min30">	halbe	$2$</string>
   <string id="min35">fümf	noch halbe	$2$</string>
@@ -17,7 +17,7 @@
   <string id="hour2">zwoa</string>
   <string id="hour3">drü</string>
   <string id="hour4">viere</string>
-  <string id="hour5">fümfi</string>
+  <string id="hour5">fümfe</string>
   <string id="hour6">sexe</string>
   <string id="hour7">simne</string>
   <string id="hour8">achte</string>
@@ -28,7 +28,7 @@
   <string id="hour14">zwoa</string>
   <string id="hour15">drü</string>
   <string id="hour16">viere</string>
-  <string id="hour17">fümfi</string>
+  <string id="hour17">fümfe</string>
   <string id="hour18">sexe</string>
   <string id="hour19">simne</string>
   <string id="hour20">achte</string>
