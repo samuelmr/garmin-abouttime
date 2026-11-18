@@ -9,6 +9,7 @@ A watch face for Garmin Connect IQ devices
 [Download from Connect IQ Store](https://samuelmr.github.io/garmin-abouttime/#storenav)
 
 ## Version history
+- 2026-11-18    Moved resource mappings into a new jungle file, using extralarge font for epix9 (8.3.0)
 - 2026-11-11    Compiled with SDK 9.4.0, aligned repo and sheet translations (8.2.0)
 - 2026-11-08    Added Brazilian Portuguese (Paulista), and another Russian translation (8.1.1)
 - 2026-11-08    Added support for 24 hour translations and "exact time without seconds" data string option (8.1.0)
