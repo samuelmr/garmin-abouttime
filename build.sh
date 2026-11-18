@@ -40,10 +40,10 @@ for jungle in ./monkey-$TRANSLATION.jungle; do
   echo "Building $LANGUAGE $TESTMESSAGE"
   if [ $TEST ]; then
     filename="releases/AboutTime-$LANGUAGE-$CIQ_TARGET.prg"
-    CMD="monkeyc -f $jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y $CIQ_KEYFILE -o $filename $TEST"
+    CMD="monkeyc -f sizes.jungle;$jungle -d ${CIQ_TARGET}${TARGETPOSTFIX} -y $CIQ_KEYFILE -o $filename $TEST"
   else
     filename="releases/AboutTime-$LANGUAGE.iq"
-    CMD="monkeyc -f $jungle -e -y $CIQ_KEYFILE -o $filename"
+    CMD="monkeyc -f sizes.jungle;$jungle -e -y $CIQ_KEYFILE -o $filename"
   fi
   echo $CMD
 	$CMD && echo "Built $filename"

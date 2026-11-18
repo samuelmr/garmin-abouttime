@@ -38,13 +38,12 @@ LNG=lng
 # step 3
 cd garmin-abouttime
 cp -pR resources-eng resources-$LNG
-cp monkey-eng.jungle monkey-$LNG.jungle
-cat monkey-eng.jungle | sed -e "s/-eng/-$LNG/" > monkey-$LNG.jungle
+cat monkey-eng.jungle | sed -e "s/eng/$LNG/" > monkey-$LNG.jungle
 cp manifest-eng.xml manifest-$LNG.xml
 
 # step 6
 ./filter.sh
-monkeyc -f monkey-$LNG.jungle -d fenix5plus -y path_to_your_keyfile -o AboutTime-$LNG.prg
+monkeyc -f "sizes.jungle;monkey-$LNG.jungle" -d fenix5plus -y path_to_your_keyfile -o AboutTime-$LNG.prg
 
 # step 7
 connectiq

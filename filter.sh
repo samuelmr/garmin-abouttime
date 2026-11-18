@@ -10,7 +10,7 @@ for directory in ./resources-*; do
   fi
   if [ ! -e monkey-$lang.jungle ]; then
     echo "Creating monkey-$lang.jungle"
-    cat monkey-eng.jungle | sed -e "s/-eng/-$lang/" > monkey-$lang.jungle
+    printf 'lang = %s\nproject.manifest = manifest-%s.xml\nbase.resourcePath = resources-%s\n' "$lang" "$lang" "$lang" > monkey-$lang.jungle
   fi
   cd $directory
   [ -L "bitmaps.xml" ] || ln -s ../resources/bitmaps.xml .

@@ -1,0 +1,37 @@
+# Screen size -> resource folders (mostly font sizes), shared by all translations.
+# Each monkey-<lang>.jungle defines `lang`, so this file must come first:
+#   monkeyc -f "sizes.jungle;monkey-<lang>.jungle" ...
+# Screens not listed here use only base.resourcePath.
+
+rectangle-148x205.resourcePath = $(base.resourcePath);resources-$(lang)/small
+rectangle-205x148.resourcePath = $(base.resourcePath);resources-$(lang)/small
+
+rectangle-200x265.resourcePath = $(base.resourcePath);resources-$(lang)/large
+rectangle-230x303.resourcePath = $(base.resourcePath);resources-$(lang)/large
+rectangle-240x240.resourcePath = $(base.resourcePath);resources-$(lang)/large
+rectangle-240x400.resourcePath = $(base.resourcePath);resources-$(lang)/large
+rectangle-246x322.resourcePath = $(base.resourcePath);resources-$(lang)/large
+rectangle-282x470.resourcePath = $(base.resourcePath);resources-$(lang)/large
+
+rectangle-320x360.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+rectangle-448x486.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+
+round-208x208.resourcePath = $(base.resourcePath)
+round-218x218.resourcePath = $(base.resourcePath)
+round-240x240.resourcePath = $(base.resourcePath);resources-$(lang)/large
+round-260x260.resourcePath = $(base.resourcePath);resources-$(lang)/large
+round-280x280.resourcePath = $(base.resourcePath);resources-$(lang)/large
+round-360x360.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+round-390x390.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+round-416x416.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+round-454x454.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+round-466x466.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
+
+semiround-215x180.resourcePath = $(base.resourcePath)
+
+# Instinct family
+semioctagon-163x156.resourcePath = $(base.resourcePath)
+semioctagon-166x166.resourcePath = $(base.resourcePath)
+semioctagon-176x176.resourcePath = $(base.resourcePath)
+
+fr920xt.resourcePath = $(base.resourcePath);resources-$(lang)/fr920xt
