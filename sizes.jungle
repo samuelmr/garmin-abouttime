@@ -6,12 +6,7 @@
 rectangle-148x205.resourcePath = $(base.resourcePath);resources-$(lang)/small
 rectangle-205x148.resourcePath = $(base.resourcePath);resources-$(lang)/small
 
-rectangle-200x265.resourcePath = $(base.resourcePath);resources-$(lang)/large
-rectangle-230x303.resourcePath = $(base.resourcePath);resources-$(lang)/large
 rectangle-240x240.resourcePath = $(base.resourcePath);resources-$(lang)/large
-rectangle-240x400.resourcePath = $(base.resourcePath);resources-$(lang)/large
-rectangle-246x322.resourcePath = $(base.resourcePath);resources-$(lang)/large
-rectangle-282x470.resourcePath = $(base.resourcePath);resources-$(lang)/large
 
 rectangle-320x360.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
 rectangle-448x486.resourcePath = $(base.resourcePath);resources-$(lang)/extralarge
